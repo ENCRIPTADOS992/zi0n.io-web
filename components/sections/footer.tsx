@@ -2,40 +2,22 @@
 
 import Link from "next/link"
 import { Logo } from "@/components/shared/logo"
-import { Linkedin, Twitter, Mail, Github } from "lucide-react"
+// import { Linkedin, Twitter, Mail, Github } from "lucide-react"
 
-const footerLinks = {
-  product: [
-    { label: "Características", href: "#characteristics" },
-    { label: "Seguridad", href: "#security" },
-    { label: "Apps MDM", href: "#apps" },
-    { label: "Precios", href: "#pricing" },
-  ],
-  company: [
-    { label: "Sobre nosotros", href: "#about" },
-    { label: "Blog", href: "#blog" },
-    { label: "Carreras", href: "#careers" },
-    { label: "Contacto", href: "#contact" },
-  ],
-  support: [
-    { label: "Centro de ayuda", href: "#help" },
-    { label: "Documentación", href: "#docs" },
-    { label: "Estado del sistema", href: "#status" },
-    { label: "API", href: "#api" },
-  ],
-  legal: [
-    { label: "Privacidad", href: "#privacy" },
-    { label: "Términos", href: "#terms" },
-    { label: "Cookies", href: "#cookies" },
-  ],
-}
+const navLinks = [
+  { label: "Inicio", href: "#hero" },
+  { label: "Seguridad", href: "#security" },
+  { label: "Características", href: "#characteristics" },
+  { label: "Apps", href: "#apps" },
+  { label: "Contacto", href: "#contact" },
+]
 
-const socialLinks = [
+/*const socialLinks = [
   { icon: Twitter, href: "https://twitter.com/zi0n", label: "Twitter" },
   { icon: Linkedin, href: "https://linkedin.com/company/zi0n", label: "LinkedIn" },
   { icon: Github, href: "https://github.com/zi0n", label: "GitHub" },
   { icon: Mail, href: "mailto:contacto@zi0n.com", label: "Email" },
-]
+]*/
 
 export function Footer() {
   return (
@@ -43,16 +25,16 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Main Footer */}
         <div className="py-12 md:py-16">
-          <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
             {/* Brand */}
-            <div className="col-span-2">
+            <div className="md:col-span-1">
               <Logo variant="light" size="lg" />
-              <p className="mt-4 text-white/60 text-sm leading-relaxed max-w-xs">
+              <p className="mt-4 text-white/60 text-sm leading-relaxed">
                 Transformando la seguridad móvil con encriptación avanzada y protección integral para tu dispositivo
                 Android.
               </p>
-              {/* Social Links */}
-              <div className="flex gap-3 mt-6">
+              {/* Social Links - Commented out */}
+              {/* <div className="flex gap-3 mt-6">
                 {socialLinks.map((social) => (
                   <Link
                     key={social.label}
@@ -65,58 +47,16 @@ export function Footer() {
                     <social.icon className="w-5 h-5 text-white/80" />
                   </Link>
                 ))}
-              </div>
+              </div> */}
             </div>
 
-            {/* Product Links */}
-            <div>
-              <h4 className="font-semibold text-white mb-4">Producto</h4>
-              <ul className="space-y-3">
-                {footerLinks.product.map((link) => (
+            {/* Navigation Links */}
+            <div className="md:col-span-2">
+              <h4 className="font-semibold text-white mb-4">Navegación</h4>
+              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                {navLinks.map((link) => (
                   <li key={link.label}>
-                    <Link href={link.href} className="text-white/60 hover:text-[#3AA6FF] text-sm transition-colors">
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Company Links */}
-            <div>
-              <h4 className="font-semibold text-white mb-4">Compañía</h4>
-              <ul className="space-y-3">
-                {footerLinks.company.map((link) => (
-                  <li key={link.label}>
-                    <Link href={link.href} className="text-white/60 hover:text-[#3AA6FF] text-sm transition-colors">
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Support Links */}
-            <div>
-              <h4 className="font-semibold text-white mb-4">Soporte</h4>
-              <ul className="space-y-3">
-                {footerLinks.support.map((link) => (
-                  <li key={link.label}>
-                    <Link href={link.href} className="text-white/60 hover:text-[#3AA6FF] text-sm transition-colors">
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Legal Links */}
-            <div>
-              <h4 className="font-semibold text-white mb-4">Legal</h4>
-              <ul className="space-y-3">
-                {footerLinks.legal.map((link) => (
-                  <li key={link.label}>
-                    <Link href={link.href} className="text-white/60 hover:text-[#3AA6FF] text-sm transition-colors">
+                    <Link href={link.href} className="text-white/60 hover:text-[#5EEC7D] text-sm transition-colors">
                       {link.label}
                     </Link>
                   </li>

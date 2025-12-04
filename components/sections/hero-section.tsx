@@ -58,20 +58,7 @@ export function HeroSection() {
             </div>
 
             {/* Stats */}
-            <div className="mt-12 grid grid-cols-3 gap-8">
-              <div className="text-center lg:text-left">
-                <div className="text-2xl sm:text-3xl font-bold text-[#071C59]">99.9%</div>
-                <div className="text-sm text-[#6E6E6E]">Uptime garantizado</div>
-              </div>
-              <div className="text-center lg:text-left">
-                <div className="text-2xl sm:text-3xl font-bold text-[#071C59]">256-bit</div>
-                <div className="text-sm text-[#6E6E6E]">Encriptación AES</div>
-              </div>
-              <div className="text-center lg:text-left">
-                <div className="text-2xl sm:text-3xl font-bold text-[#071C59]">24/7</div>
-                <div className="text-sm text-[#6E6E6E]">Soporte técnico</div>
-              </div>
-            </div>
+           
           </motion.div>
 
           {/* Right Column - Visual */}
