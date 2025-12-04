@@ -71,7 +71,7 @@ export function Header() {
             <SheetContent side="right" className="bg-[#071C59] border-[#071C59] w-full sm:max-w-sm">
               <div className="flex flex-col h-full pt-8">
                 <div className="flex justify-between items-center mb-8">
-                  <Logo variant="light" size="md" />
+                  <Logo variant="light" size="sm" />
                 </div>
                 <nav className="flex flex-col gap-4">
                   {navLinks.map((link) => (

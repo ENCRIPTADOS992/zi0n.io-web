@@ -120,7 +120,7 @@ export function CharacteristicsGrid() {
             Todo incluido
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#071C59] text-balance">
-            Características z10n
+            Características zi0n
           </h2>
           <p className="mt-4 text-lg text-[#6E6E6E] max-w-2xl mx-auto">
             Un conjunto completo de herramientas para proteger cada aspecto de tu dispositivo

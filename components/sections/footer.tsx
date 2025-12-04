@@ -31,10 +31,10 @@ const footerLinks = {
 }
 
 const socialLinks = [
-  { icon: Twitter, href: "https://twitter.com/z10n", label: "Twitter" },
-  { icon: Linkedin, href: "https://linkedin.com/company/z10n", label: "LinkedIn" },
-  { icon: Github, href: "https://github.com/z10n", label: "GitHub" },
-  { icon: Mail, href: "mailto:contacto@z10n.com", label: "Email" },
+  { icon: Twitter, href: "https://twitter.com/zi0n", label: "Twitter" },
+  { icon: Linkedin, href: "https://linkedin.com/company/zi0n", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/zi0n", label: "GitHub" },
+  { icon: Mail, href: "mailto:contacto@zi0n.com", label: "Email" },
 ]
 
 export function Footer() {
@@ -129,7 +129,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-white/50 text-sm">© {new Date().getFullYear()} z10n. Todos los derechos reservados.</p>
+            <p className="text-white/50 text-sm">© {new Date().getFullYear()} zi0n. Todos los derechos reservados.</p>
             <p className="text-white/50 text-sm">Hecho con seguridad en mente 🛡️</p>
           </div>
         </div>

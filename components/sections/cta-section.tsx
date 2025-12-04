@@ -36,7 +36,7 @@ export function CTASection() {
           </h2>
 
           <p className="text-lg text-white/70 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Únete a miles de usuarios que ya confían en z10n para proteger su información más valiosa. La seguridad que
+            Únete a miles de usuarios que ya confían en zi0n para proteger su información más valiosa. La seguridad que
             necesitas, al alcance de tu mano.
           </p>
 

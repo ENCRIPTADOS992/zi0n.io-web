@@ -1,4 +1,4 @@
-import { Shield } from "lucide-react"
+import Image from "next/image"
 
 interface LogoProps {
   variant?: "light" | "dark"
@@ -8,23 +8,26 @@ interface LogoProps {
 
 export function Logo({ variant = "light", showText = true, size = "md" }: LogoProps) {
   const sizes = {
-    sm: { icon: 24, text: "text-lg" },
-    md: { icon: 32, text: "text-xl" },
-    lg: { icon: 40, text: "text-2xl" },
+    sm: { height: 24, width: showText ? 120 : 24 },
+    md: { height: 32, width: showText ? 140 : 32 },
+    lg: { height: 48, width: showText ? 160 : 48 },
   }
 
-  const colors = {
-    light: "text-white",
-    dark: "text-[#071C59]",
-  }
+  // Use logo claro (light) for dark backgrounds, logo azul (blue) for light backgrounds
+  const logoSrc = variant === "light" 
+    ? (showText ? "/logos/logo-claro.svg" : "/logos/icono-logo-claro.svg")
+    : (showText ? "/logos/logo-azul.svg" : "/logos/icono-logo-azul.svg")
 
   return (
-    <div className={`flex items-center gap-2 ${colors[variant]}`}>
-      <div className="relative">
-        <Shield size={sizes[size].icon} strokeWidth={2.5} className="fill-current opacity-20" />
-        <Shield size={sizes[size].icon} strokeWidth={2.5} className="absolute inset-0" />
-      </div>
-      {showText && <span className={`font-bold tracking-tight ${sizes[size].text}`}>z10n</span>}
+    <div className="flex items-center">
+      <Image
+        src={logoSrc}
+        alt="zi0n logo"
+        width={sizes[size].width}
+        height={sizes[size].height}
+        priority
+        style={{ width: sizes[size].width, height: sizes[size].height }}
+      />
     </div>
   )
 }

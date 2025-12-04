@@ -36,7 +36,7 @@ export function HeroSection() {
             </h1>
 
             <p className="mt-6 text-lg text-[#6E6E6E] max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              z10n convierte tu Android en un dispositivo encriptado, seguro, controlado y protegido. Gestiona apps
+              zi0n convierte tu Android en un dispositivo encriptado, seguro, controlado y protegido. Gestiona apps
               verificadas con funcionalidades de seguridad propias para garantizar privacidad y protección avanzada.
             </p>
 

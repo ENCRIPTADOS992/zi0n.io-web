@@ -1,14 +1,14 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ShieldCheck, Usb, Key } from "lucide-react"
+import { ShieldCheck, Usb, Key, CreditCard, Link2, Smartphone, Radio } from "lucide-react"
 
 const features = [
   {
     id: "wipi",
     title: "Wipi: Defensa contra cables espía",
     description:
-      "Protección avanzada que detecta y bloquea cables maliciosos que intentan extraer datos de tu dispositivo. Seguridad física y digital combinadas.",
+      "Wipi protege tu dispositivo de cables de datos o carga manipulados. Detecta conexiones sospechosas, alerta al usuario y, si es necesario, bloquea o borra el sistema para evitar cualquier extracción de información.",
     icon: Usb,
     imagePosition: "left" as const,
   },
@@ -16,8 +16,40 @@ const features = [
     id: "wipepin",
     title: "WipePIN: PIN de eliminación inmediata",
     description:
-      "En caso de emergencia, ingresa un PIN especial para eliminar toda la información sensible de tu dispositivo de forma instantánea e irreversible.",
+      "Un PIN de emergencia que, al ingresarlo, borra al instante toda la información del dispositivo, incluido el sistema Zi0n. Una acción rápida y discreta para proteger tus datos en situaciones críticas.",
     icon: Key,
+    imagePosition: "right" as const,
+  },
+  {
+    id: "simshield",
+    title: "SIMShield: Protección ante manipulación de SIM",
+    description:
+      "Esta funcionalidad detecta cualquier cambio no autorizado en la SIM o eSIM, y alerta al usuario pudiendo borrar el sistema para proteger la información.",
+    icon: CreditCard,
+    imagePosition: "left" as const,
+  },
+  {
+    id: "conecta2",
+    title: "Conecta2: Control seguro entre dispositivos",
+    description:
+      "Conecta2 permite vincular tu dispositivo Zi0n con otros dispositivos de confianza, así como a apps externas para recibir alertas del sistema, notificaciones anónimas y gestionar bloqueos o borrados remotos.",
+    icon: Link2,
+    imagePosition: "right" as const,
+  },
+  {
+    id: "fachada",
+    title: "Pantalla de Fachada y Sistema Oculto",
+    description:
+      "Zi0n crea un sistema fachada idéntico a Android y oculta el sistema real dentro de una app falsa. Esto permite despistar a terceros, proteger tu privacidad y mantener tus datos seguros.",
+    icon: Smartphone,
+    imagePosition: "left" as const,
+  },
+  {
+    id: "imei-imsi",
+    title: "Tecnología de cambio IMEI y IMSI automático",
+    description:
+      "Cambia automáticamente el IMEI y el IMSI de tu dispositivo para proteger tu identidad y evitar el rastreo. Una capa adicional de privacidad y anonimato en tus comunicaciones.",
+    icon: Radio,
     imagePosition: "right" as const,
   },
 ]
@@ -39,7 +71,7 @@ export function SecurityFeatures() {
             Protección integral
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#071C59] text-balance">
-            z10n te da más seguridad
+            zi0n te da más seguridad
           </h2>
           <p className="mt-4 text-lg text-[#6E6E6E] max-w-2xl mx-auto">
             Funcionalidades exclusivas diseñadas para proteger tu información más sensible
