@@ -89,15 +89,15 @@ export function SecurityFeatures() {
                 feature.imagePosition === "right" ? "lg:flex-row-reverse" : ""
               }`}
             >
-           {/* Image/Screenshot */}
+              {/* Image/Screenshot */}
               <div className={`${feature.imagePosition === "right" ? "lg:order-2" : ""}`}>
-                <div className="relative flex items-center justify-center min-h-[450px] sm:min-h-[550px] md:min-h-[650px] lg:min-h-[700px]">
-                  {/* Phone frame - decorative background */}
-                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-52 sm:w-60 md:w-64 lg:w-72 bg-[#071C59] rounded-[2rem] sm:rounded-[2.5rem] p-2 sm:p-3 shadow-2xl">
-                    {/* Notch */}
-                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 sm:w-24 md:w-28 h-5 sm:h-6 md:h-7 bg-[#071C59] rounded-b-xl sm:rounded-b-2xl z-10" />
+                <div className="relative flex items-center justify-center min-h-[350px] sm:min-h-[400px] md:min-h-[450px] lg:min-h-[500px]">
+                  {/* Phone frame - horizontal orientation */}
+                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-[200px] sm:h-[220px] md:h-[240px] lg:h-[260px] w-[340px] sm:w-[400px] md:w-[440px] lg:w-[500px] bg-[#071C59] rounded-[2rem] sm:rounded-[2.5rem] p-2 sm:p-3 shadow-2xl">
+                    {/* Notch - on the left side for horizontal */}
+                    <div className="absolute left-0 top-1/2 -translate-y-1/2 h-16 sm:h-20 w-5 sm:w-6 bg-[#071C59] rounded-r-xl sm:rounded-r-2xl z-10" />
                     {/* Screen background */}
-                    <div className="bg-gradient-to-b from-[#0A2570] to-[#071C59] rounded-[1.5rem] sm:rounded-[2rem] h-[340px] sm:h-[400px] md:h-[460px] lg:h-[520px]" />
+                    <div className="bg-gradient-to-r from-[#0A2570] to-[#071C59] rounded-[1.5rem] sm:rounded-[2rem] h-full w-full" />
                     
                     {/* Decorative floating icon - top right */}
                     <motion.div 
@@ -134,14 +134,14 @@ export function SecurityFeatures() {
                     <div className="absolute -inset-4 sm:-inset-5 md:-inset-6 bg-[#003FFF]/10 rounded-full blur-2xl -z-10" />
                   </div>
                   
-                  {/* Screenshot image - centered, overflows phone horizontally */}
+                  {/* Screenshot image - inside the phone, smaller */}
                   <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
                     <Image
                       src={feature.image}
                       alt={feature.title}
-                      width={800}
-                      height={600}
-                      className="w-[340px] sm:w-[400px] md:w-[460px] lg:w-[520px] h-auto max-w-none rounded-2xl drop-shadow-[0_25px_50px_rgba(0,0,0,0.4)]"
+                      width={500}
+                      height={400}
+                      className="w-[280px] sm:w-[320px] md:w-[360px] lg:w-[400px] h-auto max-w-none rounded-xl drop-shadow-[0_15px_30px_rgba(0,0,0,0.3)]"
                     />
                   </div>
                 </div>
