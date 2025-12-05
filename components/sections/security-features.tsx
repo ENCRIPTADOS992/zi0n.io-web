@@ -1,7 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ShieldCheck, Usb, Key, CreditCard, Link2, Smartphone, Radio } from "lucide-react"
+import { ShieldCheck, Usb, Key, CreditCard, Link2, Smartphone } from "lucide-react"
+import Image from "next/image"
 
 const features = [
   {
@@ -10,6 +11,7 @@ const features = [
     description:
       "Wipi protege tu dispositivo de cables de datos o carga manipulados. Detecta conexiones sospechosas, alerta al usuario y según tu configuración borra el sistema para evitar cualquier extracción de información.",
     icon: Usb,
+    image: "/features/wipi.webp",
     imagePosition: "left" as const,
   },
   {
@@ -18,6 +20,7 @@ const features = [
     description:
       "Un PIN que al ingresarlo, borra al instante toda la información del dispositivo. Una acción rápida y discreta para proteger tus datos en situaciones críticas.",
     icon: Key,
+    image: "/features/wipepin.webp",
     imagePosition: "right" as const,
   },
   {
@@ -26,6 +29,7 @@ const features = [
     description:
       "Esta funcionalidad detecta cualquier cambio no autorizado en la SIM o eSIM, y alerta al usuario pudiendo borrar el sistema para proteger la información.",
     icon: CreditCard,
+    image: "/features/wipsim.webp",
     imagePosition: "left" as const,
   },
   {
@@ -34,6 +38,7 @@ const features = [
     description:
       "WipConect permite vincular tus dispositivos Zi0n a otros sistemas de confianza, permitiendo gestionar (renovar licencias, bloquear o borrar otros sistemas Zi0n) todos los equipos que estén conectados a tu cuenta.",
     icon: Link2,
+    image: "/features/wipconect.webp",
     imagePosition: "right" as const,
   },
   {
@@ -42,6 +47,7 @@ const features = [
     description:
       "Zi0n puede vincularse con aplicaciones externas para permitir la visualización segura de notificaciones personalizadas desde dispositivos convencionales, sin exponer el sistema real.",
     icon: Smartphone,
+    image: "/features/wipnoti.webp",
     imagePosition: "left" as const,
   },  
 ]
@@ -83,25 +89,60 @@ export function SecurityFeatures() {
                 feature.imagePosition === "right" ? "lg:flex-row-reverse" : ""
               }`}
             >
-              {/* Image/Screenshot placeholder */}
+           {/* Image/Screenshot */}
               <div className={`${feature.imagePosition === "right" ? "lg:order-2" : ""}`}>
-                <div className="relative aspect-[4/3] rounded-3xl bg-gradient-to-br from-[#071C59] to-[#0A2570] overflow-hidden shadow-2xl">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-24 h-24 mx-auto mb-6 bg-[#5EEC7D]/20 rounded-3xl flex items-center justify-center">
-                        <feature.icon className="w-12 h-12 text-[#5EEC7D]" />
-                      </div>
-                      <div className="space-y-2">
-                        <div className="h-3 bg-white/20 rounded-full w-3/4 mx-auto" />
-                        <div className="h-3 bg-white/10 rounded-full w-1/2 mx-auto" />
-                      </div>
-                    </div>
+                <div className="relative flex items-center justify-center min-h-[450px] sm:min-h-[550px] md:min-h-[650px] lg:min-h-[700px]">
+                  {/* Phone frame - decorative background */}
+                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-52 sm:w-60 md:w-64 lg:w-72 bg-[#071C59] rounded-[2rem] sm:rounded-[2.5rem] p-2 sm:p-3 shadow-2xl">
+                    {/* Notch */}
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 sm:w-24 md:w-28 h-5 sm:h-6 md:h-7 bg-[#071C59] rounded-b-xl sm:rounded-b-2xl z-10" />
+                    {/* Screen background */}
+                    <div className="bg-gradient-to-b from-[#0A2570] to-[#071C59] rounded-[1.5rem] sm:rounded-[2rem] h-[340px] sm:h-[400px] md:h-[460px] lg:h-[520px]" />
+                    
+                    {/* Decorative floating icon - top right */}
+                    <motion.div 
+                      className="absolute -top-5 -right-5 sm:-top-6 sm:-right-6 w-14 h-14 sm:w-16 sm:h-16 bg-[#5EEC7D] rounded-xl sm:rounded-2xl flex items-center justify-center shadow-xl z-20"
+                      animate={{ 
+                        y: [0, -8, 0],
+                      }}
+                      transition={{
+                        duration: 3,
+                        repeat: Infinity,
+                        ease: "easeInOut"
+                      }}
+                    >
+                      <feature.icon className="w-7 h-7 sm:w-8 sm:h-8 text-[#071C59]" />
+                    </motion.div>
+                    {/* Decorative floating icon - bottom left */}
+                    <motion.div 
+                      className="absolute -bottom-5 -left-5 sm:-bottom-6 sm:-left-6 w-14 h-14 sm:w-16 sm:h-16 bg-[#3AA6FF] rounded-xl sm:rounded-2xl flex items-center justify-center shadow-xl z-20"
+                      animate={{ 
+                        y: [0, 8, 0],
+                      }}
+                      transition={{
+                        duration: 3,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        delay: 1
+                      }}
+                    >
+                      <ShieldCheck className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
+                    </motion.div>
+                    
+                    {/* Glow effects */}
+                    <div className="absolute -inset-6 sm:-inset-8 md:-inset-10 bg-[#5EEC7D]/10 rounded-full blur-3xl -z-10" />
+                    <div className="absolute -inset-4 sm:-inset-5 md:-inset-6 bg-[#003FFF]/10 rounded-full blur-2xl -z-10" />
                   </div>
-                  {/* Decorative dots */}
-                  <div className="absolute top-4 right-4 flex gap-2">
-                    <div className="w-3 h-3 rounded-full bg-[#5EEC7D]" />
-                    <div className="w-3 h-3 rounded-full bg-[#FFB547]" />
-                    <div className="w-3 h-3 rounded-full bg-[#FF6F61]" />
+                  
+                  {/* Screenshot image - centered, overflows phone horizontally */}
+                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
+                    <Image
+                      src={feature.image}
+                      alt={feature.title}
+                      width={800}
+                      height={600}
+                      className="w-[340px] sm:w-[400px] md:w-[460px] lg:w-[520px] h-auto max-w-none rounded-2xl drop-shadow-[0_25px_50px_rgba(0,0,0,0.4)]"
+                    />
                   </div>
                 </div>
               </div>
