@@ -25,7 +25,7 @@ export function ContactSection() {
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#071C59] text-balance mb-6">Contáctanos</h2>
             <p className="text-lg text-[#6E6E6E] mb-8 leading-relaxed">
-              ¿Tienes preguntas sobre zi0n? Nuestro equipo está listo para ayudarte a proteger tu información.
+              ¿Tienes preguntas sobre Zi0n? Nuestro equipo está listo para ayudarte a proteger tu información.
               Escríbenos y te responderemos lo antes posible.
             </p>
 
@@ -37,7 +37,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <div className="font-medium text-[#071C59]">Email</div>
-                  <div className="text-[#6E6E6E]">contacto@zi0n.com</div>
+                  <div className="text-[#6E6E6E]">contacto@Zi0n.com</div>
                 </div>
               </div>
               <div className="flex items-center gap-4 p-4 bg-[#F5F8FC] rounded-xl">

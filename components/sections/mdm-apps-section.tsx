@@ -39,10 +39,10 @@ export function MDMAppsSection() {
             Ecosistema MDM
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#071C59] text-balance">
-            Descarga las Apps que se integran con tu sistema MDM
+            Conecta más, protege más
           </h2>
           <p className="mt-4 text-lg text-[#6E6E6E] max-w-2xl mx-auto">
-            Aplicaciones complementarias para maximizar el control y la seguridad de tu dispositivo
+            Lleva tu seguridad al siguiente nivel con apps integradas
           </p>
         </motion.div>
 

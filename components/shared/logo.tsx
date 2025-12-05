@@ -22,7 +22,7 @@ export function Logo({ variant = "light", showText = true, size = "md" }: LogoPr
     <div className="flex items-center">
       <Image
         src={logoSrc}
-        alt="zi0n logo"
+        alt="Zi0n logo"
         width={sizes[size].width}
         height={sizes[size].height}
         priority

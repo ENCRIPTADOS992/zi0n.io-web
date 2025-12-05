@@ -4,14 +4,14 @@ import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "zi0n - Seguridad Móvil Avanzada",
+  title: "Zi0n - Seguridad Móvil Avanzada",
   description:
-    "Transforma tu Android en un dispositivo encriptado, seguro, controlado y protegido con zi0n. Gestión de apps verificadas y seguridad avanzada.",
+    "Transforma tu Android en un dispositivo encriptado, seguro, controlado y protegido con Zi0n. Gestión de apps verificadas y seguridad avanzada.",
   generator: "v0.app",
-  keywords: ["seguridad móvil", "encriptación", "Android", "MDM", "privacidad", "zi0n"],
-  authors: [{ name: "zi0n" }],
+  keywords: ["seguridad móvil", "encriptación", "Android", "MDM", "privacidad", "Zi0n"],
+  authors: [{ name: "Zi0n" }],
   openGraph: {
-    title: "zi0n - Seguridad Móvil Avanzada",
+    title: "Zi0n - Seguridad Móvil Avanzada",
     description: "Transforma tu Android en un dispositivo encriptado, seguro, controlado y protegido.",
     type: "website",
   },

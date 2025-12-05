@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* zi0n Brand Colors converted to oklch */
+  /* Zi0n Brand Colors converted to oklch */
   --background: oklch(1 0 0);
   --foreground: oklch(0.22 0.08 260);
   --card: oklch(1 0 0);
@@ -39,14 +39,14 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 
-  /* zi0n Custom Properties */
-  --zi0n-primary: #071c59;
-  --zi0n-primary-50: #003fff;
-  --zi0n-primary-40: #3aa6ff;
-  --zi0n-primary-30: #afdbff;
-  --zi0n-green: #5eec7d;
-  --zi0n-gray-light: #c6c6c6;
-  --zi0n-gray-text: #6e6e6e;
+  /* Zi0n Custom Properties */
+  --Zi0n-primary: #071c59;
+  --Zi0n-primary-50: #003fff;
+  --Zi0n-primary-40: #3aa6ff;
+  --Zi0n-primary-30: #afdbff;
+  --Zi0n-green: #5eec7d;
+  --Zi0n-gray-light: #c6c6c6;
+  --Zi0n-gray-text: #6e6e6e;
 }
 
 .dark {
@@ -134,7 +134,7 @@
   }
 }
 
-/* zi0n Custom Animations */
+/* Zi0n Custom Animations */
 @keyframes float {
   0%,
   100% {

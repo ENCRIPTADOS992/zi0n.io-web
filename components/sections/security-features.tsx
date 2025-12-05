@@ -8,50 +8,42 @@ const features = [
     id: "wipi",
     title: "Wipi: Defensa contra cables espía",
     description:
-      "Wipi protege tu dispositivo de cables de datos o carga manipulados. Detecta conexiones sospechosas, alerta al usuario y, si es necesario, bloquea o borra el sistema para evitar cualquier extracción de información.",
+      "Wipi protege tu dispositivo de cables de datos o carga manipulados. Detecta conexiones sospechosas, alerta al usuario y según tu configuración borra el sistema para evitar cualquier extracción de información.",
     icon: Usb,
     imagePosition: "left" as const,
   },
   {
     id: "wipepin",
-    title: "WipePIN: PIN de eliminación inmediata",
+    title: "WipPIN: PIN de borrado de fábrica",
     description:
-      "Un PIN de emergencia que, al ingresarlo, borra al instante toda la información del dispositivo, incluido el sistema Zi0n. Una acción rápida y discreta para proteger tus datos en situaciones críticas.",
+      "Un PIN que al ingresarlo, borra al instante toda la información del dispositivo. Una acción rápida y discreta para proteger tus datos en situaciones críticas.",
     icon: Key,
     imagePosition: "right" as const,
   },
   {
-    id: "simshield",
-    title: "SIMShield: Protección ante manipulación de SIM",
+    id: "wipsim",
+    title: "WipSIM: Protección ante manipulación de SIM",
     description:
       "Esta funcionalidad detecta cualquier cambio no autorizado en la SIM o eSIM, y alerta al usuario pudiendo borrar el sistema para proteger la información.",
     icon: CreditCard,
     imagePosition: "left" as const,
   },
   {
-    id: "conecta2",
-    title: "Conecta2: Control seguro entre dispositivos",
+    id: "wipconect",
+    title: "WipConect: Control seguro entre dispositivos",
     description:
-      "Conecta2 permite vincular tu dispositivo Zi0n con otros dispositivos de confianza, así como a apps externas para recibir alertas del sistema, notificaciones anónimas y gestionar bloqueos o borrados remotos.",
+      "WipConect permite vincular tus dispositivos Zi0n a otros sistemas de confianza, permitiendo gestionar (renovar licencias, bloquear o borrar otros sistemas Zi0n) todos los equipos que estén conectados a tu cuenta.",
     icon: Link2,
     imagePosition: "right" as const,
   },
   {
-    id: "fachada",
-    title: "Pantalla de Fachada y Sistema Oculto",
+    id: "wipnoti",
+    title: "WipNoti: Integración con apps de notificaciones",
     description:
-      "Zi0n crea un sistema fachada idéntico a Android y oculta el sistema real dentro de una app falsa. Esto permite despistar a terceros, proteger tu privacidad y mantener tus datos seguros.",
+      "Zi0n puede vincularse con aplicaciones externas para permitir la visualización segura de notificaciones personalizadas desde dispositivos convencionales, sin exponer el sistema real.",
     icon: Smartphone,
     imagePosition: "left" as const,
-  },
-  {
-    id: "imei-imsi",
-    title: "Tecnología de cambio IMEI y IMSI automático",
-    description:
-      "Cambia automáticamente el IMEI y el IMSI de tu dispositivo para proteger tu identidad y evitar el rastreo. Una capa adicional de privacidad y anonimato en tus comunicaciones.",
-    icon: Radio,
-    imagePosition: "right" as const,
-  },
+  },  
 ]
 
 export function SecurityFeatures() {
@@ -71,7 +63,7 @@ export function SecurityFeatures() {
             Protección integral
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#071C59] text-balance">
-            zi0n te da más seguridad
+            Zi0n te da más seguridad
           </h2>
           <p className="mt-4 text-lg text-[#6E6E6E] max-w-2xl mx-auto">
             Funcionalidades exclusivas diseñadas para proteger tu información más sensible

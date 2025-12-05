@@ -36,8 +36,7 @@ export function HeroSection() {
             </h1>
 
             <p className="mt-6 text-lg text-[#6E6E6E] max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              zi0n convierte tu Android en un dispositivo encriptado, seguro, controlado y protegido. Gestiona apps
-              verificadas con funcionalidades de seguridad propias para garantizar privacidad y protección avanzada.
+              Zi0n convierte tu Android en un dispositivo encriptado, seguro, controlado y protegido. Permite gestionar apps verificadas, funcionalidades de seguridad propias del sistema  para garantizar privacidad y seguridad avanzada.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

@@ -13,7 +13,7 @@ const benefits = [
   {
     icon: Smartphone,
     title: "Dispositivos premium",
-    description: "Acceso a smartphones y tablets con seguridad zi0n integrada",
+    description: "Acceso a smartphones y tablets con seguridad Zi0n integrada",
   },
   {
     icon: HeadphonesIcon,
@@ -56,7 +56,7 @@ export function DistributionPartners() {
           
           <p className="text-[#6E6E6E] text-lg max-w-3xl mx-auto leading-relaxed">
             Los socios de distribución, como tiendas de tecnología móvil o proveedores de TI, pueden revender
-            servicios zi0n a sus clientes. Ofrecemos un portal moderno para gestionar tu negocio y soporte técnico
+            servicios Zi0n a sus clientes. Ofrecemos un portal moderno para gestionar tu negocio y soporte técnico
             especializado. ¡Solicita hoy una demostración!
           </p>
         </motion.div>
@@ -97,7 +97,7 @@ export function DistributionPartners() {
           
           <div className="relative text-center max-w-3xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Conviértete en distribuidor oficial de zi0n
+              Conviértete en distribuidor oficial de Zi0n
             </h3>
             <p className="text-white/70 mb-8 text-lg leading-relaxed">
               Completa el formulario para recibir una demostración exclusiva y unirte a nuestra red de distribuidores autorizados

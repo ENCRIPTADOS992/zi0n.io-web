@@ -22,20 +22,20 @@ const characteristics = [
   {
     id: "1",
     title: "Instalación fácil",
-    description: "Configura tu dispositivo en minutos con nuestro asistente guiado",
+    description: "El escaneo del código QR inicia la activación de inmediato, sin procesos largos ni configuraciones complejas. Completar la activación toma solo unos minutos.",
     icon: Settings,
   },
   {
     id: "2",
     title: "Servicio mundial",
-    description: "Cobertura global con servidores en múltiples continentes",
+    description: "Incluye tarjetas SIM encriptadas internacionales para garantizar acceso estable, usando múltiples operadores para evitar interrupciones y mejorar la cobertura.",
     icon: Globe,
     highlighted: true,
   },
   {
     id: "3",
-    title: "Actualización push",
-    description: "Recibe las últimas actualizaciones de seguridad automáticamente",
+    title: "Ni la aplicación ni el sistema pueden recibir actualizaciones push ",
+    description: " Sin actualizaciones automáticas, ningún tercero puede forzar cambios no autorizados que comprometan la seguridad de los dispositivos que utilizan Zi0n.",
     icon: RefreshCw,
     highlighted: true,
   },
@@ -48,19 +48,19 @@ const characteristics = [
   {
     id: "5",
     title: "Borrado por inactividad",
-    description: "Eliminación automática de datos tras período sin actividad",
+    description: "Si el dispositivo supera el periodo de inactividad definido por el usuario, el sistema ejecuta un borrado automático para proteger toda la información.",
     icon: Timer,
   },
   {
     id: "6",
     title: "Desactivar micrófono y cámara",
-    description: "Control total sobre sensores para máxima privacidad",
+    description: "Zi0n permite inhabilitar por completo el micrófono y la cámara en cualquier parte o app del sistema, evitando cualquier intento de grabación o acceso no autorizado.",
     icon: Mic,
   },
   {
     id: "7",
     title: "VPN dinámica con red Descartes",
-    description: "Conexión segura y cifrada en cualquier red pública",
+    description: "Zi0n emplea una VPN avanzada y dinámica que opera sobre una red descentralizada, rotando constantemente la dirección IP del sistema para maximizar la privacidad y dificultar cualquier intento de rastreo.",
     icon: Shield,
     highlighted: true,
   },
@@ -120,10 +120,10 @@ export function CharacteristicsGrid() {
             Todo incluido
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#071C59] text-balance">
-            Características zi0n
+            Así funciona la seguridad extrema de Zi0n
           </h2>
           <p className="mt-4 text-lg text-[#6E6E6E] max-w-2xl mx-auto">
-            Un conjunto completo de herramientas para proteger cada aspecto de tu dispositivo
+            Características diseñadas para proteger tu información en todo momento
           </p>
         </motion.div>
 
