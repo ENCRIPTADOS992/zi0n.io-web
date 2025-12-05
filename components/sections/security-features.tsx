@@ -91,15 +91,34 @@ export function SecurityFeatures() {
             >
               {/* Image/Screenshot */}
               <div className={`${feature.imagePosition === "right" ? "lg:order-2" : ""}`}>
-                <div className="relative flex items-center justify-center min-h-[350px] sm:min-h-[400px] md:min-h-[450px] lg:min-h-[500px]">
-                  {/* Phone frame - horizontal orientation */}
-                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-[200px] sm:h-[220px] md:h-[240px] lg:h-[260px] w-[340px] sm:w-[400px] md:w-[440px] lg:w-[500px] bg-[#071C59] rounded-[2rem] sm:rounded-[2.5rem] p-2 sm:p-3 shadow-2xl">
-                    {/* Notch - on the left side for horizontal */}
-                    <div className="absolute left-0 top-1/2 -translate-y-1/2 h-16 sm:h-20 w-5 sm:w-6 bg-[#071C59] rounded-r-xl sm:rounded-r-2xl z-10" />
-                    {/* Screen background */}
-                    <div className="bg-gradient-to-r from-[#0A2570] to-[#071C59] rounded-[1.5rem] sm:rounded-[2rem] h-full w-full" />
+                <div className="relative flex items-center justify-center">
+                  {/* Container for window + floating icons */}
+                  <div className="relative">
+                    {/* Window frame mockup */}
+                    <div className="w-full bg-[#071C59] rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden">
+                      {/* Window header with dots */}
+                      <div className="flex items-center gap-2 px-5 py-4 bg-[#0A2570]">
+                        <div className="w-3 h-3 rounded-full bg-[#FF5F57]" />
+                        <div className="w-3 h-3 rounded-full bg-[#FFBD2E]" />
+                        <div className="w-3 h-3 rounded-full bg-[#28CA41]" />
+                        <div className="flex-1 text-center">
+                          <span className="text-white/60 text-sm font-medium">Zi0n Security</span>
+                        </div>
+                      </div>
+                      
+                      {/* Window content - Image with padding */}
+                      <div className="p-8 sm:p-8 md:p-15 bg-[#0A2570]/50">
+                        <Image
+                          src={feature.image}
+                          alt={feature.title}
+                          width={600}
+                          height={500}
+                          className="w-full h-auto rounded-xl"
+                        />
+                      </div>
+                    </div>
                     
-                    {/* Decorative floating icon - top right */}
+                    {/* Decorative floating icon - top right (outside window) */}
                     <motion.div 
                       className="absolute -top-5 -right-5 sm:-top-6 sm:-right-6 w-14 h-14 sm:w-16 sm:h-16 bg-[#5EEC7D] rounded-xl sm:rounded-2xl flex items-center justify-center shadow-xl z-20"
                       animate={{ 
@@ -113,7 +132,7 @@ export function SecurityFeatures() {
                     >
                       <feature.icon className="w-7 h-7 sm:w-8 sm:h-8 text-[#071C59]" />
                     </motion.div>
-                    {/* Decorative floating icon - bottom left */}
+                    {/* Decorative floating icon - bottom left (outside window) */}
                     <motion.div 
                       className="absolute -bottom-5 -left-5 sm:-bottom-6 sm:-left-6 w-14 h-14 sm:w-16 sm:h-16 bg-[#3AA6FF] rounded-xl sm:rounded-2xl flex items-center justify-center shadow-xl z-20"
                       animate={{ 
@@ -130,19 +149,8 @@ export function SecurityFeatures() {
                     </motion.div>
                     
                     {/* Glow effects */}
-                    <div className="absolute -inset-6 sm:-inset-8 md:-inset-10 bg-[#5EEC7D]/10 rounded-full blur-3xl -z-10" />
-                    <div className="absolute -inset-4 sm:-inset-5 md:-inset-6 bg-[#003FFF]/10 rounded-full blur-2xl -z-10" />
-                  </div>
-                  
-                  {/* Screenshot image - inside the phone, smaller */}
-                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-                    <Image
-                      src={feature.image}
-                      alt={feature.title}
-                      width={500}
-                      height={400}
-                      className="w-[280px] sm:w-[320px] md:w-[360px] lg:w-[400px] h-auto max-w-none rounded-xl drop-shadow-[0_15px_30px_rgba(0,0,0,0.3)]"
-                    />
+                    <div className="absolute -inset-10 sm:-inset-12 md:-inset-16 bg-[#5EEC7D]/10 rounded-full blur-3xl -z-10" />
+                    <div className="absolute -inset-6 sm:-inset-8 md:-inset-10 bg-[#003FFF]/10 rounded-full blur-2xl -z-10" />
                   </div>
                 </div>
               </div>
