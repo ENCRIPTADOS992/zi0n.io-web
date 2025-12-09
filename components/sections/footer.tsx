@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { useTranslations } from 'next-intl'
 import { Logo } from "@/components/shared/logo"
+import { FooterYear } from './footer-year'
 // import { Linkedin, Twitter, Mail, Github } from "lucide-react"
 
 const navLinkIds = ["home", "security", "characteristics", "apps", "contact"]
@@ -72,7 +73,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-white/50 text-sm">© {new Date().getFullYear()} Zi0n. {t('rights')}</p>
+            <FooterYear />
             <p className="text-white/50 text-sm">{t('madeWith')} 🛡️</p>
           </div>
         </div>

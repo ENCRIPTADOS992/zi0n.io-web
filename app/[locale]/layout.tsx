@@ -40,28 +40,18 @@ export const viewport: Viewport = {
 
 type Props = {
   children: React.ReactNode
-  params: Promise<{ locale: string }>
+  params: { locale: string }
 }
 
 export default async function LocaleLayout({ children, params }: Props) {
-  const { locale } = await params
-  setRequestLocale(locale)
-  const messages = await getMessages()
+  // Next.js 14+ puede pasar params como Promise
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale} className="scroll-smooth">
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className="font-sans antialiased">
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-        <Analytics />
-      </body>
-    </html>
-  )
+    <NextIntlClientProvider messages={messages}>
+      {children}
+    </NextIntlClientProvider>
+  );
 }

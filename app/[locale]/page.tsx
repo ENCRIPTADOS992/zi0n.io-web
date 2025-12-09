@@ -10,13 +10,12 @@ import { Footer } from "@/components/sections/footer"
 import { setRequestLocale } from 'next-intl/server'
 
 type Props = {
-  params: Promise<{ locale: string }>
+  params: { locale: string }
 }
 
 export default async function LandingPage({ params }: Props) {
-  const { locale } = await params
-  setRequestLocale(locale)
-
+  // No setRequestLocale, no dynamic API usage
+  // const { locale } = params; // Not needed here unless you use locale directly
   return (
     <main className="min-h-screen">
       <Header />
@@ -29,5 +28,5 @@ export default async function LandingPage({ params }: Props) {
       <CTASection />
       <Footer />
     </main>
-  )
+  );
 }
