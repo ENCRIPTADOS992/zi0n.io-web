@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "title": "Zi0n - Geavanceerde Mobiele Beveiliging",
+    "description": "Transformeer je Android in een versleuteld, veilig, gecontroleerd en beschermd apparaat met Zi0n."
+  },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "security": "Beveiliging",
+      "characteristics": "Kenmerken",
+      "apps": "Apps",
+      "contact": "Contact"
+    },
+    "cta": "Nu starten"
+  },
+  "hero": {
+    "badge": "Beveiliging op bedrijfsniveau",
+    "title": "Transformeer je apparaat met de",
+    "titleHighlight": "beveiliging",
+    "titleEnd": "waar je altijd van droomde",
+    "description": "Zi0n transformeert je Android in een versleuteld, veilig, gecontroleerd en beschermd apparaat. Het stelt je in staat om geverifieerde apps en systeemspecifieke beveiligingsfuncties te beheren om privacy en geavanceerde beveiliging te garanderen.",
+    "ctaPrimary": "Nu starten",
+    "ctaSecondary": "Demo bekijken",
+    "phoneTitle": "Beschermd Apparaat",
+    "phoneSubtitle": "Jouw veiligheid is onze prioriteit",
+    "encryptionActive": "Versleuteling actief",
+    "mdmConnected": "MDM verbonden"
+  },
+  "security": {
+    "badge": "Uitgebreide bescherming",
+    "title": "Zi0n geeft je meer beveiliging",
+    "description": "Exclusieve functies ontworpen om je meest gevoelige informatie te beschermen",
+    "features": {
+      "wipi": {
+        "title": "Wipi Beveiliging",
+        "cardTitle": "Wipi: Verdediging tegen spionagekabels",
+        "cardDescription": "Verwijdert alle apparaatinformatie wanneer een verdachte kabel wordt gedetecteerd...",
+        "description": "Wipi beschermt je apparaat tegen gemanipuleerde data- of oplaadkabels. Het detecteert verdachte verbindingen, waarschuwt de gebruiker en wist afhankelijk van je instellingen het systeem om data-extractie te voorkomen."
+      },
+      "wipepin": {
+        "title": "WipPIN Beveiliging",
+        "cardTitle": "WipPIN: Fabrieksreset PIN",
+        "cardDescription": "Een PIN die bij invoer direct alle informatie wist...",
+        "description": "Een PIN die bij invoer direct alle apparaatinformatie wist. Een snelle en discrete actie om je gegevens te beschermen in kritieke situaties."
+      },
+      "wipsim": {
+        "title": "WipSIM Beveiliging",
+        "cardTitle": "WipSIM: Bescherming tegen SIM-manipulatie",
+        "cardDescription": "Detecteert elke ongeautoriseerde wijziging van de SIM of eSIM...",
+        "description": "Deze functie detecteert elke ongeautoriseerde wijziging van de SIM of eSIM en waarschuwt de gebruiker met de mogelijkheid om het systeem te wissen om informatie te beschermen."
+      },
+      "wipconect": {
+        "title": "WipConect Beveiliging",
+        "cardTitle": "WipConect: Veilige controle tussen apparaten",
+        "cardDescription": "Koppel je Zi0n-apparaten aan andere vertrouwde systemen...",
+        "description": "WipConect stelt je in staat om je Zi0n-apparaten te koppelen aan andere vertrouwde systemen, waarbij je alle apparaten die aan je account zijn gekoppeld kunt beheren (licenties vernieuwen, andere Zi0n-systemen vergrendelen of wissen)."
+      },
+      "wipnoti": {
+        "title": "WipNoti Beveiliging",
+        "cardTitle": "WipNoti: Notificatie-app integratie",
+        "cardDescription": "Veilige weergave van gepersonaliseerde notificaties...",
+        "description": "Zi0n kan koppelen met externe apps om veilige weergave van gepersonaliseerde notificaties vanaf conventionele apparaten mogelijk te maken, zonder het echte systeem bloot te stellen."
+      }
+    }
+  },
+  "mdmApps": {
+    "badge": "MDM-ecosysteem",
+    "title": "Meer verbinden, meer beschermen",
+    "description": "Til je beveiliging naar het volgende niveau met geïntegreerde apps",
+    "apps": {
+      "notifications": {
+        "name": "Push Notificaties App",
+        "description": "Ontvang realtime waarschuwingen over de beveiligingsstatus van je apparaat en belangrijke systeemgebeurtenissen."
+      },
+      "wipe": {
+        "name": "Wis en Vergrendel App",
+        "description": "Afstandsbediening om gevoelige gegevens te verwijderen of het apparaat te vergrendelen bij verlies of diefstal."
+      }
+    },
+    "download": "Downloaden"
+  },
+  "characteristics": {
+    "badge": "Alles inbegrepen",
+    "title": "Hoe de extreme beveiliging van Zi0n werkt",
+    "description": "Kenmerken ontworpen om je informatie te allen tijde te beschermen",
+    "items": {
+      "easyInstall": {
+        "title": "Eenvoudige installatie",
+        "description": "Het scannen van de QR-code start de activering onmiddellijk, zonder langdurige processen of complexe configuraties. Het voltooien van de activering duurt slechts enkele minuten."
+      },
+      "globalService": {
+        "title": "Wereldwijde service",
+        "description": "Inclusief versleutelde internationale SIM-kaarten voor stabiele toegang, met meerdere operators om onderbrekingen te voorkomen en dekking te verbeteren."
+      },
+      "noUpdates": {
+        "title": "Noch de app noch het systeem kan push-updates ontvangen",
+        "description": "Zonder automatische updates kan geen derde partij ongeautoriseerde wijzigingen afdwingen die de beveiliging van apparaten met Zi0n in gevaar brengen."
+      },
+      "screenshotBlock": {
+        "title": "Screenshot-blokkering",
+        "description": "Zi0n voorkomt screenshots of schermopnames, waardoor gevoelige informatie niet zonder toestemming kan worden gekopieerd of gedeeld."
+      },
+      "inactivityWipe": {
+        "title": "Inactiviteitswissing",
+        "description": "Als het apparaat de door de gebruiker gedefinieerde inactiviteitsperiode overschrijdt, voert het systeem een automatische wissing uit om alle informatie te beschermen."
+      },
+      "hiddenSystem": {
+        "title": "Façadescherm en verborgen systeem",
+        "description": "Zi0n creëert een roterend Android-façadesysteem en verbergt het echte systeem in een toegangsapp. Hiermee kun je derden misleiden, je privacy beschermen en veilig blijven."
+      },
+      "disableMicCamera": {
+        "title": "Microfoon en camera uitschakelen",
+        "description": "Zi0n stelt je in staat om de microfoon en camera volledig uit te schakelen in elk deel van het systeem of elke app, waardoor elke opnamepoging of ongeautoriseerde toegang wordt voorkomen."
+      },
+      "noServers": {
+        "title": "Geen toegankelijke servers of gegevensopslag",
+        "description": "Zi0n gebruikt geen servers met vaste locaties en slaat geen apparaatinformatie op, waardoor wordt gegarandeerd dat geen gebruikersgegevens kunnen worden hersteld of geopend door derden."
+      },
+      "dynamicVpn": {
+        "title": "Dynamische VPN met gedecentraliseerd netwerk",
+        "description": "Zi0n gebruikt een geavanceerde dynamische VPN die werkt op een gedecentraliseerd netwerk, waarbij het IP-adres van het systeem constant roteert om privacy te maximaliseren en elke trackingpoging te bemoeilijken."
+      },
+      "permissionControl": {
+        "title": "App-machtigingsbescherming en -controle",
+        "description": "Zi0n bewaakt en reguleert de machtigingen van elke app, voorkomt ongepaste toegang en zorgt ervoor dat alleen strikt noodzakelijke bronnen worden gebruikt."
+      },
+      "vulnerabilityAssessment": {
+        "title": "Kwetsbaarheidsbeoordeling en app-classificatie",
+        "description": "Analyseert elke app op risico's en classificeert het beveiligingsniveau, en misleidt de app met valse informatie om de Zi0n-gebruiker te beschermen."
+      },
+      "smartwatchIntegration": {
+        "title": "Veilige smartwatch-integratie",
+        "description": "Zi0n kan koppelen met gesloten-systeem smartwatches, waardoor je belangrijke systeemfuncties discreet en veilig rechtstreeks vanaf je smartwatch kunt beheren."
+      }
+    }
+  },
+  "partners": {
+    "badge": "Wereldwijd distributienetwerk",
+    "title": "Distributiepartners",
+    "description": "Distributiepartners, zoals mobiele technologiewinkels of IT-providers, kunnen Zi0n-diensten doorverkopen aan hun klanten. We bieden een modern portaal om je bedrijf te beheren en gespecialiseerde technische ondersteuning. Vraag vandaag nog een demo aan!",
+    "benefits": {
+      "portal": {
+        "title": "Modern portaal",
+        "description": "Beheer je bedrijf met een intuïtief platform ontworpen voor distributeurs"
+      },
+      "devices": {
+        "title": "Premium apparaten",
+        "description": "Toegang tot smartphones en tablets met geïntegreerde Zi0n-beveiliging"
+      },
+      "support": {
+        "title": "Toegewijde ondersteuning",
+        "description": "Volledige technische assistentie voor jou en je klanten 24/7"
+      },
+      "demo": {
+        "title": "Exclusieve demo",
+        "description": "Probeer alle functies voordat je officiële distributeur wordt"
+      }
+    },
+    "cta": {
+      "title": "Word officiële Zi0n-distributeur",
+      "description": "Vul het formulier in om een exclusieve demo te ontvangen en sluit je aan bij ons netwerk van geautoriseerde distributeurs",
+      "primaryButton": "Demo aanvragen",
+      "secondaryButton": "Meer informatie"
+    }
+  },
+  "contact": {
+    "badge": "We zijn er om te helpen",
+    "title": "Neem contact op",
+    "subtitle": "Heb je vragen over Zi0n? Ons team staat klaar om je te helpen je informatie te beschermen. Schrijf ons en we reageren zo snel mogelijk.",
+    "info": {
+      "email": {
+        "label": "E-mail",
+        "value": "contacto@Zi0n.com"
+      },
+      "location": {
+        "label": "Locatie",
+        "value": "Wereldwijde service, 24/7 ondersteuning"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "Naam",
+        "placeholder": "Je naam"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "jij@email.com"
+      },
+      "message": {
+        "label": "Bericht",
+        "placeholder": "Hoe kunnen we je helpen?"
+      },
+      "submit": "Bericht verzenden"
+    }
+  },
+  "cta": {
+    "title": "Bescherm je apparaat vandaag",
+    "subtitle": "Sluit je aan bij duizenden gebruikers die al vertrouwen op Zi0n om hun waardevolste informatie te beschermen. De beveiliging die je nodig hebt, binnen handbereik.",
+    "benefits": {
+      "1": "Installatie in minder dan 5 minuten",
+      "2": "14 dagen gratis proefperiode",
+      "3": "24/7 technische ondersteuning",
+      "4": "Opzeggen zonder verplichtingen"
+    },
+    "primaryButton": "Start gratis proefperiode",
+    "secondaryButton": "Praat met verkoop"
+  },
+  "footer": {
+    "description": "Mobiele beveiliging transformeren met geavanceerde versleuteling en uitgebreide bescherming voor je Android-apparaat.",
+    "navigation": "Navigatie",
+    "nav": {
+      "home": "Home",
+      "security": "Beveiliging",
+      "characteristics": "Kenmerken",
+      "apps": "Apps",
+      "contact": "Contact"
+    },
+    "rights": "Alle rechten voorbehouden.",
+    "madeWith": "Gemaakt met beveiliging in gedachten"
+  }
+}

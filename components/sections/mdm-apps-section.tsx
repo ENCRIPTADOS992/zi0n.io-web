@@ -1,28 +1,30 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { useTranslations } from "next-intl"
 import { Bell, Trash2, Download, Smartphone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-const apps = [
-  {
-    id: "notifications",
-    name: "App de Notificaciones Push",
-    description:
-      "Recibe alertas en tiempo real sobre el estado de seguridad de tu dispositivo y eventos importantes del sistema.",
-    icon: Bell,
-    color: "#3AA6FF",
-  },
-  {
-    id: "wipe",
-    name: "App de Borrado y Bloqueo",
-    description: "Control remoto para eliminar datos sensibles o bloquear el dispositivo en caso de pérdida o robo.",
-    icon: Trash2,
-    color: "#FF6F61",
-  },
-]
+const appIds = ['notifications', 'wipe'] as const
+const appIcons = {
+  notifications: Bell,
+  wipe: Trash2,
+}
+const appColors = {
+  notifications: "#3AA6FF",
+  wipe: "#FF6F61",
+}
 
 export function MDMAppsSection() {
+  const t = useTranslations('mdmApps')
+  
+  const apps = appIds.map((id) => ({
+    id,
+    name: t(`apps.${id}.name`),
+    description: t(`apps.${id}.description`),
+    icon: appIcons[id],
+    color: appColors[id],
+  }))
   return (
     <section id="apps" className="py-20 md:py-32 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -36,13 +38,13 @@ export function MDMAppsSection() {
         >
           <div className="inline-flex items-center gap-2 bg-[#003FFF]/10 text-[#003FFF] px-4 py-2 rounded-full text-sm font-medium mb-4">
             <Smartphone className="w-4 h-4" />
-            Ecosistema MDM
+            {t('badge')}
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#071C59] text-balance">
-            Conecta más, protege más
+            {t('title')}
           </h2>
           <p className="mt-4 text-lg text-[#6E6E6E] max-w-2xl mx-auto">
-            Lleva tu seguridad al siguiente nivel con apps integradas
+            {t('description')}
           </p>
         </motion.div>
 
@@ -73,7 +75,7 @@ export function MDMAppsSection() {
                 {/* Download Button */}
                 <Button className="bg-[#071C59] text-white hover:bg-[#0A2570] rounded-full px-6 group-hover:bg-[#003FFF] transition-colors">
                   <Download className="w-4 h-4 mr-2" />
-                  Descargar
+                  {t('download')}
                 </Button>
 
                 {/* Decorative element */}

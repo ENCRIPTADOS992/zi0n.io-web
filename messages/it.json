@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "title": "Zi0n - Sicurezza Mobile Avanzata",
+    "description": "Trasforma il tuo Android in un dispositivo crittografato, sicuro, controllato e protetto con Zi0n."
+  },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "security": "Sicurezza",
+      "characteristics": "Caratteristiche",
+      "apps": "App",
+      "contact": "Contatti"
+    },
+    "cta": "Inizia ora"
+  },
+  "hero": {
+    "badge": "Sicurezza di livello aziendale",
+    "title": "Trasforma il tuo dispositivo con la",
+    "titleHighlight": "sicurezza",
+    "titleEnd": "che hai sempre sognato",
+    "description": "Zi0n trasforma il tuo Android in un dispositivo crittografato, sicuro, controllato e protetto. Ti permette di gestire app verificate e funzionalità di sicurezza proprie del sistema per garantire privacy e sicurezza avanzata.",
+    "ctaPrimary": "Inizia ora",
+    "ctaSecondary": "Guarda la demo",
+    "phoneTitle": "Dispositivo Protetto",
+    "phoneSubtitle": "La tua sicurezza è la nostra priorità",
+    "encryptionActive": "Crittografia attiva",
+    "mdmConnected": "MDM connesso"
+  },
+  "security": {
+    "badge": "Protezione completa",
+    "title": "Zi0n ti offre più sicurezza",
+    "description": "Funzionalità esclusive progettate per proteggere le tue informazioni più sensibili",
+    "features": {
+      "wipi": {
+        "title": "Wipi Sicurezza",
+        "cardTitle": "Wipi: Difesa contro i cavi spia",
+        "cardDescription": "Elimina tutte le informazioni del dispositivo quando viene rilevato un cavo sospetto...",
+        "description": "Wipi protegge il tuo dispositivo da cavi dati o di ricarica manipolati. Rileva connessioni sospette, avvisa l'utente e, a seconda delle impostazioni, cancella il sistema per prevenire qualsiasi estrazione di dati."
+      },
+      "wipepin": {
+        "title": "WipPIN Sicurezza",
+        "cardTitle": "WipPIN: PIN di ripristino di fabbrica",
+        "cardDescription": "Un PIN che cancella istantaneamente tutte le informazioni quando viene inserito...",
+        "description": "Un PIN che cancella istantaneamente tutte le informazioni del dispositivo quando viene inserito. Un'azione rapida e discreta per proteggere i tuoi dati in situazioni critiche."
+      },
+      "wipsim": {
+        "title": "WipSIM Sicurezza",
+        "cardTitle": "WipSIM: Protezione contro la manipolazione della SIM",
+        "cardDescription": "Rileva qualsiasi modifica non autorizzata della SIM o eSIM...",
+        "description": "Questa funzionalità rileva qualsiasi modifica non autorizzata della SIM o eSIM e avvisa l'utente con la possibilità di cancellare il sistema per proteggere le informazioni."
+      },
+      "wipconect": {
+        "title": "WipConect Sicurezza",
+        "cardTitle": "WipConect: Controllo sicuro tra dispositivi",
+        "cardDescription": "Collega i tuoi dispositivi Zi0n ad altri sistemi affidabili...",
+        "description": "WipConect ti permette di collegare i tuoi dispositivi Zi0n ad altri sistemi affidabili, gestendo (rinnovo licenze, blocco o cancellazione di altri sistemi Zi0n) tutti i dispositivi connessi al tuo account."
+      },
+      "wipnoti": {
+        "title": "WipNoti Sicurezza",
+        "cardTitle": "WipNoti: Integrazione con app di notifiche",
+        "cardDescription": "Visualizzazione sicura delle notifiche personalizzate...",
+        "description": "Zi0n può collegarsi con app esterne per permettere la visualizzazione sicura di notifiche personalizzate da dispositivi convenzionali, senza esporre il sistema reale."
+      }
+    }
+  },
+  "mdmApps": {
+    "badge": "Ecosistema MDM",
+    "title": "Connetti di più, proteggi di più",
+    "description": "Porta la tua sicurezza al livello successivo con app integrate",
+    "apps": {
+      "notifications": {
+        "name": "App Notifiche Push",
+        "description": "Ricevi avvisi in tempo reale sullo stato di sicurezza del tuo dispositivo e sugli eventi di sistema importanti."
+      },
+      "wipe": {
+        "name": "App Cancellazione e Blocco",
+        "description": "Controllo remoto per eliminare dati sensibili o bloccare il dispositivo in caso di perdita o furto."
+      }
+    },
+    "download": "Scarica"
+  },
+  "characteristics": {
+    "badge": "Tutto incluso",
+    "title": "Come funziona la sicurezza estrema di Zi0n",
+    "description": "Caratteristiche progettate per proteggere le tue informazioni in ogni momento",
+    "items": {
+      "easyInstall": {
+        "title": "Installazione facile",
+        "description": "La scansione del codice QR avvia l'attivazione immediatamente, senza processi lunghi o configurazioni complesse. Completare l'attivazione richiede solo pochi minuti."
+      },
+      "globalService": {
+        "title": "Servizio mondiale",
+        "description": "Include schede SIM crittografate internazionali per garantire un accesso stabile, utilizzando più operatori per evitare interruzioni e migliorare la copertura."
+      },
+      "noUpdates": {
+        "title": "Né l'app né il sistema possono ricevere aggiornamenti push",
+        "description": "Senza aggiornamenti automatici, nessun terzo può forzare modifiche non autorizzate che compromettono la sicurezza dei dispositivi che utilizzano Zi0n."
+      },
+      "screenshotBlock": {
+        "title": "Blocco degli screenshot",
+        "description": "Zi0n impedisce screenshot o registrazioni dello schermo, evitando che informazioni sensibili vengano copiate o condivise senza autorizzazione."
+      },
+      "inactivityWipe": {
+        "title": "Cancellazione per inattività",
+        "description": "Se il dispositivo supera il periodo di inattività definito dall'utente, il sistema esegue una cancellazione automatica per proteggere tutte le informazioni."
+      },
+      "hiddenSystem": {
+        "title": "Schermata di Facciata e Sistema Nascosto",
+        "description": "Zi0n crea un sistema di facciata Android rotante e nasconde il sistema reale all'interno di un'app di ingresso. Questo ti permette di ingannare i terzi, proteggere la tua privacy e rimanere al sicuro."
+      },
+      "disableMicCamera": {
+        "title": "Disattivare microfono e fotocamera",
+        "description": "Zi0n ti permette di disabilitare completamente il microfono e la fotocamera in qualsiasi parte del sistema o app, prevenendo qualsiasi tentativo di registrazione o accesso non autorizzato."
+      },
+      "noServers": {
+        "title": "Nessun server accessibile né archiviazione dati",
+        "description": "Zi0n non utilizza server con posizioni fisse e non memorizza informazioni sui dispositivi, garantendo che nessun dato utente possa essere recuperato o accessibile da terzi."
+      },
+      "dynamicVpn": {
+        "title": "VPN dinamica con rete decentralizzata",
+        "description": "Zi0n utilizza una VPN dinamica avanzata che opera su una rete decentralizzata, ruotando costantemente l'indirizzo IP del sistema per massimizzare la privacy e ostacolare qualsiasi tentativo di tracciamento."
+      },
+      "permissionControl": {
+        "title": "Protezione e controllo dei permessi delle app",
+        "description": "Zi0n monitora e regola i permessi di ogni app, prevenendo accessi impropri e garantendo che vengano utilizzate solo le risorse strettamente necessarie."
+      },
+      "vulnerabilityAssessment": {
+        "title": "Valutazione delle vulnerabilità e classificazione delle app",
+        "description": "Analizza ogni app per i rischi e classifica il suo livello di sicurezza, e inganna l'app con false informazioni per proteggere l'utente Zi0n."
+      },
+      "smartwatchIntegration": {
+        "title": "Integrazione con smartwatch sicuro",
+        "description": "Zi0n può collegarsi con orologi intelligenti a sistema chiuso, permettendoti di gestire le funzioni chiave del sistema in modo discreto e sicuro direttamente dal tuo smartwatch."
+      }
+    }
+  },
+  "partners": {
+    "badge": "Rete globale di distributori",
+    "title": "Partner di Distribuzione",
+    "description": "I partner di distribuzione, come i negozi di tecnologia mobile o i fornitori IT, possono rivendere i servizi Zi0n ai loro clienti. Offriamo un portale moderno per gestire la tua attività e supporto tecnico specializzato. Richiedi una demo oggi!",
+    "benefits": {
+      "portal": {
+        "title": "Portale moderno",
+        "description": "Gestisci la tua attività con una piattaforma intuitiva progettata per i distributori"
+      },
+      "devices": {
+        "title": "Dispositivi premium",
+        "description": "Accesso a smartphone e tablet con sicurezza Zi0n integrata"
+      },
+      "support": {
+        "title": "Supporto dedicato",
+        "description": "Assistenza tecnica completa per te e i tuoi clienti 24/7"
+      },
+      "demo": {
+        "title": "Demo esclusiva",
+        "description": "Prova tutte le funzionalità prima di diventare distributore ufficiale"
+      }
+    },
+    "cta": {
+      "title": "Diventa distributore ufficiale Zi0n",
+      "description": "Compila il modulo per ricevere una demo esclusiva e unirti alla nostra rete di distributori autorizzati",
+      "primaryButton": "Richiedi demo",
+      "secondaryButton": "Maggiori informazioni"
+    }
+  },
+  "contact": {
+    "badge": "Siamo qui per aiutarti",
+    "title": "Contattaci",
+    "subtitle": "Hai domande su Zi0n? Il nostro team è pronto ad aiutarti a proteggere le tue informazioni. Scrivici e ti risponderemo il prima possibile.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "contacto@Zi0n.com"
+      },
+      "location": {
+        "label": "Posizione",
+        "value": "Servizio globale, supporto 24/7"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "Nome",
+        "placeholder": "Il tuo nome"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "tu@email.com"
+      },
+      "message": {
+        "label": "Messaggio",
+        "placeholder": "Come possiamo aiutarti?"
+      },
+      "submit": "Invia messaggio"
+    }
+  },
+  "cta": {
+    "title": "Proteggi il tuo dispositivo oggi",
+    "subtitle": "Unisciti a migliaia di utenti che già si affidano a Zi0n per proteggere le loro informazioni più preziose. La sicurezza di cui hai bisogno, a portata di mano.",
+    "benefits": {
+      "1": "Configurazione in meno di 5 minuti",
+      "2": "Prova gratuita di 14 giorni",
+      "3": "Supporto tecnico 24/7",
+      "4": "Cancellazione senza impegno"
+    },
+    "primaryButton": "Inizia prova gratuita",
+    "secondaryButton": "Parla con le vendite"
+  },
+  "footer": {
+    "description": "Trasformare la sicurezza mobile con crittografia avanzata e protezione completa per il tuo dispositivo Android.",
+    "navigation": "Navigazione",
+    "nav": {
+      "home": "Home",
+      "security": "Sicurezza",
+      "characteristics": "Caratteristiche",
+      "apps": "App",
+      "contact": "Contatti"
+    },
+    "rights": "Tutti i diritti riservati.",
+    "madeWith": "Fatto con la sicurezza in mente"
+  }
+}

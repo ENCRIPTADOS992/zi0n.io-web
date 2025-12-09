@@ -1,33 +1,21 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { useTranslations } from "next-intl"
 import { Store, Smartphone, HeadphonesIcon, Download, Globe, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-const benefits = [
-  {
-    icon: Store,
-    title: "Portal moderno",
-    description: "Gestiona tu negocio con una plataforma intuitiva diseñada para distribuidores",
-  },
-  {
-    icon: Smartphone,
-    title: "Dispositivos premium",
-    description: "Acceso a smartphones y tablets con seguridad Zi0n integrada",
-  },
-  {
-    icon: HeadphonesIcon,
-    title: "Soporte dedicado",
-    description: "Asistencia técnica completa para ti y tus clientes 24/7",
-  },
-  {
-    icon: Download,
-    title: "Demo exclusiva",
-    description: "Prueba todas las funcionalidades antes de ser distribuidor oficial",
-  },
-]
+const benefitKeys = ['portal', 'devices', 'support', 'demo'] as const
+const benefitIcons = {
+  portal: Store,
+  devices: Smartphone,
+  support: HeadphonesIcon,
+  demo: Download,
+}
 
 export function DistributionPartners() {
+  const t = useTranslations('partners')
+  
   return (
     <section className="py-20 md:py-32 bg-[#AFDBFF]/30 relative overflow-hidden">
       {/* Decorative elements */}
@@ -47,40 +35,41 @@ export function DistributionPartners() {
         >
           <div className="inline-flex items-center gap-2 bg-[#5EEC7D]/20 text-[#071C59] px-4 py-2 rounded-full text-sm font-medium mb-6">
             <Globe className="w-4 h-4" />
-            Red global de distribuidores
+            {t('badge')}
           </div>
           
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#071C59] mb-6">
-            Socios de Distribución
+            {t('title')}
           </h2>
           
           <p className="text-[#6E6E6E] text-lg max-w-3xl mx-auto leading-relaxed">
-            Los socios de distribución, como tiendas de tecnología móvil o proveedores de TI, pueden revender
-            servicios Zi0n a sus clientes. Ofrecemos un portal moderno para gestionar tu negocio y soporte técnico
-            especializado. ¡Solicita hoy una demostración!
+            {t('description')}
           </p>
         </motion.div>
 
         {/* Benefits Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {benefits.map((benefit, index) => (
-            <motion.div
-              key={benefit.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl border border-transparent hover:border-[#5EEC7D]/30 transition-all duration-300"
-            >
-              <div className="relative">
-                <div className="w-14 h-14 bg-[#003FFF]/10 rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
-                  <benefit.icon className="w-7 h-7 text-[#003FFF]" />
+          {benefitKeys.map((key, index) => {
+            const Icon = benefitIcons[key]
+            return (
+              <motion.div
+                key={key}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl border border-transparent hover:border-[#5EEC7D]/30 transition-all duration-300"
+              >
+                <div className="relative">
+                  <div className="w-14 h-14 bg-[#003FFF]/10 rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
+                    <Icon className="w-7 h-7 text-[#003FFF]" />
+                  </div>
+                  <h3 className="text-[#071C59] font-semibold text-xl mb-3">{t(`benefits.${key}.title`)}</h3>
+                  <p className="text-[#6E6E6E] text-sm leading-relaxed">{t(`benefits.${key}.description`)}</p>
                 </div>
-                <h3 className="text-[#071C59] font-semibold text-xl mb-3">{benefit.title}</h3>
-                <p className="text-[#6E6E6E] text-sm leading-relaxed">{benefit.description}</p>
-              </div>
-            </motion.div>
-          ))}
+              </motion.div>
+            )
+          })}
         </div>
 
         {/* CTA Box */}
@@ -97,25 +86,27 @@ export function DistributionPartners() {
           
           <div className="relative text-center max-w-3xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Conviértete en distribuidor oficial de Zi0n
+              {t('cta.title')}
             </h3>
             <p className="text-white/70 mb-8 text-lg leading-relaxed">
-              Completa el formulario para recibir una demostración exclusiva y unirte a nuestra red de distribuidores autorizados
+              {t('cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
                 className="bg-[#5EEC7D] text-[#071C59] hover:bg-[#4DD96A] rounded-full px-8 font-semibold group"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Solicitar demostración
+                {t('cta.primaryButton')}
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button
                 size="lg"
                 variant="outline"
                 className="border-white/30 text-white hover:bg-white/10 rounded-full px-8 font-semibold bg-transparent"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Más información
+                {t('cta.secondaryButton')}
               </Button>
             </div>
           </div>

@@ -1,16 +1,18 @@
 "use client"
 
 import Link from "next/link"
+import { useTranslations } from 'next-intl'
 import { Logo } from "@/components/shared/logo"
 // import { Linkedin, Twitter, Mail, Github } from "lucide-react"
 
-const navLinks = [
-  { label: "Inicio", href: "#hero" },
-  { label: "Seguridad", href: "#security" },
-  { label: "Características", href: "#characteristics" },
-  { label: "Apps", href: "#apps" },
-  { label: "Contacto", href: "#contact" },
-]
+const navLinkIds = ["home", "security", "characteristics", "apps", "contact"]
+const navLinkHrefs: Record<string, string> = {
+  home: "#hero",
+  security: "#security",
+  characteristics: "#characteristics",
+  apps: "#apps",
+  contact: "#contact",
+}
 
 /*const socialLinks = [
   { icon: Twitter, href: "https://twitter.com/Zi0n", label: "Twitter" },
@@ -20,6 +22,8 @@ const navLinks = [
 ]*/
 
 export function Footer() {
+  const t = useTranslations('footer')
+  
   return (
     <footer className="bg-[#071C59] text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -30,8 +34,7 @@ export function Footer() {
             <div className="md:col-span-1">
               <Logo variant="light" size="lg" />
               <p className="mt-4 text-white/60 text-sm leading-relaxed">
-                Transformando la seguridad móvil con encriptación avanzada y protección integral para tu dispositivo
-                Android.
+                {t('description')}
               </p>
               {/* Social Links - Commented out */}
               {/* <div className="flex gap-3 mt-6">
@@ -52,12 +55,12 @@ export function Footer() {
 
             {/* Navigation Links */}
             <div className="md:col-span-2">
-              <h4 className="font-semibold text-white mb-4">Navegación</h4>
+              <h4 className="font-semibold text-white mb-4">{t('navigation')}</h4>
               <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                {navLinks.map((link) => (
-                  <li key={link.label}>
-                    <Link href={link.href} className="text-white/60 hover:text-[#5EEC7D] text-sm transition-colors">
-                      {link.label}
+                {navLinkIds.map((id) => (
+                  <li key={id}>
+                    <Link href={navLinkHrefs[id]} className="text-white/60 hover:text-[#5EEC7D] text-sm transition-colors">
+                      {t(`nav.${id}`)}
                     </Link>
                   </li>
                 ))}
@@ -69,8 +72,8 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-white/50 text-sm">© {new Date().getFullYear()} Zi0n. Todos los derechos reservados.</p>
-            <p className="text-white/50 text-sm">Hecho con seguridad en mente 🛡️</p>
+            <p className="text-white/50 text-sm">© {new Date().getFullYear()} Zi0n. {t('rights')}</p>
+            <p className="text-white/50 text-sm">{t('madeWith')} 🛡️</p>
           </div>
         </div>
       </div>

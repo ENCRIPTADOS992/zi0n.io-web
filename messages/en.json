@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "title": "Zi0n - Advanced Mobile Security",
+    "description": "Transform your Android into an encrypted, secure, controlled and protected device with Zi0n."
+  },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "security": "Security",
+      "characteristics": "Features",
+      "apps": "Apps",
+      "contact": "Contact"
+    },
+    "cta": "Get Started"
+  },
+  "hero": {
+    "badge": "Enterprise-level security",
+    "title": "Transform your device with the",
+    "titleHighlight": "security",
+    "titleEnd": "you always dreamed of",
+    "description": "Zi0n turns your Android into an encrypted, secure, controlled and protected device. It allows you to manage verified apps, system-specific security features to ensure privacy and advanced security.",
+    "ctaPrimary": "Get Started",
+    "ctaSecondary": "Watch Demo",
+    "phoneTitle": "Protected Device",
+    "phoneSubtitle": "Your security is our priority",
+    "encryptionActive": "Encryption active",
+    "mdmConnected": "MDM connected"
+  },
+  "security": {
+    "badge": "Comprehensive protection",
+    "title": "Zi0n gives you more security",
+    "description": "Exclusive features designed to protect your most sensitive information",
+    "features": {
+      "wipi": {
+        "title": "Wipi Security",
+        "cardTitle": "Wipi: Defense against spy cables",
+        "cardDescription": "Deletes all device information when a suspicious cable is detected...",
+        "description": "Wipi protects your device from manipulated data or charging cables. It detects suspicious connections, alerts the user, and depending on your settings, wipes the system to prevent any data extraction."
+      },
+      "wipepin": {
+        "title": "WipPIN Security",
+        "cardTitle": "WipPIN: Factory reset PIN",
+        "cardDescription": "A PIN that instantly wipes all information when entered...",
+        "description": "A PIN that instantly wipes all device information when entered. A quick and discreet action to protect your data in critical situations."
+      },
+      "wipsim": {
+        "title": "WipSIM Security",
+        "cardTitle": "WipSIM: Protection against SIM manipulation",
+        "cardDescription": "Detects any unauthorized change to the SIM or eSIM...",
+        "description": "This feature detects any unauthorized change to the SIM or eSIM, and alerts the user with the ability to wipe the system to protect information."
+      },
+      "wipconect": {
+        "title": "WipConect Security",
+        "cardTitle": "WipConect: Secure control between devices",
+        "cardDescription": "Link your Zi0n devices to other trusted systems...",
+        "description": "WipConect allows you to link your Zi0n devices to other trusted systems, managing (renewing licenses, locking or wiping other Zi0n systems) all devices connected to your account."
+      },
+      "wipnoti": {
+        "title": "WipNoti Security",
+        "cardTitle": "WipNoti: Notification app integration",
+        "cardDescription": "Secure display of personalized notifications...",
+        "description": "Zi0n can link with external apps to allow secure display of personalized notifications from conventional devices, without exposing the real system."
+      }
+    }
+  },
+  "mdmApps": {
+    "badge": "MDM Ecosystem",
+    "title": "Connect more, protect more",
+    "description": "Take your security to the next level with integrated apps",
+    "apps": {
+      "notifications": {
+        "name": "Push Notifications App",
+        "description": "Receive real-time alerts about your device's security status and important system events."
+      },
+      "wipe": {
+        "name": "Wipe and Lock App",
+        "description": "Remote control to delete sensitive data or lock the device in case of loss or theft."
+      }
+    },
+    "download": "Download"
+  },
+  "characteristics": {
+    "badge": "All inclusive",
+    "title": "How Zi0n's extreme security works",
+    "description": "Features designed to protect your information at all times",
+    "items": {
+      "easyInstall": {
+        "title": "Easy installation",
+        "description": "Scanning the QR code starts activation immediately, without lengthy processes or complex configurations. Completing activation takes only a few minutes."
+      },
+      "globalService": {
+        "title": "Worldwide service",
+        "description": "Includes encrypted international SIM cards to ensure stable access, using multiple operators to avoid interruptions and improve coverage."
+      },
+      "noUpdates": {
+        "title": "Neither the app nor the system can receive push updates",
+        "description": "Without automatic updates, no third party can force unauthorized changes that compromise the security of devices using Zi0n."
+      },
+      "screenshotBlock": {
+        "title": "Screenshot blocking",
+        "description": "Zi0n prevents screenshots or screen recordings, preventing sensitive information from being copied or shared without authorization."
+      },
+      "inactivityWipe": {
+        "title": "Inactivity wipe",
+        "description": "If the device exceeds the user-defined inactivity period, the system performs an automatic wipe to protect all information."
+      },
+      "hiddenSystem": {
+        "title": "Facade Screen and Hidden System",
+        "description": "Zi0n creates a rotating Android facade system and hides the real system inside an entry app. This allows you to mislead third parties, protect your privacy and stay safe."
+      },
+      "disableMicCamera": {
+        "title": "Disable microphone and camera",
+        "description": "Zi0n allows you to completely disable the microphone and camera in any part of the system or app, preventing any recording attempt or unauthorized access."
+      },
+      "noServers": {
+        "title": "No accessible servers or data storage",
+        "description": "Zi0n does not use servers with fixed locations and does not store device information, ensuring that no user data can be recovered or accessed by third parties."
+      },
+      "dynamicVpn": {
+        "title": "Dynamic VPN with decentralized network",
+        "description": "Zi0n uses an advanced dynamic VPN that operates on a decentralized network, constantly rotating the system's IP address to maximize privacy and hinder any tracking attempt."
+      },
+      "permissionControl": {
+        "title": "App permission protection and control",
+        "description": "Zi0n monitors and regulates the permissions of each app, preventing improper access and ensuring that only strictly necessary resources are used."
+      },
+      "vulnerabilityAssessment": {
+        "title": "Vulnerability assessment and app classification",
+        "description": "Analyzes each app for risks and classifies its security level, and deceives the app with false information to protect the Zi0n user."
+      },
+      "smartwatchIntegration": {
+        "title": "Secure smartwatch integration",
+        "description": "Zi0n can link with closed-system smart watches, allowing you to manage key system functions discreetly and securely directly from your smartwatch."
+      }
+    }
+  },
+  "partners": {
+    "badge": "Global distributor network",
+    "title": "Distribution Partners",
+    "description": "Distribution partners, such as mobile technology stores or IT providers, can resell Zi0n services to their customers. We offer a modern portal to manage your business and specialized technical support. Request a demo today!",
+    "benefits": {
+      "portal": {
+        "title": "Modern portal",
+        "description": "Manage your business with an intuitive platform designed for distributors"
+      },
+      "devices": {
+        "title": "Premium devices",
+        "description": "Access to smartphones and tablets with integrated Zi0n security"
+      },
+      "support": {
+        "title": "Dedicated support",
+        "description": "Complete technical assistance for you and your customers 24/7"
+      },
+      "demo": {
+        "title": "Exclusive demo",
+        "description": "Try all features before becoming an official distributor"
+      }
+    },
+    "cta": {
+      "title": "Become an official Zi0n distributor",
+      "description": "Complete the form to receive an exclusive demo and join our network of authorized distributors",
+      "primaryButton": "Request demo",
+      "secondaryButton": "More information"
+    }
+  },
+  "contact": {
+    "badge": "We're here to help",
+    "title": "Contact Us",
+    "subtitle": "Have questions about Zi0n? Our team is ready to help you protect your information. Write to us and we'll respond as soon as possible.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "contacto@Zi0n.com"
+      },
+      "location": {
+        "label": "Location",
+        "value": "Global service, 24/7 support"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "you@email.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "How can we help you?"
+      },
+      "submit": "Send message"
+    }
+  },
+  "cta": {
+    "title": "Protect your device today",
+    "subtitle": "Join thousands of users who already trust Zi0n to protect their most valuable information. The security you need, at your fingertips.",
+    "benefits": {
+      "1": "Setup in less than 5 minutes",
+      "2": "14-day free trial",
+      "3": "24/7 technical support",
+      "4": "Cancel without commitment"
+    },
+    "primaryButton": "Start free trial",
+    "secondaryButton": "Talk to sales"
+  },
+  "footer": {
+    "description": "Transforming mobile security with advanced encryption and comprehensive protection for your Android device.",
+    "navigation": "Navigation",
+    "nav": {
+      "home": "Home",
+      "security": "Security",
+      "characteristics": "Features",
+      "apps": "Apps",
+      "contact": "Contact"
+    },
+    "rights": "All rights reserved.",
+    "madeWith": "Made with security in mind"
+  }
+}

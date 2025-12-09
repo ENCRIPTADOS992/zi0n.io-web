@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "title": "Zi0n - 高级移动安全",
+    "description": "使用Zi0n将您的Android转变为加密、安全、可控和受保护的设备。"
+  },
+  "header": {
+    "nav": {
+      "home": "首页",
+      "security": "安全",
+      "characteristics": "特性",
+      "apps": "应用",
+      "contact": "联系"
+    },
+    "cta": "立即开始"
+  },
+  "hero": {
+    "badge": "企业级安全",
+    "title": "用您一直梦想的",
+    "titleHighlight": "安全性",
+    "titleEnd": "改变您的设备",
+    "description": "Zi0n将您的Android转变为加密、安全、可控和受保护的设备。它允许您管理经过验证的应用程序和系统特定的安全功能，以确保隐私和高级安全性。",
+    "ctaPrimary": "立即开始",
+    "ctaSecondary": "观看演示",
+    "phoneTitle": "受保护的设备",
+    "phoneSubtitle": "您的安全是我们的优先事项",
+    "encryptionActive": "加密已激活",
+    "mdmConnected": "MDM已连接"
+  },
+  "security": {
+    "badge": "全面保护",
+    "title": "Zi0n为您提供更多安全保障",
+    "description": "专为保护您最敏感信息而设计的独家功能",
+    "features": {
+      "wipi": {
+        "title": "Wipi安全",
+        "cardTitle": "Wipi：防间谍电缆",
+        "cardDescription": "检测到可疑电缆时删除所有设备信息...",
+        "description": "Wipi保护您的设备免受被篡改的数据或充电电缆的影响。它检测可疑连接，提醒用户，并根据您的设置擦除系统以防止任何数据提取。"
+      },
+      "wipepin": {
+        "title": "WipPIN安全",
+        "cardTitle": "WipPIN：出厂重置PIN",
+        "cardDescription": "输入后立即擦除所有信息的PIN...",
+        "description": "输入后立即擦除所有设备信息的PIN。在紧急情况下保护数据的快速而谨慎的操作。"
+      },
+      "wipsim": {
+        "title": "WipSIM安全",
+        "cardTitle": "WipSIM：防SIM卡篡改",
+        "cardDescription": "检测SIM或eSIM的任何未授权更改...",
+        "description": "此功能检测SIM或eSIM的任何未授权更改，并提醒用户，可以擦除系统以保护信息。"
+      },
+      "wipconect": {
+        "title": "WipConect安全",
+        "cardTitle": "WipConect：设备间安全控制",
+        "cardDescription": "将您的Zi0n设备链接到其他可信系统...",
+        "description": "WipConect允许您将Zi0n设备链接到其他可信系统，管理（续订许可证、锁定或擦除其他Zi0n系统）连接到您帐户的所有设备。"
+      },
+      "wipnoti": {
+        "title": "WipNoti安全",
+        "cardTitle": "WipNoti：通知应用集成",
+        "cardDescription": "安全显示个性化通知...",
+        "description": "Zi0n可以与外部应用程序链接，允许从传统设备安全显示个性化通知，而不暴露真实系统。"
+      }
+    }
+  },
+  "mdmApps": {
+    "badge": "MDM生态系统",
+    "title": "连接更多，保护更多",
+    "description": "通过集成应用将您的安全提升到更高水平",
+    "apps": {
+      "notifications": {
+        "name": "推送通知应用",
+        "description": "接收有关设备安全状态和重要系统事件的实时警报。"
+      },
+      "wipe": {
+        "name": "擦除和锁定应用",
+        "description": "远程控制以删除敏感数据或在丢失或被盗时锁定设备。"
+      }
+    },
+    "download": "下载"
+  },
+  "characteristics": {
+    "badge": "一应俱全",
+    "title": "Zi0n极致安全的工作原理",
+    "description": "旨在随时保护您信息的功能",
+    "items": {
+      "easyInstall": {
+        "title": "简易安装",
+        "description": "扫描QR码立即开始激活，无需冗长的过程或复杂的配置。完成激活只需几分钟。"
+      },
+      "globalService": {
+        "title": "全球服务",
+        "description": "包括加密的国际SIM卡，确保稳定访问，使用多个运营商避免中断并改善覆盖。"
+      },
+      "noUpdates": {
+        "title": "应用程序和系统都无法接收推送更新",
+        "description": "没有自动更新，任何第三方都无法强制进行可能损害使用Zi0n设备安全的未授权更改。"
+      },
+      "screenshotBlock": {
+        "title": "屏幕截图阻止",
+        "description": "Zi0n阻止屏幕截图或屏幕录制，防止敏感信息在未经授权的情况下被复制或共享。"
+      },
+      "inactivityWipe": {
+        "title": "不活动擦除",
+        "description": "如果设备超过用户定义的不活动期限，系统将执行自动擦除以保护所有信息。"
+      },
+      "hiddenSystem": {
+        "title": "外观屏幕和隐藏系统",
+        "description": "Zi0n创建一个旋转的Android外观系统，并将真实系统隐藏在入口应用程序中。这使您能够误导第三方，保护您的隐私并保持安全。"
+      },
+      "disableMicCamera": {
+        "title": "禁用麦克风和摄像头",
+        "description": "Zi0n允许您在系统或应用程序的任何部分完全禁用麦克风和摄像头，防止任何录音尝试或未授权访问。"
+      },
+      "noServers": {
+        "title": "无可访问的服务器或数据存储",
+        "description": "Zi0n不使用固定位置的服务器，也不存储设备信息，确保任何用户数据都无法被第三方恢复或访问。"
+      },
+      "dynamicVpn": {
+        "title": "动态VPN与去中心化网络",
+        "description": "Zi0n使用在去中心化网络上运行的高级动态VPN，不断轮换系统的IP地址，以最大化隐私并阻止任何跟踪尝试。"
+      },
+      "permissionControl": {
+        "title": "应用权限保护和控制",
+        "description": "Zi0n监控和调节每个应用程序的权限，防止不当访问，确保仅使用严格必要的资源。"
+      },
+      "vulnerabilityAssessment": {
+        "title": "漏洞评估和应用分类",
+        "description": "分析每个应用程序的风险并对其安全级别进行分类，并用虚假信息欺骗应用程序以保护Zi0n用户。"
+      },
+      "smartwatchIntegration": {
+        "title": "安全智能手表集成",
+        "description": "Zi0n可以与封闭系统智能手表链接，允许您直接从智能手表谨慎安全地管理关键系统功能。"
+      }
+    }
+  },
+  "partners": {
+    "badge": "全球分销商网络",
+    "title": "分销合作伙伴",
+    "description": "分销合作伙伴（如移动技术商店或IT提供商）可以向其客户转售Zi0n服务。我们提供现代化门户来管理您的业务和专业技术支持。立即申请演示！",
+    "benefits": {
+      "portal": {
+        "title": "现代化门户",
+        "description": "使用专为分销商设计的直观平台管理您的业务"
+      },
+      "devices": {
+        "title": "高端设备",
+        "description": "访问集成Zi0n安全的智能手机和平板电脑"
+      },
+      "support": {
+        "title": "专属支持",
+        "description": "为您和您的客户提供全天候技术支持"
+      },
+      "demo": {
+        "title": "独家演示",
+        "description": "在成为官方分销商之前试用所有功能"
+      }
+    },
+    "cta": {
+      "title": "成为Zi0n官方分销商",
+      "description": "填写表格以获得独家演示并加入我们的授权分销商网络",
+      "primaryButton": "申请演示",
+      "secondaryButton": "更多信息"
+    }
+  },
+  "contact": {
+    "badge": "我们随时为您提供帮助",
+    "title": "联系我们",
+    "subtitle": "对Zi0n有疑问？我们的团队随时准备帮助您保护您的信息。写信给我们，我们会尽快回复。",
+    "info": {
+      "email": {
+        "label": "电子邮件",
+        "value": "contacto@Zi0n.com"
+      },
+      "location": {
+        "label": "位置",
+        "value": "全球服务，24/7支持"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "姓名",
+        "placeholder": "您的姓名"
+      },
+      "email": {
+        "label": "电子邮件",
+        "placeholder": "you@email.com"
+      },
+      "message": {
+        "label": "消息",
+        "placeholder": "我们如何帮助您？"
+      },
+      "submit": "发送消息"
+    }
+  },
+  "cta": {
+    "title": "立即保护您的设备",
+    "subtitle": "加入成千上万已经信任Zi0n保护其最有价值信息的用户。您需要的安全性，触手可及。",
+    "benefits": {
+      "1": "不到5分钟完成设置",
+      "2": "14天免费试用",
+      "3": "24/7技术支持",
+      "4": "无承诺取消"
+    },
+    "primaryButton": "开始免费试用",
+    "secondaryButton": "联系销售"
+  },
+  "footer": {
+    "description": "通过先进的加密和全面保护，改变Android设备的移动安全。",
+    "navigation": "导航",
+    "nav": {
+      "home": "首页",
+      "security": "安全",
+      "characteristics": "特性",
+      "apps": "应用",
+      "contact": "联系"
+    },
+    "rights": "保留所有权利。",
+    "madeWith": "以安全为核心打造"
+  }
+}

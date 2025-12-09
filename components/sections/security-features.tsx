@@ -1,58 +1,33 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { useTranslations } from "next-intl"
 import { ShieldCheck, Usb, Key, CreditCard, Link2, Smartphone } from "lucide-react"
 import Image from "next/image"
 
-const features = [
-  {
-    id: "wipi",
-    title: "Wipi: Defensa contra cables espía",
-    description:
-      "Wipi protege tu dispositivo de cables de datos o carga manipulados. Detecta conexiones sospechosas, alerta al usuario y según tu configuración borra el sistema para evitar cualquier extracción de información.",
-    icon: Usb,
-    image: "/features/wipi.webp",
-    imagePosition: "left" as const,
-  },
-  {
-    id: "wipepin",
-    title: "WipPIN: PIN de borrado de fábrica",
-    description:
-      "Un PIN que al ingresarlo, borra al instante toda la información del dispositivo. Una acción rápida y discreta para proteger tus datos en situaciones críticas.",
-    icon: Key,
-    image: "/features/wipepin.webp",
-    imagePosition: "right" as const,
-  },
-  {
-    id: "wipsim",
-    title: "WipSIM: Protección ante manipulación de SIM",
-    description:
-      "Esta funcionalidad detecta cualquier cambio no autorizado en la SIM o eSIM, y alerta al usuario pudiendo borrar el sistema para proteger la información.",
-    icon: CreditCard,
-    image: "/features/wipsim.webp",
-    imagePosition: "left" as const,
-  },
-  {
-    id: "wipconect",
-    title: "WipConect: Control seguro entre dispositivos",
-    description:
-      "WipConect permite vincular tus dispositivos Zi0n a otros sistemas de confianza, permitiendo gestionar (renovar licencias, bloquear o borrar otros sistemas Zi0n) todos los equipos que estén conectados a tu cuenta.",
-    icon: Link2,
-    image: "/features/wipconect.webp",
-    imagePosition: "right" as const,
-  },
-  {
-    id: "wipnoti",
-    title: "WipNoti: Integración con apps de notificaciones",
-    description:
-      "Zi0n puede vincularse con aplicaciones externas para permitir la visualización segura de notificaciones personalizadas desde dispositivos convencionales, sin exponer el sistema real.",
-    icon: Smartphone,
-    image: "/features/wipnoti.webp",
-    imagePosition: "left" as const,
-  },  
-]
+const featureIds = ['wipi', 'wipepin', 'wipsim', 'wipconect', 'wipnoti'] as const
+const featureIcons = {
+  wipi: Usb,
+  wipepin: Key,
+  wipsim: CreditCard,
+  wipconect: Link2,
+  wipnoti: Smartphone,
+}
 
 export function SecurityFeatures() {
+  const t = useTranslations('security')
+  
+  const features = featureIds.map((id, index) => ({
+    id,
+    title: t(`features.${id}.title`),
+    cardTitle: t(`features.${id}.cardTitle`),
+    cardDescription: t(`features.${id}.cardDescription`),
+    description: t(`features.${id}.description`),
+    icon: featureIcons[id],
+    backgroundImage: "/features/wipi-bg.webp",
+    imagePosition: index % 2 === 0 ? "left" : "right" as const,
+  }))
+
   return (
     <section id="security" className="py-20 md:py-32 bg-[#AFDBFF]/30">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -66,13 +41,13 @@ export function SecurityFeatures() {
         >
           <div className="inline-flex items-center gap-2 bg-[#5EEC7D]/20 text-[#071C59] px-4 py-2 rounded-full text-sm font-medium mb-4">
             <ShieldCheck className="w-4 h-4" />
-            Protección integral
+            {t('badge')}
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#071C59] text-balance">
-            Zi0n te da más seguridad
+            {t('title')}
           </h2>
           <p className="mt-4 text-lg text-[#6E6E6E] max-w-2xl mx-auto">
-            Funcionalidades exclusivas diseñadas para proteger tu información más sensible
+            {t('description')}
           </p>
         </motion.div>
 
@@ -89,15 +64,15 @@ export function SecurityFeatures() {
                 feature.imagePosition === "right" ? "lg:flex-row-reverse" : ""
               }`}
             >
-           {/* Image/Screenshot */}
+           {/* Feature Card with Background Image */}
               <div className={`${feature.imagePosition === "right" ? "lg:order-2" : ""}`}>
                 <div className="relative flex items-center justify-center min-h-[450px] sm:min-h-[550px] md:min-h-[650px] lg:min-h-[700px]">
                   {/* Phone frame - decorative background */}
-                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-52 sm:w-60 md:w-64 lg:w-72 bg-[#071C59] rounded-[2rem] sm:rounded-[2.5rem] p-2 sm:p-3 shadow-2xl">
+                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-52 sm:w-60 md:w-64 lg:w-72 bg-[#071C59] rounded-4xl sm:rounded-[2.5rem] p-2 sm:p-3 shadow-2xl">
                     {/* Notch */}
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 sm:w-24 md:w-28 h-5 sm:h-6 md:h-7 bg-[#071C59] rounded-b-xl sm:rounded-b-2xl z-10" />
                     {/* Screen background */}
-                    <div className="bg-gradient-to-b from-[#0A2570] to-[#071C59] rounded-[1.5rem] sm:rounded-[2rem] h-[340px] sm:h-[400px] md:h-[460px] lg:h-[520px]" />
+                    <div className="bg-linear-to-b from-[#0A2570] to-[#071C59] rounded-3xl sm:rounded-4xl h-[340px] sm:h-[400px] md:h-[460px] lg:h-[520px]" />
                     
                     {/* Decorative floating icon - top right */}
                     <motion.div 
@@ -134,15 +109,35 @@ export function SecurityFeatures() {
                     <div className="absolute -inset-4 sm:-inset-5 md:-inset-6 bg-[#003FFF]/10 rounded-full blur-2xl -z-10" />
                   </div>
                   
-                  {/* Screenshot image - centered, overflows phone horizontally */}
-                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-                    <Image
-                      src={feature.image}
-                      alt={feature.title}
-                      width={800}
-                      height={600}
-                      className="w-[340px] sm:w-[400px] md:w-[460px] lg:w-[520px] h-auto max-w-none rounded-2xl drop-shadow-[0_25px_50px_rgba(0,0,0,0.4)]"
-                    />
+                  {/* Feature component with background image and info card */}
+                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-[340px] sm:w-[400px] md:w-[460px] lg:w-[520px]">
+                    {/* Background image container */}
+                    <div className="relative rounded-2xl overflow-hidden drop-shadow-[0_25px_50px_rgba(0,0,0,0.4)]">
+                      {/* Background Image */}
+                      <Image
+                        src={feature.backgroundImage}
+                        alt={feature.title}
+                        width={800}
+                        height={600}
+                        className="w-full h-auto"
+                      />
+                      
+                      {/* Info Card overlay - positioned in center */}
+                      <div className="absolute inset-0 flex items-center justify-center p-4">
+                        <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-4 sm:p-5 shadow-xl w-full max-w-[90%] flex items-center gap-3 sm:gap-4">
+                          {/* Icon */}
+                          <div className="w-12 h-12 sm:w-14 sm:h-14 bg-[#AFDBFF]/50 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <feature.icon className="w-6 h-6 sm:w-7 sm:h-7 text-[#071C59]" />
+                          </div>
+                          
+                          {/* Text content */}
+                          <div className="flex-1 min-w-0">
+                            <h4 className="text-[#071C59] font-bold text-sm sm:text-base">{feature.title}</h4>
+                            <p className="text-[#6E6E6E] text-xs sm:text-sm line-clamp-2">{feature.cardDescription}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -153,12 +148,8 @@ export function SecurityFeatures() {
                   <div className="w-14 h-14 bg-[#003FFF]/10 rounded-2xl flex items-center justify-center mb-6">
                     <feature.icon className="w-7 h-7 text-[#003FFF]" />
                   </div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-[#071C59] mb-4">{feature.title}</h3>
+                  <h3 className="text-2xl md:text-3xl font-bold text-[#071C59] mb-4">{feature.cardTitle}</h3>
                   <p className="text-[#6E6E6E] text-lg leading-relaxed">{feature.description}</p>
-                  <button className="mt-6 inline-flex items-center gap-2 text-[#003FFF] font-semibold hover:gap-3 transition-all">
-                    Conocer más
-                    <span>→</span>
-                  </button>
                 </div>
               </div>
             </motion.div>

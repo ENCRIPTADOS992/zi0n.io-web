@@ -1,17 +1,15 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { useTranslations } from 'next-intl'
 import { Button } from "@/components/ui/button"
 import { Shield, ArrowRight, CheckCircle } from "lucide-react"
 
-const benefits = [
-  "Configuración en menos de 5 minutos",
-  "Prueba gratuita de 14 días",
-  "Soporte técnico 24/7",
-  "Cancelación sin compromiso",
-]
+const benefitIds = ["1", "2", "3", "4"]
 
 export function CTASection() {
+  const t = useTranslations('cta')
+  
   return (
     <section className="py-20 md:py-32 bg-[#071C59] relative overflow-hidden">
       {/* Background decorations */}
@@ -32,19 +30,18 @@ export function CTASection() {
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-balance mb-6">
-            Protege tu dispositivo hoy mismo
+            {t('title')}
           </h2>
 
           <p className="text-lg text-white/70 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Únete a miles de usuarios que ya confían en Zi0n para proteger su información más valiosa. La seguridad que
-            necesitas, al alcance de tu mano.
+            {t('subtitle')}
           </p>
 
           {/* Benefits */}
           <div className="flex flex-wrap justify-center gap-4 mb-10">
-            {benefits.map((benefit, index) => (
+            {benefitIds.map((id, index) => (
               <motion.div
-                key={benefit}
+                key={id}
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -52,7 +49,7 @@ export function CTASection() {
                 className="flex items-center gap-2 text-white/80 text-sm"
               >
                 <CheckCircle className="w-4 h-4 text-[#5EEC7D]" />
-                {benefit}
+                {t(`benefits.${id}`)}
               </motion.div>
             ))}
           </div>
@@ -62,16 +59,18 @@ export function CTASection() {
             <Button
               size="lg"
               className="bg-[#5EEC7D] text-[#071C59] hover:bg-[#4DD96A] rounded-full px-8 font-semibold group animate-pulse-glow"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Comenzar prueba gratuita
+              {t('primaryButton')}
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="border-white/30 text-white hover:bg-white/10 rounded-full px-8 font-semibold bg-transparent"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Hablar con ventas
+              {t('secondaryButton')}
             </Button>
           </div>
         </motion.div>
