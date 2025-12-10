@@ -37,7 +37,7 @@ export function Header() {
         isScrolled ? "bg-[#071C59]/95 backdrop-blur-md shadow-lg" : "bg-[#071C59]"
       }`}
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
         <div className="flex h-16 items-center justify-between md:h-20">
           {/* Logo */}
           <Link href={`/${locale}`} className="shrink-0">
@@ -45,7 +45,7 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-8 pl-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -58,7 +58,7 @@ export function Header() {
           </nav>
 
           {/* Desktop Right Section */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-6 pr-4">
             <LanguageSelector />
             <Button 
               className="bg-[#5EEC7D] text-[#071C59] hover:bg-[#4DD96A] rounded-full px-6 font-semibold"
@@ -69,7 +69,7 @@ export function Header() {
           </div>
 
           {/* Mobile Menu */}
-          <div className="flex md:hidden items-center gap-2">
+          <div className="flex md:hidden items-center gap-3 pl-2">
             <LanguageSelector />
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
@@ -78,12 +78,12 @@ export function Header() {
                   <span className="sr-only">Open menu</span>
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right" className="bg-[#071C59] border-[#071C59] w-full sm:max-w-sm">
+              <SheetContent side="right" className="bg-[#071C59] border-[#071C59] w-full sm:max-w-sm px-6">
                 <div className="flex flex-col h-full pt-8">
                   <div className="flex justify-between items-center mb-8">
                     <Logo variant="light" size="sm" />
                   </div>
-                  <nav className="flex flex-col gap-4">
+                  <nav className="flex flex-col gap-4 pl-2">
                     {navLinks.map((link) => (
                       <Link
                         key={link.href}
