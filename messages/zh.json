@@ -215,7 +215,31 @@
       "apps": "应用",
       "contact": "联系"
     },
+    "legal": "法律信息",
+    "legalLinks": {
+      "legalNotice": "法律声明",
+      "terms": "使用条款",
+      "cookies": "Cookie政策"
+    },
     "rights": "保留所有权利。",
     "madeWith": "以安全为核心打造"
+  },
+  "legalPages": {
+    "backToHome": "返回首页",
+    "legalNotice": {
+      "title": "法律声明",
+      "contact": "联系方式",
+      "intellectualProperty": "知识产权",
+      "thirdPartyLinks": "第三方链接",
+      "lastUpdate": "最后更新"
+    },
+    "terms": {
+      "title": "使用条款",
+      "lastUpdate": "最后更新"
+    },
+    "cookies": {
+      "title": "Cookie政策",
+      "lastUpdate": "最后更新"
+    }
   }
 }

@@ -215,7 +215,31 @@
       "apps": "ऐप्स",
       "contact": "संपर्क"
     },
+    "legal": "कानूनी",
+    "legalLinks": {
+      "legalNotice": "कानूनी सूचना",
+      "terms": "नियम और शर्तें",
+      "cookies": "कुकी नीति"
+    },
     "rights": "सर्वाधिकार सुरक्षित।",
     "madeWith": "सुरक्षा को ध्यान में रखकर बनाया गया"
+  },
+  "legalPages": {
+    "backToHome": "होम पर वापस जाएं",
+    "legalNotice": {
+      "title": "कानूनी सूचना",
+      "contact": "संपर्क",
+      "intellectualProperty": "बौद्धिक संपदा",
+      "thirdPartyLinks": "तृतीय पक्ष लिंक",
+      "lastUpdate": "अंतिम अपडेट"
+    },
+    "terms": {
+      "title": "उपयोग की शर्तें",
+      "lastUpdate": "अंतिम अपडेट"
+    },
+    "cookies": {
+      "title": "कुकी नीति",
+      "lastUpdate": "अंतिम अपडेट"
+    }
   }
 }

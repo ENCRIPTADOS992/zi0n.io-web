@@ -215,7 +215,31 @@
       "apps": "Apps",
       "contact": "Contacto"
     },
+    "legal": "Legal",
+    "legalLinks": {
+      "legalNotice": "Aviso Legal",
+      "terms": "Términos y Condiciones",
+      "cookies": "Política de Cookies"
+    },
     "rights": "Todos los derechos reservados.",
     "madeWith": "Hecho con seguridad en mente"
+  },
+  "legalPages": {
+    "backToHome": "Volver al inicio",
+    "legalNotice": {
+      "title": "Aviso Legal",
+      "contact": "Contacto",
+      "intellectualProperty": "Propiedad Intelectual",
+      "thirdPartyLinks": "Enlaces a Terceros",
+      "lastUpdate": "Última actualización"
+    },
+    "terms": {
+      "title": "Términos y Condiciones de Uso de los Servicios",
+      "lastUpdate": "Última actualización"
+    },
+    "cookies": {
+      "title": "Política de Cookies",
+      "lastUpdate": "Última actualización"
+    }
   }
 }

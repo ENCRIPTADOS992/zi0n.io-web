@@ -215,7 +215,31 @@
       "apps": "Apps",
       "contact": "Contact"
     },
+    "legal": "Juridisch",
+    "legalLinks": {
+      "legalNotice": "Juridische kennisgeving",
+      "terms": "Algemene voorwaarden",
+      "cookies": "Cookiebeleid"
+    },
     "rights": "Alle rechten voorbehouden.",
     "madeWith": "Gemaakt met beveiliging in gedachten"
+  },
+  "legalPages": {
+    "backToHome": "Terug naar home",
+    "legalNotice": {
+      "title": "Juridische kennisgeving",
+      "contact": "Contact",
+      "intellectualProperty": "Intellectueel eigendom",
+      "thirdPartyLinks": "Links naar derden",
+      "lastUpdate": "Laatste update"
+    },
+    "terms": {
+      "title": "Algemene voorwaarden",
+      "lastUpdate": "Laatste update"
+    },
+    "cookies": {
+      "title": "Cookiebeleid",
+      "lastUpdate": "Laatste update"
+    }
   }
 }
