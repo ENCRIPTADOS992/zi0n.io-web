@@ -227,19 +227,80 @@
   "legalPages": {
     "backToHome": "Terug naar home",
     "legalNotice": {
-      "title": "Juridische kennisgeving",
+      "title": "Juridische Kennisgeving",
       "contact": "Contact",
-      "intellectualProperty": "Intellectueel eigendom",
-      "thirdPartyLinks": "Links naar derden",
-      "lastUpdate": "Laatste update"
+      "contactEmail": "E-mail",
+      "contactEmailSupport": "voor ondersteuning en algemene vragen",
+      "contactEmailLegal": "voor juridische kennisgevingen",
+      "contactPhone": "Telefoon",
+      "contactAddress": "Adres voor juridische kennisgevingen",
+      "or": "of",
+      "intellectualProperty": "Intellectueel Eigendom",
+      "intellectualPropertyText": "Alle intellectuele eigendomsrechten op Zi0n, inclusief software, ontwerpen, handelsmerken en inhoud, behoren toe aan het Bedrijf of zijn licentiegevers. Elke ongeoorloofde reproductie, distributie of gebruik is verboden.",
+      "thirdPartyLinks": "Links naar Derden",
+      "thirdPartyLinksText": "De site kan links bevatten naar websites van derden. Het Bedrijf is niet verantwoordelijk voor de inhoud of privacypraktijken van dergelijke sites.",
+      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (hierna \"het Bedrijf\" of \"Zi0n\"), geïdentificeerd met NIT 901206726-2, is een vereenvoudigde naamloze vennootschap opgericht in Colombia, met hoofdadres aan Calle 7 No. 39-215, Kantoor 1009, Granahorrar Gebouw, Medellín, Antioquia, Colombia. Het Bedrijf houdt zich bezig met computerprogrammeeractiviteiten (ISIC 6201), investeringen in bedrijven, reclame (ISIC 7310), gespecialiseerd ontwerp (ISIC 7410) en managementadvies (ISIC 7020), onder andere gerelateerd aan de ontwikkeling en levering van geavanceerde mobiele beveiligingsdiensten onder het merk Zi0n.",
+      "jurisdiction": "Deze website en bijbehorende diensten worden geëxploiteerd door het Bedrijf onder de jurisdictie van de wetten van de Republiek Colombia. Elk geschil met betrekking tot het gebruik van de site of diensten zal uitsluitend worden opgelost bij de rechtbanken van Medellín, Antioquia.",
+      "disclaimer": "Het Bedrijf garandeert geen ononderbroken beschikbaarheid van de website of de afwezigheid van fouten. Inhoud wordt geleverd \"zoals het is\" zonder uitdrukkelijke of impliciete garanties. Het Bedrijf behoudt zich het recht voor de website op elk moment zonder voorafgaande kennisgeving te wijzigen.",
+      "lastUpdate": "Laatste update",
+      "moreInfo": "Voor meer informatie, zie de"
     },
     "terms": {
-      "title": "Algemene voorwaarden",
+      "title": "Algemene Voorwaarden",
       "lastUpdate": "Laatste update"
     },
     "cookies": {
       "title": "Cookiebeleid",
-      "lastUpdate": "Laatste update"
+      "lastUpdate": "Laatste update",
+      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, hierna \"het Bedrijf\" of \"Zi0n\"), met adres aan Calle 7 No. 39-215, Kantoor 1009, Granahorrar Gebouw, Medellín, Antioquia, Colombia, exploiteert de website https://www.zi0n.io (hierna \"de Site\"). Dit Cookiebeleid legt uit hoe we cookies en vergelijkbare technologieën op de Site gebruiken.",
+      "privacyFocus": "Gezien onze focus op maximale privacy en het niet verzamelen van onnodige gegevens, gebruikt de Site geen cookies van derden of tracking cookies. We gebruiken alleen cookies die strikt noodzakelijk zijn voor de basiswerking van de Site, indien van toepassing.",
+      "section1": {
+        "title": "1. Wat zijn Cookies?",
+        "description": "Cookies zijn kleine tekstbestanden die op uw apparaat (computer, telefoon of tablet) worden opgeslagen wanneer u een website bezoekt. Ze kunnen worden gebruikt om voorkeuren te onthouden, de gebruikerservaring te verbeteren of analytische gegevens te verzamelen. Er zijn verschillende typen:",
+        "essential": "Essentiële cookies",
+        "essentialDesc": "Noodzakelijk voor het functioneren van de site (bijv. sessies onderhouden).",
+        "performance": "Prestatiecookies",
+        "performanceDesc": "Verzamelen anonieme gegevens over sitegebruik.",
+        "functionality": "Functionaliteitscookies",
+        "functionalityDesc": "Onthouden gebruikerskeuzes (bijv. taal).",
+        "advertising": "Advertentiecookies",
+        "advertisingDesc": "Gebruikt om gepersonaliseerde advertenties te tonen."
+      },
+      "section2": {
+        "title": "2. Cookies Gebruikt op de Site",
+        "description": "Bij Zi0n geven we prioriteit aan uw privacy en verzamelen of bewaren we geen browsergegevens buiten het essentiële. Daarom:",
+        "noThirdParty": "We gebruiken geen cookies van derden, analytische of advertentiecookies.",
+        "noThirdPartyDesc": "We delen geen gegevens met advertentienetwerken, Google Analytics of andere trackingdiensten.",
+        "essentialCookies": "Essentiële cookies (indien van toepassing)",
+        "essentialCookiesDesc": "We kunnen tijdelijke (sessie) technische cookies gebruiken voor basisfuncties zoals veilig browsen of QR-codeverwerking. Deze worden automatisch verwijderd wanneer u de browser sluit.",
+        "dataCollected": "Verzamelde gegevens",
+        "dataCollectedDesc": "Geen. We slaan geen informatie op over uw bezoek, IP, locatie of gedrag op de Site, behalve het e-mailadres dat vrijwillig is opgegeven voor registratie of contact.",
+        "noCookies": "Als de Site helemaal geen cookies gebruikt (zoals bij statische pagina's zonder trackingscripts), worden er geen cookies op uw apparaat geïnstalleerd."
+      },
+      "section3": {
+        "title": "3. Cookiebeheer",
+        "description": "U kunt cookies beheren via uw browserinstellingen:",
+        "block": "Cookies blokkeren of verwijderen",
+        "blockDesc": "De meeste browsers (zoals Chrome, Firefox, Safari) staan u toe cookies te weigeren of te verwijderen.",
+        "impact": "Impact",
+        "impactDesc": "Het blokkeren van essentiële cookies kan de functionaliteit van de Site beïnvloeden.",
+        "noBanner": "We gebruiken geen toestemmingsbanners",
+        "noBannerDesc": "Aangezien we geen niet-essentiële cookies gebruiken, tonen we geen cookiebanners. Uw browsen impliceert acceptatie van dit Beleid."
+      },
+      "section4": {
+        "title": "4. Links naar Derden",
+        "description": "De Site kan links bevatten naar websites van derden (bijv. betalingsverwerkers). Deze sites hebben hun eigen cookiebeleid, waarvoor wij niet verantwoordelijk zijn."
+      },
+      "section5": {
+        "title": "5. Beleidswijzigingen",
+        "description": "We behouden ons het recht voor dit Beleid bij te werken. Wijzigingen worden op de Site gepubliceerd en indien van toepassing per e-mail gemeld, met ten minste 15 dagen voorafgaande kennisgeving."
+      },
+      "section6": {
+        "title": "6. Contact",
+        "description": "Voor vragen over dit Beleid, neem contact op met",
+        "responsible": "Verantwoordelijke"
+      },
+      "footer": "Dit Beleid is geïntegreerd met ons Beleid voor de Verwerking van Persoonsgegevens en de"
     }
   }
 }

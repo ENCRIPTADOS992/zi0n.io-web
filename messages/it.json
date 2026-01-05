@@ -227,19 +227,80 @@
   "legalPages": {
     "backToHome": "Torna alla home",
     "legalNotice": {
-      "title": "Note legali",
-      "contact": "Contatto",
-      "intellectualProperty": "Proprietà intellettuale",
-      "thirdPartyLinks": "Link a terze parti",
-      "lastUpdate": "Ultimo aggiornamento"
+      "title": "Avviso Legale",
+      "contact": "Contatti",
+      "contactEmail": "Email",
+      "contactEmailSupport": "per supporto e richieste generali",
+      "contactEmailLegal": "per notifiche legali",
+      "contactPhone": "Telefono",
+      "contactAddress": "Indirizzo per notifiche legali",
+      "or": "o",
+      "intellectualProperty": "Proprietà Intellettuale",
+      "intellectualPropertyText": "Tutti i diritti di proprietà intellettuale su Zi0n, inclusi software, design, marchi e contenuti, appartengono alla Società o ai suoi licenzianti. È vietata qualsiasi riproduzione, distribuzione o uso non autorizzato.",
+      "thirdPartyLinks": "Link a Terze Parti",
+      "thirdPartyLinksText": "Il sito può contenere link a siti web di terze parti. La Società non è responsabile per il contenuto o le pratiche di privacy di tali siti.",
+      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (di seguito \"la Società\" o \"Zi0n\"), identificata con NIT 901206726-2, è una società per azioni semplificata costituita in Colombia, con sede principale in Calle 7 No. 39-215, Ufficio 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia. La Società si dedica ad attività di programmazione informatica (ISIC 6201), investimenti in società, pubblicità (ISIC 7310), design specializzato (ISIC 7410) e consulenza gestionale (ISIC 7020), tra le altre relative allo sviluppo e fornitura di servizi di sicurezza mobile avanzati con il marchio Zi0n.",
+      "jurisdiction": "Questo sito web e i servizi associati sono gestiti dalla Società sotto la giurisdizione delle leggi della Repubblica di Colombia. Qualsiasi controversia relativa all'uso del sito o dei servizi sarà risolta esclusivamente nei tribunali di Medellín, Antioquia.",
+      "disclaimer": "La Società non garantisce la disponibilità ininterrotta del sito web né l'assenza di errori. I contenuti sono forniti \"così come sono\" senza garanzie esplicite o implicite. La Società si riserva il diritto di modificare il sito web in qualsiasi momento senza preavviso.",
+      "lastUpdate": "Ultimo aggiornamento",
+      "moreInfo": "Per maggiori informazioni, consulta i"
     },
     "terms": {
-      "title": "Termini e condizioni d'uso",
+      "title": "Termini e Condizioni d'Uso",
       "lastUpdate": "Ultimo aggiornamento"
     },
     "cookies": {
-      "title": "Politica dei cookie",
-      "lastUpdate": "Ultimo aggiornamento"
+      "title": "Politica sui Cookie",
+      "lastUpdate": "Ultimo aggiornamento",
+      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, di seguito \"la Società\" o \"Zi0n\"), con sede in Calle 7 No. 39-215, Ufficio 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia, gestisce il sito web https://www.zi0n.io (di seguito \"il Sito\"). Questa Politica sui Cookie spiega come utilizziamo i cookie e tecnologie simili sul Sito.",
+      "privacyFocus": "Dato il nostro focus sulla massima privacy e la non raccolta di dati non necessari, il Sito non utilizza cookie di terze parti o cookie di tracciamento. Utilizziamo solo cookie strettamente necessari per il funzionamento di base del Sito, se applicabile.",
+      "section1": {
+        "title": "1. Cosa sono i Cookie?",
+        "description": "I cookie sono piccoli file di testo memorizzati sul tuo dispositivo (computer, telefono o tablet) quando visiti un sito web. Possono essere utilizzati per ricordare le preferenze, migliorare l'esperienza utente o raccogliere dati analitici. Esistono diversi tipi:",
+        "essential": "Cookie essenziali",
+        "essentialDesc": "Necessari per il funzionamento del sito (es. mantenimento delle sessioni).",
+        "performance": "Cookie di prestazione",
+        "performanceDesc": "Raccolgono dati anonimi sull'uso del sito.",
+        "functionality": "Cookie di funzionalità",
+        "functionalityDesc": "Ricordano le scelte dell'utente (es. lingua).",
+        "advertising": "Cookie pubblicitari",
+        "advertisingDesc": "Utilizzati per mostrare annunci personalizzati."
+      },
+      "section2": {
+        "title": "2. Cookie Utilizzati sul Sito",
+        "description": "In Zi0n, diamo priorità alla tua privacy e non raccogliamo né memorizziamo dati di navigazione oltre l'essenziale. Pertanto:",
+        "noThirdParty": "Non utilizziamo cookie di terze parti, analitici o pubblicitari.",
+        "noThirdPartyDesc": "Non condividiamo dati con reti pubblicitarie, Google Analytics o altri servizi di tracciamento.",
+        "essentialCookies": "Cookie essenziali (se applicabile)",
+        "essentialCookiesDesc": "Potremmo utilizzare cookie tecnici temporanei (di sessione) per funzioni di base come la navigazione sicura o l'elaborazione del codice QR. Questi vengono automaticamente eliminati quando chiudi il browser.",
+        "dataCollected": "Dati raccolti",
+        "dataCollectedDesc": "Nessuno. Non memorizziamo informazioni sulla tua visita, IP, posizione o comportamento sul Sito, tranne l'email fornita volontariamente per la registrazione o il contatto.",
+        "noCookies": "Se il Sito non utilizza affatto cookie (come le pagine statiche senza script di tracciamento), nessun cookie verrà installato sul tuo dispositivo."
+      },
+      "section3": {
+        "title": "3. Gestione dei Cookie",
+        "description": "Puoi controllare i cookie attraverso le impostazioni del tuo browser:",
+        "block": "Bloccare o eliminare i cookie",
+        "blockDesc": "La maggior parte dei browser (come Chrome, Firefox, Safari) permette di rifiutare o eliminare i cookie.",
+        "impact": "Impatto",
+        "impactDesc": "Bloccare i cookie essenziali potrebbe influire sulla funzionalità del Sito.",
+        "noBanner": "Non utilizziamo banner di consenso",
+        "noBannerDesc": "Poiché non utilizziamo cookie non essenziali, non mostriamo banner dei cookie. La tua navigazione implica l'accettazione di questa Politica."
+      },
+      "section4": {
+        "title": "4. Link a Terze Parti",
+        "description": "Il Sito potrebbe contenere link a siti web di terze parti (es. processori di pagamento). Questi siti hanno le proprie politiche sui cookie, di cui non siamo responsabili."
+      },
+      "section5": {
+        "title": "5. Modifiche alla Politica",
+        "description": "Ci riserviamo il diritto di aggiornare questa Politica. Le modifiche saranno pubblicate sul Sito e notificate via email se applicabile, con almeno 15 giorni di preavviso."
+      },
+      "section6": {
+        "title": "6. Contatti",
+        "description": "Per domande su questa Politica, contatta",
+        "responsible": "Responsabile"
+      },
+      "footer": "Questa Politica è integrata con la nostra Politica di Trattamento dei Dati Personali e i"
     }
   }
 }

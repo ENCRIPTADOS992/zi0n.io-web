@@ -229,9 +229,21 @@
     "legalNotice": {
       "title": "Impressum",
       "contact": "Kontakt",
+      "contactEmail": "E-Mail",
+      "contactEmailSupport": "für Support und allgemeine Anfragen",
+      "contactEmailLegal": "für rechtliche Mitteilungen",
+      "contactPhone": "Telefon",
+      "contactAddress": "Adresse für rechtliche Mitteilungen",
+      "or": "oder",
       "intellectualProperty": "Geistiges Eigentum",
+      "intellectualPropertyText": "Alle geistigen Eigentumsrechte an Zi0n, einschließlich Software, Designs, Marken und Inhalte, gehören dem Unternehmen oder seinen Lizenzgebern. Jede unbefugte Vervielfältigung, Verbreitung oder Nutzung ist untersagt.",
       "thirdPartyLinks": "Links zu Dritten",
-      "lastUpdate": "Letzte Aktualisierung"
+      "thirdPartyLinksText": "Die Website kann Links zu Websites Dritter enthalten. Das Unternehmen ist nicht verantwortlich für deren Inhalte oder Datenschutzpraktiken.",
+      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (nachfolgend \"das Unternehmen\" oder \"Zi0n\"), identifiziert mit NIT 901206726-2, ist eine vereinfachte Aktiengesellschaft mit Sitz in Kolumbien, Hauptadresse: Calle 7 No. 39-215, Büro 1009, Granahorrar-Gebäude, Medellín, Antioquia, Kolumbien. Das Unternehmen widmet sich Computerprogrammierungsaktivitäten (ISIC 6201), Investitionen in Unternehmen, Werbung (ISIC 7310), spezialisiertem Design (ISIC 7410) und Managementberatung (ISIC 7020), unter anderem im Zusammenhang mit der Entwicklung und Bereitstellung fortschrittlicher mobiler Sicherheitsdienste unter der Marke Zi0n.",
+      "jurisdiction": "Diese Website und die damit verbundenen Dienste werden vom Unternehmen unter der Gerichtsbarkeit der Gesetze der Republik Kolumbien betrieben. Jede Streitigkeit im Zusammenhang mit der Nutzung der Website oder der Dienste wird ausschließlich vor den Gerichten in Medellín, Antioquia, beigelegt.",
+      "disclaimer": "Das Unternehmen garantiert keine ununterbrochene Verfügbarkeit der Website oder das Fehlen von Fehlern. Inhalte werden \"wie besehen\" ohne ausdrückliche oder stillschweigende Garantien bereitgestellt. Das Unternehmen behält sich das Recht vor, die Website jederzeit ohne vorherige Ankündigung zu ändern.",
+      "lastUpdate": "Letzte Aktualisierung",
+      "moreInfo": "Weitere Informationen finden Sie in den"
     },
     "terms": {
       "title": "Nutzungsbedingungen",
@@ -239,7 +251,56 @@
     },
     "cookies": {
       "title": "Cookie-Richtlinie",
-      "lastUpdate": "Letzte Aktualisierung"
+      "lastUpdate": "Letzte Aktualisierung",
+      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, nachfolgend \"das Unternehmen\" oder \"Zi0n\"), mit Sitz in Calle 7 No. 39-215, Büro 1009, Granahorrar-Gebäude, Medellín, Antioquia, Kolumbien, betreibt die Website https://www.zi0n.io (nachfolgend \"die Website\"). Diese Cookie-Richtlinie erklärt, wie wir Cookies und ähnliche Technologien auf der Website verwenden.",
+      "privacyFocus": "Angesichts unseres Fokus auf maximale Privatsphäre und die Nichterfassung unnötiger Daten verwendet die Website keine Cookies von Drittanbietern oder Tracking-Cookies. Wir verwenden nur Cookies, die für den grundlegenden Betrieb der Website unbedingt erforderlich sind, falls zutreffend.",
+      "section1": {
+        "title": "1. Was sind Cookies?",
+        "description": "Cookies sind kleine Textdateien, die auf Ihrem Gerät (Computer, Telefon oder Tablet) gespeichert werden, wenn Sie eine Website besuchen. Sie können verwendet werden, um Einstellungen zu speichern, die Benutzererfahrung zu verbessern oder analytische Daten zu sammeln. Es gibt verschiedene Typen:",
+        "essential": "Essentielle Cookies",
+        "essentialDesc": "Notwendig für den Betrieb der Website (z.B. Sitzungen aufrechterhalten).",
+        "performance": "Leistungs-Cookies",
+        "performanceDesc": "Sammeln anonyme Daten über die Website-Nutzung.",
+        "functionality": "Funktionalitäts-Cookies",
+        "functionalityDesc": "Speichern Benutzereinstellungen (z.B. Sprache).",
+        "advertising": "Werbe-Cookies",
+        "advertisingDesc": "Werden verwendet, um personalisierte Anzeigen zu zeigen."
+      },
+      "section2": {
+        "title": "2. Auf der Website verwendete Cookies",
+        "description": "Bei Zi0n priorisieren wir Ihre Privatsphäre und sammeln oder speichern keine Browsing-Daten über das Wesentliche hinaus. Daher:",
+        "noThirdParty": "Wir verwenden keine Drittanbieter-, Analyse- oder Werbe-Cookies.",
+        "noThirdPartyDesc": "Wir teilen keine Daten mit Werbenetzwerken, Google Analytics oder anderen Tracking-Diensten.",
+        "essentialCookies": "Essentielle Cookies (falls zutreffend)",
+        "essentialCookiesDesc": "Wir können temporäre (Sitzungs-)technische Cookies für grundlegende Funktionen wie sicheres Browsen oder QR-Code-Verarbeitung verwenden. Diese werden automatisch gelöscht, wenn Sie den Browser schließen.",
+        "dataCollected": "Gesammelte Daten",
+        "dataCollectedDesc": "Keine. Wir speichern keine Informationen über Ihren Besuch, IP, Standort oder Verhalten auf der Website, außer der freiwillig angegebenen E-Mail für Registrierung oder Kontakt.",
+        "noCookies": "Wenn die Website überhaupt keine Cookies verwendet (wie bei statischen Seiten ohne Tracking-Skripte), werden keine Cookies auf Ihrem Gerät installiert."
+      },
+      "section3": {
+        "title": "3. Cookie-Verwaltung",
+        "description": "Sie können Cookies über Ihre Browsereinstellungen kontrollieren:",
+        "block": "Cookies blockieren oder löschen",
+        "blockDesc": "Die meisten Browser (wie Chrome, Firefox, Safari) erlauben es Ihnen, Cookies abzulehnen oder zu löschen.",
+        "impact": "Auswirkung",
+        "impactDesc": "Das Blockieren essentieller Cookies könnte die Funktionalität der Website beeinträchtigen.",
+        "noBanner": "Wir verwenden keine Einwilligungs-Banner",
+        "noBannerDesc": "Da wir keine nicht-essentiellen Cookies verwenden, zeigen wir keine Cookie-Banner an. Ihr Browsen impliziert die Akzeptanz dieser Richtlinie."
+      },
+      "section4": {
+        "title": "4. Links zu Dritten",
+        "description": "Die Website kann Links zu Websites Dritter enthalten (z.B. Zahlungsabwickler). Diese Websites haben ihre eigenen Cookie-Richtlinien, für die wir nicht verantwortlich sind."
+      },
+      "section5": {
+        "title": "5. Richtlinienänderungen",
+        "description": "Wir behalten uns das Recht vor, diese Richtlinie zu aktualisieren. Änderungen werden auf der Website veröffentlicht und gegebenenfalls per E-Mail mitgeteilt, mit mindestens 15 Tagen Vorankündigung."
+      },
+      "section6": {
+        "title": "6. Kontakt",
+        "description": "Bei Fragen zu dieser Richtlinie kontaktieren Sie",
+        "responsible": "Verantwortlich"
+      },
+      "footer": "Diese Richtlinie ist mit unserer Datenschutzrichtlinie und den"
     }
   }
 }

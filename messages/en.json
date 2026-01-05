@@ -229,9 +229,21 @@
     "legalNotice": {
       "title": "Legal Notice",
       "contact": "Contact",
+      "contactEmail": "Email",
+      "contactEmailSupport": "for support and general inquiries",
+      "contactEmailLegal": "for legal notices",
+      "contactPhone": "Phone",
+      "contactAddress": "Address for legal notices",
+      "or": "or",
       "intellectualProperty": "Intellectual Property",
+      "intellectualPropertyText": "All intellectual property rights over Zi0n, including software, designs, trademarks and content, belong to the Company or its licensors. Any unauthorized reproduction, distribution or use is prohibited.",
       "thirdPartyLinks": "Third Party Links",
-      "lastUpdate": "Last update"
+      "thirdPartyLinksText": "The site may contain links to third-party websites. The Company is not responsible for the content or privacy practices of such sites.",
+      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (hereinafter, \"the Company\" or \"Zi0n\"), identified with NIT 901206726-2, is a simplified joint-stock company incorporated in Colombia, with its main address at Calle 7 No. 39-215, Office 1009, Granahorrar Building, Medellín, Antioquia, Colombia. The Company is dedicated to computer programming activities (ISIC 6201), investment in companies, advertising (ISIC 7310), specialized design (ISIC 7410) and management consulting (ISIC 7020), among others related to the development and provision of advanced mobile security services under the Zi0n brand.",
+      "jurisdiction": "This website and associated services are operated by the Company under the jurisdiction of the laws of the Republic of Colombia. Any dispute related to the use of the site or services will be resolved exclusively in the courts of Medellín, Antioquia.",
+      "disclaimer": "The Company does not guarantee uninterrupted availability of the website or the absence of errors. Content is provided \"as is\" without express or implied warranties. The Company reserves the right to modify the website at any time without prior notice.",
+      "lastUpdate": "Last update",
+      "moreInfo": "For more information, see the"
     },
     "terms": {
       "title": "Terms and Conditions of Use",
@@ -239,7 +251,56 @@
     },
     "cookies": {
       "title": "Cookie Policy",
-      "lastUpdate": "Last update"
+      "lastUpdate": "Last update",
+      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, hereinafter \"the Company\" or \"Zi0n\"), with address at Calle 7 No. 39-215, Office 1009, Granahorrar Building, Medellín, Antioquia, Colombia, operates the website https://www.zi0n.io (hereinafter, \"the Site\"). This Cookie Policy explains how we use cookies and similar technologies on the Site, in compliance with Law 1581 of 2012 and data protection regulations in Colombia.",
+      "privacyFocus": "Given our focus on maximum privacy and not collecting unnecessary data, the Site does not use third-party cookies or tracking cookies. We only use cookies strictly necessary for the basic operation of the Site, if applicable.",
+      "section1": {
+        "title": "1. What are Cookies?",
+        "description": "Cookies are small text files that are stored on your device (computer, phone or tablet) when you visit a website. They can be used to remember preferences, improve user experience or collect analytical data. There are different types:",
+        "essential": "Essential cookies",
+        "essentialDesc": "Necessary for the site to function (e.g., maintaining sessions).",
+        "performance": "Performance cookies",
+        "performanceDesc": "Collect anonymous data about site usage.",
+        "functionality": "Functionality cookies",
+        "functionalityDesc": "Remember user choices (e.g., language).",
+        "advertising": "Advertising cookies",
+        "advertisingDesc": "Used to display personalized ads."
+      },
+      "section2": {
+        "title": "2. Cookies Used on the Site",
+        "description": "At Zi0n, we prioritize your privacy and do not collect or store browsing data beyond what is essential to provide the Services. Therefore:",
+        "noThirdParty": "We do not use third-party, analytical or advertising cookies.",
+        "noThirdPartyDesc": "We do not share data with advertising networks, Google Analytics or other tracking services.",
+        "essentialCookies": "Essential cookies (if applicable)",
+        "essentialCookiesDesc": "We may use temporary (session) technical cookies for basic functions such as secure browsing or QR code processing for installation. These are automatically deleted when you close the browser and do not collect personally identifiable data.",
+        "dataCollected": "Data collected",
+        "dataCollectedDesc": "None. We do not store information about your visit, IP, location or behavior on the Site, except for the email voluntarily provided for registration or contact.",
+        "noCookies": "If the Site does not use cookies at all (as in static pages without tracking scripts), no cookies will be installed on your device."
+      },
+      "section3": {
+        "title": "3. Cookie Management",
+        "description": "You can control cookies through your browser settings:",
+        "block": "Block or delete cookies",
+        "blockDesc": "Most browsers (such as Chrome, Firefox, Safari) allow you to reject or delete cookies. See your browser's help section for instructions.",
+        "impact": "Impact",
+        "impactDesc": "Blocking essential cookies could affect the functionality of the Site, such as QR scanning.",
+        "noBanner": "We do not use consent banners",
+        "noBannerDesc": "Since we do not use non-essential cookies, we do not display cookie banners. Your browsing implies acceptance of this Policy."
+      },
+      "section4": {
+        "title": "4. Third-Party Links",
+        "description": "The Site may contain links to third-party websites (e.g., payment processors). These sites have their own cookie policies, for which we are not responsible. Review their policies before interacting."
+      },
+      "section5": {
+        "title": "5. Policy Modifications",
+        "description": "We reserve the right to update this Policy. Changes will be posted on the Site and notified by email if applicable, with at least 15 days advance notice."
+      },
+      "section6": {
+        "title": "6. Contact",
+        "description": "For questions about this Policy, contact",
+        "responsible": "Responsible"
+      },
+      "footer": "This Policy is integrated with our Personal Data Processing Policy and"
     }
   }
 }

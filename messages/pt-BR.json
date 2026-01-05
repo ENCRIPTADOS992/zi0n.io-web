@@ -229,9 +229,21 @@
     "legalNotice": {
       "title": "Aviso Legal",
       "contact": "Contato",
+      "contactEmail": "E-mail",
+      "contactEmailSupport": "para suporte e consultas gerais",
+      "contactEmailLegal": "para notificações judiciais",
+      "contactPhone": "Telefone",
+      "contactAddress": "Endereço para notificações judiciais",
+      "or": "ou",
       "intellectualProperty": "Propriedade Intelectual",
+      "intellectualPropertyText": "Todos os direitos de propriedade intelectual sobre Zi0n, incluindo software, designs, marcas e conteúdos, pertencem à Empresa ou a seus licenciantes. É proibida qualquer reprodução, distribuição ou uso não autorizado.",
       "thirdPartyLinks": "Links para Terceiros",
-      "lastUpdate": "Última atualização"
+      "thirdPartyLinksText": "O site pode conter links para sites de terceiros. A Empresa não é responsável pelo conteúdo ou práticas de privacidade desses sites.",
+      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (doravante \"a Empresa\" ou \"Zi0n\"), identificada com NIT 901206726-2, é uma sociedade por ações simplificada constituída na Colômbia, com endereço principal na Calle 7 No. 39-215, Escritório 1009, Edifício Granahorrar, Medellín, Antioquia, Colômbia. A Empresa se dedica a atividades de programação de computadores (ISIC 6201), investimentos em empresas, publicidade (ISIC 7310), design especializado (ISIC 7410) e consultoria de gestão (ISIC 7020), entre outras relacionadas ao desenvolvimento e prestação de serviços de segurança móvel avançada sob a marca Zi0n.",
+      "jurisdiction": "Este site e os serviços associados são operados pela Empresa sob a jurisdição das leis da República da Colômbia. Qualquer disputa relacionada ao uso do site ou serviços será resolvida exclusivamente nos tribunais de Medellín, Antioquia.",
+      "disclaimer": "A Empresa não garante a disponibilidade ininterrupta do site nem a ausência de erros. O conteúdo é fornecido \"como está\" sem garantias expressas ou implícitas. A Empresa reserva-se o direito de modificar o site a qualquer momento sem aviso prévio.",
+      "lastUpdate": "Última atualização",
+      "moreInfo": "Para mais informações, consulte os"
     },
     "terms": {
       "title": "Termos e Condições de Uso",
@@ -239,7 +251,56 @@
     },
     "cookies": {
       "title": "Política de Cookies",
-      "lastUpdate": "Última atualização"
+      "lastUpdate": "Última atualização",
+      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, doravante \"a Empresa\" ou \"Zi0n\"), com endereço na Calle 7 No. 39-215, Escritório 1009, Edifício Granahorrar, Medellín, Antioquia, Colômbia, opera o site https://www.zi0n.io (doravante \"o Site\"). Esta Política de Cookies explica como usamos cookies e tecnologias similares no Site.",
+      "privacyFocus": "Dado nosso foco em privacidade máxima e não coleta de dados desnecessários, o Site não usa cookies de terceiros ou cookies de rastreamento. Usamos apenas cookies estritamente necessários para a operação básica do Site, se aplicável.",
+      "section1": {
+        "title": "1. O que são Cookies?",
+        "description": "Cookies são pequenos arquivos de texto armazenados em seu dispositivo (computador, telefone ou tablet) quando você visita um site. Podem ser usados para lembrar preferências, melhorar a experiência do usuário ou coletar dados analíticos. Existem diferentes tipos:",
+        "essential": "Cookies essenciais",
+        "essentialDesc": "Necessários para o funcionamento do site (ex. manter sessões).",
+        "performance": "Cookies de desempenho",
+        "performanceDesc": "Coletam dados anônimos sobre o uso do site.",
+        "functionality": "Cookies de funcionalidade",
+        "functionalityDesc": "Lembram escolhas do usuário (ex. idioma).",
+        "advertising": "Cookies de publicidade",
+        "advertisingDesc": "Usados para exibir anúncios personalizados."
+      },
+      "section2": {
+        "title": "2. Cookies Usados no Site",
+        "description": "Na Zi0n, priorizamos sua privacidade e não coletamos nem armazenamos dados de navegação além do essencial. Portanto:",
+        "noThirdParty": "Não usamos cookies de terceiros, analíticos ou publicitários.",
+        "noThirdPartyDesc": "Não compartilhamos dados com redes de publicidade, Google Analytics ou outros serviços de rastreamento.",
+        "essentialCookies": "Cookies essenciais (se aplicável)",
+        "essentialCookiesDesc": "Podemos usar cookies técnicos temporários (de sessão) para funções básicas como navegação segura ou processamento de código QR. Estes são automaticamente excluídos quando você fecha o navegador.",
+        "dataCollected": "Dados coletados",
+        "dataCollectedDesc": "Nenhum. Não armazenamos informações sobre sua visita, IP, localização ou comportamento no Site, exceto o e-mail fornecido voluntariamente para registro ou contato.",
+        "noCookies": "Se o Site não usa cookies de forma alguma (como em páginas estáticas sem scripts de rastreamento), nenhum cookie será instalado em seu dispositivo."
+      },
+      "section3": {
+        "title": "3. Gerenciamento de Cookies",
+        "description": "Você pode controlar cookies através das configurações do seu navegador:",
+        "block": "Bloquear ou excluir cookies",
+        "blockDesc": "A maioria dos navegadores (como Chrome, Firefox, Safari) permite rejeitar ou excluir cookies.",
+        "impact": "Impacto",
+        "impactDesc": "Bloquear cookies essenciais pode afetar a funcionalidade do Site.",
+        "noBanner": "Não usamos banners de consentimento",
+        "noBannerDesc": "Como não usamos cookies não essenciais, não exibimos banners de cookies. Sua navegação implica aceitação desta Política."
+      },
+      "section4": {
+        "title": "4. Links para Terceiros",
+        "description": "O Site pode conter links para sites de terceiros (ex. processadores de pagamento). Esses sites têm suas próprias políticas de cookies, pelas quais não somos responsáveis."
+      },
+      "section5": {
+        "title": "5. Modificações da Política",
+        "description": "Reservamo-nos o direito de atualizar esta Política. As alterações serão publicadas no Site e notificadas por e-mail se aplicável, com pelo menos 15 dias de antecedência."
+      },
+      "section6": {
+        "title": "6. Contato",
+        "description": "Para perguntas sobre esta Política, entre em contato com",
+        "responsible": "Responsável"
+      },
+      "footer": "Esta Política está integrada com nossa Política de Tratamento de Dados Pessoais e os"
     }
   }
 }

@@ -229,17 +229,78 @@
     "legalNotice": {
       "title": "法律声明",
       "contact": "联系方式",
+      "contactEmail": "电子邮件",
+      "contactEmailSupport": "用于支持和一般咨询",
+      "contactEmailLegal": "用于法律通知",
+      "contactPhone": "电话",
+      "contactAddress": "法律通知地址",
+      "or": "或",
       "intellectualProperty": "知识产权",
+      "intellectualPropertyText": "Zi0n的所有知识产权，包括软件、设计、商标和内容，均属于公司或其许可方。禁止任何未经授权的复制、分发或使用。",
       "thirdPartyLinks": "第三方链接",
-      "lastUpdate": "最后更新"
+      "thirdPartyLinksText": "本网站可能包含第三方网站的链接。本公司不对这些网站的内容或隐私政策负责。",
+      "companyInfo": "GLOBAL INVESTMENT ST S.A.S.（以下简称'本公司'或'Zi0n'），NIT 901206726-2，是一家在哥伦比亚成立的简化股份公司，主要地址位于：Calle 7 No. 39-215, 1009室，Granahorrar大楼，麦德林，安蒂奥基亚，哥伦比亚。本公司从事计算机编程活动（ISIC 6201）、公司投资、广告（ISIC 7310）、专业设计（ISIC 7410）和管理咨询（ISIC 7020），以及与Zi0n品牌下高级移动安全服务开发和提供相关的其他活动。",
+      "jurisdiction": "本网站及相关服务由本公司根据哥伦比亚共和国法律管辖运营。与网站或服务使用相关的任何争议将专门在麦德林、安蒂奥基亚的法院解决。",
+      "disclaimer": "本公司不保证网站的不间断可用性或无错误。内容按'原样'提供，不提供明示或暗示的保证。本公司保留随时修改网站的权利，无需事先通知。",
+      "lastUpdate": "最后更新",
+      "moreInfo": "欲了解更多信息，请参阅"
     },
     "terms": {
-      "title": "使用条款",
+      "title": "使用条款和条件",
       "lastUpdate": "最后更新"
     },
     "cookies": {
       "title": "Cookie政策",
-      "lastUpdate": "最后更新"
+      "lastUpdate": "最后更新",
+      "intro": "GLOBAL INVESTMENT ST S.A.S.（NIT 901206726-2，以下简称'本公司'或'Zi0n'），地址：Calle 7 No. 39-215, 1009室，Granahorrar大楼，麦德林，安蒂奥基亚，哥伦比亚，运营网站https://www.zi0n.io（以下简称'本网站'）。本Cookie政策解释了我们如何在本网站上使用Cookie和类似技术。",
+      "privacyFocus": "鉴于我们专注于最大程度的隐私保护并不收集不必要的数据，本网站不使用第三方Cookie或跟踪Cookie。我们仅使用网站基本运行所必需的Cookie（如适用）。",
+      "section1": {
+        "title": "1. 什么是Cookie？",
+        "description": "Cookie是您访问网站时存储在您设备（计算机、手机或平板电脑）上的小型文本文件。它们可用于记住偏好、改善用户体验或收集分析数据。存在不同类型：",
+        "essential": "必要Cookie",
+        "essentialDesc": "网站运行所必需（例如维护会话）。",
+        "performance": "性能Cookie",
+        "performanceDesc": "收集有关网站使用的匿名数据。",
+        "functionality": "功能Cookie",
+        "functionalityDesc": "记住用户选择（例如语言）。",
+        "advertising": "广告Cookie",
+        "advertisingDesc": "用于展示个性化广告。"
+      },
+      "section2": {
+        "title": "2. 本网站使用的Cookie",
+        "description": "在Zi0n，我们优先保护您的隐私，不会收集或存储超出必要范围的浏览数据。因此：",
+        "noThirdParty": "我们不使用第三方、分析或广告Cookie。",
+        "noThirdPartyDesc": "我们不与广告网络、Google Analytics或其他跟踪服务共享数据。",
+        "essentialCookies": "必要Cookie（如适用）",
+        "essentialCookiesDesc": "我们可能使用临时（会话）技术Cookie来实现安全浏览或QR码处理等基本功能。这些Cookie在您关闭浏览器时自动删除。",
+        "dataCollected": "收集的数据",
+        "dataCollectedDesc": "无。除了自愿提供用于注册或联系的电子邮件外，我们不存储有关您访问、IP、位置或网站行为的任何信息。",
+        "noCookies": "如果本网站完全不使用Cookie（如没有跟踪脚本的静态页面），则不会在您的设备上安装任何Cookie。"
+      },
+      "section3": {
+        "title": "3. Cookie管理",
+        "description": "您可以通过浏览器设置控制Cookie：",
+        "block": "阻止或删除Cookie",
+        "blockDesc": "大多数浏览器（如Chrome、Firefox、Safari）允许您拒绝或删除Cookie。",
+        "impact": "影响",
+        "impactDesc": "阻止必要Cookie可能会影响网站功能。",
+        "noBanner": "我们不使用同意横幅",
+        "noBannerDesc": "由于我们不使用非必要Cookie，因此不显示Cookie横幅。您的浏览意味着接受本政策。"
+      },
+      "section4": {
+        "title": "4. 第三方链接",
+        "description": "本网站可能包含第三方网站的链接（如支付处理商）。这些网站有自己的Cookie政策，我们对此不承担责任。"
+      },
+      "section5": {
+        "title": "5. 政策修改",
+        "description": "我们保留更新本政策的权利。更改将在网站上发布，如适用，将通过电子邮件通知，提前至少15天。"
+      },
+      "section6": {
+        "title": "6. 联系方式",
+        "description": "如对本政策有疑问，请联系",
+        "responsible": "负责人"
+      },
+      "footer": "本政策与我们的个人数据处理政策和"
     }
   }
 }

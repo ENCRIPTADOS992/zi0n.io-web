@@ -33,42 +33,42 @@ export default function LegalNoticePage() {
           <div className="prose prose-invert max-w-none">
             {/* Company Info */}
             <p className="text-white/80 leading-relaxed mb-6">
-              GLOBAL INVESTMENT ST S.A.S. (en adelante, "la Empresa" o "Zi0n"), identificada con NIT 901206726-2, es una sociedad por acciones simplificada constituida en Colombia, con domicilio principal en Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia. La Empresa se dedica a actividades de programación informática (CIIU 6201), inversión en sociedades, publicidad (CIIU 7310), diseño especializado (CIIU 7410) y consultoría de gestión (CIIU 7020), entre otras relacionadas con el desarrollo y prestación de servicios de seguridad móvil avanzada bajo la marca Zi0n.
+              {t('legalNotice.companyInfo')}
             </p>
 
             {/* Contact */}
             <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('legalNotice.contact')}</h2>
             <ul className="text-white/80 space-y-2 list-disc list-inside mb-6">
-              <li>Correo electrónico: <a href="mailto:contacto@zi0n.com" className="text-[#5EEC7D] hover:underline">contacto@zi0n.com</a> (para soporte y consultas generales) o <a href="mailto:universalencriptados@gmail.com" className="text-[#5EEC7D] hover:underline">universalencriptados@gmail.com</a> (para notificaciones judiciales).</li>
-              <li>Teléfono: <a href="tel:+573009291110" className="text-[#5EEC7D] hover:underline">+57 300 929 1110</a></li>
-              <li>Dirección para notificaciones judiciales: Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia.</li>
+              <li>{t('legalNotice.contactEmail')}: <a href="mailto:contacto@zi0n.com" className="text-[#5EEC7D] hover:underline">contacto@zi0n.com</a> ({t('legalNotice.contactEmailSupport')}) {t('legalNotice.or')} <a href="mailto:universalencriptados@gmail.com" className="text-[#5EEC7D] hover:underline">universalencriptados@gmail.com</a> ({t('legalNotice.contactEmailLegal')}).</li>
+              <li>{t('legalNotice.contactPhone')}: <a href="tel:+573009291110" className="text-[#5EEC7D] hover:underline">+57 300 929 1110</a></li>
+              <li>{t('legalNotice.contactAddress')}: Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia.</li>
             </ul>
 
             {/* Jurisdiction */}
             <p className="text-white/80 leading-relaxed mb-6">
-              Este sitio web y los servicios asociados son operados por la Empresa bajo la jurisdicción de las leyes de la República de Colombia. Cualquier disputa relacionada con el uso del sitio o los servicios se resolverá exclusivamente en los tribunales de Medellín, Antioquia.
+              {t('legalNotice.jurisdiction')}
             </p>
 
             {/* Disclaimer */}
             <p className="text-white/80 leading-relaxed mb-6">
-              La Empresa no garantiza la disponibilidad ininterrumpida del sitio web ni la ausencia de errores. El contenido se proporciona "tal cual" sin garantías expresas o implícitas. La Empresa se reserva el derecho de modificar el sitio web en cualquier momento sin previo aviso.
+              {t('legalNotice.disclaimer')}
             </p>
 
             {/* Intellectual Property */}
             <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('legalNotice.intellectualProperty')}</h2>
             <p className="text-white/80 leading-relaxed mb-6">
-              Todos los derechos de propiedad intelectual sobre Zi0n, incluyendo software, diseños, marcas y contenidos, pertenecen a la Empresa o a sus licenciantes. Queda prohibida cualquier reproducción, distribución o uso no autorizado.
+              {t('legalNotice.intellectualPropertyText')}
             </p>
 
             {/* Third Party Links */}
             <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('legalNotice.thirdPartyLinks')}</h2>
             <p className="text-white/80 leading-relaxed mb-6">
-              El sitio puede contener enlaces a sitios web de terceros. La Empresa no es responsable por el contenido o prácticas de privacidad de dichos sitios.
+              {t('legalNotice.thirdPartyLinksText')}
             </p>
 
             {/* Last Update */}
             <p className="text-white/60 text-sm mt-8 pt-6 border-t border-white/10">
-              {t('legalNotice.lastUpdate')}: 22 de diciembre de 2025. Para más información, consulte los <Link href={`/${locale}/terms`} className="text-[#5EEC7D] hover:underline">Términos y Condiciones de Uso</Link> y la Política de Tratamiento de Datos.
+              {t('legalNotice.lastUpdate')}: 22 de diciembre de 2025. {t('legalNotice.moreInfo')} <Link href={`/${locale}/terms`} className="text-[#5EEC7D] hover:underline">{t('terms.title')}</Link>.
             </p>
           </div>
         </div>

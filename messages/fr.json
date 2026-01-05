@@ -227,19 +227,80 @@
   "legalPages": {
     "backToHome": "Retour à l'accueil",
     "legalNotice": {
-      "title": "Mentions légales",
+      "title": "Mentions Légales",
       "contact": "Contact",
-      "intellectualProperty": "Propriété intellectuelle",
-      "thirdPartyLinks": "Liens vers des tiers",
-      "lastUpdate": "Dernière mise à jour"
+      "contactEmail": "E-mail",
+      "contactEmailSupport": "pour le support et les demandes générales",
+      "contactEmailLegal": "pour les notifications juridiques",
+      "contactPhone": "Téléphone",
+      "contactAddress": "Adresse pour les notifications juridiques",
+      "or": "ou",
+      "intellectualProperty": "Propriété Intellectuelle",
+      "intellectualPropertyText": "Tous les droits de propriété intellectuelle sur Zi0n, y compris les logiciels, designs, marques et contenus, appartiennent à la Société ou à ses concédants. Toute reproduction, distribution ou utilisation non autorisée est interdite.",
+      "thirdPartyLinks": "Liens vers des Tiers",
+      "thirdPartyLinksText": "Le site peut contenir des liens vers des sites web tiers. La Société n'est pas responsable du contenu ou des pratiques de confidentialité de ces sites.",
+      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (ci-après \"la Société\" ou \"Zi0n\"), identifiée avec le NIT 901206726-2, est une société par actions simplifiée constituée en Colombie, avec son adresse principale à Calle 7 No. 39-215, Bureau 1009, Bâtiment Granahorrar, Medellín, Antioquia, Colombie. La Société se consacre aux activités de programmation informatique (CITI 6201), aux investissements dans les sociétés, à la publicité (CITI 7310), au design spécialisé (CITI 7410) et au conseil en gestion (CITI 7020), entre autres liées au développement et à la fourniture de services de sécurité mobile avancés sous la marque Zi0n.",
+      "jurisdiction": "Ce site web et les services associés sont exploités par la Société sous la juridiction des lois de la République de Colombie. Tout litige lié à l'utilisation du site ou des services sera résolu exclusivement devant les tribunaux de Medellín, Antioquia.",
+      "disclaimer": "La Société ne garantit pas la disponibilité ininterrompue du site web ni l'absence d'erreurs. Le contenu est fourni \"tel quel\" sans garanties expresses ou implicites. La Société se réserve le droit de modifier le site web à tout moment sans préavis.",
+      "lastUpdate": "Dernière mise à jour",
+      "moreInfo": "Pour plus d'informations, consultez les"
     },
     "terms": {
-      "title": "Conditions d'utilisation",
+      "title": "Conditions Générales d'Utilisation",
       "lastUpdate": "Dernière mise à jour"
     },
     "cookies": {
-      "title": "Politique de cookies",
-      "lastUpdate": "Dernière mise à jour"
+      "title": "Politique de Cookies",
+      "lastUpdate": "Dernière mise à jour",
+      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, ci-après \"la Société\" ou \"Zi0n\"), avec adresse à Calle 7 No. 39-215, Bureau 1009, Bâtiment Granahorrar, Medellín, Antioquia, Colombie, exploite le site web https://www.zi0n.io (ci-après \"le Site\"). Cette Politique de Cookies explique comment nous utilisons les cookies et technologies similaires sur le Site.",
+      "privacyFocus": "Compte tenu de notre engagement pour une confidentialité maximale et la non-collecte de données inutiles, le Site n'utilise pas de cookies tiers ni de cookies de suivi. Nous n'utilisons que des cookies strictement nécessaires au fonctionnement de base du Site, le cas échéant.",
+      "section1": {
+        "title": "1. Que sont les Cookies ?",
+        "description": "Les cookies sont de petits fichiers texte stockés sur votre appareil (ordinateur, téléphone ou tablette) lorsque vous visitez un site web. Ils peuvent être utilisés pour mémoriser les préférences, améliorer l'expérience utilisateur ou collecter des données analytiques. Il existe différents types :",
+        "essential": "Cookies essentiels",
+        "essentialDesc": "Nécessaires au fonctionnement du site (ex. maintien des sessions).",
+        "performance": "Cookies de performance",
+        "performanceDesc": "Collectent des données anonymes sur l'utilisation du site.",
+        "functionality": "Cookies de fonctionnalité",
+        "functionalityDesc": "Mémorisent les choix de l'utilisateur (ex. langue).",
+        "advertising": "Cookies publicitaires",
+        "advertisingDesc": "Utilisés pour afficher des publicités personnalisées."
+      },
+      "section2": {
+        "title": "2. Cookies Utilisés sur le Site",
+        "description": "Chez Zi0n, nous priorisons votre confidentialité et ne collectons ni ne stockons de données de navigation au-delà de l'essentiel. Par conséquent :",
+        "noThirdParty": "Nous n'utilisons pas de cookies tiers, analytiques ou publicitaires.",
+        "noThirdPartyDesc": "Nous ne partageons pas de données avec des réseaux publicitaires, Google Analytics ou d'autres services de suivi.",
+        "essentialCookies": "Cookies essentiels (le cas échéant)",
+        "essentialCookiesDesc": "Nous pouvons utiliser des cookies techniques temporaires (de session) pour des fonctions de base comme la navigation sécurisée ou le traitement du code QR. Ceux-ci sont automatiquement supprimés lorsque vous fermez le navigateur.",
+        "dataCollected": "Données collectées",
+        "dataCollectedDesc": "Aucune. Nous ne stockons pas d'informations sur votre visite, IP, localisation ou comportement sur le Site, sauf l'email volontairement fourni pour l'inscription ou le contact.",
+        "noCookies": "Si le Site n'utilise aucun cookie (comme les pages statiques sans scripts de suivi), aucun cookie ne sera installé sur votre appareil."
+      },
+      "section3": {
+        "title": "3. Gestion des Cookies",
+        "description": "Vous pouvez contrôler les cookies via les paramètres de votre navigateur :",
+        "block": "Bloquer ou supprimer les cookies",
+        "blockDesc": "La plupart des navigateurs (comme Chrome, Firefox, Safari) permettent de rejeter ou supprimer les cookies.",
+        "impact": "Impact",
+        "impactDesc": "Bloquer les cookies essentiels pourrait affecter la fonctionnalité du Site.",
+        "noBanner": "Nous n'utilisons pas de bannières de consentement",
+        "noBannerDesc": "Puisque nous n'utilisons pas de cookies non essentiels, nous n'affichons pas de bannières de cookies. Votre navigation implique l'acceptation de cette Politique."
+      },
+      "section4": {
+        "title": "4. Liens vers des Tiers",
+        "description": "Le Site peut contenir des liens vers des sites web tiers (ex. processeurs de paiement). Ces sites ont leurs propres politiques de cookies, dont nous ne sommes pas responsables."
+      },
+      "section5": {
+        "title": "5. Modifications de la Politique",
+        "description": "Nous nous réservons le droit de mettre à jour cette Politique. Les modifications seront publiées sur le Site et notifiées par email le cas échéant, avec un préavis d'au moins 15 jours."
+      },
+      "section6": {
+        "title": "6. Contact",
+        "description": "Pour toute question concernant cette Politique, contactez",
+        "responsible": "Responsable"
+      },
+      "footer": "Cette Politique s'intègre à notre Politique de Protection des Données Personnelles et aux"
     }
   }
 }

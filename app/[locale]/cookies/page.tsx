@@ -33,72 +33,56 @@ export default function CookiesPage() {
           
           <div className="prose prose-invert max-w-none text-white/80 leading-relaxed">
             {/* Intro */}
-            <p className="mb-6">
-              GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, en adelante "la Empresa" o "Zi0n"), con domicilio en Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia, opera el sitio web <a href="https://www.zi0n.io/es" className="text-[#5EEC7D] hover:underline">https://www.zi0n.io/es</a> (en adelante, "el Sitio"). Esta Política de Cookies explica cómo utilizamos cookies y tecnologías similares en el Sitio, en cumplimiento de la Ley 1581 de 2012 y normas relacionadas con la protección de datos en Colombia.
-            </p>
-            <p className="mb-6">
-              Dado nuestro enfoque en la privacidad máxima y la no recopilación de datos innecesarios, el Sitio <strong className="text-white">no utiliza cookies de terceros ni cookies de seguimiento</strong>. Solo empleamos cookies estrictamente necesarias para el funcionamiento básico del Sitio, si aplica.
-            </p>
+            <p className="mb-6">{t('cookies.intro')}</p>
+            <p className="mb-6">{t('cookies.privacyFocus')}</p>
 
             {/* Section 1 */}
-            <h2 className="text-xl font-semibold text-white mt-8 mb-4">1. ¿Qué son las Cookies?</h2>
-            <p className="mb-4">
-              Las cookies son pequeños archivos de texto que se almacenan en su dispositivo (computadora, teléfono o tableta) cuando visita un sitio web. Pueden ser utilizadas para recordar preferencias, mejorar la experiencia de usuario o recopilar datos analíticos. Existen diferentes tipos:
-            </p>
+            <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('cookies.section1.title')}</h2>
+            <p className="mb-4">{t('cookies.section1.description')}</p>
             <ul className="list-disc list-inside mb-6 space-y-2">
-              <li><strong className="text-white">Cookies esenciales:</strong> Necesarias para el funcionamiento del sitio (ej. mantener sesiones).</li>
-              <li><strong className="text-white">Cookies de rendimiento:</strong> Recopilan datos anónimos sobre el uso del sitio.</li>
-              <li><strong className="text-white">Cookies de funcionalidad:</strong> Recuerdan elecciones del usuario (ej. idioma).</li>
-              <li><strong className="text-white">Cookies de publicidad:</strong> Usadas para mostrar anuncios personalizados.</li>
+              <li><strong className="text-white">{t('cookies.section1.essential')}:</strong> {t('cookies.section1.essentialDesc')}</li>
+              <li><strong className="text-white">{t('cookies.section1.performance')}:</strong> {t('cookies.section1.performanceDesc')}</li>
+              <li><strong className="text-white">{t('cookies.section1.functionality')}:</strong> {t('cookies.section1.functionalityDesc')}</li>
+              <li><strong className="text-white">{t('cookies.section1.advertising')}:</strong> {t('cookies.section1.advertisingDesc')}</li>
             </ul>
 
             {/* Section 2 */}
-            <h2 className="text-xl font-semibold text-white mt-8 mb-4">2. Cookies Utilizadas en el Sitio</h2>
-            <p className="mb-4">
-              En Zi0n, priorizamos su privacidad y no recopilamos ni almacenamos datos de navegación más allá de lo esencial para proporcionar los Servicios. Por lo tanto:
-            </p>
+            <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('cookies.section2.title')}</h2>
+            <p className="mb-4">{t('cookies.section2.description')}</p>
             <ul className="list-disc list-inside mb-4 space-y-2">
-              <li><strong className="text-white">No utilizamos cookies de terceros, analíticas ni de publicidad.</strong> No compartimos datos con redes publicitarias, Google Analytics u otros servicios de tracking.</li>
-              <li><strong className="text-white">Cookies esenciales (si aplican):</strong> Podríamos usar cookies técnicas temporales (de sesión) para funciones básicas como la navegación segura o el procesamiento del código QR para la instalación. Estas se eliminan automáticamente al cerrar el navegador y no recopilan datos personales identificables.</li>
-              <li><strong className="text-white">Datos recopilados:</strong> Ninguno. No almacenamos información sobre su visita, IP, ubicación o comportamiento en el Sitio, salvo el correo electrónico proporcionado voluntariamente para registro o contacto.</li>
+              <li><strong className="text-white">{t('cookies.section2.noThirdParty')}</strong> {t('cookies.section2.noThirdPartyDesc')}</li>
+              <li><strong className="text-white">{t('cookies.section2.essentialCookies')}:</strong> {t('cookies.section2.essentialCookiesDesc')}</li>
+              <li><strong className="text-white">{t('cookies.section2.dataCollected')}:</strong> {t('cookies.section2.dataCollectedDesc')}</li>
             </ul>
-            <p className="mb-6">
-              Si el Sitio no usa cookies en absoluto (como en páginas estáticas sin scripts de tracking), no se instalará ninguna cookie en su dispositivo.
-            </p>
+            <p className="mb-6">{t('cookies.section2.noCookies')}</p>
 
             {/* Section 3 */}
-            <h2 className="text-xl font-semibold text-white mt-8 mb-4">3. Gestión de Cookies</h2>
-            <p className="mb-4">
-              Usted puede controlar las cookies a través de la configuración de su navegador:
-            </p>
+            <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('cookies.section3.title')}</h2>
+            <p className="mb-4">{t('cookies.section3.description')}</p>
             <ul className="list-disc list-inside mb-4 space-y-2">
-              <li><strong className="text-white">Bloquear o eliminar cookies:</strong> La mayoría de los navegadores (como Chrome, Firefox, Safari) permiten rechazar cookies o eliminarlas. Consulte la sección de ayuda de su navegador para instrucciones.</li>
-              <li><strong className="text-white">Impacto:</strong> Bloquear cookies esenciales podría afectar la funcionalidad del Sitio, como el escaneo de QR.</li>
-              <li><strong className="text-white">No usamos banners de consentimiento:</strong> Dado que no usamos cookies no esenciales, no mostramos banners de cookies. Su navegación implica aceptación de esta Política.</li>
+              <li><strong className="text-white">{t('cookies.section3.block')}:</strong> {t('cookies.section3.blockDesc')}</li>
+              <li><strong className="text-white">{t('cookies.section3.impact')}:</strong> {t('cookies.section3.impactDesc')}</li>
+              <li><strong className="text-white">{t('cookies.section3.noBanner')}:</strong> {t('cookies.section3.noBannerDesc')}</li>
             </ul>
 
             {/* Section 4 */}
-            <h2 className="text-xl font-semibold text-white mt-8 mb-4">4. Enlaces a Terceros</h2>
-            <p className="mb-6">
-              El Sitio podría contener enlaces a sitios web de terceros (ej. procesadores de pago). Estos sitios tienen sus propias políticas de cookies, por las que no somos responsables. Revise sus políticas antes de interactuar.
-            </p>
+            <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('cookies.section4.title')}</h2>
+            <p className="mb-6">{t('cookies.section4.description')}</p>
 
             {/* Section 5 */}
-            <h2 className="text-xl font-semibold text-white mt-8 mb-4">5. Modificaciones a la Política</h2>
-            <p className="mb-6">
-              Nos reservamos el derecho de actualizar esta Política. Los cambios se publicarán en el Sitio y se notificarán por correo si aplica, con al menos 15 días de anticipación.
-            </p>
+            <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('cookies.section5.title')}</h2>
+            <p className="mb-6">{t('cookies.section5.description')}</p>
 
             {/* Section 6 */}
-            <h2 className="text-xl font-semibold text-white mt-8 mb-4">6. Contacto</h2>
+            <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('cookies.section6.title')}</h2>
             <p className="mb-6">
-              Para preguntas sobre esta Política, contacte a <a href="mailto:contacto@zi0n.com" className="text-[#5EEC7D] hover:underline">contacto@zi0n.com</a> o <a href="tel:+573009291110" className="text-[#5EEC7D] hover:underline">+57 300 929 1110</a>. Responsable: Katherine Rodas Pareja.
+              {t('cookies.section6.description')} <a href="mailto:contacto@zi0n.com" className="text-[#5EEC7D] hover:underline">contacto@zi0n.com</a> {t('legalNotice.or')} <a href="tel:+573009291110" className="text-[#5EEC7D] hover:underline">+57 300 929 1110</a>. {t('cookies.section6.responsible')}: Katherine Rodas Pareja.
             </p>
 
             {/* Footer note */}
             <div className="bg-white/5 rounded-xl p-6 border border-white/10 mt-8">
               <p className="text-white/90">
-                Esta Política se integra con nuestra <Link href={`/${locale}/terms`} className="text-[#5EEC7D] hover:underline">Política de Tratamiento de Datos Personales</Link> y <Link href={`/${locale}/terms`} className="text-[#5EEC7D] hover:underline">Términos y Condiciones de Uso</Link>. Al usar el Sitio, acepta esta Política.
+                {t('cookies.footer')} <Link href={`/${locale}/terms`} className="text-[#5EEC7D] hover:underline">{t('terms.title')}</Link>.
               </p>
             </div>
           </div>
