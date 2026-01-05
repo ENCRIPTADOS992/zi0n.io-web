@@ -1,3 +1,12 @@
+import { termsContentDE } from './terms-de'
+import { termsContentFR } from './terms-fr'
+import { termsContentIT } from './terms-it'
+import { termsContentNL } from './terms-nl'
+import { termsContentPTBR } from './terms-pt-BR'
+import { termsContentRU } from './terms-ru'
+import { termsContentZH } from './terms-zh'
+import { termsContentHI } from './terms-hi'
+
 // Spanish content for Terms and Conditions
 export const termsContentES = {
   intro: `Estos Términos y Condiciones de Uso (en adelante, "Términos") regulan el acceso y uso de los servicios de seguridad móvil avanzada proporcionados por GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, en adelante "la Empresa" o "Zi0n") a través del sitio web https://www.zi0n.io/es y cualquier aplicación o software asociado (en adelante, "los Servicios"). Al acceder, instalar o usar los Servicios, usted (el "Usuario" o "Contratante") acepta estos Términos en su totalidad. Si no está de acuerdo, no utilice los Servicios.`,
@@ -233,14 +242,14 @@ The Company may assign these Terms to Affiliates or third parties without User c
 export const termsContent: Record<string, typeof termsContentES> = {
   es: termsContentES,
   en: termsContentEN,
-  de: termsContentEN,
-  fr: termsContentEN,
-  it: termsContentEN,
-  nl: termsContentEN,
-  'pt-BR': termsContentEN,
-  ru: termsContentEN,
-  zh: termsContentEN,
-  hi: termsContentEN,
+  de: termsContentDE,
+  fr: termsContentFR,
+  it: termsContentIT,
+  nl: termsContentNL,
+  'pt-BR': termsContentPTBR,
+  ru: termsContentRU,
+  zh: termsContentZH,
+  hi: termsContentHI,
 }
 
 // Legal Notice Content - Spanish
