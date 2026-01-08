@@ -45,7 +45,7 @@ export function getClientEmailTemplate(data: ContactFormData): string {
           <!-- Header con logo -->
           <tr>
             <td style="background: linear-gradient(135deg, #071C59 0%, #0a2a7a 100%); padding: 40px 30px; border-radius: 20px 20px 0 0; text-align: center;">
-              <img src="https://zi0n.io/logos/logo-claro.svg" alt="Zi0n" style="height: 50px; margin-bottom: 20px;">
+              <div style="font-size: 36px; font-weight: 800; color: #ffffff; margin-bottom: 20px; letter-spacing: -1px;">Zi<span style="color: #5EEC7D;">0</span>n</div>
               <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: 700;">¡Gracias por contactarnos!</h1>
               <p style="color: rgba(255,255,255,0.8); margin: 15px 0 0 0; font-size: 16px;">Hemos recibido tu mensaje</p>
             </td>
@@ -133,7 +133,7 @@ export function getAdminEmailTemplate(data: ContactFormData): string {
           <!-- Header con logo -->
           <tr>
             <td style="background: linear-gradient(135deg, #071C59 0%, #0a2a7a 100%); padding: 40px 30px; border-radius: 20px 20px 0 0; text-align: center;">
-              <img src="https://zi0n.io/logos/logo-claro.svg" alt="Zi0n" style="height: 50px; margin-bottom: 20px;">
+              <div style="font-size: 36px; font-weight: 800; color: #ffffff; margin-bottom: 20px; letter-spacing: -1px;">Zi<span style="color: #5EEC7D;">0</span>n</div>
               <div style="display: inline-block; background-color: #5EEC7D; color: #071C59; padding: 8px 20px; border-radius: 50px; font-size: 14px; font-weight: 600; margin-bottom: 15px;">
                 📬 Nuevo Mensaje
               </div>
