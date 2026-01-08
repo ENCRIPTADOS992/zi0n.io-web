@@ -84,12 +84,6 @@ export function getClientEmailTemplate(data: ContactFormData): string {
                       <a href="mailto:Contact@Zi0n.io" style="color: #ffffff; text-decoration: none; font-size: 14px; margin-left: 10px;">Contact@Zi0n.io</a>
                     </td>
                   </tr>
-                  <tr>
-                    <td style="padding: 10px 0;">
-                      <span style="color: #5EEC7D; font-size: 14px;">📞 Teléfono:</span>
-                      <a href="tel:+573009291110" style="color: #ffffff; text-decoration: none; font-size: 14px; margin-left: 10px;">+57 300 929 1110</a>
-                    </td>
-                  </tr>
                 </table>
               </div>
             </td>
