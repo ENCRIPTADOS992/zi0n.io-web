@@ -39,7 +39,7 @@ export default function LegalNoticePage() {
             {/* Contact */}
             <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('legalNotice.contact')}</h2>
             <ul className="text-white/80 space-y-2 list-disc list-inside mb-6">
-              <li>{t('legalNotice.contactEmail')}: <a href="mailto:contacto@zi0n.com" className="text-[#5EEC7D] hover:underline">contacto@zi0n.com</a> ({t('legalNotice.contactEmailSupport')}) {t('legalNotice.or')} <a href="mailto:universalencriptados@gmail.com" className="text-[#5EEC7D] hover:underline">universalencriptados@gmail.com</a> ({t('legalNotice.contactEmailLegal')}).</li>
+              <li>{t('legalNotice.contactEmail')}: <a href="mailto:Contact@Zi0n.io" className="text-[#5EEC7D] hover:underline">Contact@Zi0n.io</a> ({t('legalNotice.contactEmailSupport')}) {t('legalNotice.or')} ({t('legalNotice.contactEmailLegal')}).</li>
               <li>{t('legalNotice.contactPhone')}: <a href="tel:+573009291110" className="text-[#5EEC7D] hover:underline">+57 300 929 1110</a></li>
               <li>{t('legalNotice.contactAddress')}: Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia.</li>
             </ul>

@@ -26,7 +26,7 @@ const legalLinkHrefs: Record<string, string> = {
   { icon: Twitter, href: "https://twitter.com/Zi0n", label: "Twitter" },
   { icon: Linkedin, href: "https://linkedin.com/company/Zi0n", label: "LinkedIn" },
   { icon: Github, href: "https://github.com/Zi0n", label: "GitHub" },
-  { icon: Mail, href: "mailto:contacto@Zi0n.com", label: "Email" },
+  { icon: Mail, href: "mailto:Contact@Zi0n.io", label: "Email" },
 ]*/
 
 export function Footer() {

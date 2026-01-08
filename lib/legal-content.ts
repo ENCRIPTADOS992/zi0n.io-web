@@ -310,7 +310,7 @@ export const cookiesContentES = {
     },
     {
       title: "6. Contacto",
-      content: `Para preguntas sobre esta Política, contacte a info@zi0n.io.`
+      content: `Para preguntas sobre esta Política, contacte a Contact@Zi0n.io.`
     }
   ],
   footer: `Esta Política se integra con nuestra Política de Tratamiento de Datos Personales y los Términos y Condiciones.`
@@ -343,7 +343,7 @@ export const cookiesContentEN = {
     },
     {
       title: "6. Contact",
-      content: `For questions about this Policy, contact info@zi0n.io.`
+      content: `For questions about this Policy, contact Contact@Zi0n.io.`
     }
   ],
   footer: `This Policy is integrated with our Personal Data Processing Policy and the Terms and Conditions.`

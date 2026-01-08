@@ -76,7 +76,7 @@ export default function CookiesPage() {
             {/* Section 6 */}
             <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('cookies.section6.title')}</h2>
             <p className="mb-6">
-              {t('cookies.section6.description')} <a href="mailto:contacto@zi0n.com" className="text-[#5EEC7D] hover:underline">contacto@zi0n.com</a> {t('legalNotice.or')} <a href="tel:+573009291110" className="text-[#5EEC7D] hover:underline">+57 300 929 1110</a>. {t('cookies.section6.responsible')}: Katherine Rodas Pareja.
+              {t('cookies.section6.description')} <a href="mailto:Contact@Zi0n.io" className="text-[#5EEC7D] hover:underline">Contact@Zi0n.io</a> {t('legalNotice.or')} <a href="tel:+573009291110" className="text-[#5EEC7D] hover:underline">+57 300 929 1110</a>. {t('cookies.section6.responsible')}: Katherine Rodas Pareja.
             </p>
 
             {/* Footer note */}
