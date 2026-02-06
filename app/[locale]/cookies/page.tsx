@@ -29,7 +29,7 @@ export default function CookiesPage() {
       <main className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-10 border border-white/10">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">{t('cookies.title')}</h1>
-          <p className="text-white/60 mb-8">{t('cookies.lastUpdate')}: 22 de diciembre de 2025</p>
+          <p className="text-white/60 mb-8">{t('cookies.lastUpdate')}: 6 de Enero de 2025</p>
           
           <div className="prose prose-invert max-w-none text-white/80 leading-relaxed">
             {/* Intro */}
@@ -76,7 +76,7 @@ export default function CookiesPage() {
             {/* Section 6 */}
             <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('cookies.section6.title')}</h2>
             <p className="mb-6">
-              {t('cookies.section6.description')} <a href="mailto:Contact@Zi0n.io" className="text-[#5EEC7D] hover:underline">Contact@Zi0n.io</a> {t('legalNotice.or')} <a href="tel:+573009291110" className="text-[#5EEC7D] hover:underline">+57 300 929 1110</a>. {t('cookies.section6.responsible')}: Katherine Rodas Pareja.
+              {t('cookies.section6.description')} <a href="mailto:Contact@Zi0n.io" className="text-[#5EEC7D] hover:underline">Contact@Zi0n.io</a> {t('legalNotice.or')} <a href="tel:+14502346681" className="text-[#5EEC7D] hover:underline">+1 4502346681</a>. {t('cookies.section6.responsible')}: Katherine Rodas Pareja.
             </p>
 
             {/* Footer note */}

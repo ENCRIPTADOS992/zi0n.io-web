@@ -1,5 +1,5 @@
 export const termsContentPTBR = {
-  intro: `Estes Termos e Condições de Uso (doravante, "Termos") regulam o acesso e uso dos serviços de segurança móvel avançada fornecidos pela GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, doravante "a Empresa" ou "Zi0n") através do site https://www.zi0n.io/pt-BR e qualquer aplicativo ou software associado (doravante, "os Serviços"). Ao acessar, instalar ou usar os Serviços, você (o "Usuário" ou "Contratante") aceita estes Termos em sua totalidade. Se você não concordar, não utilize os Serviços.`,
+  intro: `Estes Termos e Condições de Uso (doravante, "Termos") regulam o acesso e uso dos serviços de segurança móvel avançada fornecidos pela MIRADOR E.C. INC. (NEQ 1170705306, doravante "a Empresa" ou "Zi0n") através do site https://www.zi0n.io/pt-BR e qualquer aplicativo ou software associado (doravante, "os Serviços"). Ao acessar, instalar ou usar os Serviços, você (o "Usuário" ou "Contratante") aceita estes Termos em sua totalidade. Se você não concordar, não utilize os Serviços.`,
   sections: [
     {
       title: "1. Aceitação do Contrato",
@@ -23,7 +23,7 @@ export const termsContentPTBR = {
       title: "4. Instalação e Segurança",
       content: `4.1. A instalação é realizada via escaneamento de QR fornecido pela Empresa. O Usuário receberá instruções guia por e-mail e assumirá responsabilidade integral pela correta implementação em seus dispositivos, realizando backups prévios. Qualquer instalação inadequada isenta a Empresa de responsabilidade por danos, incluindo perda de dados ou falhas no dispositivo.
 
-4.2. O Usuário garantirá que seus dispositivos cumpram com as normas de segurança aplicáveis na Colômbia. A Empresa poderá suspender a instalação se o ambiente for inseguro ou não cumprir com as regulamentações.
+4.2. O Usuário garantirá que seus dispositivos cumpram com as normas de segurança aplicáveis no Canadá. A Empresa poderá suspender a instalação se o ambiente for inseguro ou não cumprir com as regulamentações.
 
 4.3. O Usuário indenizará a Empresa por qualquer reclamação decorrente de condições inseguras em suas instalações ou descumprimentos regulatórios.`
     },
@@ -59,7 +59,7 @@ A responsabilidade total da Empresa ficará limitada ao valor total efetivamente
       title: "10. Propriedade Intelectual",
       content: `A Empresa retém e reserva de maneira exclusiva todos os direitos, títulos e interesses sobre o Software Zi0n, os Serviços, e qualquer material relacionado. O Usuário não adquire nenhum direito de propriedade sobre a Propriedade Intelectual da Empresa, salvo a licença limitada concedida nestes Termos.
 
-A Propriedade Intelectual está protegida pelas leis colombianas (Ley 23 de 1982 sobre Derechos de Autor, Ley 1450 de 2011 sobre Propiedad Industrial) e leis internacionais aplicáveis.`
+A Propriedade Intelectual está protegida pelas leis canadenses (Copyright Act, Trademarks Act, Patent Act, Industrial Design Act) e leis internacionais aplicáveis.`
     },
     {
       title: "11. Confidencialidade e Tratamento de Dados",
@@ -71,13 +71,13 @@ As obrigações de confidencialidade sobreviverão por um período de 5 anos ap�
     },
     {
       title: "12. Segurança da Informação",
-      content: `A Empresa implementa medidas de segurança técnicas, administrativas e organizacionais razoáveis em cumprimento da Ley 1581 de 2012. Estas incluem criptografia de comunicações, controles de acesso, auditorias periódicas e protocolos de resposta a incidentes.
+      content: `A Empresa implementa medidas de segurança técnicas, administrativas e organizacionais razoáveis em cumprimento da Lei canadense de Proteção de Informações Pessoais e Documentos Eletrônicos (PIPEDA) e da Lei do Québec sobre a proteção de informações pessoais no setor privado. Estas incluem criptografia de comunicações, controles de acesso, auditorias periódicas e protocolos de resposta a incidentes.
 
 O Usuário assume responsabilidade exclusiva pela segurança de seus dados, dispositivos e atividades nos Serviços.`
     },
     {
       title: "13. Conduta",
-      content: `As Partes se comprometem a cumprir todas as leis aplicáveis na Colômbia, incluindo leis anticorrupção (Ley 1778 de 2016), antilavagem de dinheiro (Ley 1762 de 2015) e normativas sobre crimes cibernéticos (Ley 1273 de 2009).
+      content: `As Partes se comprometem a cumprir todas as leis aplicáveis no Canadá, incluindo leis anticorrupção (Corruption of Foreign Public Officials Act), antilavagem de dinheiro (Proceeds of Crime (Money Laundering) and Terrorist Financing Act) e normativas sobre crimes cibernéticos.
 
 O Usuário certifica que não usará os Serviços para fins ilícitos, incluindo narcotráfico, terrorismo, lavagem de dinheiro ou qualquer conduta que viole normas penais.`
     },
@@ -95,15 +95,15 @@ A Empresa poderá ceder estes Termos a Afiliadas ou terceiros sem consentimento 
     },
     {
       title: "16. Legislação Aplicável",
-      content: `Estes Termos são regidos exclusivamente pelas leis da República da Colômbia. Qualquer disputa será resolvida conforme o Código Civil, Código Comercial e normativas específicas.`
+      content: `Estes Termos são regidos exclusivamente pelas leis do Canadá e da província do Québec. Qualquer disputa será resolvida conforme o direito federal canadense e o direito provincial do Québec.`
     },
     {
       title: "17. Foro",
-      content: `Qualquer disputa será resolvida exclusivamente nos tribunais competentes de Medellín, Antioquia, Colômbia. O Usuário renuncia irrevogavelmente a qualquer outro foro ou jurisdição.`
+      content: `Qualquer disputa será resolvida exclusivamente nos tribunais competentes do Québec, Canadá. O Usuário renuncia irrevogavelmente a qualquer outro foro ou jurisdição.`
     },
     {
       title: "18. Arbitragem Opcional",
-      content: `A critério da Empresa, disputas poderão ser submetidas a arbitragem vinculante sob as regras da Cámara de Comercio de Medellín, com um árbitro único, em espanhol, em Medellín.`
+      content: `A critério da Empresa, disputas poderão ser submetidas a arbitragem vinculante sob as regras de arbitragem da província do Québec, com um árbitro único, em francês ou inglês, no Québec.`
     },
     {
       title: "19. Medidas Cautelares",

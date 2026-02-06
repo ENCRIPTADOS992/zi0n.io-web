@@ -40,8 +40,8 @@ export default function LegalNoticePage() {
             <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('legalNotice.contact')}</h2>
             <ul className="text-white/80 space-y-2 list-disc list-inside mb-6">
               <li>{t('legalNotice.contactEmail')}: <a href="mailto:Contact@Zi0n.io" className="text-[#5EEC7D] hover:underline">Contact@Zi0n.io</a> ({t('legalNotice.contactEmailSupport')}) {t('legalNotice.or')} ({t('legalNotice.contactEmailLegal')}).</li>
-              <li>{t('legalNotice.contactPhone')}: <a href="tel:+573009291110" className="text-[#5EEC7D] hover:underline">+57 300 929 1110</a></li>
-              <li>{t('legalNotice.contactAddress')}: Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia.</li>
+              <li>{t('legalNotice.contactPhone')}: <a href="tel:+14502346681" className="text-[#5EEC7D] hover:underline">+1 4502346681</a></li>
+              <li>{t('legalNotice.contactAddress')}: 2828, boulevard laurier, suite 700 Quebec (Qc) G1V 0B9, Quebec, Canadá.</li>
             </ul>
 
             {/* Jurisdiction */}
@@ -68,7 +68,7 @@ export default function LegalNoticePage() {
 
             {/* Last Update */}
             <p className="text-white/60 text-sm mt-8 pt-6 border-t border-white/10">
-              {t('legalNotice.lastUpdate')}: 22 de diciembre de 2025. {t('legalNotice.moreInfo')} <Link href={`/${locale}/terms`} className="text-[#5EEC7D] hover:underline">{t('terms.title')}</Link>.
+              {t('legalNotice.lastUpdate')}: 6 de Enero de 2025. {t('legalNotice.moreInfo')} <Link href={`/${locale}/terms`} className="text-[#5EEC7D] hover:underline">{t('terms.title')}</Link>.
             </p>
           </div>
         </div>

@@ -9,7 +9,7 @@ import { termsContentHI } from './terms-hi'
 
 // Spanish content for Terms and Conditions
 export const termsContentES = {
-  intro: `Estos Términos y Condiciones de Uso (en adelante, "Términos") regulan el acceso y uso de los servicios de seguridad móvil avanzada proporcionados por GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, en adelante "la Empresa" o "Zi0n") a través del sitio web https://www.zi0n.io/es y cualquier aplicación o software asociado (en adelante, "los Servicios"). Al acceder, instalar o usar los Servicios, usted (el "Usuario" o "Contratante") acepta estos Términos en su totalidad. Si no está de acuerdo, no utilice los Servicios.`,
+  intro: `Estos Términos y Condiciones de Uso (en adelante, "Términos") regulan el acceso y uso de los servicios de seguridad móvil avanzada proporcionados por MIRADOR E.C. INC. (NEQ 1170705306, en adelante "la Empresa" o "Zi0n") a través del sitio web https://www.zi0n.io/es y cualquier aplicación o software asociado (en adelante, "los Servicios"). Al acceder, instalar o usar los Servicios, usted (el "Usuario" o "Contratante") acepta estos Términos en su totalidad. Si no está de acuerdo, no utilice los Servicios.`,
   sections: [
     {
       title: "1. Aceptación del Contrato",
@@ -33,7 +33,7 @@ export const termsContentES = {
       title: "4. Instalación y Seguridad",
       content: `4.1. La instalación se realiza vía escaneo de QR proporcionado por la Empresa. El Usuario recibirá unas instrucciones guía por correo electrónico y asumirá responsabilidad integral por la correcta implementación en sus dispositivos, realizando backups previos. Cualquier instalación inadecuada exime a la Empresa de responsabilidad por daños, incluyendo pérdidas de datos o fallos en el dispositivo.
 
-4.2. El Usuario garantizará que sus dispositivos cumplan con normas de seguridad aplicables en Colombia. La Empresa podrá suspender la instalación si el entorno es inseguro o no cumple con regulaciones.
+4.2. El Usuario garantizará que sus dispositivos cumplan con normas de seguridad aplicables en Canadá. La Empresa podrá suspender la instalación si el entorno es inseguro o no cumple con regulaciones.
 
 4.3. El Usuario indemnizará a la Empresa por cualquier reclamo derivado de condiciones inseguras en sus instalaciones o incumplimientos regulatorios.`
     },
@@ -69,7 +69,7 @@ La responsabilidad total de la Empresa quedará limitada al valor total efectiva
       title: "10. Propiedad Intelectual",
       content: `La Empresa retiene y se reserva de manera exclusiva todos los derechos, títulos e intereses sobre el Software Zi0n, los Servicios, y cualquier material relacionado. El Usuario no adquiere ningún derecho de propiedad sobre la Propiedad Intelectual de la Empresa, salvo la licencia limitada concedida en estos Términos.
 
-La Propiedad Intelectual está protegida por las leyes colombianas (Ley 23 de 1982 sobre Derechos de Autor, Ley 1450 de 2011 sobre Propiedad Industrial) e internacionales aplicables.`
+La Propiedad Intelectual está protegida por las leyes aplicables de Canadá, incluyendo la Copyright Act (Ley de Derechos de Autor de Canadá), la Trademarks Act (Ley de Marcas), la Patent Act (Ley de Patentes) y la Industrial Design Act (Ley de Diseños Industriales), así como por los tratados y convenios internacionales en materia de propiedad intelectual de los que Canadá es parte.`
     },
     {
       title: "11. Confidencialidad y Tratamiento de Datos",
@@ -81,15 +81,11 @@ Las obligaciones de confidencialidad sobrevivirán por un período de 5 años de
     },
     {
       title: "12. Seguridad de la Información",
-      content: `La Empresa implementa medidas de seguridad técnicas, administrativas y organizacionales razonables en cumplimiento de la Ley 1581 de 2012. Estas incluyen encriptación de comunicaciones, controles de acceso, auditorías periódicas y protocolos de respuesta a incidentes.
-
-El Usuario asume responsabilidad exclusiva por la seguridad de sus datos, dispositivos y actividades en los Servicios.`
+      content: `La Empresa implementa medidas de seguridad técnicas, administrativas y organizacionales razonables para proteger la información, en cumplimiento de las leyes de privacidad y protección de datos aplicables en Canadá, incluyendo la Personal Information Protection and Electronic Documents Act (PIPEDA) y, cuando corresponda, la Act respecting the protection of personal information in the private sector (Quebec). Estas medidas incluyen, entre otras, encriptación de comunicaciones, controles de acceso, auditorías periódicas y protocolos de respuesta ante incidentes de seguridad. El Usuario asume responsabilidad exclusiva por la seguridad de sus datos, dispositivos y por las actividades realizadas a través de los Servicios bajo sus credenciales.`
     },
     {
       title: "13. Conducta",
-      content: `Las Partes se comprometen a cumplir con todas las leyes aplicables en Colombia, incluyendo leyes anticorrupción (Ley 1778 de 2016), anti-lavado de activos (Ley 1762 de 2015) y normativas sobre ciberdelitos (Ley 1273 de 2009).
-
-El Usuario certifica que no usará los Servicios para fines ilícitos, incluyendo narcotráfico, terrorismo, lavado de activos o cualquier conducta que viole normativas penales.`
+      content: `Las Partes se comprometen a cumplir con todas las leyes y regulaciones aplicables en Canadá, incluyendo aquellas relacionadas con la lucha contra la corrupción, el lavado de dinero y la financiación de actividades ilícitas, tales como la Corruption of Foreign Public Officials Act, la Proceeds of Crime (Money Laundering) and Terrorist Financing Act, y la legislación canadiense aplicable en materia de delitos informáticos y uso indebido de sistemas. El Usuario declara y garantiza que no utilizará los Servicios para fines ilícitos, incluyendo, sin limitación, actividades relacionadas con narcotráfico, terrorismo, lavado de activos, fraude, acceso no autorizado a sistemas o cualquier otra conducta que infrinja la legislación penal aplicable.`
     },
     {
       title: "14. Disclaimer",
@@ -105,15 +101,16 @@ La Empresa podrá ceder estos Términos a Afiliadas o terceros sin consentimient
     },
     {
       title: "16. Legislación Aplicable",
-      content: `Estos Términos se rigen exclusivamente por las leyes de la República de Colombia. Cualquier disputa se resolverá conforme al Código Civil, Código de Comercio y normativas específicas.`
+      content: `Los presentes Términos se regirán e interpretarán de conformidad con las leyes aplicables de Canadá y las leyes de la provincia de Quebec, sin tener en cuenta sus principios sobre conflictos de leyes.
+Cualquier disputa, controversia o reclamación derivada de estos Términos o relacionada con los Servicios se resolverá conforme a la legislación civil y comercial aplicable en Quebec y a las leyes federales de Canadá que resulten pertinentes.`
     },
     {
       title: "17. Foro",
-      content: `Cualquier disputa se resolverá exclusivamente en los tribunales competentes de Medellín, Antioquia, Colombia. El Usuario renuncia irrevocablemente a cualquier otro foro o jurisdicción.`
+      content: `Cualquier disputa se resolverá exclusivamente en los tribunales competentes de Quebec, Canadá. El Usuario renuncia irrevocablemente a cualquier otro foro o jurisdicción.`
     },
     {
       title: "18. Arbitraje Opcional",
-      content: `A discreción de la Empresa, disputas podrán someterse a arbitraje vinculante bajo reglas de la Cámara de Comercio de Medellín, con un árbitro único, en español, en Medellín.`
+      content: `A discreción de la Empresa, cualquier disputa podrá someterse a arbitraje vinculante, de conformidad con las normas de arbitraje aplicables en la provincia de Quebec. El arbitraje será resuelto por un árbitro único, se llevará a cabo en idioma francés o inglés, según lo determine la Empresa o lo acuerden las Partes, y tendrá lugar en la provincia de Quebec, Canadá.`
     },
     {
       title: "19. Medidas Cautelares",
@@ -125,7 +122,7 @@ La Empresa podrá ceder estos Términos a Afiliadas o terceros sin consentimient
 
 // English content for Terms and Conditions
 export const termsContentEN = {
-  intro: `These Terms and Conditions of Use (hereinafter, "Terms") govern the access and use of advanced mobile security services provided by GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, hereinafter "the Company" or "Zi0n") through the website https://www.zi0n.io/en and any associated application or software (hereinafter, "the Services"). By accessing, installing or using the Services, you (the "User" or "Contractor") accept these Terms in their entirety. If you do not agree, do not use the Services.`,
+  intro: `These Terms and Conditions of Use (hereinafter, "Terms") govern the access and use of advanced mobile security services provided by MIRADOR E.C. INC. (NEQ 1170705306, hereinafter "the Company" or "Zi0n") through the website https://www.zi0n.io/en and any associated application or software (hereinafter, "the Services"). By accessing, installing or using the Services, you (the "User" or "Contractor") accept these Terms in their entirety. If you do not agree, do not use the Services.`,
   sections: [
     {
       title: "1. Contract Acceptance",
@@ -149,7 +146,7 @@ export const termsContentEN = {
       title: "4. Installation and Security",
       content: `4.1. Installation is performed via QR scan provided by the Company. The User will receive guide instructions by email and will assume full responsibility for proper implementation on their devices, performing prior backups. Any improper installation exempts the Company from liability for damages, including data loss or device failures.
 
-4.2. The User will ensure their devices comply with applicable security standards in Colombia. The Company may suspend installation if the environment is unsafe or does not comply with regulations.
+4.2. The User will ensure their devices comply with applicable security standards in Canada. The Company may suspend installation if the environment is unsafe or does not comply with regulations.
 
 4.3. The User will indemnify the Company for any claim arising from unsafe conditions in their facilities or regulatory non-compliance.`
     },
@@ -185,7 +182,7 @@ The Company's total liability shall be limited to the total amount actually paid
       title: "10. Intellectual Property",
       content: `The Company retains and exclusively reserves all rights, titles and interests in the Zi0n Software, the Services, and any related material. The User does not acquire any property rights over the Company's Intellectual Property, except for the limited license granted in these Terms.
 
-Intellectual Property is protected by Colombian laws (Law 23 of 1982 on Copyright, Law 1450 of 2011 on Industrial Property) and applicable international laws.`
+Intellectual Property is protected by applicable Canadian laws, including the Copyright Act, the Trademarks Act, the Patent Act and the Industrial Design Act, as well as by international treaties and conventions on intellectual property to which Canada is a party.`
     },
     {
       title: "11. Confidentiality and Data Processing",
@@ -197,15 +194,11 @@ Confidentiality obligations shall survive for a period of 5 years after terminat
     },
     {
       title: "12. Information Security",
-      content: `The Company implements reasonable technical, administrative and organizational security measures in compliance with Law 1581 of 2012. These include communication encryption, access controls, periodic audits and incident response protocols.
-
-The User assumes sole responsibility for the security of their data, devices and activities in the Services.`
+      content: `The Company implements reasonable technical, administrative and organizational security measures to protect information, in compliance with applicable privacy and data protection laws in Canada, including the Personal Information Protection and Electronic Documents Act (PIPEDA) and, where applicable, the Act respecting the protection of personal information in the private sector (Quebec). These measures include, among others, communication encryption, access controls, periodic audits and security incident response protocols. The User assumes sole responsibility for the security of their data, devices and activities performed through the Services under their credentials.`
     },
     {
       title: "13. Conduct",
-      content: `The Parties commit to comply with all applicable laws in Colombia, including anti-corruption laws (Law 1778 of 2016), anti-money laundering (Law 1762 of 2015) and cybercrime regulations (Law 1273 of 2009).
-
-The User certifies they will not use the Services for illegal purposes, including drug trafficking, terrorism, money laundering or any conduct that violates criminal regulations.`
+      content: `The Parties commit to comply with all applicable laws and regulations in Canada, including those related to anti-corruption, money laundering and financing of illicit activities, such as the Corruption of Foreign Public Officials Act, the Proceeds of Crime (Money Laundering) and Terrorist Financing Act, and applicable Canadian legislation on computer crimes and system misuse. The User declares and warrants that they will not use the Services for illegal purposes, including, without limitation, activities related to drug trafficking, terrorism, money laundering, fraud, unauthorized access to systems or any other conduct that violates applicable criminal legislation.`
     },
     {
       title: "14. Disclaimer",
@@ -221,15 +214,16 @@ The Company may assign these Terms to Affiliates or third parties without User c
     },
     {
       title: "16. Applicable Law",
-      content: `These Terms are governed exclusively by the laws of the Republic of Colombia. Any dispute shall be resolved pursuant to the Civil Code, Commercial Code and specific regulations.`
+      content: `These Terms shall be governed by and construed in accordance with the applicable laws of Canada and the laws of the Province of Quebec, without regard to its conflict of laws principles.
+Any dispute, controversy or claim arising out of or relating to these Terms or the Services shall be resolved in accordance with applicable civil and commercial law in Quebec and relevant federal laws of Canada.`
     },
     {
       title: "17. Forum",
-      content: `Any dispute shall be resolved exclusively in the competent courts of Medellín, Antioquia, Colombia. The User irrevocably waives any other forum or jurisdiction.`
+      content: `Any dispute shall be resolved exclusively in the competent courts of Quebec, Canada. The User irrevocably waives any other forum or jurisdiction.`
     },
     {
       title: "18. Optional Arbitration",
-      content: `At the Company's discretion, disputes may be submitted to binding arbitration under the rules of the Medellín Chamber of Commerce, with a single arbitrator, in Spanish, in Medellín.`
+      content: `At the Company's discretion, any dispute may be submitted to binding arbitration in accordance with applicable arbitration rules in the Province of Quebec. The arbitration shall be resolved by a single arbitrator, conducted in French or English as determined by the Company or agreed by the Parties, and shall take place in the Province of Quebec, Canada.`
     },
     {
       title: "19. Injunctive Relief",
@@ -254,8 +248,8 @@ export const termsContent: Record<string, typeof termsContentES> = {
 
 // Legal Notice Content - Spanish
 export const legalNoticeContentES = {
-  companyInfo: `GLOBAL INVESTMENT ST S.A.S. (en adelante, "la Empresa" o "Zi0n"), identificada con NIT 901206726-2, es una sociedad por acciones simplificada constituida en Colombia, con domicilio principal en Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia. La Empresa se dedica a actividades de programación informática (CIIU 6201), inversión en sociedades, publicidad (CIIU 7310), diseño especializado (CIIU 7410) y consultoría de gestión (CIIU 7020), entre otras relacionadas con el desarrollo y prestación de servicios de seguridad móvil avanzada bajo la marca Zi0n.`,
-  jurisdiction: `Este sitio web y los servicios asociados son operados por la Empresa bajo la jurisdicción de las leyes de la República de Colombia. Cualquier disputa relacionada con el uso del sitio o los servicios se resolverá exclusivamente en los tribunales de Medellín, Antioquia.`,
+  companyInfo: `MIRADOR E.C. INC. (en adelante, "la Empresa" o "Zi0n"), identificada con NEQ 1170705306, es una sociedad por acciones con responsabilidad limitada en Canadá, con domicilio principal en 2828, boulevard laurier, suite 700 Quebec (Qc) G1V 0B9, Quebec, Canadá. La Sociedad tiene por objeto la realización de actividades de desarrollo de software y programación informática, tenencia e inversión en participaciones societarias, prestación de servicios de publicidad y marketing, servicios de diseño especializado, y servicios de consultoría en gestión empresarial, así como cualquier otra actividad conexa o complementaria permitida por la ley, relacionadas directa o indirectamente con el desarrollo, comercialización y prestación de servicios de seguridad móvil avanzada bajo la marca Zi0n. Dichas actividades se ejercerán de conformidad con las clasificaciones de actividades económicas vigentes en Canadá y en la provincia de Quebec, así como con la legislación federal y provincial aplicable.`,
+  jurisdiction: `Este sitio web y los servicios asociados son operados por la Empresa bajo la jurisdicción de las leyes de Canadá. Cualquier disputa relacionada con el uso del sitio o los servicios se resolverá exclusivamente en los tribunales de Quebec, Canadá.`,
   disclaimer: `La Empresa no garantiza la disponibilidad ininterrumpida del sitio web ni la ausencia de errores. El contenido se proporciona "tal cual" sin garantías expresas o implícitas. La Empresa se reserva el derecho de modificar el sitio web en cualquier momento sin previo aviso.`,
   intellectualPropertyText: `Todos los derechos de propiedad intelectual sobre Zi0n, incluyendo software, diseños, marcas y contenidos, pertenecen a la Empresa o a sus licenciantes. Queda prohibida cualquier reproducción, distribución o uso no autorizado.`,
   thirdPartyLinksText: `El sitio puede contener enlaces a sitios web de terceros. La Empresa no es responsable por el contenido o prácticas de privacidad de dichos sitios.`,
@@ -263,8 +257,8 @@ export const legalNoticeContentES = {
 
 // Legal Notice Content - English
 export const legalNoticeContentEN = {
-  companyInfo: `GLOBAL INVESTMENT ST S.A.S. (hereinafter, "the Company" or "Zi0n"), identified with NIT 901206726-2, is a simplified joint-stock company incorporated in Colombia, with its main address at Calle 7 No. 39-215, Office 1009, Granahorrar Building, Medellín, Antioquia, Colombia. The Company is dedicated to computer programming activities (ISIC 6201), investment in companies, advertising (ISIC 7310), specialized design (ISIC 7410) and management consulting (ISIC 7020), among others related to the development and provision of advanced mobile security services under the Zi0n brand.`,
-  jurisdiction: `This website and associated services are operated by the Company under the jurisdiction of the laws of the Republic of Colombia. Any dispute related to the use of the site or services will be resolved exclusively in the courts of Medellín, Antioquia.`,
+  companyInfo: `MIRADOR E.C. INC. (hereinafter, "the Company" or "Zi0n"), identified with NEQ 1170705306, is a limited liability company incorporated in Canada, with its main address at 2828, boulevard laurier, suite 700 Quebec (Qc) G1V 0B9, Quebec, Canada. The Company's purpose is to carry out software development and computer programming activities, holding and investing in corporate interests, providing advertising and marketing services, specialized design services, and business management consulting services, as well as any other related or complementary activity permitted by law, directly or indirectly related to the development, commercialization and provision of advanced mobile security services under the Zi0n brand. Such activities shall be carried out in accordance with the economic activity classifications in force in Canada and in the Province of Quebec, as well as with applicable federal and provincial legislation.`,
+  jurisdiction: `This website and associated services are operated by the Company under the jurisdiction of Canadian law. Any dispute related to the use of the site or services will be resolved exclusively in the courts of Quebec, Canada.`,
   disclaimer: `The Company does not guarantee uninterrupted availability of the website or the absence of errors. Content is provided "as is" without express or implied warranties. The Company reserves the right to modify the website at any time without prior notice.`,
   intellectualPropertyText: `All intellectual property rights over Zi0n, including software, designs, trademarks and content, belong to the Company or its licensors. Any unauthorized reproduction, distribution or use is prohibited.`,
   thirdPartyLinksText: `The site may contain links to third-party websites. The Company is not responsible for the content or privacy practices of such sites.`,
@@ -285,7 +279,7 @@ export const legalNoticeContent: Record<string, typeof legalNoticeContentES> = {
 
 // Cookies Content - Spanish
 export const cookiesContentES = {
-  intro: `GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, en adelante "la Empresa" o "Zi0n"), con domicilio en Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia, opera el sitio web https://www.zi0n.io (en adelante, "el Sitio"). Esta Política de Cookies explica cómo utilizamos cookies y tecnologías similares en el Sitio, en cumplimiento de la Ley 1581 de 2012 y normas relacionadas con la protección de datos en Colombia.`,
+  intro: `MIRADOR E.C. INC. (NEQ 1170705306, en adelante "la Empresa" o "Zi0n"), con domicilio en 2828, boulevard laurier, suite 700 Quebec (Qc) G1V 0B9, Quebec, Canadá, opera el sitio web https://www.zi0n.io (en adelante, "el Sitio"). Esta Política de Cookies explica cómo utilizamos cookies y tecnologías similares en el Sitio, en cumplimiento de las leyes aplicables en materia de protección de datos y privacidad en Canadá, incluyendo la Personal Information Protection and Electronic Documents Act (PIPEDA) y demás normativas federales y provinciales relacionadas.`,
   privacyFocus: `Dado nuestro enfoque en la privacidad máxima y la no recopilación de datos innecesarios, el Sitio no utiliza cookies de terceros ni cookies de seguimiento. Solo empleamos cookies estrictamente necesarias para el funcionamiento básico del Sitio, si aplica.`,
   sections: [
     {
@@ -310,7 +304,7 @@ export const cookiesContentES = {
     },
     {
       title: "6. Contacto",
-      content: `Para preguntas sobre esta Política, contacte a Contact@Zi0n.io.`
+      content: `Para preguntas sobre esta Política, contacte a Contact@Zi0n.io o +1 4502346681. Responsable: Katherine Rodas Pareja.`
     }
   ],
   footer: `Esta Política se integra con nuestra Política de Tratamiento de Datos Personales y los Términos y Condiciones.`
@@ -318,7 +312,7 @@ export const cookiesContentES = {
 
 // Cookies Content - English
 export const cookiesContentEN = {
-  intro: `GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, hereinafter "the Company" or "Zi0n"), with address at Calle 7 No. 39-215, Office 1009, Granahorrar Building, Medellín, Antioquia, Colombia, operates the website https://www.zi0n.io (hereinafter, "the Site"). This Cookie Policy explains how we use cookies and similar technologies on the Site, in compliance with Law 1581 of 2012 and data protection regulations in Colombia.`,
+  intro: `MIRADOR E.C. INC. (NEQ 1170705306, hereinafter "the Company" or "Zi0n"), with address at 2828, boulevard laurier, suite 700 Quebec (Qc) G1V 0B9, Quebec, Canada, operates the website https://www.zi0n.io (hereinafter, "the Site"). This Cookie Policy explains how we use cookies and similar technologies on the Site, in compliance with applicable data protection and privacy laws in Canada, including the Personal Information Protection and Electronic Documents Act (PIPEDA) and other related federal and provincial regulations.`,
   privacyFocus: `Given our focus on maximum privacy and not collecting unnecessary data, the Site does not use third-party cookies or tracking cookies. We only use cookies strictly necessary for the basic operation of the Site, if applicable.`,
   sections: [
     {
@@ -343,7 +337,7 @@ export const cookiesContentEN = {
     },
     {
       title: "6. Contact",
-      content: `For questions about this Policy, contact Contact@Zi0n.io.`
+      content: `For questions about this Policy, contact Contact@Zi0n.io or +1 4502346681. Responsible: Katherine Rodas Pareja.`
     }
   ],
   footer: `This Policy is integrated with our Personal Data Processing Policy and the Terms and Conditions.`

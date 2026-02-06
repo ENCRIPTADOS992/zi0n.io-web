@@ -31,7 +31,7 @@ export default function TermsPage() {
       <main className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-10 border border-white/10">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">{t('terms.title')}</h1>
-          <p className="text-white/60 mb-8">{t('terms.lastUpdate')}: 22 de diciembre de 2025</p>
+          <p className="text-white/60 mb-8">{t('terms.lastUpdate')}: 6 de Enero de 2025</p>
           
           <div className="prose prose-invert max-w-none text-white/80 leading-relaxed">
             {/* Intro */}

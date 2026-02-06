@@ -1,5 +1,5 @@
 export const termsContentFR = {
-  intro: `Ces Conditions Générales d'Utilisation (ci-après, les "Conditions") régissent l'accès et l'utilisation des services de sécurité mobile avancée fournis par GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, ci-après "la Société" ou "Zi0n") via le site web https://www.zi0n.io/fr et toute application ou logiciel associé (ci-après, les "Services"). En accédant, installant ou utilisant les Services, vous (l'"Utilisateur" ou le "Contractant") acceptez ces Conditions dans leur intégralité. Si vous n'êtes pas d'accord, n'utilisez pas les Services.`,
+  intro: `Ces Conditions Générales d'Utilisation (ci-après, les "Conditions") régissent l'accès et l'utilisation des services de sécurité mobile avancée fournis par MIRADOR E.C. INC. (NEQ 1170705306, ci-après "la Société" ou "Zi0n") via le site web https://www.zi0n.io/fr et toute application ou logiciel associé (ci-après, les "Services"). En accédant, installant ou utilisant les Services, vous (l'"Utilisateur" ou le "Contractant") acceptez ces Conditions dans leur intégralité. Si vous n'êtes pas d'accord, n'utilisez pas les Services.`,
   sections: [
     {
       title: "1. Acceptation du Contrat",
@@ -23,7 +23,7 @@ export const termsContentFR = {
       title: "4. Installation et Sécurité",
       content: `4.1. L'installation s'effectue via le scan du QR fourni par la Société. L'Utilisateur recevra des instructions guide par courrier électronique et assumera l'entière responsabilité de la mise en œuvre correcte sur ses appareils, en effectuant des sauvegardes préalables. Toute installation incorrecte exonère la Société de toute responsabilité pour les dommages, y compris la perte de données ou les défaillances de l'appareil.
 
-4.2. L'Utilisateur garantira que ses appareils sont conformes aux normes de sécurité applicables en Colombie. La Société peut suspendre l'installation si l'environnement est dangereux ou ne respecte pas les réglementations.
+4.2. L'Utilisateur garantira que ses appareils sont conformes aux normes de sécurité applicables au Canada. La Société peut suspendre l'installation si l'environnement est dangereux ou ne respecte pas les réglementations.
 
 4.3. L'Utilisateur indemnisera la Société pour toute réclamation découlant de conditions dangereuses dans ses installations ou de non-conformité réglementaire.`
     },
@@ -59,7 +59,7 @@ La responsabilité totale de la Société sera limitée au montant total effecti
       title: "10. Propriété Intellectuelle",
       content: `La Société conserve et se réserve exclusivement tous les droits, titres et intérêts sur le Logiciel Zi0n, les Services et tout matériel connexe. L'Utilisateur n'acquiert aucun droit de propriété sur la Propriété Intellectuelle de la Société, à l'exception de la licence limitée accordée dans les présentes Conditions.
 
-La Propriété Intellectuelle est protégée par les lois colombiennes (Ley 23 de 1982 sobre Derechos de Autor, Ley 1450 de 2011 sobre Propiedad Industrial) et les lois internationales applicables.`
+La Propriété Intellectuelle est protégée par les lois canadiennes (Loi sur le droit d'auteur, Loi sur les marques de commerce, Loi sur les brevets, Loi sur les dessins industriels) et les lois internationales applicables.`
     },
     {
       title: "11. Confidentialité et Traitement des Données",
@@ -71,13 +71,13 @@ Les obligations de confidentialité survivront pendant une période de 5 ans apr
     },
     {
       title: "12. Sécurité de l'Information",
-      content: `La Société met en œuvre des mesures de sécurité techniques, administratives et organisationnelles raisonnables conformément à la Ley 1581 de 2012. Celles-ci comprennent le cryptage des communications, les contrôles d'accès, les audits périodiques et les protocoles de réponse aux incidents.
+      content: `La Société met en œuvre des mesures de sécurité techniques, administratives et organisationnelles raisonnables conformément à la Loi sur la protection des renseignements personnels et les documents électroniques (LPRPDE) du Canada et à la Loi sur la protection des renseignements personnels dans le secteur privé du Québec. Celles-ci comprennent le cryptage des communications, les contrôles d'accès, les audits périodiques et les protocoles de réponse aux incidents.
 
 L'Utilisateur assume la responsabilité exclusive de la sécurité de ses données, appareils et activités dans les Services.`
     },
     {
       title: "13. Conduite",
-      content: `Les Parties s'engagent à respecter toutes les lois applicables en Colombie, y compris les lois anti-corruption (Ley 1778 de 2016), anti-blanchiment d'argent (Ley 1762 de 2015) et les réglementations sur la cybercriminalité (Ley 1273 de 2009).
+      content: `Les Parties s'engagent à respecter toutes les lois applicables au Canada, y compris les lois anti-corruption (Loi sur la corruption d'agents publics étrangers), anti-blanchiment d'argent (Loi sur le recyclage des produits de la criminalité et le financement des activités terroristes) et les réglementations sur la cybercriminalité.
 
 L'Utilisateur certifie qu'il n'utilisera pas les Services à des fins illicites, y compris le trafic de drogue, le terrorisme, le blanchiment d'argent ou toute conduite qui viole les réglementations pénales.`
     },
@@ -95,15 +95,15 @@ La Société peut céder les présentes Conditions à des Affiliés ou à des ti
     },
     {
       title: "16. Droit Applicable",
-      content: `Les présentes Conditions sont régies exclusivement par les lois de la République de Colombie. Tout litige sera résolu conformément au Código Civil, Código de Comercio et aux réglementations spécifiques.`
+      content: `Les présentes Conditions sont régies exclusivement par les lois du Canada et de la province de Québec. Tout litige sera résolu conformément au droit fédéral canadien et au droit provincial québécois.`
     },
     {
       title: "17. For",
-      content: `Tout litige sera résolu exclusivement devant les tribunaux compétents de Medellín, Antioquia, Colombia. L'Utilisateur renonce irrévocablement à tout autre for ou juridiction.`
+      content: `Tout litige sera résolu exclusivement devant les tribunaux compétents du Québec, Canada. L'Utilisateur renonce irrévocablement à tout autre for ou juridiction.`
     },
     {
       title: "18. Arbitrage Optionnel",
-      content: `À la discrétion de la Société, les litiges peuvent être soumis à un arbitrage contraignant selon les règles de la Cámara de Comercio de Medellín, avec un arbitre unique, en espagnol, à Medellín.`
+      content: `À la discrétion de la Société, les litiges peuvent être soumis à un arbitrage contraignant selon les règles d'arbitrage de la province de Québec, avec un arbitre unique, en français ou en anglais, au Québec.`
     },
     {
       title: "19. Mesures Provisoires",

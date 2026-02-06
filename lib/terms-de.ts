@@ -1,6 +1,6 @@
 // German content for Terms and Conditions
 export const termsContentDE = {
-  intro: `Diese Nutzungsbedingungen (im Folgenden „Bedingungen") regeln den Zugang zu und die Nutzung der fortschrittlichen mobilen Sicherheitsdienste, die von GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, im Folgenden „das Unternehmen" oder „Zi0n") über die Website https://www.zi0n.io/de und jede zugehörige Anwendung oder Software (im Folgenden „die Dienste") bereitgestellt werden. Durch den Zugriff, die Installation oder die Nutzung der Dienste akzeptieren Sie (der „Nutzer" oder „Auftragnehmer") diese Bedingungen vollständig. Wenn Sie nicht einverstanden sind, nutzen Sie die Dienste nicht.`,
+  intro: `Diese Nutzungsbedingungen (im Folgenden „Bedingungen") regeln den Zugang zu und die Nutzung der fortschrittlichen mobilen Sicherheitsdienste, die von MIRADOR E.C. INC. (NEQ 1170705306, im Folgenden „das Unternehmen" oder „Zi0n") über die Website https://www.zi0n.io/de und jede zugehörige Anwendung oder Software (im Folgenden „die Dienste") bereitgestellt werden. Durch den Zugriff, die Installation oder die Nutzung der Dienste akzeptieren Sie (der „Nutzer" oder „Auftragnehmer") diese Bedingungen vollständig. Wenn Sie nicht einverstanden sind, nutzen Sie die Dienste nicht.`,
   sections: [
     {
       title: "1. Vertragsannahme",
@@ -24,7 +24,7 @@ export const termsContentDE = {
       title: "4. Installation und Sicherheit",
       content: `4.1. Die Installation erfolgt über das Scannen eines vom Unternehmen bereitgestellten QR-Codes. Der Nutzer erhält Anleitungen per E-Mail und übernimmt die volle Verantwortung für die ordnungsgemäße Implementierung auf seinen Geräten, einschließlich vorheriger Backups. Eine unsachgemäße Installation befreit das Unternehmen von der Haftung für Schäden, einschließlich Datenverlust oder Geräteausfall.
 
-4.2. Der Nutzer stellt sicher, dass seine Geräte den in Kolumbien geltenden Sicherheitsstandards entsprechen. Das Unternehmen kann die Installation aussetzen, wenn die Umgebung unsicher ist oder nicht den Vorschriften entspricht.
+4.2. Der Nutzer stellt sicher, dass seine Geräte den in Kanada geltenden Sicherheitsstandards entsprechen. Das Unternehmen kann die Installation aussetzen, wenn die Umgebung unsicher ist oder nicht den Vorschriften entspricht.
 
 4.3. Der Nutzer entschädigt das Unternehmen für alle Ansprüche, die aus unsicheren Bedingungen in seinen Einrichtungen oder der Nichteinhaltung von Vorschriften entstehen.`
     },
@@ -60,7 +60,7 @@ Die Gesamthaftung des Unternehmens ist auf den Gesamtbetrag begrenzt, den der Nu
       title: "10. Geistiges Eigentum",
       content: `Das Unternehmen behält sich ausschließlich alle Rechte, Titel und Ansprüche an der Zi0n-Software, den Diensten und allen zugehörigen Materialien vor. Der Nutzer erwirbt keine Eigentumsrechte am geistigen Eigentum des Unternehmens, außer der in diesen Bedingungen gewährten eingeschränkten Lizenz.
 
-Das geistige Eigentum ist durch kolumbianische Gesetze (Ley 23 de 1982 über Urheberrecht, Ley 1450 de 2011 über gewerbliches Eigentum) und anwendbare internationale Gesetze geschützt.`
+Das geistige Eigentum ist durch kanadische Gesetze (Copyright Act, Trademarks Act, Patent Act, Industrial Design Act) und anwendbare internationale Gesetze geschützt.`
     },
     {
       title: "11. Vertraulichkeit und Datenverarbeitung",
@@ -72,13 +72,13 @@ Die Vertraulichkeitspflichten gelten für einen Zeitraum von 5 Jahren nach Beend
     },
     {
       title: "12. Informationssicherheit",
-      content: `Das Unternehmen implementiert angemessene technische, administrative und organisatorische Sicherheitsmaßnahmen gemäß Ley 1581 de 2012. Diese umfassen Kommunikationsverschlüsselung, Zugriffskontrollen, regelmäßige Audits und Protokolle zur Reaktion auf Vorfälle.
+      content: `Das Unternehmen implementiert angemessene technische, administrative und organisatorische Sicherheitsmaßnahmen gemäß dem kanadischen Personal Information Protection and Electronic Documents Act (PIPEDA) und dem Québecer Gesetz über den Schutz personenbezogener Daten im privaten Sektor. Diese umfassen Kommunikationsverschlüsselung, Zugriffskontrollen, regelmäßige Audits und Protokolle zur Reaktion auf Vorfälle.
 
 Der Nutzer übernimmt die alleinige Verantwortung für die Sicherheit seiner Daten, Geräte und Aktivitäten in den Diensten.`
     },
     {
       title: "13. Verhalten",
-      content: `Die Parteien verpflichten sich, alle geltenden Gesetze in Kolumbien einzuhalten, einschließlich Antikorruptionsgesetze (Ley 1778 de 2016), Geldwäschebekämpfung (Ley 1762 de 2015) und Cyberkriminalitätsvorschriften (Ley 1273 de 2009).
+      content: `Die Parteien verpflichten sich, alle geltenden Gesetze in Kanada einzuhalten, einschließlich Antikorruptionsgesetze (Corruption of Foreign Public Officials Act), Geldwäschebekämpfung (Proceeds of Crime (Money Laundering) and Terrorist Financing Act) und Cyberkriminalitätsvorschriften.
 
 Der Nutzer bestätigt, dass er die Dienste nicht für illegale Zwecke nutzen wird, einschließlich Drogenhandel, Terrorismus, Geldwäsche oder jegliches Verhalten, das gegen strafrechtliche Vorschriften verstößt.`
     },
@@ -96,15 +96,15 @@ Das Unternehmen kann diese Bedingungen ohne Zustimmung des Nutzers an verbundene
     },
     {
       title: "16. Anwendbares Recht",
-      content: `Diese Bedingungen unterliegen ausschließlich den Gesetzen der Republik Kolumbien. Jede Streitigkeit wird gemäß dem Código Civil, Código de Comercio und spezifischen Vorschriften beigelegt.`
+      content: `Diese Bedingungen unterliegen ausschließlich den Gesetzen von Kanada und der Provinz Québec. Jede Streitigkeit wird gemäß dem kanadischen Bundesrecht und dem Québecer Provinzrecht beigelegt.`
     },
     {
       title: "17. Gerichtsstand",
-      content: `Jede Streitigkeit wird ausschließlich von den zuständigen Gerichten in Medellín, Antioquia, Kolumbien beigelegt. Der Nutzer verzichtet unwiderruflich auf jeden anderen Gerichtsstand oder jede andere Gerichtsbarkeit.`
+      content: `Jede Streitigkeit wird ausschließlich von den zuständigen Gerichten in Québec, Kanada beigelegt. Der Nutzer verzichtet unwiderruflich auf jeden anderen Gerichtsstand oder jede andere Gerichtsbarkeit.`
     },
     {
       title: "18. Optionales Schiedsverfahren",
-      content: `Nach Ermessen des Unternehmens können Streitigkeiten einem verbindlichen Schiedsverfahren nach den Regeln der Cámara de Comercio de Medellín mit einem einzigen Schiedsrichter in spanischer Sprache in Medellín unterworfen werden.`
+      content: `Nach Ermessen des Unternehmens können Streitigkeiten einem verbindlichen Schiedsverfahren nach den Schiedsregeln der Provinz Québec mit einem einzigen Schiedsrichter in französischer oder englischer Sprache in Québec unterworfen werden.`
     },
     {
       title: "19. Einstweilige Maßnahmen",

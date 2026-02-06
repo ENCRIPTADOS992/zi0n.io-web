@@ -1,5 +1,5 @@
 export const termsContentIT = {
-  intro: `Questi Termini e Condizioni d'Uso (di seguito, "Termini") regolano l'accesso e l'utilizzo dei servizi di sicurezza mobile avanzata forniti da GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, di seguito "la Società" o "Zi0n") attraverso il sito web https://www.zi0n.io/it e qualsiasi applicazione o software associato (di seguito, "i Servizi"). Accedendo, installando o utilizzando i Servizi, l'utente (l'"Utente" o "Contraente") accetta integralmente questi Termini. In caso di disaccordo, si prega di non utilizzare i Servizi.`,
+  intro: `Questi Termini e Condizioni d'Uso (di seguito, "Termini") regolano l'accesso e l'utilizzo dei servizi di sicurezza mobile avanzata forniti da MIRADOR E.C. INC. (NEQ 1170705306, di seguito "la Società" o "Zi0n") attraverso il sito web https://www.zi0n.io/it e qualsiasi applicazione o software associato (di seguito, "i Servizi"). Accedendo, installando o utilizzando i Servizi, l'utente (l'"Utente" o "Contraente") accetta integralmente questi Termini. In caso di disaccordo, si prega di non utilizzare i Servizi.`,
   sections: [
     {
       title: "1. Accettazione del Contratto",
@@ -23,7 +23,7 @@ export const termsContentIT = {
       title: "4. Installazione e Sicurezza",
       content: `4.1. L'installazione viene effettuata tramite scansione del QR fornito dalla Società. L'Utente riceverà istruzioni guida via e-mail e assumerà la piena responsabilità per la corretta implementazione sui propri dispositivi, effettuando backup preventivi. Qualsiasi installazione inadeguata esonera la Società dalla responsabilità per danni, inclusa la perdita di dati o malfunzionamenti del dispositivo.
 
-4.2. L'Utente garantirà che i propri dispositivi siano conformi alle normative di sicurezza applicabili in Colombia. La Società potrà sospendere l'installazione se l'ambiente non è sicuro o non è conforme alle normative.
+4.2. L'Utente garantirà che i propri dispositivi siano conformi alle normative di sicurezza applicabili in Canada. La Società potrà sospendere l'installazione se l'ambiente non è sicuro o non è conforme alle normative.
 
 4.3. L'Utente risarcirà la Società per qualsiasi reclamo derivante da condizioni non sicure nelle proprie installazioni o da inadempienze normative.`
     },
@@ -59,7 +59,7 @@ La responsabilità totale della Società sarà limitata all'importo totale effet
       title: "10. Proprietà Intellettuale",
       content: `La Società detiene e si riserva in modo esclusivo tutti i diritti, i titoli e gli interessi sul Software Zi0n, sui Servizi e su qualsiasi materiale correlato. L'Utente non acquisisce alcun diritto di proprietà sulla Proprietà Intellettuale della Società, ad eccezione della licenza limitata concessa in questi Termini.
 
-La Proprietà Intellettuale è protetta dalle leggi colombiane (Ley 23 de 1982 sui Diritti d'Autore, Ley 1450 de 2011 sulla Proprietà Industriale) e dalle leggi internazionali applicabili.`
+La Proprietà Intellettuale è protetta dalle leggi canadesi (Copyright Act, Trademarks Act, Patent Act, Industrial Design Act) e dalle leggi internazionali applicabili.`
     },
     {
       title: "11. Riservatezza e Trattamento dei Dati",
@@ -71,13 +71,13 @@ Gli obblighi di riservatezza sopravviveranno per un periodo di 5 anni dopo la ri
     },
     {
       title: "12. Sicurezza delle Informazioni",
-      content: `La Società implementa misure di sicurezza tecniche, amministrative e organizzative ragionevoli in conformità con la Ley 1581 de 2012. Queste includono crittografia delle comunicazioni, controlli di accesso, audit periodici e protocolli di risposta agli incidenti.
+      content: `La Società implementa misure di sicurezza tecniche, amministrative e organizzative ragionevoli in conformità con il Personal Information Protection and Electronic Documents Act (PIPEDA) del Canada e la Legge sulla protezione delle informazioni personali nel settore privato del Québec. Queste includono crittografia delle comunicazioni, controlli di accesso, audit periodici e protocolli di risposta agli incidenti.
 
 L'Utente assume la responsabilità esclusiva per la sicurezza dei propri dati, dispositivi e attività nei Servizi.`
     },
     {
       title: "13. Condotta",
-      content: `Le Parti si impegnano a rispettare tutte le leggi applicabili in Colombia, incluse le leggi anticorruzione (Ley 1778 de 2016), antiriciclaggio (Ley 1762 de 2015) e le normative sui crimini informatici (Ley 1273 de 2009).
+      content: `Le Parti si impegnano a rispettare tutte le leggi applicabili in Canada, incluse le leggi anticorruzione (Corruption of Foreign Public Officials Act), antiriciclaggio (Proceeds of Crime (Money Laundering) and Terrorist Financing Act) e le normative sui crimini informatici.
 
 L'Utente certifica che non utilizzerà i Servizi per scopi illeciti, inclusi traffico di droga, terrorismo, riciclaggio di denaro o qualsiasi condotta che violi le normative penali.`
     },
@@ -95,15 +95,15 @@ La Società potrà cedere questi Termini ad Affiliate o terzi senza il consenso 
     },
     {
       title: "16. Legge Applicabile",
-      content: `Questi Termini sono regolati esclusivamente dalle leggi della Repubblica di Colombia. Qualsiasi controversia sarà risolta in conformità con il Código Civil, il Código de Comercio e le normative specifiche.`
+      content: `Questi Termini sono regolati esclusivamente dalle leggi del Canada e della provincia del Québec. Qualsiasi controversia sarà risolta in conformità con il diritto federale canadese e il diritto provinciale del Québec.`
     },
     {
       title: "17. Foro Competente",
-      content: `Qualsiasi controversia sarà risolta esclusivamente nei tribunali competenti di Medellín, Antioquia, Colombia. L'Utente rinuncia irrevocabilmente a qualsiasi altro foro o giurisdizione.`
+      content: `Qualsiasi controversia sarà risolta esclusivamente nei tribunali competenti del Québec, Canada. L'Utente rinuncia irrevocabilmente a qualsiasi altro foro o giurisdizione.`
     },
     {
       title: "18. Arbitrato Facoltativo",
-      content: `A discrezione della Società, le controversie potranno essere sottoposte ad arbitrato vincolante secondo le regole della Cámara de Comercio de Medellín, con un arbitro unico, in spagnolo, a Medellín.`
+      content: `A discrezione della Società, le controversie potranno essere sottoposte ad arbitrato vincolante secondo le regole di arbitrato della provincia del Québec, con un arbitro unico, in francese o inglese, in Québec.`
     },
     {
       title: "19. Misure Cautelari",

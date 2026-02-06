@@ -1,5 +1,5 @@
 export const termsContentNL = {
-  intro: `Deze Algemene Voorwaarden (hierna "Voorwaarden") regelen de toegang tot en het gebruik van geavanceerde mobiele beveiligingsdiensten aangeboden door GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, hierna "het Bedrijf" of "Zi0n") via de website https://www.zi0n.io/nl en elke bijbehorende applicatie of software (hierna "de Diensten"). Door toegang te krijgen tot, te installeren of de Diensten te gebruiken, aanvaardt u (de "Gebruiker" of "Contractant") deze Voorwaarden in hun geheel. Als u niet akkoord gaat, gebruik de Diensten dan niet.`,
+  intro: `Deze Algemene Voorwaarden (hierna "Voorwaarden") regelen de toegang tot en het gebruik van geavanceerde mobiele beveiligingsdiensten aangeboden door MIRADOR E.C. INC. (NEQ 1170705306, hierna "het Bedrijf" of "Zi0n") via de website https://www.zi0n.io/nl en elke bijbehorende applicatie of software (hierna "de Diensten"). Door toegang te krijgen tot, te installeren of de Diensten te gebruiken, aanvaardt u (de "Gebruiker" of "Contractant") deze Voorwaarden in hun geheel. Als u niet akkoord gaat, gebruik de Diensten dan niet.`,
   sections: [
     {
       title: "1. Aanvaarding van het Contract",
@@ -23,7 +23,7 @@ export const termsContentNL = {
       title: "4. Installatie en Beveiliging",
       content: `4.1. De installatie wordt uitgevoerd via een QR-scan die door het Bedrijf wordt verstrekt. De Gebruiker ontvangt instructies per e-mail en neemt de volledige verantwoordelijkheid voor de correcte implementatie op hun apparaten, inclusief het maken van back-ups vooraf. Elke onjuiste installatie vrijwaart het Bedrijf van aansprakelijkheid voor schade, inclusief gegevensverlies of apparaatstoringen.
 
-4.2. De Gebruiker zorgt ervoor dat hun apparaten voldoen aan de toepasselijke beveiligingsnormen in Colombia. Het Bedrijf kan de installatie opschorten als de omgeving onveilig is of niet voldoet aan de regelgeving.
+4.2. De Gebruiker zorgt ervoor dat hun apparaten voldoen aan de toepasselijke beveiligingsnormen in Canada. Het Bedrijf kan de installatie opschorten als de omgeving onveilig is of niet voldoet aan de regelgeving.
 
 4.3. De Gebruiker zal het Bedrijf vrijwaren tegen elke claim die voortvloeit uit onveilige omstandigheden in hun faciliteiten of niet-naleving van regelgeving.`
     },
@@ -59,7 +59,7 @@ De totale aansprakelijkheid van het Bedrijf is beperkt tot het totale bedrag dat
       title: "10. Intellectueel Eigendom",
       content: `Het Bedrijf behoudt en reserveert exclusief alle rechten, titels en belangen in de Zi0n Software, de Diensten en alle gerelateerde materialen. De Gebruiker verwerft geen eigendomsrechten op het Intellectueel Eigendom van het Bedrijf, behalve de beperkte licentie die in deze Voorwaarden wordt verleend.
 
-Intellectueel Eigendom wordt beschermd door Colombiaanse wetten (Ley 23 de 1982 inzake Auteursrecht, Ley 1450 de 2011 inzake Industrieel Eigendom) en toepasselijke internationale wetten.`
+Intellectueel Eigendom wordt beschermd door Canadese wetten (Copyright Act, Trademarks Act, Patent Act, Industrial Design Act) en toepasselijke internationale wetten.`
     },
     {
       title: "11. Vertrouwelijkheid en Gegevensverwerking",
@@ -71,13 +71,13 @@ Vertrouwelijkheidsverplichtingen blijven 5 jaar na beëindiging van deze Voorwaa
     },
     {
       title: "12. Informatiebeveiliging",
-      content: `Het Bedrijf implementeert redelijke technische, administratieve en organisatorische beveiligingsmaatregelen in overeenstemming met Ley 1581 de 2012. Deze omvatten versleuteling van communicatie, toegangscontroles, periodieke audits en incidentresponseprotocollen.
+      content: `Het Bedrijf implementeert redelijke technische, administratieve en organisatorische beveiligingsmaatregelen in overeenstemming met de Canadese Personal Information Protection and Electronic Documents Act (PIPEDA) en de Québecse Wet betreffende de bescherming van persoonsgegevens in de privésector. Deze omvatten versleuteling van communicatie, toegangscontroles, periodieke audits en incidentresponseprotocollen.
 
 De Gebruiker draagt de volledige verantwoordelijkheid voor de beveiliging van hun gegevens, apparaten en activiteiten binnen de Diensten.`
     },
     {
       title: "13. Gedrag",
-      content: `De Partijen verbinden zich ertoe alle toepasselijke wetten in Colombia na te leven, inclusief anticorruptiewetten (Ley 1778 de 2016), antiwitwaswetten (Ley 1762 de 2015) en cybercriminaliteitsregelgeving (Ley 1273 de 2009).
+      content: `De Partijen verbinden zich ertoe alle toepasselijke wetten in Canada na te leven, inclusief anticorruptiewetten (Corruption of Foreign Public Officials Act), antiwitwaswetten (Proceeds of Crime (Money Laundering) and Terrorist Financing Act) en cybercriminaliteitsregelgeving.
 
 De Gebruiker verklaart dat hij de Diensten niet zal gebruiken voor illegale doeleinden, inclusief drugshandel, terrorisme, witwassen van geld of enig gedrag dat strafrechtelijke regelgeving schendt.`
     },
@@ -95,15 +95,15 @@ Het Bedrijf kan deze Voorwaarden overdragen aan Gelieerde Ondernemingen of derde
     },
     {
       title: "16. Toepasselijk Recht",
-      content: `Deze Voorwaarden worden uitsluitend beheerst door de wetten van de Republiek Colombia. Elk geschil wordt opgelost volgens het Código Civil, Código de Comercio en specifieke regelgeving.`
+      content: `Deze Voorwaarden worden uitsluitend beheerst door de wetten van Canada en de provincie Québec. Elk geschil wordt opgelost volgens het Canadese federale recht en het provinciale recht van Québec.`
     },
     {
       title: "17. Forum",
-      content: `Elk geschil wordt uitsluitend beslecht door de bevoegde rechtbanken van Medellín, Antioquia, Colombia. De Gebruiker doet onherroepelijk afstand van elk ander forum of rechtsgebied.`
+      content: `Elk geschil wordt uitsluitend beslecht door de bevoegde rechtbanken van Québec, Canada. De Gebruiker doet onherroepelijk afstand van elk ander forum of rechtsgebied.`
     },
     {
       title: "18. Optionele Arbitrage",
-      content: `Naar goeddunken van het Bedrijf kunnen geschillen worden voorgelegd aan bindende arbitrage volgens de regels van de Cámara de Comercio de Medellín, met één arbiter, in het Spaans, in Medellín.`
+      content: `Naar goeddunken van het Bedrijf kunnen geschillen worden voorgelegd aan bindende arbitrage volgens de arbitrageregels van de provincie Québec, met één arbiter, in het Frans of Engels, in Québec.`
     },
     {
       title: "19. Voorlopige Maatregelen",
