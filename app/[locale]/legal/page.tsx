@@ -4,10 +4,12 @@ import Link from "next/link"
 import { useTranslations, useLocale } from 'next-intl'
 import { ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { legalNoticeContent } from "@/lib/legal-content"
 
 export default function LegalNoticePage() {
   const t = useTranslations('legalPages')
   const locale = useLocale()
+  const content = legalNoticeContent[locale] || legalNoticeContent.es
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#071C59] to-[#0a2a7a]">
@@ -33,42 +35,42 @@ export default function LegalNoticePage() {
           <div className="prose prose-invert max-w-none">
             {/* Company Info */}
             <p className="text-white/80 leading-relaxed mb-6">
-              {t('legalNotice.companyInfo')}
+              {content.companyInfo}
             </p>
 
             {/* Contact */}
             <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('legalNotice.contact')}</h2>
             <ul className="text-white/80 space-y-2 list-disc list-inside mb-6">
-              <li>{t('legalNotice.contactEmail')}: <a href="mailto:Contact@Zi0n.io" className="text-[#5EEC7D] hover:underline">Contact@Zi0n.io</a> ({t('legalNotice.contactEmailSupport')}) {t('legalNotice.or')} ({t('legalNotice.contactEmailLegal')}).</li>
-              <li>{t('legalNotice.contactPhone')}: <a href="tel:+14502346681" className="text-[#5EEC7D] hover:underline">+1 4502346681</a></li>
-              <li>{t('legalNotice.contactAddress')}: 2828, boulevard laurier, suite 700 Quebec (Qc) G1V 0B9, Quebec, Canadá.</li>
+              <li>{t('legalNotice.contactEmail')}: <a href={`mailto:${content.contactEmail}`} className="text-[#5EEC7D] hover:underline">{content.contactEmail}</a> ({content.contactEmailSupport}) {t('legalNotice.or')} <a href={`mailto:${content.contactEmailLegalValue}`} className="text-[#5EEC7D] hover:underline">{content.contactEmailLegalValue}</a> ({content.contactEmailLegal}).</li>
+              <li>{t('legalNotice.contactPhone')}: <a href={`tel:${content.contactPhone.replace(/\s/g, '')}`} className="text-[#5EEC7D] hover:underline">{content.contactPhone}</a></li>
+              <li>{t('legalNotice.contactAddress')}: {content.contactAddress}</li>
             </ul>
 
             {/* Jurisdiction */}
             <p className="text-white/80 leading-relaxed mb-6">
-              {t('legalNotice.jurisdiction')}
+              {content.jurisdiction}
             </p>
 
             {/* Disclaimer */}
             <p className="text-white/80 leading-relaxed mb-6">
-              {t('legalNotice.disclaimer')}
+              {content.disclaimer}
             </p>
 
             {/* Intellectual Property */}
             <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('legalNotice.intellectualProperty')}</h2>
             <p className="text-white/80 leading-relaxed mb-6">
-              {t('legalNotice.intellectualPropertyText')}
+              {content.intellectualPropertyText}
             </p>
 
             {/* Third Party Links */}
             <h2 className="text-xl font-semibold text-white mt-8 mb-4">{t('legalNotice.thirdPartyLinks')}</h2>
             <p className="text-white/80 leading-relaxed mb-6">
-              {t('legalNotice.thirdPartyLinksText')}
+              {content.thirdPartyLinksText}
             </p>
 
             {/* Last Update */}
             <p className="text-white/60 text-sm mt-8 pt-6 border-t border-white/10">
-              {t('legalNotice.lastUpdate')}: 6 de Enero de 2025. {t('legalNotice.moreInfo')} <Link href={`/${locale}/terms`} className="text-[#5EEC7D] hover:underline">{t('terms.title')}</Link>.
+              {t('legalNotice.lastUpdate')}: {content.lastUpdateDate}. {content.moreInfoText} <Link href={`/${locale}/terms`} className="text-[#5EEC7D] hover:underline">{t('terms.title')}</Link>.
             </p>
           </div>
         </div>
