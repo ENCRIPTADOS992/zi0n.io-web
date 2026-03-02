@@ -94,13 +94,13 @@ Supervivencia: Las obligaciones de confidencialidad sobrevivirán por un períod
 
 Transferencia de Datos Personales a Distribuidores Autorizados: Para facilitar el recaudo y procesamiento de pagos por la suscripción a los Servicios, la Empresa podrá transferir datos personales mínimos y necesarios del Usuario (incluyendo, sin limitación, datos bancarios como números de cuenta, tarjetas de crédito/débito, información de facturación o detalles financieros) a los distribuidores autorizados (actuando como Encargado del tratamiento bajo la Ley 1581 de 2012). Esta transferencia se limita estrictamente al propósito de procesar transacciones de pago y no incluye acceso a datos del dispositivo del Usuario ni a información encriptada.
 
-Autorización del Usuario: Al aceptar estos Términos y proporcionar datos de pago, el Usuario otorga autorización expresa, informada y previa para esta transferencia, en cumplimiento del artículo 9 de la Ley 1581 de 2012. Esta autorización es revocable en cualquier momento mediante notificación escrita a contacto@zi0n.com, lo que podría implicar la suspensión de los Servicios hasta que se procese una alternativa de pago. El Usuario confirma que los datos proporcionados son exactos, actualizados y de su titularidad.
+Autorización del Usuario: Al aceptar estos Términos y proporcionar datos de pago, el Usuario otorga autorización expresa, informada y previa para esta transferencia, en cumplimiento del artículo 9 de la Ley 1581 de 2012. Esta autorización es revocable en cualquier momento mediante notificación escrita a contacto@zi0n.io, lo que podría implicar la suspensión de los Servicios hasta que se procese una alternativa de pago. El Usuario confirma que los datos proporcionados son exactos, actualizados y de su titularidad.
 
 Obligaciones del Distribuidor como Encargado: El distribuidor autorizado actúa exclusivamente como Encargado del tratamiento (conforme al artículo 17 de la Ley 1581 de 2012), bajo un acuerdo contractual con la Empresa que obliga a: (i) usar los datos solo para el fin autorizado (procesamiento de pagos); (ii) implementar medidas de seguridad técnicas, administrativas y humanas equivalentes o superiores a las de la Empresa; (iii) no transferir, divulgar ni almacenar los datos más allá de lo necesario para la transacción; (iv) eliminar o devolver los datos inmediatamente después de procesar el pago o al terminarse la relación; (v) notificar cualquier incidente de seguridad en máximo 48 horas. La Empresa supervisará el cumplimiento y responderá solidariamente ante el Usuario por cualquier violación.
 
 No Almacenamiento por la Empresa: La Empresa no accede, retiene ni almacena datos bancarios o de pago en sus sistemas. Toda transferencia se realiza directamente del Usuario al distribuidor o a pasarelas de pago de terceros certificadas sin intervención intermedia de la Empresa. Cualquier brecha en sistemas de terceros no imputable a la Empresa exime de responsabilidad.
 
-Derechos del Titular: El Usuario, como titular de los datos, conserva todos los derechos bajo la Ley 1581 de 2012 (acceso, rectificación, actualización, supresión, revocación). Para ejercerlos respecto a datos transferidos, contacte a contacto@zi0n.com o directamente al distribuidor autorizado. La Empresa facilitará el proceso en máximo 10 días hábiles.
+Derechos del Titular: El Usuario, como titular de los datos, conserva todos los derechos bajo la Ley 1581 de 2012 (acceso, rectificación, actualización, supresión, revocación). Para ejercerlos respecto a datos transferidos, contacte a contacto@zi0n.io o directamente al distribuidor autorizado. La Empresa facilitará el proceso en máximo 10 días hábiles.
 
 Consecuencias de Violaciones: Cualquier mal uso de los datos transferidos generará responsabilidad inmediata, incluyendo indemnizaciones por daños, multas regulatorias y posible rescisión de los Términos. Esta subcláusula sobrevive a la terminación de los Términos y se interpreta en conjunto con la Política de Tratamiento de Datos.`
     },
@@ -148,7 +148,7 @@ Aplicabilidad y Supervivencia: Este disclaimer aplica incluso si las Partes Exen
 
 15.3. Fuerza Mayor: Ninguna Parte será responsable por incumplimientos o demoras derivados de eventos de fuerza mayor o caso fortuito, imprevisibles e irresistibles, incluyendo, sin limitación: desastres naturales (terremotos, inundaciones, huracanes), guerras, conflictos armados, actos de terrorismo, pandemias, epidemias, huelgas generales, embargos, ciberataques masivos, fallos en redes de telecomunicaciones o interrupciones de servicios públicos no imputables a la Parte afectada. La Parte invocante notificará inmediatamente a la otra y tomará medidas razonables para mitigar efectos. Si el evento persiste por más de 30 días, cualquiera de las Partes podrá rescindir sin responsabilidad, salvo pagos pendientes por servicios ya prestados.
 
-15.4. Notificaciones: Todas las notificaciones, consents, aprobaciones o comunicaciones requeridas o permitidas bajo estos Términos se realizarán por escrito y se considerarán efectivas: (i) al entregarse personalmente; (ii) al enviarse por correo certificado con acuse de recibo; (iii) al transmitirse por correo electrónico con confirmación de lectura. Para la Empresa: contacto@zi0n.com o la dirección en el certificado de la Cámara de Comercio (Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia). Para el Usuario: el correo proporcionado en el registro. TODAS las notificaciones electrónicas por correo son válidas bajo la Ley 527 de 1999.
+15.4. Notificaciones: Todas las notificaciones, consents, aprobaciones o comunicaciones requeridas o permitidas bajo estos Términos se realizarán por escrito y se considerarán efectivas: (i) al entregarse personalmente; (ii) al enviarse por correo certificado con acuse de recibo; (iii) al transmitirse por correo electrónico con confirmación de lectura. Para la Empresa: contacto@zi0n.io o la dirección en el certificado de la Cámara de Comercio (Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia). Para el Usuario: el correo proporcionado en el registro. TODAS las notificaciones electrónicas por correo son válidas bajo la Ley 527 de 1999.
 
 15.5. Renuncia y No Renuncia: Ninguna omisión, demora o indulgencia en el ejercicio de derechos por cualquier Parte constituirá renuncia o modificación implícita. Cualquier renuncia debe ser expresa, escrita y limitada al caso específico, sin afectar derechos futuros.
 
@@ -221,7 +221,7 @@ export const legalNoticeContent: Record<string, {
 }> = {
   es: {
     companyInfo: 'GLOBAL INVESTMENT ST S.A.S. (en adelante, "la Empresa" o "Zi0n"), identificada con NIT 901206726-2, es una sociedad por acciones simplificada constituida en Colombia, con domicilio principal en Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia. La Empresa se dedica a actividades de programación informática (CIIU 6201), inversión en sociedades, publicidad (CIIU 7310), diseño especializado (CIIU 7410) y consultoría de gestión (CIIU 7020), entre otras relacionadas con el desarrollo y prestación de servicios de seguridad móvil avanzada bajo la marca Zi0n.',
-    contactEmail: 'contacto@zi0n.com',
+    contactEmail: 'contacto@zi0n.io',
     contactEmailSupport: 'para soporte y consultas generales',
     contactEmailLegal: 'para notificaciones judiciales',
     contactEmailLegalValue: 'universalencriptados@gmail.com',
@@ -236,7 +236,7 @@ export const legalNoticeContent: Record<string, {
   },
   en: {
     companyInfo: 'GLOBAL INVESTMENT ST S.A.S. (hereinafter, "the Company" or "Zi0n"), identified with NIT 901206726-2, is a simplified joint-stock company incorporated in Colombia, with principal domicile at Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia. The Company is engaged in computer programming activities (CIIU 6201), investment in companies, advertising (CIIU 7310), specialized design (CIIU 7410) and management consulting (CIIU 7020), among others related to the development and provision of advanced mobile security services under the Zi0n brand.',
-    contactEmail: 'contacto@zi0n.com',
+    contactEmail: 'contacto@zi0n.io',
     contactEmailSupport: 'for support and general inquiries',
     contactEmailLegal: 'for legal notifications',
     contactEmailLegalValue: 'universalencriptados@gmail.com',
@@ -305,7 +305,7 @@ export const cookiesContent: Record<string, {
     },
     section6: {
       title: '6. Contacto',
-      description: 'Para preguntas sobre esta Política, contacte a contacto@zi0n.com o +57 300 929 1110.',
+      description: 'Para preguntas sobre esta Política, contacte a contacto@zi0n.io o +57 300 929 1110.',
       responsible: 'Katherine Rodas Pareja',
     },
     footer: 'Esta Política se integra con nuestra Política de Tratamiento de Datos Personales y Términos y Condiciones de Uso. Al usar el Sitio, acepta esta Política.',
@@ -352,7 +352,7 @@ export const cookiesContent: Record<string, {
     },
     section6: {
       title: '6. Contact',
-      description: 'For questions about this Policy, contact contacto@zi0n.com or +57 300 929 1110.',
+      description: 'For questions about this Policy, contact contacto@zi0n.io or +57 300 929 1110.',
       responsible: 'Katherine Rodas Pareja',
     },
     footer: 'This Policy is integrated with our Personal Data Processing Policy and Terms and Conditions of Use. By using the Site, you accept this Policy.',
