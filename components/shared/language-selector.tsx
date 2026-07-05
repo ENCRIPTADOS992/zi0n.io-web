@@ -43,16 +43,15 @@ export function LanguageSelector() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-2 rounded-lg text-white/80 hover:text-white hover:bg-white/10 transition-colors"
+        className="flex items-center gap-2 px-3 py-2 rounded-lg text-[#071C59]/70 hover:text-[#071C59] hover:bg-[#071C59]/5 transition-colors"
         aria-label="Select language"
       >
-        <Globe className="w-4 h-4" />
-        <span className="text-sm font-medium">{localeFlags[locale]} {localeNames[locale]}</span>
+        <span className="text-sm font-semibold uppercase">{locale === 'es' ? 'ESP' : locale.toUpperCase()}</span>
         <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
       </button>
 
       {isOpen && (
-        <div className="absolute top-full right-0 mt-2 w-48 bg-[#071C59] border border-white/20 rounded-xl shadow-xl z-50 overflow-hidden">
+        <div className="absolute top-full right-0 mt-2 w-48 bg-white border border-gray-200 rounded-xl shadow-xl z-50 overflow-hidden">
           <div className="py-1 max-h-80 overflow-y-auto">
             {locales.map((loc) => (
               <button
@@ -60,8 +59,8 @@ export function LanguageSelector() {
                 onClick={() => handleLocaleChange(loc)}
                 className={`w-full flex items-center gap-3 px-4 py-2.5 text-sm transition-colors ${
                   locale === loc 
-                    ? 'bg-[#5EEC7D]/20 text-[#5EEC7D]' 
-                    : 'text-white/80 hover:text-white hover:bg-white/10'
+                    ? 'bg-[#071C59]/10 text-[#071C59] font-semibold' 
+                    : 'text-[#071C59]/70 hover:text-[#071C59] hover:bg-gray-50'
                 }`}
               >
                 <span className="text-lg">{localeFlags[loc]}</span>

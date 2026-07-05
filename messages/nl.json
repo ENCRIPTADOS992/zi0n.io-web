@@ -1,175 +1,229 @@
 {
-  "metadata": {
-    "title": "Zi0n - Geavanceerde Mobiele Beveiliging",
-    "description": "Transformeer je Android in een versleuteld, veilig, gecontroleerd en beschermd apparaat met Zi0n."
-  },
   "header": {
     "nav": {
-      "home": "Home",
-      "security": "Beveiliging",
-      "characteristics": "Kenmerken",
-      "apps": "Apps",
-      "contact": "Contact"
+      "whatIs": "Wat is het?",
+      "whatIncludes": "Wat is inbegrepen?",
+      "apps": "Applicaties"
     },
-    "cta": "Nu starten"
+    "cta": "Nu beginnen"
   },
   "hero": {
-    "badge": "Beveiliging op bedrijfsniveau",
-    "title": "Transformeer je apparaat met de",
-    "titleHighlight": "beveiliging",
-    "titleEnd": "waar je altijd van droomde",
-    "description": "Zi0n transformeert je Android in een versleuteld, veilig, gecontroleerd en beschermd apparaat. Het stelt je in staat om geverifieerde apps en systeemspecifieke beveiligingsfuncties te beheren om privacy en geavanceerde beveiliging te garanderen.",
-    "ctaPrimary": "Nu starten",
-    "ctaSecondary": "Demo bekijken",
-    "phoneTitle": "Beschermd Apparaat",
-    "phoneSubtitle": "Jouw veiligheid is onze prioriteit",
-    "encryptionActive": "Versleuteling actief",
-    "mdmConnected": "MDM verbonden"
+    "titleLine1": "Veilig.",
+    "titleLine2": "Zonder beperkingen.",
+    "titleLine3": "Beweeg met vrijheid.",
+    "description": "Beheer je crypto met de apps die je al gebruikt... Zi0n Crypto beschermt je apparaat zonder je manier van werken te veranderen. Beveiliging op militair niveau ontmoet dagelijks gebruiksgemak.",
+    "cta": "Meer weten"
   },
-  "security": {
-    "badge": "Uitgebreide bescherming",
-    "title": "Zi0n geeft je meer beveiliging",
-    "description": "Exclusieve functies ontworpen om je meest gevoelige informatie te beschermen",
-    "features": {
-      "wipi": {
-        "title": "Wipi Beveiliging",
-        "cardTitle": "Wipi: Verdediging tegen spionagekabels",
-        "cardDescription": "Verwijdert alle apparaatinformatie wanneer een verdachte kabel wordt gedetecteerd...",
-        "description": "Wipi beschermt je apparaat tegen gemanipuleerde data- of oplaadkabels. Het detecteert verdachte verbindingen, waarschuwt de gebruiker en wist afhankelijk van je instellingen het systeem om data-extractie te voorkomen."
+  "cryptoDilemma": {
+    "title": "Het dilemma van cryptobeveiliging",
+    "subtitle": "Zi0n is de ultieme oplossing die het beste van beide werelden combineert.",
+    "cards": {
+      "hardware": {
+        "title": "Hardware Wallets",
+        "description": "Maximale offline beveiliging, maar onpraktisch voor dagelijkse transacties en actief handelen."
       },
-      "wipepin": {
-        "title": "WipPIN Beveiliging",
-        "cardTitle": "WipPIN: Fabrieksreset PIN",
-        "cardDescription": "Een PIN die bij invoer direct alle informatie wist...",
-        "description": "Een PIN die bij invoer direct alle apparaatinformatie wist. Een snelle en discrete actie om je gegevens te beschermen in kritieke situaties."
+      "zion": {
+        "title": "ZiOn",
+        "description": "De bescherming van een hoogbeveiligd systeem met de eenvoud van je smartphone."
       },
-      "wipsim": {
-        "title": "WipSIM Beveiliging",
-        "cardTitle": "WipSIM: Bescherming tegen SIM-manipulatie",
-        "cardDescription": "Detecteert elke ongeautoriseerde wijziging van de SIM of eSIM...",
-        "description": "Deze functie detecteert elke ongeautoriseerde wijziging van de SIM of eSIM en waarschuwt de gebruiker met de mogelijkheid om het systeem te wissen om informatie te beschermen."
-      },
-      "wipconect": {
-        "title": "WipConect Beveiliging",
-        "cardTitle": "WipConect: Veilige controle tussen apparaten",
-        "cardDescription": "Koppel je Zi0n-apparaten aan andere vertrouwde systemen...",
-        "description": "WipConect stelt je in staat om je Zi0n-apparaten te koppelen aan andere vertrouwde systemen, waarbij je alle apparaten die aan je account zijn gekoppeld kunt beheren (licenties vernieuwen, andere Zi0n-systemen vergrendelen of wissen)."
-      },
-      "wipnoti": {
-        "title": "WipNoti Beveiliging",
-        "cardTitle": "WipNoti: Notificatie-app integratie",
-        "cardDescription": "Veilige weergave van gepersonaliseerde notificaties...",
-        "description": "Zi0n kan koppelen met externe apps om veilige weergave van gepersonaliseerde notificaties vanaf conventionele apparaten mogelijk te maken, zonder het echte systeem bloot te stellen."
+      "hot": {
+        "title": "Hot Wallets",
+        "description": "Hoog gemak en snelle toegang, maar kwetsbaar voor malware, phishing en apparaatdiefstal."
       }
     }
   },
-  "mdmApps": {
-    "badge": "MDM-ecosysteem",
-    "title": "Meer verbinden, meer beschermen",
-    "description": "Til je beveiliging naar het volgende niveau met geïntegreerde apps",
-    "apps": {
-      "notifications": {
-        "name": "Push Notificaties App",
-        "description": "Ontvang realtime waarschuwingen over de beveiligingsstatus van je apparaat en belangrijke systeemgebeurtenissen."
+  "operaCripto": {
+    "title": "Handel wanneer je wilt met je crypto",
+    "subtitle": "Je hebt geen nieuwe wallet nodig. Je hebt een veiligere omgeving nodig om te gebruiken wat je al hebt.",
+    "description": "Zi0n Crypto beschermt je Web3-applicaties en digitale portemonnees in een geïsoleerd systeem dat de blootstelling aan bedreigingen, aanvallen en ongeautoriseerde toegang vermindert. Want de veiligheid van je activa begint met de veiligheid van je apparaat.",
+    "features": {
+      "apps": {
+        "title": "Officiële Apps",
+        "description": "We verifiëren de integriteit van je geïnstalleerde apps."
       },
       "wipe": {
-        "name": "Wis en Vergrendel App",
-        "description": "Afstandsbediening om gevoelige gegevens te verwijderen of het apparaat te vergrendelen bij verlies of diefstal."
+        "title": "Auto-wipe",
+        "description": "9 wisfuncties om je informatie te beschermen."
+      },
+      "restore": {
+        "title": "Veilig Herstel",
+        "description": "Herstel je systeem met je reeds geïmporteerde inloggegevens."
       }
-    },
-    "download": "Downloaden"
+    }
   },
-  "characteristics": {
-    "badge": "Alles inbegrepen",
-    "title": "Hoe de extreme beveiliging van Zi0n werkt",
-    "description": "Kenmerken ontworpen om je informatie te allen tijde te beschermen",
+  "howItWorks": {
+    "title": "Hoe werkt Zi0n Crypto?",
+    "subtitle": "Onzichtbare bescherming in drie eenvoudige stappen.",
+    "steps": {
+      "install": {
+        "number": "1",
+        "title": "Veilige Installatie",
+        "description": "Installeer Zi0n op je apparaat via een QR-code en activeer je veilige omgeving in slechts enkele minuten."
+      },
+      "isolate": {
+        "number": "2",
+        "title": "Isolatie",
+        "description": "Isoleer de applicaties die het meest waardevol voor je zijn in een omgeving ontworpen om hun veiligheid te maximaliseren."
+      },
+      "protect": {
+        "number": "3",
+        "title": "Actieve Bescherming",
+        "description": "Zi0n blokkeert meerdere risicovectoren door middel van 9 beveiligingsfuncties ontworpen om je digitale kluis te beschermen."
+      },
+      "control": {
+        "number": "4",
+        "title": "Volledige Controle",
+        "description": "Je applicaties en digitale activa blijven beschermd door meerdere beveiligingslagen ontworpen om risico's te verminderen."
+      }
+    }
+  },
+  "features": {
+    "title": "Wat is inbegrepen bij Zi0n?",
+    "subtitle": "Functies ontworpen om de grootste bedreigingen te weerstaan",
     "items": {
-      "easyInstall": {
-        "title": "Eenvoudige installatie",
-        "description": "Het scannen van de QR-code start de activering onmiddellijk, zonder langdurige processen of complexe configuraties. Het voltooien van de activering duurt slechts enkele minuten."
+      "cableWipe": {
+        "title": "Wissen bij kabeldetectie",
+        "description": "Alle informatie op het apparaat wordt gewist wanneer een kabel wordt gedetecteerd, ter bescherming bij diefstal of verlies."
       },
-      "globalService": {
-        "title": "Wereldwijde service",
-        "description": "Inclusief versleutelde internationale SIM-kaarten voor stabiele toegang, met meerdere operators om onderbrekingen te voorkomen en dekking te verbeteren."
+      "securityPin": {
+        "title": "Beveiligings-PIN",
+        "description": "Wil je alles in seconden wissen? Voer een PIN in en omzeil lange processen."
       },
-      "noUpdates": {
-        "title": "Noch de app noch het systeem kan push-updates ontvangen",
-        "description": "Zonder automatische updates kan geen derde partij ongeautoriseerde wijzigingen afdwingen die de beveiliging van apparaten met Zi0n in gevaar brengen."
+      "extraPin": {
+        "title": "Extra PIN",
+        "description": "Als je een nummer vóór je PIN invoert op het vergrendelscherm, wordt het systeem binnen seconden gewist."
       },
-      "screenshotBlock": {
-        "title": "Screenshot-blokkering",
-        "description": "Zi0n voorkomt screenshots of schermopnames, waardoor gevoelige informatie niet zonder toestemming kan worden gekopieerd of gedeeld."
+      "simProtection": {
+        "title": "Ongeautoriseerde SIM of eSIM",
+        "description": "Als het systeem een wijziging in de SIM of eSIM detecteert, wordt je PIN gevraagd en anders wordt het systeem gewist."
       },
-      "inactivityWipe": {
-        "title": "Inactiviteitswissing",
-        "description": "Als het apparaat de door de gebruiker gedefinieerde inactiviteitsperiode overschrijdt, voert het systeem een automatische wissing uit om alle informatie te beschermen."
+      "disableCam": {
+        "title": "CAM of MIC uitschakelen",
+        "description": "Maak je geen zorgen over toegang tot je camera of microfoon, je kunt ze uitschakelen."
       },
-      "hiddenSystem": {
-        "title": "Façadescherm en verborgen systeem",
-        "description": "Zi0n creëert een roterend Android-façadesysteem en verbergt het echte systeem in een toegangsapp. Hiermee kun je derden misleiden, je privacy beschermen en veilig blijven."
+      "blockCaptures": {
+        "title": "Schermopnames blokkeren",
+        "description": "Je informatie is veilig, noch schermafbeeldingen noch schermopnames worden geactiveerd."
       },
-      "disableMicCamera": {
-        "title": "Microfoon en camera uitschakelen",
-        "description": "Zi0n stelt je in staat om de microfoon en camera volledig uit te schakelen in elk deel van het systeem of elke app, waardoor elke opnamepoging of ongeautoriseerde toegang wordt voorkomen."
+      "noSignal": {
+        "title": "Geen signaal?",
+        "description": "Als het systeem gedurende een langere periode geen signaal detecteert, wordt het wissen van het apparaat gestart."
       },
-      "noServers": {
-        "title": "Geen toegankelijke servers of gegevensopslag",
-        "description": "Zi0n gebruikt geen servers met vaste locaties en slaat geen apparaatinformatie op, waardoor wordt gegarandeerd dat geen gebruikersgegevens kunnen worden hersteld of geopend door derden."
+      "timedDestruction": {
+        "title": "Zelfvernietiging op tijd",
+        "description": "Je kunt een inactiviteitstimer instellen die het systeem automatisch vernietigt."
+      },
+      "panicButton": {
+        "title": "Panieknop",
+        "description": "Wis het systeem volledig of voer een knoppencombinatie uit op je telefoon."
+      },
+      "securityNotes": {
+        "title": "Beveiligde notities",
+        "description": "Bewaar notities met volledig vertrouwen, je notities worden end-to-end versleuteld."
       },
       "dynamicVpn": {
-        "title": "Dynamische VPN met gedecentraliseerd netwerk",
-        "description": "Zi0n gebruikt een geavanceerde dynamische VPN die werkt op een gedecentraliseerd netwerk, waarbij het IP-adres van het systeem constant roteert om privacy te maximaliseren en elke trackingpoging te bemoeilijken."
+        "title": "Dynamische VPN",
+        "description": "Een geavanceerde en dynamische VPN die werkt via een gedecentraliseerd netwerk en het IP-adres van het systeem voortdurend wereldwijd roteert."
       },
-      "permissionControl": {
-        "title": "App-machtigingsbescherming en -controle",
-        "description": "Zi0n bewaakt en reguleert de machtigingen van elke app, voorkomt ongepaste toegang en zorgt ervoor dat alleen strikt noodzakelijke bronnen worden gebruikt."
-      },
-      "vulnerabilityAssessment": {
-        "title": "Kwetsbaarheidsbeoordeling en app-classificatie",
-        "description": "Analyseert elke app op risico's en classificeert het beveiligingsniveau, en misleidt de app met valse informatie om de Zi0n-gebruiker te beschermen."
-      },
-      "smartwatchIntegration": {
-        "title": "Veilige smartwatch-integratie",
-        "description": "Zi0n kan koppelen met gesloten-systeem smartwatches, waardoor je belangrijke systeemfuncties discreet en veilig rechtstreeks vanaf je smartwatch kunt beheren."
-      }
-    }
-  },
-  "partners": {
-    "badge": "Wereldwijd distributienetwerk",
-    "title": "Distributiepartners",
-    "description": "Distributiepartners, zoals mobiele technologiewinkels of IT-providers, kunnen Zi0n-diensten doorverkopen aan hun klanten. We bieden een modern portaal om je bedrijf te beheren en gespecialiseerde technische ondersteuning. Vraag vandaag nog een demo aan!",
-    "benefits": {
-      "portal": {
-        "title": "Modern portaal",
-        "description": "Beheer je bedrijf met een intuïtief platform ontworpen voor distributeurs"
-      },
-      "devices": {
-        "title": "Premium apparaten",
-        "description": "Toegang tot smartphones en tablets met geïntegreerde Zi0n-beveiliging"
-      },
-      "support": {
-        "title": "Toegewijde ondersteuning",
-        "description": "Volledige technische assistentie voor jou en je klanten 24/7"
-      },
-      "demo": {
-        "title": "Exclusieve demo",
-        "description": "Probeer alle functies voordat je officiële distributeur wordt"
+      "esim": {
+        "title": "Internationale eSIM",
+        "description": "Inclusief een internationale eSIM voor stabiele toegang, gebruikmakend van meerdere operators wereldwijd."
       }
     },
-    "cta": {
-      "title": "Word officiële Zi0n-distributeur",
-      "description": "Vul het formulier in om een exclusieve demo te ontvangen en sluit je aan bij ons netwerk van geautoriseerde distributeurs",
-      "primaryButton": "Demo aanvragen",
-      "secondaryButton": "Meer informatie"
+    "showAll": "Alle functies bekijken",
+    "showLess": "Functies verbergen"
+  },
+  "appsConfig": {
+    "title": "Configureer Zi0n Crypto met deze apps",
+    "subtitle": "Je kunt kiezen uit 4 app-winkels om te installeren wat je wilt op je apparaat:",
+    "tabs": {
+      "privacy": "Privacy Winkel",
+      "exchange": "Exchange Winkel",
+      "communications": "Communicatie Winkel",
+      "encrypted": "Versleuteld Winkel"
     }
   },
+  "cta": {
+    "title": "Weet je niet of Zi0n iets voor jou is?",
+    "highlight": "We geven je 15 dagen gratis, zonder verplichtingen",
+    "description": "Laat de beveiliging van je vermogen niet aan het toeval over. Sluit je aan bij de elite die hun activa al beschermt met Zi0n met een gratis proefperiode van 14 dagen zonder verplichtingen.",
+    "benefits": {
+      "1": "Configuratie in minder dan 5 minuten",
+      "2": "24/7 technische ondersteuning",
+      "3": "Opzeggen zonder verplichtingen"
+    },
+    "primaryButton": "Gratis proefperiode starten",
+    "secondaryButton": "Praat met verkoop"
+  },
+  "faq": {
+    "title": "Heb je nog vragen?",
+    "subtitle": "We vertellen je meer over Zi0n Crypto",
+    "questions": {
+      "q1": {
+        "question": "Welke apparaten zijn compatibel?",
+        "answer": "Zi0n is compatibel met een breed scala aan Android-apparaten. Neem contact op met ons team om de compatibiliteit van je apparaat te verifiëren."
+      },
+      "q2": {
+        "question": "Als het apparaat wordt gewist, kan ik de informatie herstellen?",
+        "answer": "Gewiste informatie kan niet worden hersteld, aangezien het wissen permanent en veilig is. We raden aan om back-ups van je inloggegevens te bewaren."
+      },
+      "q3": {
+        "question": "Hoe veilig is Zi0n Crypto?",
+        "answer": "Zi0n gebruikt versleuteling op militair niveau en meerdere beveiligingslagen ontworpen om je digitale activa te beschermen tegen de meest geavanceerde bedreigingen."
+      },
+      "q4": {
+        "question": "Als ik een andere app wil dan die in de lijst staat, hoe installeer ik die?",
+        "answer": "Je kunt de toevoeging van extra applicaties aanvragen via ons ondersteuningsteam, dat de integriteit ervan verifieert voordat ze worden goedgekeurd."
+      },
+      "q5": {
+        "question": "Wat is het terugbetalingsbeleid?",
+        "answer": "We bieden een gratis proefperiode van 14 dagen. Als je niet tevreden bent, kun je zonder verplichtingen opzeggen tijdens die periode."
+      },
+      "q6": {
+        "question": "Kan ik Zi0n op een iPhone installeren?",
+        "answer": "Momenteel is Zi0n exclusief ontworpen voor Android-apparaten. We evalueren opties voor iOS in de toekomst."
+      },
+      "q7": {
+        "question": "Wat gebeurt er met mijn informatie? Wordt die opgeslagen?",
+        "answer": "Zi0n slaat geen gebruikersinformatie op op externe servers. Alle gegevens blijven uitsluitend op je apparaat."
+      },
+      "q8": {
+        "question": "Verlies ik de toegang tot mijn apps als ik het systeem wis?",
+        "answer": "Bij het wissen van het systeem worden alle gegevens van het apparaat verwijderd. Zorg ervoor dat je je inloggegevens en herstelzinnen hebt geback-upt."
+      }
+    }
+  },
+  "distributionModal": {
+    "title": "Genereer inkomsten met commissies",
+    "subtitle": "Distribueer Zi0n en genereer rendement vanaf dag 1. Laat je gegevens achter en we nemen contact met je op.",
+    "nameLabel": "Naam",
+    "namePlaceholder": "John Doe",
+    "emailLabel": "E-mailadres",
+    "emailPlaceholder": "hallo@email.com",
+    "countryLabel": "Land",
+    "budgetLabel": "Budget",
+    "choosePlaceholder": "Kiezen...",
+    "commentsLabel": "Heb je opmerkingen?",
+    "commentsPlaceholder": "Voer hier je opmerkingen in.",
+    "submit": "Aanvraag verzenden",
+    "sending": "Verzenden...",
+    "success": "Aanvraag verzonden! We nemen binnenkort contact met je op.",
+    "error": "Fout bij verzenden. Probeer het opnieuw."
+  },
+  "distribution": {
+    "title": "Wil je Zi0n Crypto distribueren?",
+    "descriptionBefore": "Distributiepartners, zoals mobiele technologiewinkels of IT-leveranciers, kunnen Zi0n-diensten doorverkopen aan hun klanten en ",
+    "descriptionHighlight": "uitstekende winsten behalen",
+    "descriptionAfter": ". We bieden een modern portaal om je bedrijf te beheren en gespecialiseerde technische ondersteuning. Vraag vandaag nog een demonstratie aan!",
+    "cta": "Demonstratie aanvragen"
+  },
   "contact": {
-    "badge": "We zijn er om te helpen",
+    "badge": "We staan voor je klaar",
     "title": "Neem contact op",
-    "subtitle": "Heb je vragen over Zi0n? Ons team staat klaar om je te helpen je informatie te beschermen. Schrijf ons en we reageren zo snel mogelijk.",
+    "subtitle": "Heb je vragen over Zi0n? Ons team staat klaar om je te helpen je informatie te beschermen. Schrijf ons en we antwoorden zo snel mogelijk.",
     "info": {
       "email": {
-        "label": "E-mail",
+        "label": "Email",
         "value": "contacto@zi0n.io"
       },
       "location": {
@@ -183,8 +237,8 @@
         "placeholder": "Je naam"
       },
       "email": {
-        "label": "E-mail",
-        "placeholder": "jij@email.com"
+        "label": "Email",
+        "placeholder": "jouw@email.com"
       },
       "message": {
         "label": "Bericht",
@@ -193,114 +247,92 @@
       "submit": "Bericht verzenden"
     }
   },
-  "cta": {
-    "title": "Bescherm je apparaat vandaag",
-    "subtitle": "Sluit je aan bij duizenden gebruikers die al vertrouwen op Zi0n om hun waardevolste informatie te beschermen. De beveiliging die je nodig hebt, binnen handbereik.",
-    "benefits": {
-      "1": "Installatie in minder dan 5 minuten",
-      "2": "14 dagen gratis proefperiode",
-      "3": "24/7 technische ondersteuning",
-      "4": "Opzeggen zonder verplichtingen"
-    },
-    "primaryButton": "Start gratis proefperiode",
-    "secondaryButton": "Praat met verkoop"
-  },
   "footer": {
-    "description": "Mobiele beveiliging transformeren met geavanceerde versleuteling en uitgebreide bescherming voor je Android-apparaat.",
-    "navigation": "Navigatie",
-    "nav": {
-      "home": "Home",
-      "security": "Beveiliging",
-      "characteristics": "Kenmerken",
-      "apps": "Apps",
-      "contact": "Contact"
-    },
-    "legal": "Juridisch",
+    "description": "Transformatie van mobiele beveiliging met encryptiestrategieën en integrale bescherming voor je Android-apparaat.",
     "legalLinks": {
-      "legalNotice": "Juridische kennisgeving",
+      "legalNotice": "Juridische Kennisgeving",
       "terms": "Algemene voorwaarden",
       "cookies": "Cookiebeleid"
     },
-    "rights": "Alle rechten voorbehouden.",
-    "madeWith": "Gemaakt met beveiliging in gedachten"
+    "rights": "Alle rechten voorbehouden."
   },
   "legalPages": {
     "backToHome": "Terug naar home",
     "legalNotice": {
       "title": "Juridische Kennisgeving",
       "contact": "Contact",
-      "contactEmail": "E-mail",
+      "contactEmail": "E-mailadres",
       "contactEmailSupport": "voor ondersteuning en algemene vragen",
       "contactEmailLegal": "voor juridische kennisgevingen",
       "contactPhone": "Telefoon",
       "contactAddress": "Adres voor juridische kennisgevingen",
       "or": "of",
       "intellectualProperty": "Intellectueel Eigendom",
-      "intellectualPropertyText": "Alle intellectuele eigendomsrechten op Zi0n, inclusief software, ontwerpen, handelsmerken en inhoud, behoren toe aan het Bedrijf of zijn licentiegevers. Elke ongeoorloofde reproductie, distributie of gebruik is verboden.",
+      "intellectualPropertyText": "Alle intellectuele eigendomsrechten op Zi0n, inclusief software, ontwerpen, merken en inhoud, behoren toe aan het Bedrijf of zijn licentiegevers. Elke ongeautoriseerde reproductie, distributie of gebruik is verboden.",
       "thirdPartyLinks": "Links naar Derden",
-      "thirdPartyLinksText": "De site kan links bevatten naar websites van derden. Het Bedrijf is niet verantwoordelijk voor de inhoud of privacypraktijken van dergelijke sites.",
-      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (hierna \"het Bedrijf\" of \"Zi0n\"), geïdentificeerd met NIT 901206726-2, is een vereenvoudigde naamloze vennootschap opgericht in Colombia, met hoofdadres aan Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia. Telefoon: +57 300 929 1110. Het Bedrijf houdt zich bezig met de ontwikkeling en levering van geavanceerde mobiele beveiligingsdiensten onder het merk Zi0n.",
-      "jurisdiction": "Deze website en bijbehorende diensten worden geëxploiteerd door het Bedrijf onder de jurisdictie van de wetten van de Republiek Colombia. Elk geschil met betrekking tot het gebruik van de site of diensten zal uitsluitend worden opgelost bij de rechtbanken van Medellín, Antioquia.",
-      "disclaimer": "Het Bedrijf garandeert geen ononderbroken beschikbaarheid van de website of de afwezigheid van fouten. Inhoud wordt geleverd \"zoals het is\" zonder uitdrukkelijke of impliciete garanties. Het Bedrijf behoudt zich het recht voor de website op elk moment zonder voorafgaande kennisgeving te wijzigen.",
+      "thirdPartyLinksText": "De site kan links bevatten naar websites van derden. Het Bedrijf is niet verantwoordelijk voor de inhoud of het privacybeleid van dergelijke sites.",
+      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (hierna \"het Bedrijf\" of \"Zi0n\"), geïdentificeerd met NIT 901206726-2, is een vereenvoudigde naamloze vennootschap opgericht in Colombia, met hoofdkantoor aan Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia. Het Bedrijf houdt zich bezig met computerprogrammering (CIIU 6201), investeringen in vennootschappen, reclame (CIIU 7310), gespecialiseerd ontwerp (CIIU 7410) en managementadvies (CIIU 7020), onder andere activiteiten gerelateerd aan de ontwikkeling en levering van geavanceerde mobiele beveiligingsdiensten onder het merk Zi0n.",
+      "jurisdiction": "Deze website en de bijbehorende diensten worden beheerd door het Bedrijf onder de jurisdictie van de wetten van de Republiek Colombia. Elk geschil met betrekking tot het gebruik van de site of de diensten zal exclusief worden opgelost door de rechtbanken van Medellín, Antioquia.",
+      "disclaimer": "Het Bedrijf garandeert niet de ononderbroken beschikbaarheid van de website of de afwezigheid van fouten. De inhoud wordt geleverd \"zoals het is\" zonder uitdrukkelijke of impliciete garanties. Het Bedrijf behoudt zich het recht voor om de website op elk moment zonder voorafgaande kennisgeving te wijzigen.",
       "lastUpdate": "Laatste update",
-      "moreInfo": "Voor meer informatie, zie de"
+      "moreInfo": "Voor meer informatie, raadpleeg de"
     },
     "terms": {
-      "title": "Algemene Voorwaarden",
+      "title": "Algemene Voorwaarden voor het Gebruik van de Diensten",
       "lastUpdate": "Laatste update"
     },
     "cookies": {
       "title": "Cookiebeleid",
       "lastUpdate": "Laatste update",
-      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, hierna \"het Bedrijf\" of \"Zi0n\"), met adres aan Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia, exploiteert de website https://www.zi0n.io/es (hierna \"de Site\"). Dit Cookiebeleid legt uit hoe we cookies en vergelijkbare technologieën op de Site gebruiken, in overeenstemming met Wet 1581 van 2012 en de regelgeving inzake gegevensbescherming in Colombia.",
-      "privacyFocus": "Gezien onze focus op maximale privacy en het niet verzamelen van onnodige gegevens, gebruikt de Site geen cookies van derden of tracking cookies. We gebruiken alleen cookies die strikt noodzakelijk zijn voor de basiswerking van de Site, indien van toepassing.",
+      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, hierna \"het Bedrijf\" of \"Zi0n\"), met domicilie aan Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia, beheert de website https://www.zi0n.io/es (hierna \"de Site\"). Dit Cookiebeleid legt uit hoe we cookies en vergelijkbare technologieën gebruiken op de Site, in overeenstemming met Wet 1581 van 2012 en gerelateerde normen voor gegevensbescherming in Colombia.",
+      "privacyFocus": "Gezien onze focus op maximale privacy en het niet verzamelen van onnodige gegevens, gebruikt de Site geen cookies van derden of trackingcookies. We gebruiken uitsluitend strikt noodzakelijke cookies voor de basisfunctionaliteit van de Site, indien van toepassing.",
       "section1": {
         "title": "1. Wat zijn Cookies?",
-        "description": "Cookies zijn kleine tekstbestanden die op uw apparaat (computer, telefoon of tablet) worden opgeslagen wanneer u een website bezoekt. Ze kunnen worden gebruikt om voorkeuren te onthouden, de gebruikerservaring te verbeteren of analytische gegevens te verzamelen. Er zijn verschillende typen:",
+        "description": "Cookies zijn kleine tekstbestanden die worden opgeslagen op je apparaat (computer, telefoon of tablet) wanneer je een website bezoekt. Ze kunnen worden gebruikt om voorkeuren te onthouden, de gebruikerservaring te verbeteren of analytische gegevens te verzamelen. Er zijn verschillende typen:",
         "essential": "Essentiële cookies",
-        "essentialDesc": "Noodzakelijk voor het functioneren van de site (bijv. sessies onderhouden).",
+        "essentialDesc": "Noodzakelijk voor de werking van de site (bijv. sessies behouden).",
         "performance": "Prestatiecookies",
-        "performanceDesc": "Verzamelen anonieme gegevens over sitegebruik.",
+        "performanceDesc": "Verzamelen anonieme gegevens over het sitegebruik.",
         "functionality": "Functionaliteitscookies",
         "functionalityDesc": "Onthouden gebruikerskeuzes (bijv. taal).",
         "advertising": "Advertentiecookies",
-        "advertisingDesc": "Gebruikt om gepersonaliseerde advertenties te tonen."
+        "advertisingDesc": "Gebruikt voor het tonen van gepersonaliseerde advertenties."
       },
       "section2": {
         "title": "2. Cookies Gebruikt op de Site",
-        "description": "Bij Zi0n geven we prioriteit aan uw privacy en verzamelen of bewaren we geen browsergegevens buiten het essentiële. Daarom:",
+        "description": "Bij Zi0n geven we prioriteit aan je privacy en verzamelen of bewaren we geen browsegegevens buiten wat essentieel is voor het leveren van de Diensten. Daarom:",
         "noThirdParty": "We gebruiken geen cookies van derden, analytische of advertentiecookies.",
         "noThirdPartyDesc": "We delen geen gegevens met advertentienetwerken, Google Analytics of andere trackingdiensten.",
         "essentialCookies": "Essentiële cookies (indien van toepassing)",
-        "essentialCookiesDesc": "We kunnen tijdelijke (sessie) technische cookies gebruiken voor basisfuncties zoals veilig browsen of QR-codeverwerking. Deze worden automatisch verwijderd wanneer u de browser sluit.",
+        "essentialCookiesDesc": "We kunnen tijdelijke technische cookies (sessiecookies) gebruiken voor basisfuncties zoals veilige navigatie of de verwerking van de QR-code voor installatie. Deze worden automatisch verwijderd bij het sluiten van de browser en verzamelen geen persoonlijk identificeerbare gegevens.",
         "dataCollected": "Verzamelde gegevens",
-        "dataCollectedDesc": "Geen. We slaan geen informatie op over uw bezoek, IP, locatie of gedrag op de Site, behalve het e-mailadres dat vrijwillig is opgegeven voor registratie of contact.",
-        "noCookies": "Als de Site helemaal geen cookies gebruikt (zoals bij statische pagina's zonder trackingscripts), worden er geen cookies op uw apparaat geïnstalleerd."
+        "dataCollectedDesc": "Geen. We slaan geen informatie op over je bezoek, IP-adres, locatie of gedrag op de Site, behalve het e-mailadres dat vrijwillig wordt verstrekt voor registratie of contact.",
+        "noCookies": "Als de Site helemaal geen cookies gebruikt (zoals bij statische pagina's zonder trackingscripts), wordt er geen cookie op je apparaat geïnstalleerd."
       },
       "section3": {
-        "title": "3. Cookiebeheer",
-        "description": "U kunt cookies beheren via uw browserinstellingen:",
+        "title": "3. Beheer van Cookies",
+        "description": "Je kunt cookies beheren via de instellingen van je browser:",
         "block": "Cookies blokkeren of verwijderen",
-        "blockDesc": "De meeste browsers (zoals Chrome, Firefox, Safari) staan u toe cookies te weigeren of te verwijderen.",
+        "blockDesc": "De meeste browsers (zoals Chrome, Firefox, Safari) staan toe om cookies te weigeren of te verwijderen. Raadpleeg de helpsectie van je browser voor instructies.",
         "impact": "Impact",
-        "impactDesc": "Het blokkeren van essentiële cookies kan de functionaliteit van de Site beïnvloeden.",
+        "impactDesc": "Het blokkeren van essentiële cookies kan de functionaliteit van de Site beïnvloeden, zoals het scannen van QR-codes.",
         "noBanner": "We gebruiken geen toestemmingsbanners",
-        "noBannerDesc": "Aangezien we geen niet-essentiële cookies gebruiken, tonen we geen cookiebanners. Uw browsen impliceert acceptatie van dit Beleid."
+        "noBannerDesc": "Aangezien we geen niet-essentiële cookies gebruiken, tonen we geen cookiebanners. Je navigatie impliceert acceptatie van dit Beleid."
       },
       "section4": {
         "title": "4. Links naar Derden",
-        "description": "De Site kan links bevatten naar websites van derden (bijv. betalingsverwerkers). Deze sites hebben hun eigen cookiebeleid, waarvoor wij niet verantwoordelijk zijn."
+        "description": "De Site kan links bevatten naar websites van derden (bijv. betalingsverwerkers). Deze sites hebben hun eigen cookiebeleid, waarvoor wij niet verantwoordelijk zijn. Controleer hun beleid voordat je ermee interacteert."
       },
       "section5": {
-        "title": "5. Beleidswijzigingen",
-        "description": "We behouden ons het recht voor dit Beleid bij te werken. Wijzigingen worden op de Site gepubliceerd en indien van toepassing per e-mail gemeld, met ten minste 15 dagen voorafgaande kennisgeving."
+        "title": "5. Wijzigingen in het Beleid",
+        "description": "We behouden ons het recht voor om dit Beleid bij te werken. Wijzigingen worden gepubliceerd op de Site en indien van toepassing per e-mail gemeld, met minimaal 15 dagen voorafgaande kennisgeving."
       },
       "section6": {
         "title": "6. Contact",
         "description": "Voor vragen over dit Beleid, neem contact op met",
         "responsible": "Verantwoordelijke"
       },
-      "footer": "Dit Beleid is geïntegreerd met ons Beleid voor de Verwerking van Persoonsgegevens en de"
+      "footer": "Dit Beleid is geïntegreerd met ons Beleid voor de Verwerking van Persoonsgegevens en"
     }
   }
 }

@@ -3,24 +3,21 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { useLocale, useTranslations } from "next-intl"
-import { Menu } from "lucide-react"
 import { Logo } from "@/components/shared/logo"
 import { LanguageSelector } from "@/components/shared/language-selector"
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { useIsMobile } from "@/hooks/use-mobile"
 
 export function Header() {
   const t = useTranslations('header')
   const locale = useLocale()
+  const isCompact = useIsMobile(1100)
   const [isScrolled, setIsScrolled] = useState(false)
-  const [isOpen, setIsOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   const navLinks = [
-    { label: t('nav.home'), href: "#hero" },
-    { label: t('nav.security'), href: "#security" },
-    { label: t('nav.characteristics'), href: "#characteristics" },
+    { label: t('nav.whatIs'), href: "#crypto-dilemma" },
+    { label: t('nav.whatIncludes'), href: "#features" },
     { label: t('nav.apps'), href: "#apps" },
-    { label: t('nav.contact'), href: "#contact" },
   ]
 
   useEffect(() => {
@@ -31,87 +28,166 @@ export function Header() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-[#071C59]/95 backdrop-blur-md shadow-lg" : "bg-[#071C59]"
-      }`}
-    >
-      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
-        <div className="flex h-16 items-center justify-between md:h-20">
-          {/* Logo */}
-          <Link href={`/${locale}`} className="shrink-0">
-            <Logo variant="light" size="md" />
-          </Link>
+  // Close menu on navigation
+  const handleNavClick = () => setMenuOpen(false)
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8 pl-4">
+  return (
+    <header style={{
+      ...styles.header,
+      ...(isScrolled || menuOpen ? styles.headerScrolled : styles.headerTop),
+      ...(menuOpen && { backdropFilter: "none", backgroundColor: "#FFFFFF" }),
+    }}>
+      <div style={styles.container}>
+        <Link href={`/${locale}`}>
+          <Logo variant="dark" size="md" />
+        </Link>
+
+        {isCompact ? (
+          <>
+            {/* Hamburger Button */}
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              style={styles.hamburger}
+              aria-label="Toggle menu"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#081C59" strokeWidth="2" strokeLinecap="round">
+                {menuOpen ? (
+                  <>
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </>
+                ) : (
+                  <>
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="3" y1="18" x2="21" y2="18" />
+                  </>
+                )}
+              </svg>
+            </button>
+          </>
+        ) : (
+          <>
+            <nav style={styles.nav}>
+              {navLinks.map((link) => (
+                <Link key={link.href} href={link.href} style={styles.navLink}>
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+
+            <div style={styles.rightSection}>
+              <LanguageSelector />
+            </div>
+          </>
+        )}
+      </div>
+
+      {/* Fullscreen Mobile Menu - outside container to avoid stacking context issues */}
+      {isCompact && menuOpen && (
+        <div style={styles.mobileMenu}>
+          <nav style={styles.mobileNav}>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-white/80 hover:text-white text-sm font-medium transition-colors duration-200"
+                style={styles.mobileNavLink}
+                onClick={handleNavClick}
               >
                 {link.label}
               </Link>
             ))}
           </nav>
-
-          {/* Desktop Right Section */}
-          <div className="hidden md:flex items-center gap-6 pr-4">
+          <div style={styles.mobileLanguage}>
             <LanguageSelector />
-            <Button 
-              className="bg-[#5EEC7D] text-[#071C59] hover:bg-[#4DD96A] rounded-full px-6 font-semibold"
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              {t('cta')}
-            </Button>
-          </div>
-
-          {/* Mobile Menu */}
-          <div className="flex md:hidden items-center gap-3 pl-2">
-            <LanguageSelector />
-            <Sheet open={isOpen} onOpenChange={setIsOpen}>
-              <SheetTrigger asChild>
-                <Button variant="ghost" size="icon" className="text-white hover:bg-white/10">
-                  <Menu className="h-6 w-6" />
-                  <span className="sr-only">Open menu</span>
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="right" className="bg-[#071C59] border-[#071C59] w-full sm:max-w-sm px-6">
-                <div className="flex flex-col h-full pt-8">
-                  <div className="flex justify-between items-center mb-8">
-                    <Logo variant="light" size="sm" />
-                  </div>
-                  <nav className="flex flex-col gap-4 pl-2">
-                    {navLinks.map((link) => (
-                      <Link
-                        key={link.href}
-                        href={link.href}
-                        onClick={() => setIsOpen(false)}
-                        className="text-white/80 hover:text-white text-lg font-medium py-2 transition-colors"
-                      >
-                        {link.label}
-                      </Link>
-                    ))}
-                  </nav>
-                  <div className="mt-auto pb-8">
-                    <Button
-                      className="w-full bg-[#5EEC7D] text-[#071C59] hover:bg-[#4DD96A] rounded-full font-semibold"
-                      onClick={() => {
-                        setIsOpen(false)
-                        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
-                      }}
-                    >
-                      {t('cta')}
-                    </Button>
-                  </div>
-                </div>
-              </SheetContent>
-            </Sheet>
           </div>
         </div>
-      </div>
+      )}
     </header>
   )
 }
+
+const styles = {
+  header: {
+    position: "fixed",
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 50,
+    transition: "background-color 0.3s, backdrop-filter 0.3s, box-shadow 0.3s",
+  },
+  headerTop: {
+    backgroundColor: "transparent",
+  },
+  headerScrolled: {
+    backgroundColor: "rgba(255, 255, 255, 0.95)",
+    backdropFilter: "blur(12px)",
+    boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
+  },
+  container: {
+    maxWidth: "1100px",
+    margin: "0 auto",
+    padding: "0 24px",
+    height: "72px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    position: "relative",
+  },
+  nav: {
+    display: "flex",
+    alignItems: "center",
+    gap: "32px",
+  },
+  navLink: {
+    fontSize: "14px",
+    fontWeight: 500,
+    color: "rgba(7, 28, 89, 0.7)",
+    textDecoration: "none",
+    fontFamily: "Montserrat, sans-serif",
+  },
+  rightSection: {
+    display: "flex",
+    alignItems: "center",
+    gap: "16px",
+  },
+  hamburger: {
+    background: "#FFFFFF",
+    border: "none",
+    cursor: "pointer",
+    padding: "8px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: "8px",
+    boxShadow: "0 1px 4px rgba(0,0,0,0.08)",
+  },
+  mobileMenu: {
+    position: "absolute",
+    top: "72px",
+    left: 0,
+    right: 0,
+    height: "calc(100vh - 72px)",
+    backgroundColor: "#FFFFFF",
+    padding: "32px 24px",
+    display: "flex",
+    flexDirection: "column",
+  },
+  mobileNav: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "28px",
+  },
+  mobileNavLink: {
+    fontSize: "18px",
+    fontWeight: 500,
+    color: "#081C59",
+    textDecoration: "none",
+    fontFamily: "Montserrat, sans-serif",
+  },
+  mobileLanguage: {
+    marginTop: "32px",
+    paddingTop: "24px",
+    borderTop: "1px solid rgba(0,0,0,0.08)",
+  },
+} satisfies Record<string, React.CSSProperties>;

@@ -1,179 +1,233 @@
 {
-  "metadata": {
-    "title": "Zi0n - Sécurité Mobile Avancée",
-    "description": "Transformez votre Android en un appareil crypté, sécurisé, contrôlé et protégé avec Zi0n."
-  },
   "header": {
     "nav": {
-      "home": "Accueil",
-      "security": "Sécurité",
-      "characteristics": "Caractéristiques",
-      "apps": "Applications",
-      "contact": "Contact"
+      "whatIs": "Qu'est-ce que c'est ?",
+      "whatIncludes": "Que comprend-il ?",
+      "apps": "Applications"
     },
-    "cta": "Commencer"
+    "cta": "Commencer maintenant"
   },
   "hero": {
-    "badge": "Sécurité de niveau entreprise",
-    "title": "Transformez votre appareil avec la",
-    "titleHighlight": "sécurité",
-    "titleEnd": "dont vous avez toujours rêvé",
-    "description": "Zi0n transforme votre Android en un appareil crypté, sécurisé, contrôlé et protégé. Il vous permet de gérer des applications vérifiées et des fonctionnalités de sécurité propres au système pour garantir la confidentialité et une sécurité avancée.",
-    "ctaPrimary": "Commencer",
-    "ctaSecondary": "Voir la démo",
-    "phoneTitle": "Appareil Protégé",
-    "phoneSubtitle": "Votre sécurité est notre priorité",
-    "encryptionActive": "Cryptage actif",
-    "mdmConnected": "MDM connecté"
+    "titleLine1": "Sécurisé.",
+    "titleLine2": "Sans contraintes.",
+    "titleLine3": "Bougez librement.",
+    "description": "Gérez vos cryptos avec les apps que vous utilisez déjà... Zi0n Crypto protège votre appareil sans changer votre façon d'opérer. La sécurité de niveau militaire rencontre l'ergonomie quotidienne.",
+    "cta": "En savoir plus"
   },
-  "security": {
-    "badge": "Protection complète",
-    "title": "Zi0n vous offre plus de sécurité",
-    "description": "Fonctionnalités exclusives conçues pour protéger vos informations les plus sensibles",
-    "features": {
-      "wipi": {
-        "title": "Wipi Sécurité",
-        "cardTitle": "Wipi: Défense contre les câbles espions",
-        "cardDescription": "Supprime toutes les informations de l'appareil lorsqu'un câble suspect est détecté...",
-        "description": "Wipi protège votre appareil contre les câbles de données ou de charge manipulés. Il détecte les connexions suspectes, alerte l'utilisateur et selon vos paramètres, efface le système pour empêcher toute extraction de données."
+  "cryptoDilemma": {
+    "title": "Le dilemme de la sécurité crypto",
+    "subtitle": "Zi0n est la solution ultime qui combine le meilleur des deux mondes.",
+    "cards": {
+      "hardware": {
+        "title": "Hardware Wallets",
+        "description": "Sécurité maximale hors ligne, mais peu pratiques pour les opérations quotidiennes et le trading actif."
       },
-      "wipepin": {
-        "title": "WipPIN Sécurité",
-        "cardTitle": "WipPIN: PIN de réinitialisation d'usine",
-        "cardDescription": "Un PIN qui efface instantanément toutes les informations lorsqu'il est saisi...",
-        "description": "Un PIN qui efface instantanément toutes les informations de l'appareil lorsqu'il est saisi. Une action rapide et discrète pour protéger vos données dans des situations critiques."
+      "zion": {
+        "title": "ZiOn",
+        "description": "La protection d'un système haute sécurité avec la simplicité de votre smartphone."
       },
-      "wipsim": {
-        "title": "WipSIM Sécurité",
-        "cardTitle": "WipSIM: Protection contre la manipulation de SIM",
-        "cardDescription": "Détecte tout changement non autorisé de la SIM ou eSIM...",
-        "description": "Cette fonctionnalité détecte tout changement non autorisé de la SIM ou eSIM, et alerte l'utilisateur avec la possibilité d'effacer le système pour protéger les informations."
-      },
-      "wipconect": {
-        "title": "WipConect Sécurité",
-        "cardTitle": "WipConect: Contrôle sécurisé entre appareils",
-        "cardDescription": "Liez vos appareils Zi0n à d'autres systèmes de confiance...",
-        "description": "WipConect vous permet de lier vos appareils Zi0n à d'autres systèmes de confiance, gérant (renouvellement de licences, verrouillage ou effacement d'autres systèmes Zi0n) tous les appareils connectés à votre compte."
-      },
-      "wipnoti": {
-        "title": "WipNoti Sécurité",
-        "cardTitle": "WipNoti: Intégration d'applications de notifications",
-        "cardDescription": "Affichage sécurisé des notifications personnalisées...",
-        "description": "Zi0n peut se lier à des applications externes pour permettre l'affichage sécurisé de notifications personnalisées depuis des appareils conventionnels, sans exposer le système réel."
+      "hot": {
+        "title": "Hot Wallets",
+        "description": "Grande commodité et accès rapide, mais vulnérables aux malwares, au phishing et aux vols d'appareils."
       }
     }
   },
-  "mdmApps": {
-    "badge": "Écosystème MDM",
-    "title": "Connectez plus, protégez plus",
-    "description": "Passez votre sécurité au niveau supérieur avec des applications intégrées",
-    "apps": {
-      "notifications": {
-        "name": "Application de Notifications Push",
-        "description": "Recevez des alertes en temps réel sur l'état de sécurité de votre appareil et les événements système importants."
+  "operaCripto": {
+    "title": "Opérez quand vous voulez avec vos cryptos",
+    "subtitle": "Vous n'avez pas besoin d'un nouveau wallet. Vous avez besoin d'un environnement plus sécurisé pour utiliser ce que vous avez déjà.",
+    "description": "Zi0n Crypto protège vos applications Web3 et portefeuilles numériques dans un système isolé qui réduit l'exposition aux menaces, attaques et accès non autorisés. Car la sécurité de vos actifs commence par la sécurité de votre appareil.",
+    "features": {
+      "apps": {
+        "title": "Apps Officielles",
+        "description": "Nous vérifions l'intégrité de vos applications installées."
       },
       "wipe": {
-        "name": "Application d'Effacement et Verrouillage",
-        "description": "Contrôle à distance pour supprimer les données sensibles ou verrouiller l'appareil en cas de perte ou de vol."
+        "title": "Auto-wipe",
+        "description": "9 fonctions d'effacement pour protéger vos informations."
+      },
+      "restore": {
+        "title": "Restauration Sécurisée",
+        "description": "Récupérez votre système avec vos identifiants déjà importés."
       }
-    },
-    "download": "Télécharger"
+    }
   },
-  "characteristics": {
-    "badge": "Tout inclus",
-    "title": "Comment fonctionne la sécurité extrême de Zi0n",
-    "description": "Caractéristiques conçues pour protéger vos informations à tout moment",
+  "howItWorks": {
+    "title": "Comment fonctionne Zi0n Crypto ?",
+    "subtitle": "Protection invisible en trois étapes simples.",
+    "steps": {
+      "install": {
+        "number": "1",
+        "title": "Installation Sécurisée",
+        "description": "Installez Zi0n sur votre appareil via un code QR et activez votre environnement sécurisé en quelques minutes seulement."
+      },
+      "isolate": {
+        "number": "2",
+        "title": "Isolation",
+        "description": "Isolez les applications qui ont le plus de valeur pour vous dans un environnement conçu pour maximiser leur sécurité."
+      },
+      "protect": {
+        "number": "3",
+        "title": "Protection Active",
+        "description": "Zi0n bloque de multiples vecteurs de risque grâce à 9 fonctions de sécurité conçues pour protéger votre coffre-fort numérique."
+      },
+      "control": {
+        "number": "4",
+        "title": "Contrôle Total",
+        "description": "Vos applications et actifs numériques restent protégés par de multiples couches de sécurité conçues pour réduire les risques."
+      }
+    }
+  },
+  "features": {
+    "title": "Que comprend Zi0n ?",
+    "subtitle": "Fonctionnalités conçues pour résister aux plus grandes menaces",
     "items": {
-      "easyInstall": {
-        "title": "Installation facile",
-        "description": "Le scan du code QR lance l'activation immédiatement, sans processus longs ni configurations complexes. L'activation complète ne prend que quelques minutes."
+      "cableWipe": {
+        "title": "Effacement à la détection de câble",
+        "description": "Toutes les informations de l'appareil sont effacées dès la détection d'un câble, vous protégeant en cas de vol ou de perte."
       },
-      "globalService": {
-        "title": "Service mondial",
-        "description": "Comprend des cartes SIM cryptées internationales pour garantir un accès stable, utilisant plusieurs opérateurs pour éviter les interruptions et améliorer la couverture."
+      "securityPin": {
+        "title": "PIN de sécurité",
+        "description": "Vous voulez tout effacer en quelques secondes ? Saisissez un PIN et dites adieu aux processus longs de démontage."
       },
-      "noUpdates": {
-        "title": "Ni l'application ni le système ne peuvent recevoir de mises à jour push",
-        "description": "Sans mises à jour automatiques, aucun tiers ne peut forcer des changements non autorisés qui compromettent la sécurité des appareils utilisant Zi0n."
+      "extraPin": {
+        "title": "Extra PIN",
+        "description": "Si vous saisissez un numéro avant votre PIN sur l'écran de verrouillage, le système sera effacé en quelques secondes."
       },
-      "screenshotBlock": {
-        "title": "Blocage des captures d'écran",
-        "description": "Zi0n empêche les captures d'écran ou les enregistrements d'écran, empêchant les informations sensibles d'être copiées ou partagées sans autorisation."
+      "simProtection": {
+        "title": "SIM ou eSIM non autorisées",
+        "description": "Si le système détecte un changement de SIM ou eSIM, il demandera votre PIN, sinon il effacera le système."
       },
-      "inactivityWipe": {
-        "title": "Effacement par inactivité",
-        "description": "Si l'appareil dépasse la période d'inactivité définie par l'utilisateur, le système effectue un effacement automatique pour protéger toutes les informations."
+      "disableCam": {
+        "title": "Désactivez la CAM ou le MIC",
+        "description": "Ne vous inquiétez pas de l'accès à votre caméra ou microphone, vous pouvez les désactiver."
       },
-      "hiddenSystem": {
-        "title": "Écran de Façade et Système Caché",
-        "description": "Zi0n crée un système de façade Android rotatif et cache le système réel dans une application d'entrée. Cela vous permet de tromper les tiers, de protéger votre vie privée et de rester en sécurité."
+      "blockCaptures": {
+        "title": "Bloquez les captures",
+        "description": "Vos informations sont en sécurité, ni les captures ni les enregistrements d'écran ne s'activeront."
       },
-      "disableMicCamera": {
-        "title": "Désactiver le microphone et la caméra",
-        "description": "Zi0n vous permet de désactiver complètement le microphone et la caméra dans n'importe quelle partie du système ou application, empêchant toute tentative d'enregistrement ou accès non autorisé."
+      "noSignal": {
+        "title": "Pas de signal ?",
+        "description": "Si le système ne détecte aucun signal pendant une longue période, il lance l'effacement de l'appareil."
       },
-      "noServers": {
-        "title": "Pas de serveurs accessibles ni de stockage de données",
-        "description": "Zi0n n'utilise pas de serveurs avec des emplacements fixes et ne stocke pas d'informations sur les appareils, garantissant qu'aucune donnée utilisateur ne peut être récupérée ou accessible par des tiers."
+      "timedDestruction": {
+        "title": "Autodestruction temporisée",
+        "description": "Vous pouvez configurer un minuteur d'inactivité pour détruire automatiquement le système."
+      },
+      "panicButton": {
+        "title": "Bouton de panique",
+        "description": "Effacez complètement le système ou effectuez une combinaison de boutons sur votre téléphone."
+      },
+      "securityNotes": {
+        "title": "Notes sécurisées",
+        "description": "Stockez vos notes en toute confiance, elles seront chiffrées de bout en bout."
       },
       "dynamicVpn": {
-        "title": "VPN dynamique avec réseau décentralisé",
-        "description": "Zi0n utilise un VPN dynamique avancé qui fonctionne sur un réseau décentralisé, faisant tourner constamment l'adresse IP du système pour maximiser la confidentialité et entraver toute tentative de suivi."
+        "title": "VPN Dynamique",
+        "description": "Un VPN avancé et dynamique qui opère sur un réseau décentralisé, changeant constamment l'adresse IP du système à l'échelle mondiale."
       },
-      "permissionControl": {
-        "title": "Protection et contrôle des permissions des applications",
-        "description": "Zi0n surveille et régule les permissions de chaque application, empêchant les accès inappropriés et garantissant que seules les ressources strictement nécessaires sont utilisées."
+      "esim": {
+        "title": "eSIM internationale",
+        "description": "Inclut une eSIM internationale pour garantir un accès stable, utilisant plusieurs opérateurs à l'échelle mondiale."
+      }
+    },
+    "showAll": "Voir toutes les fonctionnalités",
+    "showLess": "Masquer les fonctionnalités"
+  },
+  "appsConfig": {
+    "title": "Configurez Zi0n Crypto avec ces apps",
+    "subtitle": "Vous pouvez choisir parmi 4 boutiques d'applications pour installer ce que vous souhaitez sur votre appareil :",
+    "tabs": {
+      "privacy": "Boutique Privacy",
+      "exchange": "Boutique Exchange",
+      "communications": "Boutique Communications",
+      "encrypted": "Boutique Chiffrés"
+    }
+  },
+  "cta": {
+    "title": "Vous ne savez pas si Zi0n est fait pour vous ?",
+    "highlight": "Nous vous offrons 15 jours, sans engagement",
+    "description": "Ne laissez pas la sécurité de votre patrimoine au hasard. Rejoignez l'élite qui protège déjà ses actifs avec Zi0n grâce à un essai gratuit de 14 jours sans engagement.",
+    "benefits": {
+      "1": "Configuration en moins de 5 minutes",
+      "2": "Support technique 24/7",
+      "3": "Annulation sans engagement"
+    },
+    "primaryButton": "Commencer l'essai gratuit",
+    "secondaryButton": "Parler aux ventes"
+  },
+  "faq": {
+    "title": "Vous avez encore des questions ?",
+    "subtitle": "Nous vous en disons plus sur Zi0n Crypto",
+    "questions": {
+      "q1": {
+        "question": "Quels appareils sont compatibles ?",
+        "answer": "Zi0n est compatible avec une grande variété d'appareils Android. Contactez notre équipe pour vérifier la compatibilité de votre appareil."
       },
-      "vulnerabilityAssessment": {
-        "title": "Évaluation des vulnérabilités et classification des applications",
-        "description": "Analyse chaque application pour les risques et classe son niveau de sécurité, et trompe l'application avec de fausses informations pour protéger l'utilisateur Zi0n."
+      "q2": {
+        "question": "Si l'appareil est effacé, puis-je récupérer les informations ?",
+        "answer": "Les informations supprimées ne peuvent pas être récupérées, car l'effacement est permanent et sécurisé. Nous vous recommandons de conserver des copies de sauvegarde de vos identifiants."
       },
-      "smartwatchIntegration": {
-        "title": "Intégration avec montre connectée sécurisée",
-        "description": "Zi0n peut se lier à des montres intelligentes à système fermé, vous permettant de gérer les fonctions clés du système de manière discrète et sécurisée directement depuis votre montre."
+      "q3": {
+        "question": "À quel point Zi0n Crypto est-il sécurisé ?",
+        "answer": "Zi0n utilise un chiffrement de niveau militaire et de multiples couches de sécurité conçues pour protéger vos actifs numériques contre les menaces les plus avancées."
+      },
+      "q4": {
+        "question": "Si je veux une application différente de la liste, comment l'installer ?",
+        "answer": "Vous pouvez demander l'inclusion d'applications supplémentaires via notre équipe de support, qui vérifiera leur intégrité avant approbation."
+      },
+      "q5": {
+        "question": "Quelle est votre politique de remboursement ?",
+        "answer": "Nous offrons un essai gratuit de 14 jours. Si vous n'êtes pas satisfait, vous pouvez annuler sans engagement pendant cette période."
+      },
+      "q6": {
+        "question": "Puis-je installer Zi0n sur un iPhone ?",
+        "answer": "Actuellement, Zi0n est conçu exclusivement pour les appareils Android. Nous évaluons des options pour iOS à l'avenir."
+      },
+      "q7": {
+        "question": "Qu'advient-il de mes informations ? Sont-elles stockées ?",
+        "answer": "Zi0n ne stocke aucune information utilisateur sur des serveurs externes. Toutes les données restent exclusivement sur votre appareil."
+      },
+      "q8": {
+        "question": "Est-ce que je perds les accès à mes apps en supprimant le système ?",
+        "answer": "En supprimant le système, toutes les données de l'appareil sont effacées. Assurez-vous d'avoir sauvegardé vos identifiants et seeds de récupération."
       }
     }
   },
-  "partners": {
-    "badge": "Réseau mondial de distributeurs",
-    "title": "Partenaires de Distribution",
-    "description": "Les partenaires de distribution, tels que les magasins de technologie mobile ou les fournisseurs informatiques, peuvent revendre les services Zi0n à leurs clients. Nous offrons un portail moderne pour gérer votre entreprise et un support technique spécialisé. Demandez une démo aujourd'hui!",
-    "benefits": {
-      "portal": {
-        "title": "Portail moderne",
-        "description": "Gérez votre entreprise avec une plateforme intuitive conçue pour les distributeurs"
-      },
-      "devices": {
-        "title": "Appareils premium",
-        "description": "Accès aux smartphones et tablettes avec sécurité Zi0n intégrée"
-      },
-      "support": {
-        "title": "Support dédié",
-        "description": "Assistance technique complète pour vous et vos clients 24/7"
-      },
-      "demo": {
-        "title": "Démo exclusive",
-        "description": "Essayez toutes les fonctionnalités avant de devenir distributeur officiel"
-      }
-    },
-    "cta": {
-      "title": "Devenez distributeur officiel Zi0n",
-      "description": "Remplissez le formulaire pour recevoir une démo exclusive et rejoindre notre réseau de distributeurs autorisés",
-      "primaryButton": "Demander une démo",
-      "secondaryButton": "Plus d'informations"
-    }
+  "distributionModal": {
+    "title": "Générez des revenus avec les commissions",
+    "subtitle": "Distribuez Zi0n et générez de la rentabilité dès le jour 1. Laissez-nous vos coordonnées et nous vous contacterons.",
+    "nameLabel": "Nom",
+    "namePlaceholder": "John Doe",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "bonjour@email.com",
+    "countryLabel": "Pays",
+    "budgetLabel": "Budget",
+    "choosePlaceholder": "Choisir...",
+    "commentsLabel": "Avez-vous des commentaires ?",
+    "commentsPlaceholder": "Saisissez vos commentaires ici.",
+    "submit": "Envoyer la demande",
+    "sending": "Envoi en cours...",
+    "success": "Demande envoyée ! Nous vous contacterons bientôt.",
+    "error": "Erreur lors de l'envoi. Veuillez réessayer."
+  },
+  "distribution": {
+    "title": "Vous souhaitez distribuer Zi0n Crypto ?",
+    "descriptionBefore": "Les partenaires de distribution, tels que les magasins de technologie mobile ou les fournisseurs IT, peuvent revendre les services Zi0n à leurs clients et ",
+    "descriptionHighlight": "obtenir d'excellents revenus",
+    "descriptionAfter": ". Nous offrons un portail moderne pour gérer votre activité et un support technique spécialisé. Demandez une démonstration dès aujourd'hui !",
+    "cta": "Demander une démonstration"
   },
   "contact": {
     "badge": "Nous sommes là pour vous aider",
     "title": "Contactez-nous",
-    "subtitle": "Vous avez des questions sur Zi0n? Notre équipe est prête à vous aider à protéger vos informations. Écrivez-nous et nous vous répondrons dès que possible.",
+    "subtitle": "Vous avez des questions sur Zi0n ? Notre équipe est prête à vous aider à protéger vos informations. Écrivez-nous et nous vous répondrons dans les plus brefs délais.",
     "info": {
       "email": {
         "label": "Email",
         "value": "contacto@zi0n.io"
       },
       "location": {
-        "label": "Emplacement",
+        "label": "Localisation",
         "value": "Service mondial, support 24/7"
       }
     },
@@ -184,123 +238,101 @@
       },
       "email": {
         "label": "Email",
-        "placeholder": "vous@email.com"
+        "placeholder": "votre@email.com"
       },
       "message": {
         "label": "Message",
-        "placeholder": "Comment pouvons-nous vous aider?"
+        "placeholder": "Comment pouvons-nous vous aider ?"
       },
       "submit": "Envoyer le message"
     }
   },
-  "cta": {
-    "title": "Protégez votre appareil aujourd'hui",
-    "subtitle": "Rejoignez des milliers d'utilisateurs qui font déjà confiance à Zi0n pour protéger leurs informations les plus précieuses. La sécurité dont vous avez besoin, à portée de main.",
-    "benefits": {
-      "1": "Configuration en moins de 5 minutes",
-      "2": "Essai gratuit de 14 jours",
-      "3": "Support technique 24/7",
-      "4": "Annulation sans engagement"
-    },
-    "primaryButton": "Commencer l'essai gratuit",
-    "secondaryButton": "Parler aux ventes"
-  },
   "footer": {
-    "description": "Transformer la sécurité mobile avec un cryptage avancé et une protection complète pour votre appareil Android.",
-    "navigation": "Navigation",
-    "nav": {
-      "home": "Accueil",
-      "security": "Sécurité",
-      "characteristics": "Caractéristiques",
-      "apps": "Apps",
-      "contact": "Contact"
-    },
-    "legal": "Mentions légales",
+    "description": "Transformer la sécurité mobile avec des stratégies de chiffrement et une protection intégrale pour votre appareil Android.",
     "legalLinks": {
-      "legalNotice": "Mentions légales",
-      "terms": "Conditions d'utilisation",
+      "legalNotice": "Mentions Légales",
+      "terms": "Conditions générales",
       "cookies": "Politique de cookies"
     },
-    "rights": "Tous droits réservés.",
-    "madeWith": "Fait avec la sécurité en tête"
+    "rights": "Tous droits réservés."
   },
   "legalPages": {
     "backToHome": "Retour à l'accueil",
     "legalNotice": {
       "title": "Mentions Légales",
       "contact": "Contact",
-      "contactEmail": "E-mail",
+      "contactEmail": "Adresse e-mail",
       "contactEmailSupport": "pour le support et les demandes générales",
-      "contactEmailLegal": "pour les notifications juridiques",
+      "contactEmailLegal": "pour les notifications judiciaires",
       "contactPhone": "Téléphone",
-      "contactAddress": "Adresse pour les notifications juridiques",
+      "contactAddress": "Adresse pour les notifications judiciaires",
       "or": "ou",
       "intellectualProperty": "Propriété Intellectuelle",
-      "intellectualPropertyText": "Tous les droits de propriété intellectuelle sur Zi0n, y compris les logiciels, designs, marques et contenus, appartiennent à la Société ou à ses concédants. Toute reproduction, distribution ou utilisation non autorisée est interdite.",
+      "intellectualPropertyText": "Tous les droits de propriété intellectuelle sur Zi0n, y compris les logiciels, designs, marques et contenus, appartiennent à la Société ou à ses concédants de licence. Toute reproduction, distribution ou utilisation non autorisée est interdite.",
       "thirdPartyLinks": "Liens vers des Tiers",
       "thirdPartyLinksText": "Le site peut contenir des liens vers des sites web tiers. La Société n'est pas responsable du contenu ou des pratiques de confidentialité de ces sites.",
-      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (ci-après \"la Société\" ou \"Zi0n\"), identifiée avec le NIT 901206726-2, est une société par actions simplifiée constituée en Colombie, dont le siège principal est situé Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombie. La Société se consacre aux activités de programmation informatique (CIIU 6201), à l'investissement dans des sociétés, à la publicité (CIIU 7310), au design spécialisé (CIIU 7410) et au conseil en gestion (CIIU 7020), entre autres activités liées au développement et à la prestation de services de sécurité mobile avancée sous la marque Zi0n.",
+      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (ci-après, \"la Société\" ou \"Zi0n\"), identifiée sous le NIT 901206726-2, est une société par actions simplifiée constituée en Colombie, avec siège principal Calle 7 No. 39-215, Bureau 1009, Edificio Granahorrar, Medellín, Antioquia, Colombie. La Société se consacre aux activités de programmation informatique (CIIU 6201), investissement dans des sociétés, publicité (CIIU 7310), design spécialisé (CIIU 7410) et conseil en gestion (CIIU 7020), entre autres activités liées au développement et à la fourniture de services de sécurité mobile avancée sous la marque Zi0n.",
       "jurisdiction": "Ce site web et les services associés sont exploités par la Société sous la juridiction des lois de la République de Colombie. Tout litige lié à l'utilisation du site ou des services sera résolu exclusivement devant les tribunaux de Medellín, Antioquia.",
       "disclaimer": "La Société ne garantit pas la disponibilité ininterrompue du site web ni l'absence d'erreurs. Le contenu est fourni \"tel quel\" sans garanties expresses ou implicites. La Société se réserve le droit de modifier le site web à tout moment sans préavis.",
       "lastUpdate": "Dernière mise à jour",
       "moreInfo": "Pour plus d'informations, consultez les"
     },
     "terms": {
-      "title": "Conditions Générales d'Utilisation",
+      "title": "Conditions Générales d'Utilisation des Services",
       "lastUpdate": "Dernière mise à jour"
     },
     "cookies": {
       "title": "Politique de Cookies",
       "lastUpdate": "Dernière mise à jour",
-      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, ci-après \"la Société\" ou \"Zi0n\"), avec adresse Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombie, exploite le site web https://www.zi0n.io/es (ci-après \"le Site\"). Cette Politique de Cookies explique comment nous utilisons les cookies et technologies similaires sur le Site, conformément à la Loi 1581 de 2012 et aux réglementations relatives à la protection des données en Colombie.",
-      "privacyFocus": "Compte tenu de notre engagement pour une confidentialité maximale et la non-collecte de données inutiles, le Site n'utilise pas de cookies tiers ni de cookies de suivi. Nous n'utilisons que des cookies strictement nécessaires au fonctionnement de base du Site, le cas échéant.",
+      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, ci-après \"la Société\" ou \"Zi0n\"), avec siège à Calle 7 No. 39-215, Bureau 1009, Edificio Granahorrar, Medellín, Antioquia, Colombie, exploite le site web https://www.zi0n.io/es (ci-après, \"le Site\"). Cette Politique de Cookies explique comment nous utilisons les cookies et technologies similaires sur le Site, conformément à la Loi 1581 de 2012 et aux normes relatives à la protection des données en Colombie.",
+      "privacyFocus": "Compte tenu de notre engagement en faveur de la confidentialité maximale et de la non-collecte de données inutiles, le Site n'utilise pas de cookies tiers ni de cookies de suivi. Nous n'utilisons que des cookies strictement nécessaires au fonctionnement de base du Site, le cas échéant.",
       "section1": {
         "title": "1. Que sont les Cookies ?",
-        "description": "Les cookies sont de petits fichiers texte stockés sur votre appareil (ordinateur, téléphone ou tablette) lorsque vous visitez un site web. Ils peuvent être utilisés pour mémoriser les préférences, améliorer l'expérience utilisateur ou collecter des données analytiques. Il existe différents types :",
+        "description": "Les cookies sont de petits fichiers texte stockés sur votre appareil (ordinateur, téléphone ou tablette) lorsque vous visitez un site web. Ils peuvent être utilisés pour mémoriser des préférences, améliorer l'expérience utilisateur ou collecter des données analytiques. Il existe différents types :",
         "essential": "Cookies essentiels",
         "essentialDesc": "Nécessaires au fonctionnement du site (ex. maintien des sessions).",
         "performance": "Cookies de performance",
         "performanceDesc": "Collectent des données anonymes sur l'utilisation du site.",
         "functionality": "Cookies de fonctionnalité",
         "functionalityDesc": "Mémorisent les choix de l'utilisateur (ex. langue).",
-        "advertising": "Cookies publicitaires",
-        "advertisingDesc": "Utilisés pour afficher des publicités personnalisées."
+        "advertising": "Cookies de publicité",
+        "advertisingDesc": "Utilisés pour afficher des annonces personnalisées."
       },
       "section2": {
         "title": "2. Cookies Utilisés sur le Site",
-        "description": "Chez Zi0n, nous priorisons votre confidentialité et ne collectons ni ne stockons de données de navigation au-delà de l'essentiel. Par conséquent :",
-        "noThirdParty": "Nous n'utilisons pas de cookies tiers, analytiques ou publicitaires.",
-        "noThirdPartyDesc": "Nous ne partageons pas de données avec des réseaux publicitaires, Google Analytics ou d'autres services de suivi.",
+        "description": "Chez Zi0n, nous priorisons votre vie privée et ne collectons ni ne stockons de données de navigation au-delà de ce qui est essentiel pour fournir les Services. Par conséquent :",
+        "noThirdParty": "Nous n'utilisons pas de cookies tiers, analytiques ni de publicité.",
+        "noThirdPartyDesc": "Nous ne partageons pas de données avec des réseaux publicitaires, Google Analytics ou d'autres services de tracking.",
         "essentialCookies": "Cookies essentiels (le cas échéant)",
-        "essentialCookiesDesc": "Nous pouvons utiliser des cookies techniques temporaires (de session) pour des fonctions de base comme la navigation sécurisée ou le traitement du code QR. Ceux-ci sont automatiquement supprimés lorsque vous fermez le navigateur.",
+        "essentialCookiesDesc": "Nous pourrions utiliser des cookies techniques temporaires (de session) pour des fonctions de base comme la navigation sécurisée ou le traitement du code QR pour l'installation. Ceux-ci sont automatiquement supprimés à la fermeture du navigateur et ne collectent pas de données personnelles identifiables.",
         "dataCollected": "Données collectées",
-        "dataCollectedDesc": "Aucune. Nous ne stockons pas d'informations sur votre visite, IP, localisation ou comportement sur le Site, sauf l'email volontairement fourni pour l'inscription ou le contact.",
-        "noCookies": "Si le Site n'utilise aucun cookie (comme les pages statiques sans scripts de suivi), aucun cookie ne sera installé sur votre appareil."
+        "dataCollectedDesc": "Aucune. Nous ne stockons aucune information sur votre visite, IP, localisation ou comportement sur le Site, sauf l'adresse e-mail fournie volontairement pour l'inscription ou le contact.",
+        "noCookies": "Si le Site n'utilise aucun cookie (comme dans les pages statiques sans scripts de tracking), aucun cookie ne sera installé sur votre appareil."
       },
       "section3": {
         "title": "3. Gestion des Cookies",
         "description": "Vous pouvez contrôler les cookies via les paramètres de votre navigateur :",
         "block": "Bloquer ou supprimer les cookies",
-        "blockDesc": "La plupart des navigateurs (comme Chrome, Firefox, Safari) permettent de rejeter ou supprimer les cookies.",
+        "blockDesc": "La plupart des navigateurs (comme Chrome, Firefox, Safari) permettent de refuser les cookies ou de les supprimer. Consultez la section d'aide de votre navigateur pour les instructions.",
         "impact": "Impact",
-        "impactDesc": "Bloquer les cookies essentiels pourrait affecter la fonctionnalité du Site.",
+        "impactDesc": "Bloquer les cookies essentiels pourrait affecter la fonctionnalité du Site, comme le scan du QR.",
         "noBanner": "Nous n'utilisons pas de bannières de consentement",
-        "noBannerDesc": "Puisque nous n'utilisons pas de cookies non essentiels, nous n'affichons pas de bannières de cookies. Votre navigation implique l'acceptation de cette Politique."
+        "noBannerDesc": "Étant donné que nous n'utilisons pas de cookies non essentiels, nous n'affichons pas de bannières de cookies. Votre navigation implique l'acceptation de cette Politique."
       },
       "section4": {
         "title": "4. Liens vers des Tiers",
-        "description": "Le Site peut contenir des liens vers des sites web tiers (ex. processeurs de paiement). Ces sites ont leurs propres politiques de cookies, dont nous ne sommes pas responsables."
+        "description": "Le Site pourrait contenir des liens vers des sites web tiers (ex. processeurs de paiement). Ces sites ont leurs propres politiques de cookies, dont nous ne sommes pas responsables. Veuillez consulter leurs politiques avant d'interagir."
       },
       "section5": {
         "title": "5. Modifications de la Politique",
-        "description": "Nous nous réservons le droit de mettre à jour cette Politique. Les modifications seront publiées sur le Site et notifiées par email le cas échéant, avec un préavis d'au moins 15 jours."
+        "description": "Nous nous réservons le droit de mettre à jour cette Politique. Les modifications seront publiées sur le Site et notifiées par e-mail le cas échéant, avec un préavis d'au moins 15 jours."
       },
       "section6": {
         "title": "6. Contact",
         "description": "Pour toute question concernant cette Politique, contactez",
         "responsible": "Responsable"
       },
-      "footer": "Cette Politique s'intègre à notre Politique de Protection des Données Personnelles et aux"
+      "footer": "Cette Politique s'intègre à notre Politique de Traitement des Données Personnelles et"
     }
   }
 }

@@ -1,105 +1,101 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { useTranslations, useLocale } from 'next-intl'
-import { Logo } from "@/components/shared/logo"
-import { FooterYear } from './footer-year'
-// import { Linkedin, Twitter, Mail, Github } from "lucide-react"
+import Link from "next/link";
+import Image from "next/image";
+import { useTranslations, useLocale } from "next-intl";
+import { useIsMobile } from "@/hooks/use-mobile";
 
-const navLinkIds = ["home", "security", "characteristics", "apps", "contact"]
-const navLinkHrefs: Record<string, string> = {
-  home: "#hero",
-  security: "#security",
-  characteristics: "#characteristics",
-  apps: "#apps",
-  contact: "#contact",
-}
-
-const legalLinkIds = ["legalNotice", "terms", "cookies"]
+const legalLinkIds = ["legalNotice", "terms", "cookies"];
 const legalLinkHrefs: Record<string, string> = {
   legalNotice: "/legal",
   terms: "/terms",
   cookies: "/cookies",
-}
-
-/*const socialLinks = [
-  { icon: Twitter, href: "https://twitter.com/Zi0n", label: "Twitter" },
-  { icon: Linkedin, href: "https://linkedin.com/company/Zi0n", label: "LinkedIn" },
-  { icon: Github, href: "https://github.com/Zi0n", label: "GitHub" },
-  { icon: Mail, href: "mailto:Contact@Zi0n.io", label: "Email" },
-]*/
+};
 
 export function Footer() {
-  const t = useTranslations('footer')
-  const locale = useLocale()
-  
+  const t = useTranslations("footer");
+  const locale = useLocale();
+  const isMobile = useIsMobile();
+
   return (
-    <footer className="bg-[#071C59] text-white">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Main Footer */}
-        <div className="py-12 md:py-16">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-12">
-            {/* Brand */}
-            <div className="md:col-span-2">
-              <Logo variant="light" size="lg" />
-              <p className="mt-4 text-white/60 text-sm leading-relaxed">
-                {t('description')}
-              </p>
-              {/* Social Links - Commented out */}
-              {/* <div className="flex gap-3 mt-6">
-                {socialLinks.map((social) => (
-                  <Link
-                    key={social.label}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 bg-white/10 hover:bg-[#5EEC7D]/20 rounded-xl flex items-center justify-center transition-colors"
-                    aria-label={social.label}
-                  >
-                    <social.icon className="w-5 h-5 text-white/80" />
-                  </Link>
-                ))}
-              </div> */}
-            </div>
-
-            {/* Navigation Links */}
-            <div>
-              <h4 className="font-semibold text-white mb-4">{t('navigation')}</h4>
-              <ul className="space-y-2">
-                {navLinkIds.map((id) => (
-                  <li key={id}>
-                    <Link href={navLinkHrefs[id]} className="text-white/60 hover:text-[#5EEC7D] text-sm transition-colors">
-                      {t(`nav.${id}`)}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Legal Links */}
-            <div>
-              <h4 className="font-semibold text-white mb-4">{t('legal')}</h4>
-              <ul className="space-y-2">
-                {legalLinkIds.map((id) => (
-                  <li key={id}>
-                    <Link href={`/${locale}${legalLinkHrefs[id]}`} className="text-white/60 hover:text-[#5EEC7D] text-sm transition-colors">
-                      {t(`legalLinks.${id}`)}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+    <footer style={styles.footer}>
+      <div style={{
+        ...styles.container,
+        ...(isMobile && { padding: "0 16px" }),
+      }}>
+        <div style={{
+          ...styles.content,
+          ...(isMobile && { flexDirection: "column", gap: "32px" }),
+        }}>
+          {/* Logo & Description */}
+          <div style={styles.brandColumn}>
+            <Image src="/image/home/light-logo.png" alt="Zi0n" width={120} height={40} />
+            <p style={styles.description}>{t("description")}</p>
           </div>
-        </div>
 
-        {/* Bottom Bar */}
-        <div className="border-t border-white/10 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <FooterYear />
-            <p className="text-white/50 text-sm">{t('madeWith')} 🛡️</p>
+          {/* Legal Links */}
+          <div style={{
+            ...styles.linksColumn,
+            ...(isMobile && { flexDirection: "column", alignItems: "flex-start", gap: "16px" }),
+          }}>
+            {legalLinkIds.map((id) => (
+              <Link
+                key={id}
+                href={`/${locale}${legalLinkHrefs[id]}`}
+                style={styles.legalLink}
+              >
+                {t(`legalLinks.${id}`)}
+              </Link>
+            ))}
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
+
+const styles = {
+  footer: {
+    backgroundColor: "#081F5F",
+    padding: "48px 0 24px",
+  },
+  container: {
+    maxWidth: "1100px",
+    margin: "0 auto",
+    padding: "0 24px",
+  },
+  content: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    gap: "48px",
+    paddingBottom: "32px",
+  },
+  brandColumn: {
+    maxWidth: "400px",
+  },
+  description: {
+    fontFamily: "Roboto, sans-serif",
+    fontSize: "12px",
+    fontWeight: 400,
+    color: "#FFFFFF",
+    lineHeight: 1.6,
+    marginTop: "12px",
+  },
+  linksColumn: {
+    display: "flex",
+    gap: "32px",
+    alignItems: "center",
+  },
+  legalLink: {
+    fontFamily: "Roboto, sans-serif",
+    fontSize: "16px",
+    fontWeight: 400,
+    color: "#00C3D0",
+    textDecoration: "underline",
+  },
+  bottomBar: {
+    borderTop: "1px solid rgba(255, 255, 255, 0.1)",
+    paddingTop: "20px",
+  },
+} satisfies Record<string, React.CSSProperties>;
