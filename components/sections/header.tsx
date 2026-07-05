@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { useLocale, useTranslations } from "next-intl"
-import { Logo } from "@/components/shared/logo"
 import { LanguageSelector } from "@/components/shared/language-selector"
 import { useIsMobile } from "@/hooks/use-mobile"
 
@@ -39,7 +39,7 @@ export function Header() {
     }}>
       <div style={styles.container}>
         <Link href={`/${locale}`}>
-          <Logo variant="dark" size="md" />
+          <Image src="/image/home/dark-logo.png" alt="Zi0n" width={120} height={40} />
         </Link>
 
         {isCompact ? (
