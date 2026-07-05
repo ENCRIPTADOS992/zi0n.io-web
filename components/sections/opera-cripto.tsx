@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const cardIcons = {
   apps: "/image/home/section-3/icon-card-1.png",
@@ -12,15 +13,55 @@ const cardIcons = {
 
 export function OperaCripto() {
   const t = useTranslations("operaCripto");
+  const isMobile = useIsMobile();
+  const isCompact = useIsMobile(1100);
+
+  const featureCards = (
+    <>
+      {(["apps", "wipe", "restore"] as const).map((key, i) => (
+        <motion.div
+          key={key}
+          style={{
+            ...styles.card,
+            ...(isMobile && { minWidth: "236px", width: "236px", flex: "none" }),
+          }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.4, delay: 0.1 * (i + 1) }}
+        >
+          <div style={styles.iconWrapper}>
+            <Image
+              src={cardIcons[key]}
+              alt={t(`features.${key}.title`)}
+              width={32}
+              height={32}
+            />
+          </div>
+          <h4 style={styles.cardTitle}>{t(`features.${key}.title`)}</h4>
+          <p style={styles.cardText}>{t(`features.${key}.description`)}</p>
+        </motion.div>
+      ))}
+    </>
+  );
 
   return (
     <section id="opera-cripto" style={styles.section}>
-      <div style={styles.container}>
-        <div style={styles.grid}>
-          {/* Left Column - Phone Image */}
+      <div style={{
+        ...styles.container,
+        ...(isMobile && { padding: "0 16px" }),
+      }}>
+        <div style={{
+          ...styles.grid,
+          ...(isCompact && { flexDirection: "column-reverse", gap: "32px" }),
+        }}>
+          {/* Left - Phone Image (desktop) */}
           <motion.div
-            style={styles.imageColumn}
-            initial={{ opacity: 0, x: -20 }}
+            style={{
+              ...styles.imageColumn,
+              ...(isCompact && { width: "100%" }),
+            }}
+            initial={{ opacity: 0, x: isCompact ? 0 : -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -34,80 +75,38 @@ export function OperaCripto() {
             />
           </motion.div>
 
-          {/* Right Column - Text Content */}
+          {/* Right - Text Content (desktop) */}
           <motion.div
-            style={styles.textColumn}
-            initial={{ opacity: 0, x: 20 }}
+            style={{
+              ...styles.textColumn,
+              ...(isCompact && { maxWidth: "100%", paddingBottom: "0" }),
+            }}
+            initial={{ opacity: 0, x: isCompact ? 0 : 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 style={styles.title}>{t("title")}</h2>
+            <h2 style={{
+              ...styles.title,
+              ...(isMobile && { fontSize: "24px" }),
+            }}>{t("title")}</h2>
             <p style={styles.subtitle}>{t("subtitle")}</p>
             <p style={styles.description}>{t("description")}</p>
 
             {/* Feature Cards */}
-            <div style={styles.cardsRow}>
-              <motion.div
-                style={styles.card}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: 0.1 }}
-              >
-                <div style={styles.iconWrapper}>
-                  <Image
-                    src={cardIcons.apps}
-                    alt={t("features.apps.title")}
-                    width={32}
-                    height={32}
-                  />
+            {isMobile ? (
+              <div className="hide-scrollbar" style={styles.cardsScrollOuter}>
+                <div className="hide-scrollbar" style={styles.cardsScroll}>
+                  {featureCards}
                 </div>
-                <h4 style={styles.cardTitle}>{t("features.apps.title")}</h4>
-                <p style={styles.cardText}>{t("features.apps.description")}</p>
-              </motion.div>
-
-              <motion.div
-                style={styles.card}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: 0.2 }}
-              >
-                <div style={styles.iconWrapper}>
-                  <Image
-                    src={cardIcons.wipe}
-                    alt={t("features.wipe.title")}
-                    width={32}
-                    height={32}
-                  />
-                </div>
-                <h4 style={styles.cardTitle}>{t("features.wipe.title")}</h4>
-                <p style={styles.cardText}>{t("features.wipe.description")}</p>
-              </motion.div>
-
-              <motion.div
-                style={styles.card}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: 0.3 }}
-              >
-                <div style={styles.iconWrapper}>
-                  <Image
-                    src={cardIcons.restore}
-                    alt={t("features.restore.title")}
-                    width={32}
-                    height={32}
-                  />
-                </div>
-                <h4 style={styles.cardTitle}>{t("features.restore.title")}</h4>
-                <p style={styles.cardText}>
-                  {t("features.restore.description")}
-                </p>
-              </motion.div>
-            </div>
+              </div>
+            ) : (
+              <div style={styles.cardsRow}>
+                {featureCards}
+              </div>
+            )}
           </motion.div>
+
         </div>
       </div>
     </section>
@@ -169,6 +168,21 @@ const styles = {
   cardsRow: {
     display: "flex",
     gap: "16px",
+  },
+  cardsScrollOuter: {
+    marginLeft: "-16px",
+    marginRight: "-16px",
+  },
+  cardsScroll: {
+    display: "flex",
+    gap: "16px",
+    overflowX: "auto",
+    scrollSnapType: "x mandatory",
+    WebkitOverflowScrolling: "touch",
+    msOverflowStyle: "none",
+    scrollbarWidth: "none",
+    paddingLeft: "16px",
+    paddingRight: "16px",
   },
   card: {
     flex: 1,

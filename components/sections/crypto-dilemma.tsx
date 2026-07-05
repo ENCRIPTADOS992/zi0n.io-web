@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const cardIcons = {
   hardware: "/image/home/section-2/icon-card-1.png",
@@ -12,23 +13,40 @@ const cardIcons = {
 
 export function CryptoDilemma() {
   const t = useTranslations("cryptoDilemma");
+  const isMobile = useIsMobile();
+  const isCompact = useIsMobile(1100);
 
   return (
-    <section id="crypto-dilemma" style={styles.section}>
-      <div style={styles.container}>
+    <section id="crypto-dilemma" style={{
+      ...styles.section,
+      ...(isCompact && { padding: "0 0 48px 0" }),
+    }}>
+      <div style={{
+        ...styles.container,
+        ...(isCompact && { padding: "0" }),
+      }}>
         <motion.div
-          style={styles.whiteCard}
+          style={{
+            ...styles.whiteCard,
+            ...(isCompact && { borderRadius: "0", padding: "32px 16px" }),
+          }}
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
           <div style={styles.header}>
-            <h2 style={styles.title}>{t("title")}</h2>
+            <h2 style={{
+              ...styles.title,
+              ...(isMobile && { fontSize: "24px" }),
+            }}>{t("title")}</h2>
             <p style={styles.subtitle}>{t("subtitle")}</p>
           </div>
 
-          <div style={styles.cardsRow}>
+          <div style={{
+            ...styles.cardsRow,
+            ...(isCompact && { flexDirection: "column" }),
+          }}>
             <motion.div
               style={styles.card}
               initial={{ opacity: 0, y: 20 }}
@@ -80,8 +98,7 @@ export function CryptoDilemma() {
 const styles = {
   section: {
     backgroundColor: "#F4F6FA",
-    padding: "80px",
-    paddingTop: "0px",
+    padding: "0px 80px 80px 80px",
   },
   container: {
     maxWidth: "1100px",

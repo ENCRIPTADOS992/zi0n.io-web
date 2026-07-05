@@ -1,8 +1,4 @@
 {
-  "metadata": {
-    "title": "Zi0n Crypto - Seguridad para tus activos digitales",
-    "description": "Gestiona tus cripto con las apps que ya usas. Zi0n Cripto protege tu dispositivo sin cambiar tu forma de operar."
-  },
   "header": {
     "nav": {
       "whatIs": "¿Qué es?",
@@ -133,7 +129,9 @@
         "title": "eSIM internacional",
         "description": "Incluye una eSIM internacional para garantizar acceso estable, usando múltiples operadoras a nivel global."
       }
-    }
+    },
+    "showAll": "Ver todas las funciones",
+    "showLess": "Ocultar funciones"
   },
   "appsConfig": {
     "title": "Configura Zi0n Crypto con estas apps",

@@ -3,22 +3,40 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 export function HeroSection() {
   const t = useTranslations("hero");
+  const isMobile = useIsMobile();
+  const isCompact = useIsMobile(1100);
 
   return (
-    <section id="hero" style={styles.section}>
-      <div style={styles.container}>
-        <div style={styles.grid}>
-          {/* Left Column - Text Content */}
+    <section id="hero" style={{
+      ...styles.section,
+      ...(isCompact && { height: "auto", padding: "100px 0 0" }),
+    }}>
+      <div style={{
+        ...styles.container,
+        ...(isMobile && { padding: "0 16px" }),
+      }}>
+        <div style={{
+          ...styles.grid,
+          ...(isCompact && { flexDirection: "column", alignItems: "flex-start", height: "auto" }),
+        }}>
+          {/* Text Content */}
           <motion.div
-            style={styles.textColumn}
+            style={{
+              ...styles.textColumn,
+              ...(isCompact && { flex: "none", width: "100%" }),
+            }}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 style={styles.heading}>
+            <h1 style={{
+              ...styles.heading,
+              ...(isMobile && { fontSize: "36px" }),
+            }}>
               <span style={styles.headingLine1}>{t("titleLine1")}</span>
               <br />
               <span style={styles.headingLine2}>{t("titleLine2")}</span>
@@ -30,7 +48,10 @@ export function HeroSection() {
 
             <div style={styles.ctaWrapper}>
               <button
-                style={styles.ctaButton}
+                style={{
+                  ...styles.ctaButton,
+                  ...(isMobile && { width: "100%" }),
+                }}
                 onClick={() =>
                   document
                     .getElementById("crypto-dilemma")
@@ -42,9 +63,12 @@ export function HeroSection() {
             </div>
           </motion.div>
 
-          {/* Right Column - Phone Image */}
+          {/* Phone Image */}
           <motion.div
-            style={styles.imageColumn}
+            style={{
+              ...styles.imageColumn,
+              ...(isCompact && { flex: "none", width: "100%", justifyContent: "center", marginTop: "16px" }),
+            }}
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -52,10 +76,13 @@ export function HeroSection() {
             <Image
               src="/image/home/hero/Free iPhone Hand Mockup (Mockuuups Studio).png"
               alt="Zi0n Crypto Phone"
-              width={543}
-              height={504}
+              width={isMobile ? 313 : 543}
+              height={isMobile ? 290 : 504}
               priority
-              style={styles.phoneImage}
+              style={{
+                ...styles.phoneImage,
+                ...(isMobile && { maxHeight: "290px", width: "313px" }),
+              }}
             />
           </motion.div>
         </div>
@@ -84,7 +111,7 @@ const styles = {
     display: "flex",
     alignItems: "flex-end",
     height: "100%",
-  },
+  } as React.CSSProperties,
   textColumn: {
     flex: 1,
     alignSelf: "center",

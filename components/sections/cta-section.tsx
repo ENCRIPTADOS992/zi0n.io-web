@@ -3,28 +3,48 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const benefitIds = ["1", "2", "3"];
 
 export function CTASection() {
   const t = useTranslations("cta");
+  const isMobile = useIsMobile();
 
   return (
     <section style={styles.section}>
-      <div style={styles.outerContainer}>
+      <div style={{
+        ...styles.outerContainer,
+        ...(isMobile && { padding: "0 16px" }),
+      }}>
         <motion.div
-          style={styles.blueCard}
+          style={{
+            ...styles.blueCard,
+            ...(isMobile && { padding: "32px 24px", borderRadius: "16px" }),
+          }}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 style={styles.title}>{t("title")}</h2>
-          <h3 style={styles.highlight}>{t("highlight")}</h3>
-          <p style={styles.description}>{t("description")}</p>
+          <h2 style={{
+            ...styles.title,
+            ...(isMobile && { fontSize: "24px" }),
+          }}>{t("title")}</h2>
+          <h3 style={{
+            ...styles.highlight,
+            ...(isMobile && { fontSize: "24px" }),
+          }}>{t("highlight")}</h3>
+          <p style={{
+            ...styles.description,
+            ...(isMobile && { fontSize: "16px" }),
+          }}>{t("description")}</p>
 
           {/* Benefits */}
-          <div style={styles.benefitsRow}>
+          <div style={{
+            ...styles.benefitsRow,
+            ...(isMobile && { flexDirection: "column", alignItems: "center", gap: "16px" }),
+          }}>
             {benefitIds.map((id) => (
               <div key={id} style={styles.benefitItem}>
                 <Image

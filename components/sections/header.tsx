@@ -5,11 +5,14 @@ import Link from "next/link"
 import { useLocale, useTranslations } from "next-intl"
 import { Logo } from "@/components/shared/logo"
 import { LanguageSelector } from "@/components/shared/language-selector"
+import { useIsMobile } from "@/hooks/use-mobile"
 
 export function Header() {
   const t = useTranslations('header')
   const locale = useLocale()
+  const isCompact = useIsMobile(1100)
   const [isScrolled, setIsScrolled] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   const navLinks = [
     { label: t('nav.whatIs'), href: "#crypto-dilemma" },
@@ -25,28 +28,81 @@ export function Header() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  // Close menu on navigation
+  const handleNavClick = () => setMenuOpen(false)
+
   return (
     <header style={{
       ...styles.header,
-      ...(isScrolled ? styles.headerScrolled : styles.headerTop),
+      ...(isScrolled || menuOpen ? styles.headerScrolled : styles.headerTop),
+      ...(menuOpen && { backdropFilter: "none", backgroundColor: "#FFFFFF" }),
     }}>
       <div style={styles.container}>
         <Link href={`/${locale}`}>
           <Logo variant="dark" size="md" />
         </Link>
 
-        <nav style={styles.nav}>
-          {navLinks.map((link) => (
-            <Link key={link.href} href={link.href} style={styles.navLink}>
-              {link.label}
-            </Link>
-          ))}
-        </nav>
+        {isCompact ? (
+          <>
+            {/* Hamburger Button */}
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              style={styles.hamburger}
+              aria-label="Toggle menu"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#081C59" strokeWidth="2" strokeLinecap="round">
+                {menuOpen ? (
+                  <>
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </>
+                ) : (
+                  <>
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="3" y1="18" x2="21" y2="18" />
+                  </>
+                )}
+              </svg>
+            </button>
+          </>
+        ) : (
+          <>
+            <nav style={styles.nav}>
+              {navLinks.map((link) => (
+                <Link key={link.href} href={link.href} style={styles.navLink}>
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
 
-        <div style={styles.rightSection}>
-          <LanguageSelector />
-        </div>
+            <div style={styles.rightSection}>
+              <LanguageSelector />
+            </div>
+          </>
+        )}
       </div>
+
+      {/* Fullscreen Mobile Menu - outside container to avoid stacking context issues */}
+      {isCompact && menuOpen && (
+        <div style={styles.mobileMenu}>
+          <nav style={styles.mobileNav}>
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                style={styles.mobileNavLink}
+                onClick={handleNavClick}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+          <div style={styles.mobileLanguage}>
+            <LanguageSelector />
+          </div>
+        </div>
+      )}
     </header>
   )
 }
@@ -76,6 +132,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
+    position: "relative",
   },
   nav: {
     display: "flex",
@@ -93,5 +150,44 @@ const styles = {
     display: "flex",
     alignItems: "center",
     gap: "16px",
+  },
+  hamburger: {
+    background: "#FFFFFF",
+    border: "none",
+    cursor: "pointer",
+    padding: "8px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: "8px",
+    boxShadow: "0 1px 4px rgba(0,0,0,0.08)",
+  },
+  mobileMenu: {
+    position: "absolute",
+    top: "72px",
+    left: 0,
+    right: 0,
+    height: "calc(100vh - 72px)",
+    backgroundColor: "#FFFFFF",
+    padding: "32px 24px",
+    display: "flex",
+    flexDirection: "column",
+  },
+  mobileNav: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "28px",
+  },
+  mobileNavLink: {
+    fontSize: "18px",
+    fontWeight: 500,
+    color: "#081C59",
+    textDecoration: "none",
+    fontFamily: "Montserrat, sans-serif",
+  },
+  mobileLanguage: {
+    marginTop: "32px",
+    paddingTop: "24px",
+    borderTop: "1px solid rgba(0,0,0,0.08)",
   },
 } satisfies Record<string, React.CSSProperties>;

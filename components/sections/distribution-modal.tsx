@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
+import { useIsMobile } from "@/hooks/use-mobile"
 
 interface DistributionModalProps {
   isOpen: boolean
@@ -13,6 +14,8 @@ type SubmitStatus = 'idle' | 'loading' | 'success' | 'error'
 
 export function DistributionModal({ isOpen, onClose }: DistributionModalProps) {
   const t = useTranslations('distributionModal')
+  const isMobile = useIsMobile()
+  const isCompact = useIsMobile(975)
   const [form, setForm] = useState({ name: '', email: '', country: '', budget: '', comments: '' })
   const [status, setStatus] = useState<SubmitStatus>('idle')
 
@@ -67,22 +70,47 @@ export function DistributionModal({ isOpen, onClose }: DistributionModalProps) {
 
   return (
     <div style={styles.overlay} onClick={onClose}>
-      <div style={styles.modal} onClick={e => e.stopPropagation()}>
-        {/* Left - Image */}
-        <div style={styles.imageColumn}>
-          <Image
-            src="/image/home/Free iPhone 14 Pro on a Plane Mockup (Mockuuups Studio).png"
-            alt="Zi0n distribuidor"
-            fill
-            style={styles.modalImage}
-          />
-        </div>
+      <div style={{
+        ...styles.modal,
+        ...(isCompact && {
+          flexDirection: "column",
+          maxWidth: isMobile ? "390px" : "540px",
+          maxHeight: "95vh",
+        }),
+      }} onClick={e => e.stopPropagation()}>
+        {/* Image */}
+        {isCompact ? (
+          <div style={styles.imageTop}>
+            <Image
+              src="/image/home/Free iPhone 14 Pro on a Plane Mockup (Mockuuups Studio).png"
+              alt="Zi0n distribuidor"
+              width={540}
+              height={200}
+              style={styles.modalImageTop}
+            />
+          </div>
+        ) : (
+          <div style={styles.imageColumn}>
+            <Image
+              src="/image/home/Free iPhone 14 Pro on a Plane Mockup (Mockuuups Studio).png"
+              alt="Zi0n distribuidor"
+              fill
+              style={styles.modalImage}
+            />
+          </div>
+        )}
 
-        {/* Right - Form */}
-        <div style={styles.formColumn}>
+        {/* Form */}
+        <div style={{
+          ...styles.formColumn,
+          ...(isMobile && { padding: "24px 20px" }),
+        }}>
           <button style={styles.closeButton} onClick={onClose}>✕</button>
 
-          <h2 style={styles.modalTitle}>{t('title')}</h2>
+          <h2 style={{
+            ...styles.modalTitle,
+            ...(isMobile && { fontSize: "20px" }),
+          }}>{t('title')}</h2>
           <p style={styles.modalSubtitle}>{t('subtitle')}</p>
 
           {status === 'success' && (
@@ -93,7 +121,10 @@ export function DistributionModal({ isOpen, onClose }: DistributionModalProps) {
           )}
 
           <form onSubmit={handleSubmit} style={styles.form}>
-            <div style={styles.formRow}>
+            <div style={{
+              ...styles.formRow,
+              ...(isMobile && { flexDirection: "column" }),
+            }}>
               <div style={styles.fieldGroup}>
                 <label style={styles.label}>{t('nameLabel')}</label>
                 <input
@@ -119,7 +150,10 @@ export function DistributionModal({ isOpen, onClose }: DistributionModalProps) {
               </div>
             </div>
 
-            <div style={styles.formRow}>
+            <div style={{
+              ...styles.formRow,
+              ...(isMobile && { flexDirection: "column" }),
+            }}>
               <div style={styles.fieldGroup}>
                 <label style={styles.label}>{t('countryLabel')}</label>
                 <div style={styles.selectWrapper}>
@@ -206,7 +240,19 @@ const styles = {
     overflow: "hidden",
     borderRadius: "24px 0 0 24px",
   },
+  imageTop: {
+    width: "100%",
+    height: "180px",
+    overflow: "hidden",
+    borderRadius: "24px 24px 0 0",
+  },
   modalImage: {
+    objectFit: "cover",
+    objectPosition: "center",
+  },
+  modalImageTop: {
+    width: "100%",
+    height: "100%",
     objectFit: "cover",
     objectPosition: "center",
   },

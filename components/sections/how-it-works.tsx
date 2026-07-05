@@ -3,14 +3,20 @@
 import { motion } from "framer-motion"
 import { useTranslations } from "next-intl"
 import Image from "next/image"
+import { useIsMobile } from "@/hooks/use-mobile"
 
 const stepKeys = ['install', 'isolate', 'protect', 'control'] as const
 
 export function HowItWorks() {
   const t = useTranslations('howItWorks')
+  const isMobile = useIsMobile()
+  const isCompact = useIsMobile(1100)
 
   return (
-    <section id="how-it-works" style={styles.section}>
+    <section id="how-it-works" style={{
+      ...styles.section,
+      ...(isMobile && { padding: "48px 0" }),
+    }}>
       <div style={styles.container}>
         {/* Section Header */}
         <motion.div
@@ -20,21 +26,23 @@ export function HowItWorks() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 style={styles.title}>{t('title')}</h2>
+          <h2 style={{
+            ...styles.title,
+            ...(isMobile && { fontSize: "24px" }),
+          }}>{t('title')}</h2>
           <p style={styles.subtitle}>{t('subtitle')}</p>
         </motion.div>
 
         {/* Content Grid */}
-        <div style={styles.grid}>
-          {/* Left Steps (1 & 2) */}
+        {isCompact ? (
           <motion.div
-            style={styles.stepsColumn}
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            style={styles.mobileSteps}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            {(['install', 'isolate'] as const).map((key) => (
+            {stepKeys.map((key) => (
               <div key={key} style={styles.step}>
                 <div style={styles.stepHeader}>
                   <span style={styles.stepNumber}>{t(`steps.${key}.number`)}.</span>
@@ -44,43 +52,64 @@ export function HowItWorks() {
               </div>
             ))}
           </motion.div>
-
-          {/* Center Phone Image */}
-          <motion.div
-            style={styles.imageColumn}
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            <Image
-              src="/image/home/section-4/Capa 1.png"
-              alt="Zi0n Crypto"
-              width={221}
-              height={150}
-              style={styles.phoneImage}
-            />
-          </motion.div>
-
-          {/* Right Steps (3 & 4) */}
-          <motion.div
-            style={styles.stepsColumn}
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            {(['protect', 'control'] as const).map((key) => (
-              <div key={key} style={styles.step}>
-                <div style={styles.stepHeader}>
-                  <span style={styles.stepNumber}>{t(`steps.${key}.number`)}.</span>
-                  <h3 style={styles.stepTitle}>{t(`steps.${key}.title`)}</h3>
+        ) : (
+          <div style={styles.grid}>
+            {/* Left Steps (1 & 2) */}
+            <motion.div
+              style={styles.stepsColumn}
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              {(['install', 'isolate'] as const).map((key) => (
+                <div key={key} style={styles.step}>
+                  <div style={styles.stepHeader}>
+                    <span style={styles.stepNumber}>{t(`steps.${key}.number`)}.</span>
+                    <h3 style={styles.stepTitle}>{t(`steps.${key}.title`)}</h3>
+                  </div>
+                  <p style={styles.stepDescription}>{t(`steps.${key}.description`)}</p>
                 </div>
-                <p style={styles.stepDescription}>{t(`steps.${key}.description`)}</p>
-              </div>
-            ))}
-          </motion.div>
-        </div>
+              ))}
+            </motion.div>
+
+            {/* Center Phone Image */}
+            <motion.div
+              style={styles.imageColumn}
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <Image
+                src="/image/home/section-4/Capa 1.png"
+                alt="Zi0n Crypto"
+                width={221}
+                height={150}
+                style={styles.phoneImage}
+              />
+            </motion.div>
+
+            {/* Right Steps (3 & 4) */}
+            <motion.div
+              style={styles.stepsColumn}
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              {(['protect', 'control'] as const).map((key) => (
+                <div key={key} style={styles.step}>
+                  <div style={styles.stepHeader}>
+                    <span style={styles.stepNumber}>{t(`steps.${key}.number`)}.</span>
+                    <h3 style={styles.stepTitle}>{t(`steps.${key}.title`)}</h3>
+                  </div>
+                  <p style={styles.stepDescription}>{t(`steps.${key}.description`)}</p>
+                </div>
+              ))}
+            </motion.div>
+          </div>
+        )}
       </div>
     </section>
   )
@@ -126,6 +155,11 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     gap: "40px",
+  },
+  mobileSteps: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "32px",
   },
   imageColumn: {
     flex: 1,

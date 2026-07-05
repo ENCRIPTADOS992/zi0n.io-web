@@ -4,11 +4,13 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const questionKeys = ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8"] as const;
 
 export function FAQSection() {
   const t = useTranslations("faq");
+  const isMobile = useIsMobile();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggle = (index: number) => {
@@ -55,8 +57,14 @@ export function FAQSection() {
   };
 
   return (
-    <section id="faq" style={styles.section}>
-      <div style={styles.container}>
+    <section id="faq" style={{
+      ...styles.section,
+      ...(isMobile && { padding: "48px 0" }),
+    }}>
+      <div style={{
+        ...styles.container,
+        ...(isMobile && { padding: "0 16px" }),
+      }}>
         {/* Section Header */}
         <motion.div
           style={styles.header}
@@ -65,19 +73,28 @@ export function FAQSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 style={styles.title}>{t("title")}</h2>
+          <h2 style={{
+            ...styles.title,
+            ...(isMobile && { fontSize: "24px" }),
+          }}>{t("title")}</h2>
           <p style={styles.subtitle}>{t("subtitle")}</p>
         </motion.div>
 
-        {/* FAQ Grid - 2 columns */}
-        <div style={styles.grid}>
+        {/* FAQ Grid */}
+        {isMobile ? (
           <div style={styles.column}>
-            {leftQuestions.map((key, i) => renderQuestion(key, i * 2))}
+            {questionKeys.map((key, i) => renderQuestion(key, i))}
           </div>
-          <div style={styles.column}>
-            {rightQuestions.map((key, i) => renderQuestion(key, i * 2 + 1))}
+        ) : (
+          <div style={styles.grid}>
+            <div style={styles.column}>
+              {leftQuestions.map((key, i) => renderQuestion(key, i * 2))}
+            </div>
+            <div style={styles.column}>
+              {rightQuestions.map((key, i) => renderQuestion(key, i * 2 + 1))}
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </section>
   );

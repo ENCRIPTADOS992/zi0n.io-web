@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const legalLinkIds = ["legalNotice", "terms", "cookies"];
 const legalLinkHrefs: Record<string, string> = {
@@ -14,11 +15,18 @@ const legalLinkHrefs: Record<string, string> = {
 export function Footer() {
   const t = useTranslations("footer");
   const locale = useLocale();
+  const isMobile = useIsMobile();
 
   return (
     <footer style={styles.footer}>
-      <div style={styles.container}>
-        <div style={styles.content}>
+      <div style={{
+        ...styles.container,
+        ...(isMobile && { padding: "0 16px" }),
+      }}>
+        <div style={{
+          ...styles.content,
+          ...(isMobile && { flexDirection: "column", gap: "32px" }),
+        }}>
           {/* Logo & Description */}
           <div style={styles.brandColumn}>
             <Image src="/image/home/light-logo.png" alt="Zi0n" width={120} height={40} />
@@ -26,7 +34,10 @@ export function Footer() {
           </div>
 
           {/* Legal Links */}
-          <div style={styles.linksColumn}>
+          <div style={{
+            ...styles.linksColumn,
+            ...(isMobile && { flexDirection: "column", alignItems: "flex-start", gap: "16px" }),
+          }}>
             {legalLinkIds.map((id) => (
               <Link
                 key={id}

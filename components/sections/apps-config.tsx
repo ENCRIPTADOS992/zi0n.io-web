@@ -4,6 +4,7 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import { useTranslations } from "next-intl"
 import Image from "next/image"
+import { useIsMobile } from "@/hooks/use-mobile"
 
 const tabKeys = ['privacy', 'exchange', 'communications', 'encrypted'] as const
 
@@ -51,13 +52,18 @@ function getLogos(tab: typeof tabKeys[number]): { src: string; name: string }[] 
 
 export function AppsConfig() {
   const t = useTranslations('appsConfig')
+  const isMobile = useIsMobile()
+  const isCompact = useIsMobile(1100)
   const [activeTab, setActiveTab] = useState<typeof tabKeys[number]>('privacy')
 
   const logos = getLogos(activeTab)
 
   return (
     <section id="apps" style={styles.section}>
-      <div style={styles.container}>
+      <div style={{
+        ...styles.container,
+        ...(isMobile && { padding: "48px 16px" }),
+      }}>
         {/* Section Header */}
         <motion.div
           style={styles.header}
@@ -66,18 +72,27 @@ export function AppsConfig() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 style={styles.title}>{t('title')}</h2>
+          <h2 style={{
+            ...styles.title,
+            ...(isMobile && { fontSize: "24px" }),
+          }}>{t('title')}</h2>
           <p style={styles.subtitle}>{t('subtitle')}</p>
         </motion.div>
 
         {/* Tabs */}
         <div style={styles.tabsContainer}>
-          <div style={styles.tabsWrapper}>
+          <div style={{
+            ...styles.tabsWrapper,
+            ...(isCompact && { flexDirection: "column", borderRadius: "16px", width: "100%" }),
+          }}>
             {tabKeys.map((key) => (
               <button
                 key={key}
                 onClick={() => setActiveTab(key)}
-                style={activeTab === key ? styles.tabActive : styles.tab}
+                style={{
+                  ...(activeTab === key ? styles.tabActive : styles.tab),
+                  ...(isCompact && { borderRadius: "9999px", width: "100%" }),
+                }}
               >
                 {t(`tabs.${key}`)}
               </button>
@@ -88,7 +103,10 @@ export function AppsConfig() {
         {/* Apps Grid */}
         <motion.div
           key={activeTab}
-          style={styles.grid}
+          style={{
+            ...styles.grid,
+            ...(isMobile && { gridTemplateColumns: "repeat(4, 1fr)", gap: "16px", maxWidth: "100%" }),
+          }}
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
@@ -114,11 +132,13 @@ export function AppsConfig() {
 const styles = {
   section: {
     backgroundColor: "#F4F6FA",
+    overflow: "hidden",
   },
   container: {
     maxWidth: "1100px",
     margin: "0 auto",
-    height: "722px",
+    padding: "80px 24px",
+    overflow: "hidden",
   },
   header: {
     textAlign: "center",

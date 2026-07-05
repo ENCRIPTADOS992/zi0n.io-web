@@ -58,16 +58,34 @@ Tailwind v4 no detecta correctamente clases arbitrarias dentro de expresiones co
 - **Usar `style={styles.xxx}`** para colores de fondo, colores de texto, y estilos que varían entre elementos.
 - **Tailwind se puede seguir usando** para utilidades de layout que no tienen valores dinámicos (como `className="flex"`, `className="hidden md:block"`).
 
-### 6. Responsive
+### 6. Responsive con `useIsMobile()`
 
-Para responsive, usar media queries con un hook personalizado o combinar con clases de Tailwind para layout:
+El breakpoint mobile es **620px**. No hay diseño de tablet (entre 620px y 1100px).
+
+Usar el hook `useIsMobile()` de `@/hooks/use-mobile` para condicionar estilos inline:
+
 ```tsx
-// Layout con Tailwind (funciona bien porque no son valores arbitrarios)
-<div className="flex flex-col md:flex-row">
+import { useIsMobile } from "@/hooks/use-mobile"
 
-// Estilos visuales con inline styles
-<div style={styles.card}>
+export function MiComponente() {
+  const isMobile = useIsMobile() // default 620px
+
+  return (
+    <div style={{
+      ...styles.grid,
+      ...(isMobile && { gridTemplateColumns: "1fr", gap: "16px" }),
+    }}>
+      ...
+    </div>
+  )
+}
 ```
+
+**Patrón:** spread del estilo base + spread condicional con `isMobile &&` para los overrides mobile.
+
+El hook acepta un breakpoint custom si fuera necesario: `useIsMobile(480)`.
+
+> **Nota:** Este enfoque puede generar un flash en SSR ya que el hook devuelve `false` hasta que el componente se monta en el cliente. Aceptable dado que el proyecto usa `"use client"` en los componentes con estilos condicionales.
 
 ## Estructura de archivo
 

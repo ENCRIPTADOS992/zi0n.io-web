@@ -5,15 +5,23 @@ import { motion } from "framer-motion"
 import { useTranslations } from "next-intl"
 import Image from "next/image"
 import { DistributionModal } from "./distribution-modal"
+import { useIsMobile } from "@/hooks/use-mobile"
 
 export function DistributionSection() {
   const t = useTranslations('distribution')
+  const isMobile = useIsMobile()
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
     <>
-      <section id="distribution" style={styles.section}>
-        <div style={styles.container}>
+      <section id="distribution" style={{
+        ...styles.section,
+        ...(isMobile && { padding: "48px 0" }),
+      }}>
+        <div style={{
+          ...styles.container,
+          ...(isMobile && { padding: "0 16px" }),
+        }}>
           <motion.div
             style={styles.content}
             initial={{ opacity: 0, y: 20 }}
@@ -21,13 +29,19 @@ export function DistributionSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h2 style={styles.title}>{t('title')}</h2>
+            <h2 style={{
+              ...styles.title,
+              ...(isMobile && { fontSize: "24px" }),
+            }}>{t('title')}</h2>
             <p style={styles.description}>
               {t('descriptionBefore')}
               <span style={styles.descriptionHighlight}>{t('descriptionHighlight')}</span>
               {t('descriptionAfter')}
             </p>
-            <button style={styles.ctaButton} onClick={() => setIsModalOpen(true)}>
+            <button style={{
+              ...styles.ctaButton,
+              ...(isMobile && { width: "100%", justifyContent: "center" }),
+            }} onClick={() => setIsModalOpen(true)}>
               <Image src="/image/home/chevron-right.png" alt="" width={20} height={20} />
               {t('cta')}
             </button>
