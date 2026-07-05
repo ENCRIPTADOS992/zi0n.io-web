@@ -82,7 +82,7 @@ export function DistributionModal({ isOpen, onClose }: DistributionModalProps) {
         {isCompact ? (
           <div style={styles.imageTop}>
             <Image
-              src="/image/home/Free iPhone 14 Pro on a Plane Mockup (Mockuuups Studio).png"
+              src="/image/home/Free iPhone 14 Pro on a Plane Mockup (Mockuuups Studio).webp"
               alt="Zi0n distribuidor"
               width={540}
               height={200}
@@ -92,7 +92,7 @@ export function DistributionModal({ isOpen, onClose }: DistributionModalProps) {
         ) : (
           <div style={styles.imageColumn}>
             <Image
-              src="/image/home/Free iPhone 14 Pro on a Plane Mockup (Mockuuups Studio).png"
+              src="/image/home/Free iPhone 14 Pro on a Plane Mockup (Mockuuups Studio).webp"
               alt="Zi0n distribuidor"
               fill
               style={styles.modalImage}
