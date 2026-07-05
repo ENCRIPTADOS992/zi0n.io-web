@@ -1,80 +1,101 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { useTranslations } from 'next-intl'
-import { Button } from "@/components/ui/button"
-import { Shield, ArrowRight, CheckCircle } from "lucide-react"
+import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
+import Image from "next/image";
 
-const benefitIds = ["1", "2", "3", "4"]
+const benefitIds = ["1", "2", "3"];
 
 export function CTASection() {
-  const t = useTranslations('cta')
-  
-  return (
-    <section className="py-20 md:py-32 bg-[#071C59] relative overflow-hidden">
-      {/* Background decorations */}
-      <div className="absolute inset-0">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-[#003FFF]/20 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-72 h-72 bg-[#5EEC7D]/10 rounded-full blur-3xl" />
-      </div>
+  const t = useTranslations("cta");
 
-      <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+  return (
+    <section style={styles.section}>
+      <div style={styles.outerContainer}>
         <motion.div
+          style={styles.blueCard}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <div className="w-16 h-16 mx-auto mb-6 bg-[#5EEC7D]/20 rounded-2xl flex items-center justify-center">
-            <Shield className="w-8 h-8 text-[#5EEC7D]" />
-          </div>
-
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-balance mb-6">
-            {t('title')}
-          </h2>
-
-          <p className="text-lg text-white/70 max-w-2xl mx-auto mb-8 leading-relaxed">
-            {t('subtitle')}
-          </p>
+          <h2 style={styles.title}>{t("title")}</h2>
+          <h3 style={styles.highlight}>{t("highlight")}</h3>
+          <p style={styles.description}>{t("description")}</p>
 
           {/* Benefits */}
-          <div className="flex flex-wrap justify-center gap-4 mb-10">
-            {benefitIds.map((id, index) => (
-              <motion.div
-                key={id}
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.3, delay: index * 0.1 }}
-                className="flex items-center gap-2 text-white/80 text-sm"
-              >
-                <CheckCircle className="w-4 h-4 text-[#5EEC7D]" />
-                {t(`benefits.${id}`)}
-              </motion.div>
+          <div style={styles.benefitsRow}>
+            {benefitIds.map((id) => (
+              <div key={id} style={styles.benefitItem}>
+                <Image
+                  src="/image/home/check.png"
+                  alt="check"
+                  width={24}
+                  height={24}
+                />
+                <span style={styles.benefitText}>{t(`benefits.${id}`)}</span>
+              </div>
             ))}
-          </div>
-
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-[#5EEC7D] text-[#071C59] hover:bg-[#4DD96A] rounded-full px-8 font-semibold group animate-pulse-glow"
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              {t('primaryButton')}
-              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white/30 text-white hover:bg-white/10 rounded-full px-8 font-semibold bg-transparent"
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              {t('secondaryButton')}
-            </Button>
           </div>
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
+
+const styles = {
+  section: {
+    backgroundColor: "#F4F6FA",
+  },
+  outerContainer: {
+    maxWidth: "1100px",
+    margin: "0 auto",
+    padding: "0 24px",
+  },
+  blueCard: {
+    backgroundColor: "#081F5F",
+    borderRadius: "24px",
+    padding: "64px",
+    textAlign: "center",
+  },
+  title: {
+    fontFamily: "Montserrat, sans-serif",
+    fontSize: "38px",
+    fontWeight: 400,
+    color: "#FFFFFF",
+    marginBottom: "8px",
+  },
+  highlight: {
+    fontFamily: "Montserrat, sans-serif",
+    fontSize: "38px",
+    fontWeight: 700,
+    color: "#FFFFFF",
+    marginBottom: "16px",
+  },
+  description: {
+    fontFamily: "Hanken Grotesk, sans-serif",
+    fontSize: "20px",
+    fontWeight: 400,
+    color: "#FFFFFF",
+    maxWidth: "980px",
+    margin: "0 auto 32px",
+    lineHeight: 1.6,
+  },
+  benefitsRow: {
+    display: "flex",
+    justifyContent: "center",
+    gap: "32px",
+    flexWrap: "wrap",
+  },
+  benefitItem: {
+    display: "flex",
+    alignItems: "center",
+    gap: "8px",
+  },
+  benefitText: {
+    fontFamily: "Hanken Grotesk, sans-serif",
+    fontSize: "16px",
+    fontWeight: 400,
+    color: "rgba(255, 255, 255, 0.8)",
+  },
+} satisfies Record<string, React.CSSProperties>;

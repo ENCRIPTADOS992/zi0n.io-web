@@ -1,306 +1,340 @@
 {
   "metadata": {
-    "title": "Zi0n - 高级移动安全",
-    "description": "使用Zi0n将您的Android转变为加密、安全、可控和受保护的设备。"
+    "title": "Zi0n Crypto - Seguridad para tus activos digitales",
+    "description": "Gestiona tus cripto con las apps que ya usas. Zi0n Cripto protege tu dispositivo sin cambiar tu forma de operar."
   },
   "header": {
     "nav": {
-      "home": "首页",
-      "security": "安全",
-      "characteristics": "特性",
-      "apps": "应用",
-      "contact": "联系"
+      "whatIs": "¿Qué es?",
+      "whatIncludes": "¿Qué incluye?",
+      "apps": "Aplicaciones"
     },
-    "cta": "立即开始"
+    "cta": "Comenzar ahora"
   },
   "hero": {
-    "badge": "企业级安全",
-    "title": "用您一直梦想的",
-    "titleHighlight": "安全性",
-    "titleEnd": "改变您的设备",
-    "description": "Zi0n将您的Android转变为加密、安全、可控和受保护的设备。它允许您管理经过验证的应用程序和系统特定的安全功能，以确保隐私和高级安全性。",
-    "ctaPrimary": "立即开始",
-    "ctaSecondary": "观看演示",
-    "phoneTitle": "受保护的设备",
-    "phoneSubtitle": "您的安全是我们的优先事项",
-    "encryptionActive": "加密已激活",
-    "mdmConnected": "MDM已连接"
+    "titleLine1": "Seguro.",
+    "titleLine2": "Sin cadenas.",
+    "titleLine3": "Muevete con libertad.",
+    "description": "Gestiona tus cripto con las apps que ya usas... Zi0n Cripto protege tu dispositivo sin cambiar tu forma de operar. La seguridad de nivel militar se encuentra con la usabilidad diaria.",
+    "cta": "Saber más"
   },
-  "security": {
-    "badge": "全面保护",
-    "title": "Zi0n为您提供更多安全保障",
-    "description": "专为保护您最敏感信息而设计的独家功能",
-    "features": {
-      "wipi": {
-        "title": "Wipi安全",
-        "cardTitle": "Wipi：防间谍电缆",
-        "cardDescription": "检测到可疑电缆时删除所有设备信息...",
-        "description": "Wipi保护您的设备免受被篡改的数据或充电电缆的影响。它检测可疑连接，提醒用户，并根据您的设置擦除系统以防止任何数据提取。"
+  "cryptoDilemma": {
+    "title": "El dilema de la seguridad cripto",
+    "subtitle": "Zi0n es la solución definitiva que combina lo mejor de ambos mundos.",
+    "cards": {
+      "hardware": {
+        "title": "Hardware Wallets",
+        "description": "Máxima seguridad fuera de línea, pero poco prácticas para operaciones diarias y trading activo."
       },
-      "wipepin": {
-        "title": "WipPIN安全",
-        "cardTitle": "WipPIN：出厂重置PIN",
-        "cardDescription": "输入后立即擦除所有信息的PIN...",
-        "description": "输入后立即擦除所有设备信息的PIN。在紧急情况下保护数据的快速而谨慎的操作。"
+      "zion": {
+        "title": "ZiOn",
+        "description": "La protección de un sistema de alta seguridad con la simplicidad de tu smartphone."
       },
-      "wipsim": {
-        "title": "WipSIM安全",
-        "cardTitle": "WipSIM：防SIM卡篡改",
-        "cardDescription": "检测SIM或eSIM的任何未授权更改...",
-        "description": "此功能检测SIM或eSIM的任何未授权更改，并提醒用户，可以擦除系统以保护信息。"
-      },
-      "wipconect": {
-        "title": "WipConect安全",
-        "cardTitle": "WipConect：设备间安全控制",
-        "cardDescription": "将您的Zi0n设备链接到其他可信系统...",
-        "description": "WipConect允许您将Zi0n设备链接到其他可信系统，管理（续订许可证、锁定或擦除其他Zi0n系统）连接到您帐户的所有设备。"
-      },
-      "wipnoti": {
-        "title": "WipNoti安全",
-        "cardTitle": "WipNoti：通知应用集成",
-        "cardDescription": "安全显示个性化通知...",
-        "description": "Zi0n可以与外部应用程序链接，允许从传统设备安全显示个性化通知，而不暴露真实系统。"
+      "hot": {
+        "title": "Hot Wallets",
+        "description": "Alta conveniencia y acceso rápido, pero vulnerables a malware, phishing y robos de dispositivos."
       }
     }
   },
-  "mdmApps": {
-    "badge": "MDM生态系统",
-    "title": "连接更多，保护更多",
-    "description": "通过集成应用将您的安全提升到更高水平",
-    "apps": {
-      "notifications": {
-        "name": "推送通知应用",
-        "description": "接收有关设备安全状态和重要系统事件的实时警报。"
+  "operaCripto": {
+    "title": "Opera cuando quieras con tus cripto",
+    "subtitle": "No necesitas una nueva wallet. Necesitas un entorno más seguro para usar lo que ya tienes.",
+    "description": "Zi0n Cripto protege tus aplicaciones Web3 y billeteras digitales en un sistema aislado que reduce la exposición a amenazas, ataques y accesos no autorizados. Porque la seguridad de tus activos comienza con la seguridad de tu dispositivo.",
+    "features": {
+      "apps": {
+        "title": "Apps Oficiales",
+        "description": "Verificamos la integridad de tus apps instaladas."
       },
       "wipe": {
-        "name": "擦除和锁定应用",
-        "description": "远程控制以删除敏感数据或在丢失或被盗时锁定设备。"
+        "title": "Auto-wipe",
+        "description": "9 funciones de borrado para proteger tu información."
+      },
+      "restore": {
+        "title": "Restauración Segura",
+        "description": "Recupera tu sistema con tus credenciales ya importadas."
       }
-    },
-    "download": "下载"
+    }
   },
-  "characteristics": {
-    "badge": "一应俱全",
-    "title": "Zi0n极致安全的工作原理",
-    "description": "旨在随时保护您信息的功能",
+  "howItWorks": {
+    "title": "¿Cómo funciona Zi0n Cripto?",
+    "subtitle": "Protección invisible en tres simples pasos.",
+    "steps": {
+      "install": {
+        "number": "1",
+        "title": "Instalación Segura",
+        "description": "Instala Zi0n en tu dispositivo mediante un código QR y activa tu entorno seguro en solo unos minutos."
+      },
+      "isolate": {
+        "number": "2",
+        "title": "Aislamiento",
+        "description": "Aísla las aplicaciones que más valor tienen para ti en un entorno diseñado para maximizar su seguridad."
+      },
+      "protect": {
+        "number": "3",
+        "title": "Protección Activa",
+        "description": "Zi0n bloquea múltiples vectores de riesgo mediante 9 funciones de seguridad diseñadas para proteger tu armario digital."
+      },
+      "control": {
+        "number": "4",
+        "title": "Control Total",
+        "description": "Tus aplicaciones y activos digitales permanecen protegidos por múltiples capas de seguridad diseñadas para reducir riesgos."
+      }
+    }
+  },
+  "features": {
+    "title": "¿Qué te incluye Zi0n?",
+    "subtitle": "Funciones diseñadas para resistir las mayores amenazas",
     "items": {
-      "easyInstall": {
-        "title": "简易安装",
-        "description": "扫描QR码立即开始激活，无需冗长的过程或复杂的配置。完成激活只需几分钟。"
+      "cableWipe": {
+        "title": "Eliminado al detectar cable",
+        "description": "Toda la información del dispositivo se elimina al detectar un cable, protegiéndote ante robo o pérdidas."
       },
-      "globalService": {
-        "title": "全球服务",
-        "description": "包括加密的国际SIM卡，确保稳定访问，使用多个运营商避免中断并改善覆盖。"
+      "securityPin": {
+        "title": "PIN de seguridad",
+        "description": "¿Quieres eliminar todo en segundos? Digita un pin y a desmontarización por procesos largos."
       },
-      "noUpdates": {
-        "title": "应用程序和系统都无法接收推送更新",
-        "description": "没有自动更新，任何第三方都无法强制进行可能损害使用Zi0n设备安全的未授权更改。"
+      "extraPin": {
+        "title": "Extra PIN",
+        "description": "Si ingresas un número entre a tu PIN en la pantalla de bloqueo, el sistema se eliminará en segundos."
       },
-      "screenshotBlock": {
-        "title": "屏幕截图阻止",
-        "description": "Zi0n阻止屏幕截图或屏幕录制，防止敏感信息在未经授权的情况下被复制或共享。"
+      "simProtection": {
+        "title": "SIM o eSIM no autorizadas",
+        "description": "Si el sistema detecta un cambio en la SIM y eSIM solicitará tu PIN y de lo contrario eliminará el sistema."
       },
-      "inactivityWipe": {
-        "title": "不活动擦除",
-        "description": "如果设备超过用户定义的不活动期限，系统将执行自动擦除以保护所有信息。"
+      "disableCam": {
+        "title": "Desactiva la CAM o MIC",
+        "description": "No te preocupes por el acceso a tu cámara o micrófono, puedes desactivarlos."
       },
-      "hiddenSystem": {
-        "title": "外观屏幕和隐藏系统",
-        "description": "Zi0n创建一个旋转的Android外观系统，并将真实系统隐藏在入口应用程序中。这使您能够误导第三方，保护您的隐私并保持安全。"
+      "blockCaptures": {
+        "title": "Bloquea las capturas",
+        "description": "Tu información está a salvo, ni capturas ni grabaciones de pantalla se activarán."
       },
-      "disableMicCamera": {
-        "title": "禁用麦克风和摄像头",
-        "description": "Zi0n允许您在系统或应用程序的任何部分完全禁用麦克风和摄像头，防止任何录音尝试或未授权访问。"
+      "noSignal": {
+        "title": "¿Sin señal?",
+        "description": "Si el sistema no detecta señal por un periodo largo, inicia el eliminado de los dispositivos."
       },
-      "noServers": {
-        "title": "无可访问的服务器或数据存储",
-        "description": "Zi0n不使用固定位置的服务器，也不存储设备信息，确保任何用户数据都无法被第三方恢复或访问。"
+      "timedDestruction": {
+        "title": "Autodestrucción por tiempo",
+        "description": "Puedes configurar un timer de inactividad para que destruya el sistema automáticamente."
+      },
+      "panicButton": {
+        "title": "Botón del pánico",
+        "description": "Elimina el sistema por completo o realiza una combinación de botones en tu celular."
+      },
+      "securityNotes": {
+        "title": "Notas de seguridad",
+        "description": "Almacena apuntes con total confianza, tus notas estarán encriptadas de extremo a extremo."
       },
       "dynamicVpn": {
-        "title": "动态VPN与去中心化网络",
-        "description": "Zi0n使用在去中心化网络上运行的高级动态VPN，不断轮换系统的IP地址，以最大化隐私并阻止任何跟踪尝试。"
+        "title": "VPN Dinámico",
+        "description": "Una VPN avanzada y dinámica que opera sobre una red descentralizada, rotando constantemente la dirección IP del sistema a nivel global."
       },
-      "permissionControl": {
-        "title": "应用权限保护和控制",
-        "description": "Zi0n监控和调节每个应用程序的权限，防止不当访问，确保仅使用严格必要的资源。"
-      },
-      "vulnerabilityAssessment": {
-        "title": "漏洞评估和应用分类",
-        "description": "分析每个应用程序的风险并对其安全级别进行分类，并用虚假信息欺骗应用程序以保护Zi0n用户。"
-      },
-      "smartwatchIntegration": {
-        "title": "安全智能手表集成",
-        "description": "Zi0n可以与封闭系统智能手表链接，允许您直接从智能手表谨慎安全地管理关键系统功能。"
+      "esim": {
+        "title": "eSIM internacional",
+        "description": "Incluye una eSIM internacional para garantizar acceso estable, usando múltiples operadoras a nivel global."
       }
     }
   },
-  "partners": {
-    "badge": "全球分销商网络",
-    "title": "分销合作伙伴",
-    "description": "分销合作伙伴（如移动技术商店或IT提供商）可以向其客户转售Zi0n服务。我们提供现代化门户来管理您的业务和专业技术支持。立即申请演示！",
-    "benefits": {
-      "portal": {
-        "title": "现代化门户",
-        "description": "使用专为分销商设计的直观平台管理您的业务"
-      },
-      "devices": {
-        "title": "高端设备",
-        "description": "访问集成Zi0n安全的智能手机和平板电脑"
-      },
-      "support": {
-        "title": "专属支持",
-        "description": "为您和您的客户提供全天候技术支持"
-      },
-      "demo": {
-        "title": "独家演示",
-        "description": "在成为官方分销商之前试用所有功能"
-      }
-    },
-    "cta": {
-      "title": "成为Zi0n官方分销商",
-      "description": "填写表格以获得独家演示并加入我们的授权分销商网络",
-      "primaryButton": "申请演示",
-      "secondaryButton": "更多信息"
+  "appsConfig": {
+    "title": "Configura Zi0n Crypto con estas apps",
+    "subtitle": "Puedes elegir entre 4 tiendas de apps para instalar lo que desees en tu dispositivo:",
+    "tabs": {
+      "privacy": "Tienda Privacy",
+      "exchange": "Tienda Exchange",
+      "communications": "Tienda Comunicaciones",
+      "encrypted": "Tienda Encriptados"
     }
+  },
+  "cta": {
+    "title": "¿No sabes si Zi0n es para ti?",
+    "highlight": "Te regalamos 15 días, sin compromiso",
+    "description": "No dejes la seguridad de tu patrimonio al azar. Únete a la élite que ya protege sus activos con Zi0n con una prueba gratuita de 14 días sin compromiso.",
+    "benefits": {
+      "1": "Configuración en menos de 5 minutos",
+      "2": "Soporte técnico 24/7",
+      "3": "Cancelación sin compromiso"
+    },
+    "primaryButton": "Comenzar prueba gratuita",
+    "secondaryButton": "Hablar con ventas"
+  },
+  "faq": {
+    "title": "¿Aún tienes dudas?",
+    "subtitle": "Te contamos más sobre Zi0n Cripto",
+    "questions": {
+      "q1": {
+        "question": "¿Qué dispositivos son compatibles?",
+        "answer": "Zi0n es compatible con una amplia variedad de dispositivos Android. Contacta con nuestro equipo para verificar la compatibilidad de tu dispositivo."
+      },
+      "q2": {
+        "question": "Si se borra el dispositivo, ¿puedo recuperar la información?",
+        "answer": "La información eliminada no puede ser recuperada, ya que el borrado es permanente y seguro. Te recomendamos mantener copias de seguridad de tus credenciales."
+      },
+      "q3": {
+        "question": "¿Qué tan seguro es Zi0n Cripto?",
+        "answer": "Zi0n utiliza encriptación de nivel militar y múltiples capas de seguridad diseñadas para proteger tus activos digitales contra las amenazas más avanzadas."
+      },
+      "q4": {
+        "question": "Si quiero una app diferente del listado, ¿cómo la instalo?",
+        "answer": "Puedes solicitar la inclusión de aplicaciones adicionales a través de nuestro equipo de soporte, quienes verificarán su integridad antes de aprobarla."
+      },
+      "q5": {
+        "question": "¿Cómo es su política de reembolsos?",
+        "answer": "Ofrecemos una prueba gratuita de 14 días. Si no estás satisfecho, puedes cancelar sin compromiso durante ese periodo."
+      },
+      "q6": {
+        "question": "¿Puedo instalar Zi0n en un iPhone?",
+        "answer": "Actualmente Zi0n está diseñado exclusivamente para dispositivos Android. Estamos evaluando opciones para iOS en el futuro."
+      },
+      "q7": {
+        "question": "¿Qué pasa con mi información? ¿se almacena?",
+        "answer": "Zi0n no almacena ninguna información del usuario en servidores externos. Todos los datos permanecen exclusivamente en tu dispositivo."
+      },
+      "q8": {
+        "question": "¿Pierdo los accesos de mis apps al eliminar el sistema?",
+        "answer": "Al eliminar el sistema, se borran todos los datos del dispositivo. Asegúrate de tener respaldadas tus credenciales y seeds de recuperación."
+      }
+    }
+  },
+  "distributionModal": {
+    "title": "Genera ganancias con las comisiones",
+    "subtitle": "Distribuye Zi0n y genera rentabilidad desde el día 1. Déjanos tus datos y te contactaremos.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "John Doe",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "hola@correo.com",
+    "countryLabel": "País",
+    "budgetLabel": "Presupuesto",
+    "choosePlaceholder": "Elegir...",
+    "commentsLabel": "¿Tienes comentarios?",
+    "commentsPlaceholder": "Ingresa aquí tus comentarios.",
+    "submit": "Enviar solicitud",
+    "sending": "Enviando...",
+    "success": "¡Solicitud enviada! Nos pondremos en contacto contigo pronto.",
+    "error": "Error al enviar. Por favor intenta de nuevo."
+  },
+  "distribution": {
+    "title": "¿Quieres distribuir Zi0n Crypto?",
+    "descriptionBefore": "Los socios de distribución, como tiendas de tecnología móvil o proveedores de TI, pueden revender servicios Zi0n a sus clientes y ",
+    "descriptionHighlight": "obtener excelentes ganancias",
+    "descriptionAfter": ". Ofrecemos un portal moderno para gestionar tu negocio y soporte técnico especializado. ¡Solicita hoy una demostración!",
+    "cta": "Solicitar demostración"
   },
   "contact": {
-    "badge": "我们随时为您提供帮助",
-    "title": "联系我们",
-    "subtitle": "对Zi0n有疑问？我们的团队随时准备帮助您保护您的信息。写信给我们，我们会尽快回复。",
+    "badge": "Estamos aquí para ayudarte",
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes preguntas sobre Zi0n? Nuestro equipo está listo para ayudarte a proteger tu información. Escríbenos y te responderemos lo antes posible.",
     "info": {
       "email": {
-        "label": "电子邮件",
+        "label": "Email",
         "value": "contacto@zi0n.io"
       },
       "location": {
-        "label": "位置",
-        "value": "全球服务，24/7支持"
+        "label": "Ubicación",
+        "value": "Servicio global, soporte 24/7"
       }
     },
     "form": {
       "name": {
-        "label": "姓名",
-        "placeholder": "您的姓名"
+        "label": "Nombre",
+        "placeholder": "Tu nombre"
       },
       "email": {
-        "label": "电子邮件",
-        "placeholder": "you@email.com"
+        "label": "Email",
+        "placeholder": "tu@email.com"
       },
       "message": {
-        "label": "消息",
-        "placeholder": "我们如何帮助您？"
+        "label": "Mensaje",
+        "placeholder": "¿En qué podemos ayudarte?"
       },
-      "submit": "发送消息"
+      "submit": "Enviar mensaje"
     }
   },
-  "cta": {
-    "title": "立即保护您的设备",
-    "subtitle": "加入成千上万已经信任Zi0n保护其最有价值信息的用户。您需要的安全性，触手可及。",
-    "benefits": {
-      "1": "不到5分钟完成设置",
-      "2": "14天免费试用",
-      "3": "24/7技术支持",
-      "4": "无承诺取消"
-    },
-    "primaryButton": "开始免费试用",
-    "secondaryButton": "联系销售"
-  },
   "footer": {
-    "description": "通过先进的加密和全面保护，改变Android设备的移动安全。",
-    "navigation": "导航",
-    "nav": {
-      "home": "首页",
-      "security": "安全",
-      "characteristics": "特性",
-      "apps": "应用",
-      "contact": "联系"
-    },
-    "legal": "法律信息",
+    "description": "Transformando la seguridad móvil con estrategias de encriptación y protección integral para tu dispositivo Android.",
     "legalLinks": {
-      "legalNotice": "法律声明",
-      "terms": "使用条款",
-      "cookies": "Cookie政策"
+      "legalNotice": "Aviso Legal",
+      "terms": "Términos y condiciones",
+      "cookies": "Política de cookies"
     },
-    "rights": "保留所有权利。",
-    "madeWith": "以安全为核心打造"
+    "rights": "Todos los derechos reservados."
   },
   "legalPages": {
-    "backToHome": "返回首页",
+    "backToHome": "Volver al inicio",
     "legalNotice": {
-      "title": "法律声明",
-      "contact": "联系方式",
-      "contactEmail": "电子邮件",
-      "contactEmailSupport": "用于支持和一般咨询",
-      "contactEmailLegal": "用于法律通知",
-      "contactPhone": "电话",
-      "contactAddress": "法律通知地址",
-      "or": "或",
-      "intellectualProperty": "知识产权",
-      "intellectualPropertyText": "Zi0n的所有知识产权，包括软件、设计、商标和内容，均属于公司或其许可方。禁止任何未经授权的复制、分发或使用。",
-      "thirdPartyLinks": "第三方链接",
-      "thirdPartyLinksText": "本网站可能包含第三方网站的链接。本公司不对这些网站的内容或隐私政策负责。",
-      "companyInfo": "GLOBAL INVESTMENT ST S.A.S.（以下简称\"本公司\"或\"Zi0n\"），NIT 901206726-2，是一家在哥伦比亚成立的简化股份公司，主要地址位于：Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, 哥伦比亚。电话：+57 300 929 1110。本公司致力于Zi0n品牌下高级移动安全服务的开发和提供。",
-      "jurisdiction": "本网站和相关服务由本公司在哥伦比亚共和国法律管辖下运营。与使用本网站或服务相关的任何争议将专属于Medellín, Antioquia的法院解决。",
-      "disclaimer": "本公司不保证网站的不间断可用性或无错误。内容按'原样'提供，不提供明示或暗示的保证。本公司保留随时修改网站的权利，无需事先通知。",
-      "lastUpdate": "最后更新",
-      "moreInfo": "欲了解更多信息，请参阅"
+      "title": "Aviso Legal",
+      "contact": "Contacto",
+      "contactEmail": "Correo electrónico",
+      "contactEmailSupport": "para soporte y consultas generales",
+      "contactEmailLegal": "para notificaciones judiciales",
+      "contactPhone": "Teléfono",
+      "contactAddress": "Dirección para notificaciones judiciales",
+      "or": "o",
+      "intellectualProperty": "Propiedad Intelectual",
+      "intellectualPropertyText": "Todos los derechos de propiedad intelectual sobre Zi0n, incluyendo software, diseños, marcas y contenidos, pertenecen a la Empresa o a sus licenciantes. Queda prohibida cualquier reproducción, distribución o uso no autorizado.",
+      "thirdPartyLinks": "Enlaces a Terceros",
+      "thirdPartyLinksText": "El sitio puede contener enlaces a sitios web de terceros. La Empresa no es responsable por el contenido o prácticas de privacidad de dichos sitios.",
+      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (en adelante, \"la Empresa\" o \"Zi0n\"), identificada con NIT 901206726-2, es una sociedad por acciones simplificada constituida en Colombia, con domicilio principal en Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia. La Empresa se dedica a actividades de programación informática (CIIU 6201), inversión en sociedades, publicidad (CIIU 7310), diseño especializado (CIIU 7410) y consultoría de gestión (CIIU 7020), entre otras relacionadas con el desarrollo y prestación de servicios de seguridad móvil avanzada bajo la marca Zi0n.",
+      "jurisdiction": "Este sitio web y los servicios asociados son operados por la Empresa bajo la jurisdicción de las leyes de la República de Colombia. Cualquier disputa relacionada con el uso del sitio o los servicios se resolverá exclusivamente en los tribunales de Medellín, Antioquia.",
+      "disclaimer": "La Empresa no garantiza la disponibilidad ininterrumpida del sitio web ni la ausencia de errores. El contenido se proporciona \"tal cual\" sin garantías expresas o implícitas. La Empresa se reserva el derecho de modificar el sitio web en cualquier momento sin previo aviso.",
+      "lastUpdate": "Última actualización",
+      "moreInfo": "Para más información, consulte los"
     },
     "terms": {
-      "title": "使用条款和条件",
-      "lastUpdate": "最后更新"
+      "title": "Términos y Condiciones de Uso de los Servicios",
+      "lastUpdate": "Última actualización"
     },
     "cookies": {
-      "title": "Cookie政策",
-      "lastUpdate": "最后更新",
-      "intro": "GLOBAL INVESTMENT ST S.A.S.（NIT 901206726-2，以下简称\"本公司\"或\"Zi0n\"），地址：Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, 哥伦比亚，运营网站https://www.zi0n.io/es（以下简称\"本网站\"）。本Cookie政策解释了我们如何在本网站上使用Cookie和类似技术，符合哥伦比亚2012年第1581号法律和数据保护相关法规的规定。",
-      "privacyFocus": "鉴于我们专注于最大程度的隐私保护并不收集不必要的数据，本网站不使用第三方Cookie或跟踪Cookie。我们仅使用网站基本运行所必需的Cookie（如适用）。",
+      "title": "Política de Cookies",
+      "lastUpdate": "Última actualización",
+      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, en adelante \"la Empresa\" o \"Zi0n\"), con domicilio en Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia, opera el sitio web https://www.zi0n.io/es (en adelante, \"el Sitio\"). Esta Política de Cookies explica cómo utilizamos cookies y tecnologías similares en el Sitio, en cumplimiento de la Ley 1581 de 2012 y normas relacionadas con la protección de datos en Colombia.",
+      "privacyFocus": "Dado nuestro enfoque en la privacidad máxima y la no recopilación de datos innecesarios, el Sitio no utiliza cookies de terceros ni cookies de seguimiento. Solo empleamos cookies estrictamente necesarias para el funcionamiento básico del Sitio, si aplica.",
       "section1": {
-        "title": "1. 什么是Cookie？",
-        "description": "Cookie是您访问网站时存储在您设备（计算机、手机或平板电脑）上的小型文本文件。它们可用于记住偏好、改善用户体验或收集分析数据。存在不同类型：",
-        "essential": "必要Cookie",
-        "essentialDesc": "网站运行所必需（例如维护会话）。",
-        "performance": "性能Cookie",
-        "performanceDesc": "收集有关网站使用的匿名数据。",
-        "functionality": "功能Cookie",
-        "functionalityDesc": "记住用户选择（例如语言）。",
-        "advertising": "广告Cookie",
-        "advertisingDesc": "用于展示个性化广告。"
+        "title": "1. ¿Qué son las Cookies?",
+        "description": "Las cookies son pequeños archivos de texto que se almacenan en su dispositivo (computadora, teléfono o tableta) cuando visita un sitio web. Pueden ser utilizadas para recordar preferencias, mejorar la experiencia de usuario o recopilar datos analíticos. Existen diferentes tipos:",
+        "essential": "Cookies esenciales",
+        "essentialDesc": "Necesarias para el funcionamiento del sitio (ej. mantener sesiones).",
+        "performance": "Cookies de rendimiento",
+        "performanceDesc": "Recopilan datos anónimos sobre el uso del sitio.",
+        "functionality": "Cookies de funcionalidad",
+        "functionalityDesc": "Recuerdan elecciones del usuario (ej. idioma).",
+        "advertising": "Cookies de publicidad",
+        "advertisingDesc": "Usadas para mostrar anuncios personalizados."
       },
       "section2": {
-        "title": "2. 本网站使用的Cookie",
-        "description": "在Zi0n，我们优先保护您的隐私，不会收集或存储超出必要范围的浏览数据。因此：",
-        "noThirdParty": "我们不使用第三方、分析或广告Cookie。",
-        "noThirdPartyDesc": "我们不与广告网络、Google Analytics或其他跟踪服务共享数据。",
-        "essentialCookies": "必要Cookie（如适用）",
-        "essentialCookiesDesc": "我们可能使用临时（会话）技术Cookie来实现安全浏览或QR码处理等基本功能。这些Cookie在您关闭浏览器时自动删除。",
-        "dataCollected": "收集的数据",
-        "dataCollectedDesc": "无。除了自愿提供用于注册或联系的电子邮件外，我们不存储有关您访问、IP、位置或网站行为的任何信息。",
-        "noCookies": "如果本网站完全不使用Cookie（如没有跟踪脚本的静态页面），则不会在您的设备上安装任何Cookie。"
+        "title": "2. Cookies Utilizadas en el Sitio",
+        "description": "En Zi0n, priorizamos su privacidad y no recopilamos ni almacenamos datos de navegación más allá de lo esencial para proporcionar los Servicios. Por lo tanto:",
+        "noThirdParty": "No utilizamos cookies de terceros, analíticas ni de publicidad.",
+        "noThirdPartyDesc": "No compartimos datos con redes publicitarias, Google Analytics u otros servicios de tracking.",
+        "essentialCookies": "Cookies esenciales (si aplican)",
+        "essentialCookiesDesc": "Podríamos usar cookies técnicas temporales (de sesión) para funciones básicas como la navegación segura o el procesamiento del código QR para la instalación. Estas se eliminan automáticamente al cerrar el navegador y no recopilan datos personales identificables.",
+        "dataCollected": "Datos recopilados",
+        "dataCollectedDesc": "Ninguno. No almacenamos información sobre su visita, IP, ubicación o comportamiento en el Sitio, salvo el correo electrónico proporcionado voluntariamente para registro o contacto.",
+        "noCookies": "Si el Sitio no usa cookies en absoluto (como en páginas estáticas sin scripts de tracking), no se instalará ninguna cookie en su dispositivo."
       },
       "section3": {
-        "title": "3. Cookie管理",
-        "description": "您可以通过浏览器设置控制Cookie：",
-        "block": "阻止或删除Cookie",
-        "blockDesc": "大多数浏览器（如Chrome、Firefox、Safari）允许您拒绝或删除Cookie。",
-        "impact": "影响",
-        "impactDesc": "阻止必要Cookie可能会影响网站功能。",
-        "noBanner": "我们不使用同意横幅",
-        "noBannerDesc": "由于我们不使用非必要Cookie，因此不显示Cookie横幅。您的浏览意味着接受本政策。"
+        "title": "3. Gestión de Cookies",
+        "description": "Usted puede controlar las cookies a través de la configuración de su navegador:",
+        "block": "Bloquear o eliminar cookies",
+        "blockDesc": "La mayoría de los navegadores (como Chrome, Firefox, Safari) permiten rechazar cookies o eliminarlas. Consulte la sección de ayuda de su navegador para instrucciones.",
+        "impact": "Impacto",
+        "impactDesc": "Bloquear cookies esenciales podría afectar la funcionalidad del Sitio, como el escaneo de QR.",
+        "noBanner": "No usamos banners de consentimiento",
+        "noBannerDesc": "Dado que no usamos cookies no esenciales, no mostramos banners de cookies. Su navegación implica aceptación de esta Política."
       },
       "section4": {
-        "title": "4. 第三方链接",
-        "description": "本网站可能包含第三方网站的链接（如支付处理商）。这些网站有自己的Cookie政策，我们对此不承担责任。"
+        "title": "4. Enlaces a Terceros",
+        "description": "El Sitio podría contener enlaces a sitios web de terceros (ej. procesadores de pago). Estos sitios tienen sus propias políticas de cookies, por las que no somos responsables. Revise sus políticas antes de interactuar."
       },
       "section5": {
-        "title": "5. 政策修改",
-        "description": "我们保留更新本政策的权利。更改将在网站上发布，如适用，将通过电子邮件通知，提前至少15天。"
+        "title": "5. Modificaciones a la Política",
+        "description": "Nos reservamos el derecho de actualizar esta Política. Los cambios se publicarán en el Sitio y se notificarán por correo si aplica, con al menos 15 días de anticipación."
       },
       "section6": {
-        "title": "6. 联系方式",
-        "description": "如对本政策有疑问，请联系",
-        "responsible": "负责人"
+        "title": "6. Contacto",
+        "description": "Para preguntas sobre esta Política, contacte a",
+        "responsible": "Responsable"
       },
-      "footer": "本政策与我们的个人数据处理政策和"
+      "footer": "Esta Política se integra con nuestra Política de Tratamiento de Datos Personales y"
     }
   }
 }

@@ -1,306 +1,340 @@
 {
   "metadata": {
-    "title": "Zi0n - उन्नत मोबाइल सुरक्षा",
-    "description": "Zi0n के साथ अपने Android को एक एन्क्रिप्टेड, सुरक्षित, नियंत्रित और संरक्षित डिवाइस में बदलें।"
+    "title": "Zi0n Crypto - Seguridad para tus activos digitales",
+    "description": "Gestiona tus cripto con las apps que ya usas. Zi0n Cripto protege tu dispositivo sin cambiar tu forma de operar."
   },
   "header": {
     "nav": {
-      "home": "होम",
-      "security": "सुरक्षा",
-      "characteristics": "विशेषताएं",
-      "apps": "ऐप्स",
-      "contact": "संपर्क"
+      "whatIs": "¿Qué es?",
+      "whatIncludes": "¿Qué incluye?",
+      "apps": "Aplicaciones"
     },
-    "cta": "अभी शुरू करें"
+    "cta": "Comenzar ahora"
   },
   "hero": {
-    "badge": "एंटरप्राइज-लेवल सुरक्षा",
-    "title": "अपने डिवाइस को उस",
-    "titleHighlight": "सुरक्षा",
-    "titleEnd": "के साथ बदलें जिसका आपने हमेशा सपना देखा",
-    "description": "Zi0n आपके Android को एक एन्क्रिप्टेड, सुरक्षित, नियंत्रित और संरक्षित डिवाइस में बदल देता है। यह आपको गोपनीयता और उन्नत सुरक्षा सुनिश्चित करने के लिए सत्यापित ऐप्स और सिस्टम-विशिष्ट सुरक्षा सुविधाओं का प्रबंधन करने की अनुमति देता है।",
-    "ctaPrimary": "अभी शुरू करें",
-    "ctaSecondary": "डेमो देखें",
-    "phoneTitle": "संरक्षित डिवाइस",
-    "phoneSubtitle": "आपकी सुरक्षा हमारी प्राथमिकता है",
-    "encryptionActive": "एन्क्रिप्शन सक्रिय",
-    "mdmConnected": "MDM कनेक्टेड"
+    "titleLine1": "Seguro.",
+    "titleLine2": "Sin cadenas.",
+    "titleLine3": "Muevete con libertad.",
+    "description": "Gestiona tus cripto con las apps que ya usas... Zi0n Cripto protege tu dispositivo sin cambiar tu forma de operar. La seguridad de nivel militar se encuentra con la usabilidad diaria.",
+    "cta": "Saber más"
   },
-  "security": {
-    "badge": "व्यापक सुरक्षा",
-    "title": "Zi0n आपको अधिक सुरक्षा देता है",
-    "description": "आपकी सबसे संवेदनशील जानकारी की सुरक्षा के लिए डिज़ाइन की गई विशेष सुविधाएं",
-    "features": {
-      "wipi": {
-        "title": "Wipi सुरक्षा",
-        "cardTitle": "Wipi: जासूसी केबल के खिलाफ रक्षा",
-        "cardDescription": "संदिग्ध केबल का पता चलने पर सभी डिवाइस जानकारी हटा देता है...",
-        "description": "Wipi आपके डिवाइस को हेरफेर किए गए डेटा या चार्जिंग केबल से बचाता है। यह संदिग्ध कनेक्शन का पता लगाता है, उपयोगकर्ता को अलर्ट करता है, और आपकी सेटिंग्स के अनुसार, किसी भी डेटा निष्कर्षण को रोकने के लिए सिस्टम को मिटा देता है।"
+  "cryptoDilemma": {
+    "title": "El dilema de la seguridad cripto",
+    "subtitle": "Zi0n es la solución definitiva que combina lo mejor de ambos mundos.",
+    "cards": {
+      "hardware": {
+        "title": "Hardware Wallets",
+        "description": "Máxima seguridad fuera de línea, pero poco prácticas para operaciones diarias y trading activo."
       },
-      "wipepin": {
-        "title": "WipPIN सुरक्षा",
-        "cardTitle": "WipPIN: फैक्ट्री रीसेट PIN",
-        "cardDescription": "एक PIN जो दर्ज करने पर सभी जानकारी तुरंत मिटा देता है...",
-        "description": "एक PIN जो दर्ज करने पर सभी डिवाइस जानकारी तुरंत मिटा देता है। महत्वपूर्ण स्थितियों में आपके डेटा की सुरक्षा के लिए एक त्वरित और विचारशील कार्रवाई।"
+      "zion": {
+        "title": "ZiOn",
+        "description": "La protección de un sistema de alta seguridad con la simplicidad de tu smartphone."
       },
-      "wipsim": {
-        "title": "WipSIM सुरक्षा",
-        "cardTitle": "WipSIM: SIM हेरफेर के खिलाफ सुरक्षा",
-        "cardDescription": "SIM या eSIM में किसी भी अनधिकृत परिवर्तन का पता लगाता है...",
-        "description": "यह सुविधा SIM या eSIM में किसी भी अनधिकृत परिवर्तन का पता लगाती है, और जानकारी की सुरक्षा के लिए सिस्टम को मिटाने की क्षमता के साथ उपयोगकर्ता को अलर्ट करती है।"
-      },
-      "wipconect": {
-        "title": "WipConect सुरक्षा",
-        "cardTitle": "WipConect: डिवाइसों के बीच सुरक्षित नियंत्रण",
-        "cardDescription": "अपने Zi0n डिवाइस को अन्य विश्वसनीय सिस्टम से लिंक करें...",
-        "description": "WipConect आपको अपने Zi0n डिवाइस को अन्य विश्वसनीय सिस्टम से लिंक करने की अनुमति देता है, आपके खाते से जुड़े सभी डिवाइस का प्रबंधन (लाइसेंस नवीनीकरण, अन्य Zi0n सिस्टम को लॉक या मिटाना) करता है।"
-      },
-      "wipnoti": {
-        "title": "WipNoti सुरक्षा",
-        "cardTitle": "WipNoti: नोटिफिकेशन ऐप एकीकरण",
-        "cardDescription": "व्यक्तिगत नोटिफिकेशन का सुरक्षित प्रदर्शन...",
-        "description": "Zi0n बाहरी ऐप्स से लिंक कर सकता है ताकि पारंपरिक डिवाइस से व्यक्तिगत नोटिफिकेशन का सुरक्षित प्रदर्शन किया जा सके, वास्तविक सिस्टम को उजागर किए बिना।"
+      "hot": {
+        "title": "Hot Wallets",
+        "description": "Alta conveniencia y acceso rápido, pero vulnerables a malware, phishing y robos de dispositivos."
       }
     }
   },
-  "mdmApps": {
-    "badge": "MDM इकोसिस्टम",
-    "title": "अधिक कनेक्ट करें, अधिक सुरक्षित करें",
-    "description": "एकीकृत ऐप्स के साथ अपनी सुरक्षा को अगले स्तर पर ले जाएं",
-    "apps": {
-      "notifications": {
-        "name": "पुश नोटिफिकेशन ऐप",
-        "description": "अपने डिवाइस की सुरक्षा स्थिति और महत्वपूर्ण सिस्टम इवेंट के बारे में रीयल-टाइम अलर्ट प्राप्त करें।"
+  "operaCripto": {
+    "title": "Opera cuando quieras con tus cripto",
+    "subtitle": "No necesitas una nueva wallet. Necesitas un entorno más seguro para usar lo que ya tienes.",
+    "description": "Zi0n Cripto protege tus aplicaciones Web3 y billeteras digitales en un sistema aislado que reduce la exposición a amenazas, ataques y accesos no autorizados. Porque la seguridad de tus activos comienza con la seguridad de tu dispositivo.",
+    "features": {
+      "apps": {
+        "title": "Apps Oficiales",
+        "description": "Verificamos la integridad de tus apps instaladas."
       },
       "wipe": {
-        "name": "वाइप और लॉक ऐप",
-        "description": "हानि या चोरी के मामले में संवेदनशील डेटा हटाने या डिवाइस को लॉक करने के लिए रिमोट कंट्रोल।"
+        "title": "Auto-wipe",
+        "description": "9 funciones de borrado para proteger tu información."
+      },
+      "restore": {
+        "title": "Restauración Segura",
+        "description": "Recupera tu sistema con tus credenciales ya importadas."
       }
-    },
-    "download": "डाउनलोड"
+    }
   },
-  "characteristics": {
-    "badge": "सब कुछ शामिल",
-    "title": "Zi0n की चरम सुरक्षा कैसे काम करती है",
-    "description": "हर समय आपकी जानकारी की सुरक्षा के लिए डिज़ाइन की गई विशेषताएं",
+  "howItWorks": {
+    "title": "¿Cómo funciona Zi0n Cripto?",
+    "subtitle": "Protección invisible en tres simples pasos.",
+    "steps": {
+      "install": {
+        "number": "1",
+        "title": "Instalación Segura",
+        "description": "Instala Zi0n en tu dispositivo mediante un código QR y activa tu entorno seguro en solo unos minutos."
+      },
+      "isolate": {
+        "number": "2",
+        "title": "Aislamiento",
+        "description": "Aísla las aplicaciones que más valor tienen para ti en un entorno diseñado para maximizar su seguridad."
+      },
+      "protect": {
+        "number": "3",
+        "title": "Protección Activa",
+        "description": "Zi0n bloquea múltiples vectores de riesgo mediante 9 funciones de seguridad diseñadas para proteger tu armario digital."
+      },
+      "control": {
+        "number": "4",
+        "title": "Control Total",
+        "description": "Tus aplicaciones y activos digitales permanecen protegidos por múltiples capas de seguridad diseñadas para reducir riesgos."
+      }
+    }
+  },
+  "features": {
+    "title": "¿Qué te incluye Zi0n?",
+    "subtitle": "Funciones diseñadas para resistir las mayores amenazas",
     "items": {
-      "easyInstall": {
-        "title": "आसान इंस्टॉलेशन",
-        "description": "QR कोड स्कैन करने से तुरंत एक्टिवेशन शुरू हो जाता है, बिना लंबी प्रक्रियाओं या जटिल कॉन्फ़िगरेशन के। एक्टिवेशन पूरा करने में केवल कुछ मिनट लगते हैं।"
+      "cableWipe": {
+        "title": "Eliminado al detectar cable",
+        "description": "Toda la información del dispositivo se elimina al detectar un cable, protegiéndote ante robo o pérdidas."
       },
-      "globalService": {
-        "title": "विश्वव्यापी सेवा",
-        "description": "स्थिर पहुंच सुनिश्चित करने के लिए एन्क्रिप्टेड अंतर्राष्ट्रीय SIM कार्ड शामिल हैं, व्यवधान से बचने और कवरेज में सुधार के लिए कई ऑपरेटरों का उपयोग करते हैं।"
+      "securityPin": {
+        "title": "PIN de seguridad",
+        "description": "¿Quieres eliminar todo en segundos? Digita un pin y a desmontarización por procesos largos."
       },
-      "noUpdates": {
-        "title": "न तो ऐप और न ही सिस्टम पुश अपडेट प्राप्त कर सकता है",
-        "description": "स्वचालित अपडेट के बिना, कोई भी तीसरा पक्ष अनधिकृत परिवर्तन नहीं कर सकता जो Zi0n का उपयोग करने वाले डिवाइस की सुरक्षा से समझौता करे।"
+      "extraPin": {
+        "title": "Extra PIN",
+        "description": "Si ingresas un número entre a tu PIN en la pantalla de bloqueo, el sistema se eliminará en segundos."
       },
-      "screenshotBlock": {
-        "title": "स्क्रीनशॉट ब्लॉकिंग",
-        "description": "Zi0n स्क्रीनशॉट या स्क्रीन रिकॉर्डिंग को रोकता है, संवेदनशील जानकारी को बिना अनुमति के कॉपी या साझा होने से बचाता है।"
+      "simProtection": {
+        "title": "SIM o eSIM no autorizadas",
+        "description": "Si el sistema detecta un cambio en la SIM y eSIM solicitará tu PIN y de lo contrario eliminará el sistema."
       },
-      "inactivityWipe": {
-        "title": "निष्क्रियता पर वाइप",
-        "description": "यदि डिवाइस उपयोगकर्ता-परिभाषित निष्क्रियता अवधि से अधिक हो जाता है, तो सिस्टम सभी जानकारी की सुरक्षा के लिए स्वचालित वाइप करता है।"
+      "disableCam": {
+        "title": "Desactiva la CAM o MIC",
+        "description": "No te preocupes por el acceso a tu cámara o micrófono, puedes desactivarlos."
       },
-      "hiddenSystem": {
-        "title": "फेसेड स्क्रीन और हिडन सिस्टम",
-        "description": "Zi0n एक रोटेटिंग Android फेसेड सिस्टम बनाता है और वास्तविक सिस्टम को एक एंट्री ऐप के अंदर छुपाता है। यह आपको तीसरे पक्षों को गुमराह करने, अपनी गोपनीयता की रक्षा करने और सुरक्षित रहने की अनुमति देता है।"
+      "blockCaptures": {
+        "title": "Bloquea las capturas",
+        "description": "Tu información está a salvo, ni capturas ni grabaciones de pantalla se activarán."
       },
-      "disableMicCamera": {
-        "title": "माइक्रोफोन और कैमरा अक्षम करें",
-        "description": "Zi0n आपको सिस्टम या ऐप के किसी भी हिस्से में माइक्रोफोन और कैमरा को पूरी तरह से अक्षम करने की अनुमति देता है, किसी भी रिकॉर्डिंग प्रयास या अनधिकृत पहुंच को रोकता है।"
+      "noSignal": {
+        "title": "¿Sin señal?",
+        "description": "Si el sistema no detecta señal por un periodo largo, inicia el eliminado de los dispositivos."
       },
-      "noServers": {
-        "title": "कोई सुलभ सर्वर या डेटा स्टोरेज नहीं",
-        "description": "Zi0n निश्चित स्थानों वाले सर्वर का उपयोग नहीं करता और डिवाइस जानकारी संग्रहीत नहीं करता, यह सुनिश्चित करता है कि कोई भी उपयोगकर्ता डेटा तीसरे पक्षों द्वारा पुनर्प्राप्त या एक्सेस नहीं किया जा सकता।"
+      "timedDestruction": {
+        "title": "Autodestrucción por tiempo",
+        "description": "Puedes configurar un timer de inactividad para que destruya el sistema automáticamente."
+      },
+      "panicButton": {
+        "title": "Botón del pánico",
+        "description": "Elimina el sistema por completo o realiza una combinación de botones en tu celular."
+      },
+      "securityNotes": {
+        "title": "Notas de seguridad",
+        "description": "Almacena apuntes con total confianza, tus notas estarán encriptadas de extremo a extremo."
       },
       "dynamicVpn": {
-        "title": "विकेंद्रीकृत नेटवर्क के साथ डायनामिक VPN",
-        "description": "Zi0n एक उन्नत डायनामिक VPN का उपयोग करता है जो विकेंद्रीकृत नेटवर्क पर काम करता है, गोपनीयता को अधिकतम करने और किसी भी ट्रैकिंग प्रयास को रोकने के लिए लगातार सिस्टम के IP पते को बदलता है।"
+        "title": "VPN Dinámico",
+        "description": "Una VPN avanzada y dinámica que opera sobre una red descentralizada, rotando constantemente la dirección IP del sistema a nivel global."
       },
-      "permissionControl": {
-        "title": "ऐप अनुमति सुरक्षा और नियंत्रण",
-        "description": "Zi0n प्रत्येक ऐप की अनुमतियों की निगरानी और विनियमन करता है, अनुचित पहुंच को रोकता है और यह सुनिश्चित करता है कि केवल सख्ती से आवश्यक संसाधनों का उपयोग किया जाए।"
-      },
-      "vulnerabilityAssessment": {
-        "title": "भेद्यता मूल्यांकन और ऐप वर्गीकरण",
-        "description": "जोखिमों के लिए प्रत्येक ऐप का विश्लेषण करता है और इसके सुरक्षा स्तर को वर्गीकृत करता है, और Zi0n उपयोगकर्ता की सुरक्षा के लिए ऐप को गलत जानकारी से धोखा देता है।"
-      },
-      "smartwatchIntegration": {
-        "title": "सुरक्षित स्मार्टवॉच एकीकरण",
-        "description": "Zi0n बंद-सिस्टम स्मार्ट वॉच से लिंक कर सकता है, जिससे आप सीधे अपनी स्मार्टवॉच से विवेकपूर्ण और सुरक्षित तरीके से प्रमुख सिस्टम फ़ंक्शन प्रबंधित कर सकते हैं।"
+      "esim": {
+        "title": "eSIM internacional",
+        "description": "Incluye una eSIM internacional para garantizar acceso estable, usando múltiples operadoras a nivel global."
       }
     }
   },
-  "partners": {
-    "badge": "वैश्विक वितरक नेटवर्क",
-    "title": "वितरण साझेदार",
-    "description": "वितरण साझेदार, जैसे मोबाइल टेक्नोलॉजी स्टोर या IT प्रदाता, अपने ग्राहकों को Zi0n सेवाएं पुनर्विक्रय कर सकते हैं। हम आपके व्यवसाय का प्रबंधन करने के लिए एक आधुनिक पोर्टल और विशेष तकनीकी सहायता प्रदान करते हैं। आज ही डेमो का अनुरोध करें!",
-    "benefits": {
-      "portal": {
-        "title": "आधुनिक पोर्टल",
-        "description": "वितरकों के लिए डिज़ाइन किए गए सहज प्लेटफ़ॉर्म के साथ अपने व्यवसाय का प्रबंधन करें"
-      },
-      "devices": {
-        "title": "प्रीमियम डिवाइस",
-        "description": "एकीकृत Zi0n सुरक्षा वाले स्मार्टफ़ोन और टैबलेट तक पहुंच"
-      },
-      "support": {
-        "title": "समर्पित सहायता",
-        "description": "आपके और आपके ग्राहकों के लिए 24/7 पूर्ण तकनीकी सहायता"
-      },
-      "demo": {
-        "title": "विशेष डेमो",
-        "description": "आधिकारिक वितरक बनने से पहले सभी सुविधाओं को आज़माएं"
-      }
-    },
-    "cta": {
-      "title": "Zi0n के आधिकारिक वितरक बनें",
-      "description": "एक विशेष डेमो प्राप्त करने और हमारे अधिकृत वितरकों के नेटवर्क में शामिल होने के लिए फ़ॉर्म भरें",
-      "primaryButton": "डेमो का अनुरोध करें",
-      "secondaryButton": "अधिक जानकारी"
+  "appsConfig": {
+    "title": "Configura Zi0n Crypto con estas apps",
+    "subtitle": "Puedes elegir entre 4 tiendas de apps para instalar lo que desees en tu dispositivo:",
+    "tabs": {
+      "privacy": "Tienda Privacy",
+      "exchange": "Tienda Exchange",
+      "communications": "Tienda Comunicaciones",
+      "encrypted": "Tienda Encriptados"
     }
+  },
+  "cta": {
+    "title": "¿No sabes si Zi0n es para ti?",
+    "highlight": "Te regalamos 15 días, sin compromiso",
+    "description": "No dejes la seguridad de tu patrimonio al azar. Únete a la élite que ya protege sus activos con Zi0n con una prueba gratuita de 14 días sin compromiso.",
+    "benefits": {
+      "1": "Configuración en menos de 5 minutos",
+      "2": "Soporte técnico 24/7",
+      "3": "Cancelación sin compromiso"
+    },
+    "primaryButton": "Comenzar prueba gratuita",
+    "secondaryButton": "Hablar con ventas"
+  },
+  "faq": {
+    "title": "¿Aún tienes dudas?",
+    "subtitle": "Te contamos más sobre Zi0n Cripto",
+    "questions": {
+      "q1": {
+        "question": "¿Qué dispositivos son compatibles?",
+        "answer": "Zi0n es compatible con una amplia variedad de dispositivos Android. Contacta con nuestro equipo para verificar la compatibilidad de tu dispositivo."
+      },
+      "q2": {
+        "question": "Si se borra el dispositivo, ¿puedo recuperar la información?",
+        "answer": "La información eliminada no puede ser recuperada, ya que el borrado es permanente y seguro. Te recomendamos mantener copias de seguridad de tus credenciales."
+      },
+      "q3": {
+        "question": "¿Qué tan seguro es Zi0n Cripto?",
+        "answer": "Zi0n utiliza encriptación de nivel militar y múltiples capas de seguridad diseñadas para proteger tus activos digitales contra las amenazas más avanzadas."
+      },
+      "q4": {
+        "question": "Si quiero una app diferente del listado, ¿cómo la instalo?",
+        "answer": "Puedes solicitar la inclusión de aplicaciones adicionales a través de nuestro equipo de soporte, quienes verificarán su integridad antes de aprobarla."
+      },
+      "q5": {
+        "question": "¿Cómo es su política de reembolsos?",
+        "answer": "Ofrecemos una prueba gratuita de 14 días. Si no estás satisfecho, puedes cancelar sin compromiso durante ese periodo."
+      },
+      "q6": {
+        "question": "¿Puedo instalar Zi0n en un iPhone?",
+        "answer": "Actualmente Zi0n está diseñado exclusivamente para dispositivos Android. Estamos evaluando opciones para iOS en el futuro."
+      },
+      "q7": {
+        "question": "¿Qué pasa con mi información? ¿se almacena?",
+        "answer": "Zi0n no almacena ninguna información del usuario en servidores externos. Todos los datos permanecen exclusivamente en tu dispositivo."
+      },
+      "q8": {
+        "question": "¿Pierdo los accesos de mis apps al eliminar el sistema?",
+        "answer": "Al eliminar el sistema, se borran todos los datos del dispositivo. Asegúrate de tener respaldadas tus credenciales y seeds de recuperación."
+      }
+    }
+  },
+  "distributionModal": {
+    "title": "Genera ganancias con las comisiones",
+    "subtitle": "Distribuye Zi0n y genera rentabilidad desde el día 1. Déjanos tus datos y te contactaremos.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "John Doe",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "hola@correo.com",
+    "countryLabel": "País",
+    "budgetLabel": "Presupuesto",
+    "choosePlaceholder": "Elegir...",
+    "commentsLabel": "¿Tienes comentarios?",
+    "commentsPlaceholder": "Ingresa aquí tus comentarios.",
+    "submit": "Enviar solicitud",
+    "sending": "Enviando...",
+    "success": "¡Solicitud enviada! Nos pondremos en contacto contigo pronto.",
+    "error": "Error al enviar. Por favor intenta de nuevo."
+  },
+  "distribution": {
+    "title": "¿Quieres distribuir Zi0n Crypto?",
+    "descriptionBefore": "Los socios de distribución, como tiendas de tecnología móvil o proveedores de TI, pueden revender servicios Zi0n a sus clientes y ",
+    "descriptionHighlight": "obtener excelentes ganancias",
+    "descriptionAfter": ". Ofrecemos un portal moderno para gestionar tu negocio y soporte técnico especializado. ¡Solicita hoy una demostración!",
+    "cta": "Solicitar demostración"
   },
   "contact": {
-    "badge": "हम आपकी मदद के लिए यहां हैं",
-    "title": "हमसे संपर्क करें",
-    "subtitle": "Zi0n के बारे में प्रश्न हैं? हमारी टीम आपकी जानकारी की सुरक्षा में आपकी मदद के लिए तैयार है। हमें लिखें और हम जल्द से जल्द जवाब देंगे।",
+    "badge": "Estamos aquí para ayudarte",
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes preguntas sobre Zi0n? Nuestro equipo está listo para ayudarte a proteger tu información. Escríbenos y te responderemos lo antes posible.",
     "info": {
       "email": {
-        "label": "ईमेल",
+        "label": "Email",
         "value": "contacto@zi0n.io"
       },
       "location": {
-        "label": "स्थान",
-        "value": "वैश्विक सेवा, 24/7 सहायता"
+        "label": "Ubicación",
+        "value": "Servicio global, soporte 24/7"
       }
     },
     "form": {
       "name": {
-        "label": "नाम",
-        "placeholder": "आपका नाम"
+        "label": "Nombre",
+        "placeholder": "Tu nombre"
       },
       "email": {
-        "label": "ईमेल",
-        "placeholder": "aap@email.com"
+        "label": "Email",
+        "placeholder": "tu@email.com"
       },
       "message": {
-        "label": "संदेश",
-        "placeholder": "हम आपकी कैसे मदद कर सकते हैं?"
+        "label": "Mensaje",
+        "placeholder": "¿En qué podemos ayudarte?"
       },
-      "submit": "संदेश भेजें"
+      "submit": "Enviar mensaje"
     }
   },
-  "cta": {
-    "title": "आज ही अपने डिवाइस की सुरक्षा करें",
-    "subtitle": "हजारों उपयोगकर्ताओं से जुड़ें जो पहले से ही अपनी सबसे मूल्यवान जानकारी की सुरक्षा के लिए Zi0n पर भरोसा करते हैं। आपको जो सुरक्षा चाहिए, आपकी उंगलियों पर।",
-    "benefits": {
-      "1": "5 मिनट से कम में सेटअप",
-      "2": "14-दिन का मुफ्त ट्रायल",
-      "3": "24/7 तकनीकी सहायता",
-      "4": "बिना प्रतिबद्धता के रद्द करें"
-    },
-    "primaryButton": "मुफ्त ट्रायल शुरू करें",
-    "secondaryButton": "बिक्री से बात करें"
-  },
   "footer": {
-    "description": "आपके Android डिवाइस के लिए उन्नत एन्क्रिप्शन और व्यापक सुरक्षा के साथ मोबाइल सुरक्षा को बदलना।",
-    "navigation": "नेविगेशन",
-    "nav": {
-      "home": "होम",
-      "security": "सुरक्षा",
-      "characteristics": "विशेषताएं",
-      "apps": "ऐप्स",
-      "contact": "संपर्क"
-    },
-    "legal": "कानूनी",
+    "description": "Transformando la seguridad móvil con estrategias de encriptación y protección integral para tu dispositivo Android.",
     "legalLinks": {
-      "legalNotice": "कानूनी सूचना",
-      "terms": "नियम और शर्तें",
-      "cookies": "कुकी नीति"
+      "legalNotice": "Aviso Legal",
+      "terms": "Términos y condiciones",
+      "cookies": "Política de cookies"
     },
-    "rights": "सर्वाधिकार सुरक्षित।",
-    "madeWith": "सुरक्षा को ध्यान में रखकर बनाया गया"
+    "rights": "Todos los derechos reservados."
   },
   "legalPages": {
-    "backToHome": "होम पर वापस जाएं",
+    "backToHome": "Volver al inicio",
     "legalNotice": {
-      "title": "कानूनी सूचना",
-      "contact": "संपर्क",
-      "contactEmail": "ईमेल",
-      "contactEmailSupport": "सहायता और सामान्य पूछताछ के लिए",
-      "contactEmailLegal": "कानूनी सूचनाओं के लिए",
-      "contactPhone": "फोन",
-      "contactAddress": "कानूनी सूचनाओं के लिए पता",
-      "or": "या",
-      "intellectualProperty": "बौद्धिक संपदा",
-      "intellectualPropertyText": "Zi0n पर सभी बौद्धिक संपदा अधिकार, जिसमें सॉफ्टवेयर, डिजाइन, ट्रेडमार्क और सामग्री शामिल है, कंपनी या उसके लाइसेंसधारकों के हैं। कोई भी अनधिकृत पुनरुत्पादन, वितरण या उपयोग निषिद्ध है।",
-      "thirdPartyLinks": "तृतीय पक्ष लिंक",
-      "thirdPartyLinksText": "साइट में तृतीय पक्ष वेबसाइटों के लिंक हो सकते हैं। कंपनी ऐसी साइटों की सामग्री या गोपनीयता प्रथाओं के लिए जिम्मेदार नहीं है।",
-      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (इसके बाद \"कंपनी\" या \"Zi0n\"), NIT 901206726-2 से पहचानी गई, कोलंबिया में निगमित एक सरलीकृत संयुक्त स्टॉक कंपनी है, जिसका मुख्य पता Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia है। फोन: +57 300 929 1110। कंपनी Zi0n ब्रांड के तहत उन्नत मोबाइल सुरक्षा सेवाओं के विकास और प्रावधान के लिए समर्पित है।",
-      "jurisdiction": "यह वेबसाइट और संबंधित सेवाएं कोलंबिया गणराज्य के कानूनों के अधिकार क्षेत्र के तहत कंपनी द्वारा संचालित हैं। साइट या सेवाओं के उपयोग से संबंधित किसी भी विवाद का समाधान विशेष रूप से Medellín, Antioquia के न्यायालयों में किया जाएगा।",
-      "disclaimer": "कंपनी वेबसाइट की निर्बाध उपलब्धता या त्रुटियों की अनुपस्थिति की गारंटी नहीं देती है। सामग्री \"जैसी है\" प्रदान की जाती है बिना स्पष्ट या निहित वारंटी के। कंपनी बिना पूर्व सूचना के किसी भी समय वेबसाइट को संशोधित करने का अधिकार सुरक्षित रखती है।",
-      "lastUpdate": "अंतिम अपडेट",
-      "moreInfo": "अधिक जानकारी के लिए, देखें"
+      "title": "Aviso Legal",
+      "contact": "Contacto",
+      "contactEmail": "Correo electrónico",
+      "contactEmailSupport": "para soporte y consultas generales",
+      "contactEmailLegal": "para notificaciones judiciales",
+      "contactPhone": "Teléfono",
+      "contactAddress": "Dirección para notificaciones judiciales",
+      "or": "o",
+      "intellectualProperty": "Propiedad Intelectual",
+      "intellectualPropertyText": "Todos los derechos de propiedad intelectual sobre Zi0n, incluyendo software, diseños, marcas y contenidos, pertenecen a la Empresa o a sus licenciantes. Queda prohibida cualquier reproducción, distribución o uso no autorizado.",
+      "thirdPartyLinks": "Enlaces a Terceros",
+      "thirdPartyLinksText": "El sitio puede contener enlaces a sitios web de terceros. La Empresa no es responsable por el contenido o prácticas de privacidad de dichos sitios.",
+      "companyInfo": "GLOBAL INVESTMENT ST S.A.S. (en adelante, \"la Empresa\" o \"Zi0n\"), identificada con NIT 901206726-2, es una sociedad por acciones simplificada constituida en Colombia, con domicilio principal en Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia. La Empresa se dedica a actividades de programación informática (CIIU 6201), inversión en sociedades, publicidad (CIIU 7310), diseño especializado (CIIU 7410) y consultoría de gestión (CIIU 7020), entre otras relacionadas con el desarrollo y prestación de servicios de seguridad móvil avanzada bajo la marca Zi0n.",
+      "jurisdiction": "Este sitio web y los servicios asociados son operados por la Empresa bajo la jurisdicción de las leyes de la República de Colombia. Cualquier disputa relacionada con el uso del sitio o los servicios se resolverá exclusivamente en los tribunales de Medellín, Antioquia.",
+      "disclaimer": "La Empresa no garantiza la disponibilidad ininterrumpida del sitio web ni la ausencia de errores. El contenido se proporciona \"tal cual\" sin garantías expresas o implícitas. La Empresa se reserva el derecho de modificar el sitio web en cualquier momento sin previo aviso.",
+      "lastUpdate": "Última actualización",
+      "moreInfo": "Para más información, consulte los"
     },
     "terms": {
-      "title": "उपयोग की शर्तें और नियम",
-      "lastUpdate": "अंतिम अपडेट"
+      "title": "Términos y Condiciones de Uso de los Servicios",
+      "lastUpdate": "Última actualización"
     },
     "cookies": {
-      "title": "कुकी नीति",
-      "lastUpdate": "अंतिम अपडेट",
-      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, इसके बाद \"कंपनी\" या \"Zi0n\"), पता Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia, वेबसाइट https://www.zi0n.io/es (इसके बाद \"साइट\") का संचालन करती है। यह कुकी नीति बताती है कि हम साइट पर कुकीज़ और समान तकनीकों का उपयोग कैसे करते हैं, कोलंबिया के कानून 1581/2012 और डेटा संरक्षण विनियमों के अनुसार।",
-      "privacyFocus": "अधिकतम गोपनीयता पर हमारे ध्यान और अनावश्यक डेटा एकत्र न करने को देखते हुए, साइट तृतीय-पक्ष कुकीज़ या ट्रैकिंग कुकीज़ का उपयोग नहीं करती है। हम केवल साइट के बुनियादी संचालन के लिए आवश्यक कुकीज़ का उपयोग करते हैं, यदि लागू हो।",
+      "title": "Política de Cookies",
+      "lastUpdate": "Última actualización",
+      "intro": "GLOBAL INVESTMENT ST S.A.S. (NIT 901206726-2, en adelante \"la Empresa\" o \"Zi0n\"), con domicilio en Calle 7 No. 39-215, Oficina 1009, Edificio Granahorrar, Medellín, Antioquia, Colombia, opera el sitio web https://www.zi0n.io/es (en adelante, \"el Sitio\"). Esta Política de Cookies explica cómo utilizamos cookies y tecnologías similares en el Sitio, en cumplimiento de la Ley 1581 de 2012 y normas relacionadas con la protección de datos en Colombia.",
+      "privacyFocus": "Dado nuestro enfoque en la privacidad máxima y la no recopilación de datos innecesarios, el Sitio no utiliza cookies de terceros ni cookies de seguimiento. Solo empleamos cookies estrictamente necesarias para el funcionamiento básico del Sitio, si aplica.",
       "section1": {
-        "title": "1. कुकीज़ क्या हैं?",
-        "description": "कुकीज़ छोटी टेक्स्ट फाइलें हैं जो आपके डिवाइस (कंप्यूटर, फोन या टैबलेट) पर वेबसाइट पर जाने पर संग्रहीत होती हैं। इनका उपयोग प्राथमिकताओं को याद रखने, उपयोगकर्ता अनुभव को बेहतर बनाने या विश्लेषणात्मक डेटा एकत्र करने के लिए किया जा सकता है। विभिन्न प्रकार हैं:",
-        "essential": "आवश्यक कुकीज़",
-        "essentialDesc": "साइट के कामकाज के लिए आवश्यक (जैसे सत्र बनाए रखना)।",
-        "performance": "प्रदर्शन कुकीज़",
-        "performanceDesc": "साइट उपयोग के बारे में गुमनाम डेटा एकत्र करती हैं।",
-        "functionality": "कार्यक्षमता कुकीज़",
-        "functionalityDesc": "उपयोगकर्ता की पसंद याद रखती हैं (जैसे भाषा)।",
-        "advertising": "विज्ञापन कुकीज़",
-        "advertisingDesc": "व्यक्तिगत विज्ञापन दिखाने के लिए उपयोग की जाती हैं।"
+        "title": "1. ¿Qué son las Cookies?",
+        "description": "Las cookies son pequeños archivos de texto que se almacenan en su dispositivo (computadora, teléfono o tableta) cuando visita un sitio web. Pueden ser utilizadas para recordar preferencias, mejorar la experiencia de usuario o recopilar datos analíticos. Existen diferentes tipos:",
+        "essential": "Cookies esenciales",
+        "essentialDesc": "Necesarias para el funcionamiento del sitio (ej. mantener sesiones).",
+        "performance": "Cookies de rendimiento",
+        "performanceDesc": "Recopilan datos anónimos sobre el uso del sitio.",
+        "functionality": "Cookies de funcionalidad",
+        "functionalityDesc": "Recuerdan elecciones del usuario (ej. idioma).",
+        "advertising": "Cookies de publicidad",
+        "advertisingDesc": "Usadas para mostrar anuncios personalizados."
       },
       "section2": {
-        "title": "2. साइट पर उपयोग की जाने वाली कुकीज़",
-        "description": "Zi0n में, हम आपकी गोपनीयता को प्राथमिकता देते हैं और आवश्यक से अधिक ब्राउज़िंग डेटा एकत्र या संग्रहीत नहीं करते हैं। इसलिए:",
-        "noThirdParty": "हम तृतीय-पक्ष, विश्लेषणात्मक या विज्ञापन कुकीज़ का उपयोग नहीं करते हैं।",
-        "noThirdPartyDesc": "हम विज्ञापन नेटवर्क, Google Analytics या अन्य ट्रैकिंग सेवाओं के साथ डेटा साझा नहीं करते हैं।",
-        "essentialCookies": "आवश्यक कुकीज़ (यदि लागू हो)",
-        "essentialCookiesDesc": "हम सुरक्षित ब्राउज़िंग या QR कोड प्रोसेसिंग जैसे बुनियादी कार्यों के लिए अस्थायी (सत्र) तकनीकी कुकीज़ का उपयोग कर सकते हैं। ब्राउज़र बंद करने पर ये स्वचालित रूप से हटा दी जाती हैं।",
-        "dataCollected": "एकत्रित डेटा",
-        "dataCollectedDesc": "कोई नहीं। हम पंजीकरण या संपर्क के लिए स्वेच्छा से प्रदान किए गए ईमेल के अलावा आपकी यात्रा, IP, स्थान या साइट पर व्यवहार के बारे में कोई जानकारी संग्रहीत नहीं करते हैं।",
-        "noCookies": "यदि साइट बिल्कुल भी कुकीज़ का उपयोग नहीं करती है (जैसे ट्रैकिंग स्क्रिप्ट के बिना स्थिर पृष्ठ), तो आपके डिवाइस पर कोई कुकीज़ इंस्टॉल नहीं होंगी।"
+        "title": "2. Cookies Utilizadas en el Sitio",
+        "description": "En Zi0n, priorizamos su privacidad y no recopilamos ni almacenamos datos de navegación más allá de lo esencial para proporcionar los Servicios. Por lo tanto:",
+        "noThirdParty": "No utilizamos cookies de terceros, analíticas ni de publicidad.",
+        "noThirdPartyDesc": "No compartimos datos con redes publicitarias, Google Analytics u otros servicios de tracking.",
+        "essentialCookies": "Cookies esenciales (si aplican)",
+        "essentialCookiesDesc": "Podríamos usar cookies técnicas temporales (de sesión) para funciones básicas como la navegación segura o el procesamiento del código QR para la instalación. Estas se eliminan automáticamente al cerrar el navegador y no recopilan datos personales identificables.",
+        "dataCollected": "Datos recopilados",
+        "dataCollectedDesc": "Ninguno. No almacenamos información sobre su visita, IP, ubicación o comportamiento en el Sitio, salvo el correo electrónico proporcionado voluntariamente para registro o contacto.",
+        "noCookies": "Si el Sitio no usa cookies en absoluto (como en páginas estáticas sin scripts de tracking), no se instalará ninguna cookie en su dispositivo."
       },
       "section3": {
-        "title": "3. कुकी प्रबंधन",
-        "description": "आप अपनी ब्राउज़र सेटिंग्स के माध्यम से कुकीज़ को नियंत्रित कर सकते हैं:",
-        "block": "कुकीज़ को ब्लॉक या हटाएं",
-        "blockDesc": "अधिकांश ब्राउज़र (जैसे Chrome, Firefox, Safari) आपको कुकीज़ को अस्वीकार या हटाने की अनुमति देते हैं।",
-        "impact": "प्रभाव",
-        "impactDesc": "आवश्यक कुकीज़ को ब्लॉक करने से साइट की कार्यक्षमता प्रभावित हो सकती है।",
-        "noBanner": "हम सहमति बैनर का उपयोग नहीं करते हैं",
-        "noBannerDesc": "चूंकि हम गैर-आवश्यक कुकीज़ का उपयोग नहीं करते हैं, इसलिए हम कुकी बैनर प्रदर्शित नहीं करते हैं। आपका ब्राउज़िंग इस नीति की स्वीकृति को दर्शाता है।"
+        "title": "3. Gestión de Cookies",
+        "description": "Usted puede controlar las cookies a través de la configuración de su navegador:",
+        "block": "Bloquear o eliminar cookies",
+        "blockDesc": "La mayoría de los navegadores (como Chrome, Firefox, Safari) permiten rechazar cookies o eliminarlas. Consulte la sección de ayuda de su navegador para instrucciones.",
+        "impact": "Impacto",
+        "impactDesc": "Bloquear cookies esenciales podría afectar la funcionalidad del Sitio, como el escaneo de QR.",
+        "noBanner": "No usamos banners de consentimiento",
+        "noBannerDesc": "Dado que no usamos cookies no esenciales, no mostramos banners de cookies. Su navegación implica aceptación de esta Política."
       },
       "section4": {
-        "title": "4. तृतीय-पक्ष लिंक",
-        "description": "साइट में तृतीय-पक्ष वेबसाइटों के लिंक हो सकते हैं (जैसे भुगतान प्रोसेसर)। इन साइटों की अपनी कुकी नीतियां हैं, जिनके लिए हम जिम्मेदार नहीं हैं।"
+        "title": "4. Enlaces a Terceros",
+        "description": "El Sitio podría contener enlaces a sitios web de terceros (ej. procesadores de pago). Estos sitios tienen sus propias políticas de cookies, por las que no somos responsables. Revise sus políticas antes de interactuar."
       },
       "section5": {
-        "title": "5. नीति संशोधन",
-        "description": "हम इस नीति को अपडेट करने का अधिकार सुरक्षित रखते हैं। परिवर्तन साइट पर प्रकाशित किए जाएंगे और यदि लागू हो तो ईमेल द्वारा सूचित किए जाएंगे, कम से कम 15 दिन पहले।"
+        "title": "5. Modificaciones a la Política",
+        "description": "Nos reservamos el derecho de actualizar esta Política. Los cambios se publicarán en el Sitio y se notificarán por correo si aplica, con al menos 15 días de anticipación."
       },
       "section6": {
-        "title": "6. संपर्क",
-        "description": "इस नीति के बारे में प्रश्नों के लिए, संपर्क करें",
-        "responsible": "जिम्मेदार"
+        "title": "6. Contacto",
+        "description": "Para preguntas sobre esta Política, contacte a",
+        "responsible": "Responsable"
       },
-      "footer": "यह नीति हमारी व्यक्तिगत डेटा प्रसंस्करण नीति और"
+      "footer": "Esta Política se integra con nuestra Política de Tratamiento de Datos Personales y"
     }
   }
 }
