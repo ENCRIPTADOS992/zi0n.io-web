@@ -1,69 +1,192 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { motion } from "framer-motion"
-import { useTranslations } from "next-intl"
-import Image from "next/image"
-import { useIsMobile } from "@/hooks/use-mobile"
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
+import Image from "next/image";
+import { useIsMobile } from "@/hooks/use-mobile";
 
-const tabKeys = ['privacy', 'exchange', 'communications', 'encrypted'] as const
+const tabKeys = [
+  "privacy",
+  //'exchange',
+  "communications",
+  "encrypted",
+] as const;
 
-const tabFolders: Record<typeof tabKeys[number], string> = {
+const tabFolders: Record<(typeof tabKeys)[number], string> = {
   privacy: "logos-tienda-privacy",
-  exchange: "logos-tienda-exchange",
+  // exchange: "logos-tienda-exchange",
   communications: "logos-tienda-comunicaciones",
   encrypted: "logos-tienda-encriptados",
-}
+};
 
-const appNames: Record<typeof tabKeys[number], string[]> = {
+const appNames: Record<(typeof tabKeys)[number], string[]> = {
   privacy: [
-    "CoinGecko", "CoinMarketCap", "Ledger", "Trezor", "Uniswap", "MaxWallet", "Trust", "Monero", "Exodus",
-    "Rabbit Wallet", "Metamask", "Tron link", "Phantom", "DuckDuck Go", "Calculadora", "Encriptados", "Xe", "DeepL",
-    "Proton mail", "Proton Drive", "Proton Auth", "Authy", "Signal", "Molly", "Threema", "Silentphone", "Telegram",
-    "Whatsapp", "ccoins",
+    "CoinGecko",
+    "CoinMarketCap",
+    "Mega",
+    "Slynumber",
+    "Uniswap",
+    "MaxWallet",
+    "Trust",
+    "Monero",
+    "Exodus",
+    "Rabbit Wallet",
+    "Metamask",
+    "Tron link",
+    "Phantom",
+    "DuckDuck Go",
+    "Calculadora",
+    "Encriptados",
+    "Xe",
+    "DeepL",
+    "Proton mail",
+    "Proton Drive",
+    "Proton Auth",
+    "Authy",
+    "Signal",
+    "Molly",
+    "Threema",
+    "Silentphone",
+    "Telegram",
+    "Whatsapp",
+    "ccoins",
+    "RedotPay",
   ],
-  exchange: [
-    "CoinGecko", "CoinMarketCap", "Binance", "KuCoin", "Kraken", "Bitget", "Bybit", "Coinbase", "Huobi",
-    "Gemini", "Bittrex", "Bitstamp", "OKX", "Gate.io", "Crypto.com", "Poloniex", "Rabby Wallet", "Gmail",
-    "Ledger", "Trezor", "Uniswap", "MaxWallet", "Trust", "Monero", "Exodus", "Metamask", "Tron link",
-    "Phantom", "DuckDuck Go", "Calculadora", "Encriptados", "Xe", "DeepL", "Proton mail", "Proton Drive",
-    "Proton Auth", "Authy", "Signal", "Molly", "Threema", "Silentphone", "Telegram", "Whatsapp",
-  ],
+  // exchange: [
+  //   "CoinGecko",
+  //   "CoinMarketCap",
+  //   "Binance",
+  //   "KuCoin",
+  //   "Kraken",
+  //   "Bitget",
+  //   "Bybit",
+  //   "Coinbase",
+  //   "Huobi",
+  //   "Gemini",
+  //   "Bittrex",
+  //   "Bitstamp",
+  //   "OKX",
+  //   "Gate.io",
+  //   "Crypto.com",
+  //   "Poloniex",
+  //   "Rabby Wallet",
+  //   "Gmail",
+  //   "Ledger",
+  //   "Trezor",
+  //   "Uniswap",
+  //   "MaxWallet",
+  //   "Trust",
+  //   "Monero",
+  //   "Exodus",
+  //   "Metamask",
+  //   "Tron link",
+  //   "Phantom",
+  //   "DuckDuck Go",
+  //   "Calculadora",
+  //   "Encriptados",
+  //   "Xe",
+  //   "DeepL",
+  //   "Proton mail",
+  //   "Proton Drive",
+  //   "Proton Auth",
+  //   "Authy",
+  //   "Signal",
+  //   "Molly",
+  //   "Threema",
+  //   "Silentphone",
+  //   "Telegram",
+  //   "Whatsapp",
+  // ],
   communications: [
-    "Mega", "Slynumber", "Zangi Messenger", "xPal Ultra Secure", "WhatsApp Business", "Facebook", "Messenger", "X", "Snapchat",
-    "YouTube", "Tiktok", "Amazon", "Airbnb", "Bitrefill", "Uber Eats", "What3Words", "UBoxPro", "PAJ Portal",
-    "PlanetGPS", "Trust", "Monero", "MaxWallet", "DuckDuck Go", "Calculadora", "Encriptados", "Xe", "DeepL",
-    "Proton mail", "Proton Drive", "Proton Auth", "Signal", "Molly", "Threema", "Silentphone", "Telegram", "Whatsapp",
+    "Mega",
+    "Slynumber",
+    "Zangi Messenger",
+    "xPal Ultra Secure",
+    "WhatsApp Business",
+    "Facebook",
+    "Messenger",
+    "X",
+    "Snapchat",
+    "YouTube",
+    "Tiktok",
+    "Amazon",
+    "Airbnb",
+    "Bitrefill",
+    "Uber Eats",
+    "What3Words",
+    "UBoxPro",
+    "PAJ Portal",
+    "PlanetGPS",
+    "Trust",
+    "Monero",
+    "DuckDuck Go",
+    "Calculadora",
+    "Encriptados",
+    "Xe",
+    "DeepL",
+    "Proton mail",
+    "Proton Drive",
+    "Proton Auth",
+    "Signal",
+    "Molly",
+    "Threema",
+    "Silentphone",
+    "Telegram",
+    "Whatsapp",
+    "Uniswap",
+    "Tron link",
   ],
   encrypted: [
-    "MaxWallet", "Trust", "Calculadora", "Encriptados", "Xe", "DeepL", "Proton mail", "Proton Drive", "Signal",
-    "Molly", "Threema", "Silentphone", "Telegram", "Mega", "Armadillo Chat", "Zangi Private", "xPal Ultra Secure",
+    "MaxWallet",
+    "Trust",
+    "Calculadora",
+    "Encriptados",
+    "Xe",
+    "DeepL",
+    "Proton mail",
+    "Proton Drive",
+    "Signal",
+    "Molly",
+    "Threema",
+    "Silentphone",
+    "Telegram",
+    "Mega",
+    "Armadillo Chat",
+    "Zangi Private",
+    "xPal Ultra Secure",
+    "Uniswap",
   ],
-}
+};
 
-function getLogos(tab: typeof tabKeys[number]): { src: string; name: string }[] {
-  const folder = tabFolders[tab]
-  const names = appNames[tab]
+function getLogos(
+  tab: (typeof tabKeys)[number],
+): { src: string; name: string }[] {
+  const folder = tabFolders[tab];
+  const names = appNames[tab];
   return names.map((name, i) => ({
-    src: `/image/home/${folder}/${i === 0 ? 'mensaje' : `mensaje-${i}`}.png`,
+    src: `/image/home/${folder}/${i === 0 ? "mensaje" : `mensaje-${i}`}.png`,
     name,
-  }))
+  }));
 }
 
 export function AppsConfig() {
-  const t = useTranslations('appsConfig')
-  const isMobile = useIsMobile()
-  const isCompact = useIsMobile(1100)
-  const [activeTab, setActiveTab] = useState<typeof tabKeys[number]>('privacy')
+  const t = useTranslations("appsConfig");
+  const isMobile = useIsMobile();
+  const isCompact = useIsMobile(1100);
+  const [activeTab, setActiveTab] =
+    useState<(typeof tabKeys)[number]>("privacy");
 
-  const logos = getLogos(activeTab)
+  const logos = getLogos(activeTab);
 
   return (
     <section id="apps" style={styles.section}>
-      <div style={{
-        ...styles.container,
-        ...(isMobile && { padding: "48px 16px" }),
-      }}>
+      <div
+        style={{
+          ...styles.container,
+          ...(isMobile && { padding: "48px 16px" }),
+        }}
+      >
         {/* Section Header */}
         <motion.div
           style={styles.header}
@@ -72,19 +195,29 @@ export function AppsConfig() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 style={{
-            ...styles.title,
-            ...(isMobile && { fontSize: "24px" }),
-          }}>{t('title')}</h2>
-          <p style={styles.subtitle}>{t('subtitle')}</p>
+          <h2
+            style={{
+              ...styles.title,
+              ...(isMobile && { fontSize: "24px" }),
+            }}
+          >
+            {t("title")}
+          </h2>
+          <p style={styles.subtitle}>{t("subtitle")}</p>
         </motion.div>
 
         {/* Tabs */}
         <div style={styles.tabsContainer}>
-          <div style={{
-            ...styles.tabsWrapper,
-            ...(isCompact && { flexDirection: "column", borderRadius: "16px", width: "100%" }),
-          }}>
+          <div
+            style={{
+              ...styles.tabsWrapper,
+              ...(isCompact && {
+                flexDirection: "column",
+                borderRadius: "16px",
+                width: "100%",
+              }),
+            }}
+          >
             {tabKeys.map((key) => (
               <button
                 key={key}
@@ -105,7 +238,11 @@ export function AppsConfig() {
           key={activeTab}
           style={{
             ...styles.grid,
-            ...(isMobile && { gridTemplateColumns: "repeat(4, 1fr)", gap: "16px", maxWidth: "100%" }),
+            ...(isMobile && {
+              gridTemplateColumns: "repeat(4, 1fr)",
+              gap: "16px",
+              maxWidth: "100%",
+            }),
           }}
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -126,7 +263,7 @@ export function AppsConfig() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
 
 const styles = {
