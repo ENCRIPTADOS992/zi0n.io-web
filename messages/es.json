@@ -135,7 +135,7 @@
   },
   "appsConfig": {
     "title": "Configura Zi0n Crypto con estas apps",
-    "subtitle": "Puedes elegir entre 4 tiendas de apps para instalar lo que desees en tu dispositivo:",
+    "subtitle": "Puedes elegir entre 3 tiendas de apps para instalar lo que desees en tu dispositivo:",
     "tabs": {
       "privacy": "Tienda Privacy",
       "exchange": "Tienda Exchange",
