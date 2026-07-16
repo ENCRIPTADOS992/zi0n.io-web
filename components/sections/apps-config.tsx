@@ -50,7 +50,7 @@ const appNames: Record<(typeof tabKeys)[number], string[]> = {
     "Silentphone",
     "Telegram",
     "Whatsapp",
-    "ccoins",
+    // "ccoins",
     "RedotPay",
   ],
   // exchange: [
